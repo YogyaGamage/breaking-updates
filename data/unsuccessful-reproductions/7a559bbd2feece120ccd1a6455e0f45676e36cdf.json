@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mars-sim/mars-sim/pull/1036",
+  "project" : "mars-sim",
+  "projectOrganisation" : "mars-sim",
+  "breakingCommit" : "7a559bbd2feece120ccd1a6455e0f45676e36cdf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.formdev",
+    "dependencyArtifactID" : "flatlaf-jide-oss",
+    "previousVersion" : "3.2",
+    "newVersion" : "3.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

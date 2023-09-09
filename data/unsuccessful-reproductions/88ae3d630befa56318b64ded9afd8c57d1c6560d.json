@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/ibatis-2/pull/142",
+  "project" : "ibatis-2",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "88ae3d630befa56318b64ded9afd8c57d1c6560d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "jcl-over-slf4j",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

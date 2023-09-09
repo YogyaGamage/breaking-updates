@@ -144,7 +144,7 @@ public class GitHubMiner {
         List<String> processedRepos = new ArrayList<>();
 
         repoList.getRepositoryNames().forEach(repo -> {
-            if (repoList.getCheckedTime(repo) == null) {
+            if (repoList.getCheckedTime(repo).equals(Date.from(Instant.EPOCH))) {
                 unprocessedRepos.add(repo);
             } else {
                 processedRepos.add(repo);

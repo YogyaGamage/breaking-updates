@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/flatbuffers/pull/35",
+  "project" : "flatbuffers",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "0c7eb8f663310fd019879f61df0588a2be6fc9c6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.flatbuffers",
+    "dependencyArtifactID" : "flatbuffers-java",
+    "previousVersion" : "2.0.8",
+    "newVersion" : "22.11.23",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

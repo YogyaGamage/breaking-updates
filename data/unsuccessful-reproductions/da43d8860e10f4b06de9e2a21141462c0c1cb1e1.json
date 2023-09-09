@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/navikt/token-support/pull/674",
+  "project" : "token-support",
+  "projectOrganisation" : "navikt",
+  "breakingCommit" : "da43d8860e10f4b06de9e2a21141462c0c1cb1e1",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.ben-manes.caffeine",
+    "dependencyArtifactID" : "caffeine",
+    "previousVersion" : "3.1.4",
+    "newVersion" : "3.1.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microsoft/botbuilder-java/pull/1508",
+  "project" : "botbuilder-java",
+  "projectOrganisation" : "microsoft",
+  "breakingCommit" : "bf3aac11fd9fb3388d5a82500fb4ef72d47f61d1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.13.4.1",
+    "newVersion" : "2.13.4.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/syncope/pull/448",
+  "project" : "syncope",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "33e64fc35c702d36f4e5e96d2150934757cb2741",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.asciidoctor",
+    "dependencyArtifactID" : "asciidoctorj-pdf",
+    "previousVersion" : "2.3.6",
+    "newVersion" : "2.3.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "profileBuildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

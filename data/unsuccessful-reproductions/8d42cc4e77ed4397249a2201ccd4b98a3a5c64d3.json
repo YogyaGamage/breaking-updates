@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/moditect/layrry/pull/172",
+  "project" : "layrry",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "8d42cc4e77ed4397249a2201ccd4b98a3a5c64d3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.methvin",
+    "dependencyArtifactID" : "directory-watcher",
+    "previousVersion" : "0.15.0",
+    "newVersion" : "0.15.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

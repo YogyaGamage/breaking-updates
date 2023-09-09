@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/officefloor/OfficeFloor/pull/1353",
+  "project" : "OfficeFloor",
+  "projectOrganisation" : "officefloor",
+  "breakingCommit" : "b8627c76f5d7a847f8fb7379ecb2cb99780665ab",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "libraries-bom",
+    "previousVersion" : "24.0.0",
+    "newVersion" : "26.1.1",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

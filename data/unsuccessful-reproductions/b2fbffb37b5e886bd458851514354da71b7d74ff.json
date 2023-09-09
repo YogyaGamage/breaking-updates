@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-3/pull/2786",
+  "project" : "mybatis-3",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "b2fbffb37b5e886bd458851514354da71b7d74ff",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.microsoft.sqlserver",
+    "dependencyArtifactID" : "mssql-jdbc",
+    "previousVersion" : "11.2.0.jre8",
+    "newVersion" : "12.2.0.jre11",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

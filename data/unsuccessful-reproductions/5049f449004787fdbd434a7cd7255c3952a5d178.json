@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/moditect/layrry/pull/203",
+  "project" : "layrry",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "5049f449004787fdbd434a7cd7255c3952a5d178",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.30",
+    "newVersion" : "2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

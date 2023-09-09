@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/5095",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "873e0db944ac1c3d77fc24393ac66b4eb24983f0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.ws.rs",
+    "dependencyArtifactID" : "jakarta.ws.rs-api",
+    "previousVersion" : "2.1.6",
+    "newVersion" : "3.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

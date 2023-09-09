@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/muriloalvesdev/thehero-backend/pull/61",
+  "project" : "thehero-backend",
+  "projectOrganisation" : "muriloalvesdev",
+  "breakingCommit" : "23ba9e3def6fc06cbca65ebb1c1b089ff6f20c34",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.springfox",
+    "dependencyArtifactID" : "springfox-swagger2",
+    "previousVersion" : "2.9.2",
+    "newVersion" : "2.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

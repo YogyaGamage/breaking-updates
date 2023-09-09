@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/1610",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "4944e41fb7a1b3ac2a4260cf088746215bea9def",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.jcabi",
+    "dependencyArtifactID" : "jcabi-xml",
+    "previousVersion" : "0.26.0",
+    "newVersion" : "0.27.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

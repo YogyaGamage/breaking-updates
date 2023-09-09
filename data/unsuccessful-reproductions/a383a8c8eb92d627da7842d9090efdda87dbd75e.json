@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micronaut-projects/micronaut-maven-plugin/pull/327",
+  "project" : "micronaut-maven-plugin",
+  "projectOrganisation" : "micronaut-projects",
+  "breakingCommit" : "a383a8c8eb92d627da7842d9090efdda87dbd75e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testcontainers",
+    "dependencyArtifactID" : "testcontainers",
+    "previousVersion" : "1.17.0",
+    "newVersion" : "1.17.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

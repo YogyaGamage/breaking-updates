@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/976",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "8dee2de4081013bddce2cb437880a4a99ef04f1f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.xml.bind",
+    "dependencyArtifactID" : "jakarta.xml.bind-api",
+    "previousVersion" : "2.3.3",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

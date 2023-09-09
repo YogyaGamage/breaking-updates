@@ -12,7 +12,8 @@
     "previousVersion" : "4.2.8.Final",
     "newVersion" : "5.3.20.Final",
     "dependencyScope" : "provided",
-    "versionUpdateType" : "other"
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
   },
   "javaVersionUsedForReproduction" : "11"
 }

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/migrations-maven-plugin/pull/237",
+  "project" : "migrations-maven-plugin",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "c049735b089804f3b25b87d1b6f0833103cea77d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.5.1",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

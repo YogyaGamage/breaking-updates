@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/433",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "ea36b7eb4a219534c056c95a6729008e16cbeec3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "2.3.2",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/skywalking-java/pull/317",
+  "project" : "skywalking-java",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5989bd725c1c9949db927d168ef5abf21ef4cd34",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.graphql-java",
+    "dependencyArtifactID" : "graphql-java",
+    "previousVersion" : "8.0",
+    "newVersion" : "17.4",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

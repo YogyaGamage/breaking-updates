@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dbmdz/cudami/pull/2353",
+  "project" : "cudami",
+  "projectOrganisation" : "dbmdz",
+  "breakingCommit" : "17adc56d4e398fd984d5811e24d5a835e26f1ebf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jdbi",
+    "dependencyArtifactID" : "jdbi3-core",
+    "previousVersion" : "3.30.0",
+    "newVersion" : "3.37.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

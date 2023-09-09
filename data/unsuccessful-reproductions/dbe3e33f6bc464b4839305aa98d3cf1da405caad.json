@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/1163",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "dbe3e33f6bc464b4839305aa98d3cf1da405caad",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.opencsv",
+    "dependencyArtifactID" : "opencsv",
+    "previousVersion" : "5.6",
+    "newVersion" : "5.7.0",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

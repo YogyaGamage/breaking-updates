@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/skywalking-java/pull/232",
+  "project" : "skywalking-java",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "2079efe40e45516f315e4d33a5f2d213a7363e57",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-webflux",
+    "previousVersion" : "5.0.0.RELEASE",
+    "newVersion" : "5.2.21.RELEASE",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

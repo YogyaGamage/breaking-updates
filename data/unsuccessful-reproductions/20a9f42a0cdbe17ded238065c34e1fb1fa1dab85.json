@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/moditect/layrry/pull/174",
+  "project" : "layrry",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "20a9f42a0cdbe17ded238065c34e1fb1fa1dab85",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.41.v20210516",
+    "newVersion" : "11.0.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

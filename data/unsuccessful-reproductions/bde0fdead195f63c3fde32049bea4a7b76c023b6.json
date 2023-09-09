@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rtree/pull/179",
+  "project" : "rtree",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "bde0fdead195f63c3fde32049bea4a7b76c023b6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.davidmoten",
+    "dependencyArtifactID" : "guava-mini",
+    "previousVersion" : "0.1.4",
+    "newVersion" : "0.1.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

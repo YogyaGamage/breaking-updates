@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicho92/MtgDesktopCompanion/pull/230",
+  "project" : "MtgDesktopCompanion",
+  "projectOrganisation" : "nicho92",
+  "breakingCommit" : "67b99602bfbc77136df9d148393f1345bbf1be80",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.4.0",
+    "newVersion" : "42.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

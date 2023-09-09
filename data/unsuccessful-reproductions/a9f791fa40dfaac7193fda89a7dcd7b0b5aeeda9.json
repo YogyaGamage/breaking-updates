@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/473",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "a9f791fa40dfaac7193fda89a7dcd7b0b5aeeda9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.transaction",
+    "dependencyArtifactID" : "jakarta.transaction-api",
+    "previousVersion" : "1.3.3",
+    "newVersion" : "2.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

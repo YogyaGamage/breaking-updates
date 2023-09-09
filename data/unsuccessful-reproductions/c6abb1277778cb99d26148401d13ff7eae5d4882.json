@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/98",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "c6abb1277778cb99d26148401d13ff7eae5d4882",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.postgresql",
+    "dependencyArtifactID" : "postgresql",
+    "previousVersion" : "42.3.3",
+    "newVersion" : "42.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

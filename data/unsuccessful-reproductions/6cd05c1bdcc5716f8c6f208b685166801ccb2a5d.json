@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/685",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "6cd05c1bdcc5716f8c6f208b685166801ccb2a5d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.cxf",
+    "dependencyArtifactID" : "cxf-rt-rs-client",
+    "previousVersion" : "3.5.3",
+    "newVersion" : "3.5.5",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

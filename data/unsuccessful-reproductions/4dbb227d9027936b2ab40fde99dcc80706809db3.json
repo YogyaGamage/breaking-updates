@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microsoft/botbuilder-java/pull/1506",
+  "project" : "botbuilder-java",
+  "projectOrganisation" : "microsoft",
+  "breakingCommit" : "4dbb227d9027936b2ab40fde99dcc80706809db3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.minidev",
+    "dependencyArtifactID" : "json-smart",
+    "previousVersion" : "2.4.8",
+    "newVersion" : "2.4.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

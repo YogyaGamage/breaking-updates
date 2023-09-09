@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/moditect/moditect/pull/194",
+  "project" : "moditect",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "d31c348d308e0dde0756bd5b6d83b3701b9c55b0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.undertow",
+    "dependencyArtifactID" : "undertow-core",
+    "previousVersion" : "1.4.21.Final",
+    "newVersion" : "2.2.24.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/io/undertow/undertow-core/1.4.21.Final/undertow-core-1.4.21.Final-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/io/undertow/undertow-core/2.2.24.Final/undertow-core-2.2.24.Final-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:d31c348d308e0dde0756bd5b6d83b3701b9c55b0-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:d31c348d308e0dde0756bd5b6d83b3701b9c55b0-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "MAVEN_ENFORCER_FAILURE"
+}

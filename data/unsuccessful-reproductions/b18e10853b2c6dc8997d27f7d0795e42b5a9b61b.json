@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netgrif/application-engine/pull/212",
+  "project" : "application-engine",
+  "projectOrganisation" : "netgrif",
+  "breakingCommit" : "b18e10853b2c6dc8997d27f7d0795e42b5a9b61b",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-ui",
+    "previousVersion" : "1.6.9",
+    "newVersion" : "1.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

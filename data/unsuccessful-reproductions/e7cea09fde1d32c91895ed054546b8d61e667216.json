@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/468",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "e7cea09fde1d32c91895ed054546b8d61e667216",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.zaxxer",
+    "dependencyArtifactID" : "HikariCP",
+    "previousVersion" : "4.0.3",
+    "newVersion" : "5.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

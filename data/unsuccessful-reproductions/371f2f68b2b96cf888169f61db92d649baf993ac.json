@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/onthegomap/planetiler/pull/654",
+  "project" : "planetiler",
+  "projectOrganisation" : "onthegomap",
+  "breakingCommit" : "371f2f68b2b96cf888169f61db92d649baf993ac",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

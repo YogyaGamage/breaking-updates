@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/703",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "040a7c7268af64de41f0dcd82facf2807f333a3f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.woodstox",
+    "dependencyArtifactID" : "stax2-api",
+    "previousVersion" : "4.2",
+    "newVersion" : "4.2.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/661",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "84feba1e62e423ffbcb6269e5e285fd6eddba199",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-fileupload",
+    "dependencyArtifactID" : "commons-fileupload",
+    "previousVersion" : "1.4",
+    "newVersion" : "1.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/717",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4925a3b454922bafbe518bbdcbacdc49896eb932",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.enterprise",
+    "dependencyArtifactID" : "cdi-api",
+    "previousVersion" : "1.2",
+    "newVersion" : "2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

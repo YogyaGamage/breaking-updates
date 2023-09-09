@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/1237",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "07e7254c04d4a2a64ab9faa74efacf1eb2032317",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.yegor256",
+    "dependencyArtifactID" : "tojos",
+    "previousVersion" : "0.12.0",
+    "newVersion" : "0.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

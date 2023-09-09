@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micronaut-projects/micronaut-maven-plugin/pull/453",
+  "project" : "micronaut-maven-plugin",
+  "projectOrganisation" : "micronaut-projects",
+  "breakingCommit" : "7c584c03238578c0de632653bb23f09a45aa114a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.3.0-alpha14",
+    "newVersion" : "1.3.0-beta0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

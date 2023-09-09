@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netty/netty-incubator-codec-quic/pull/397",
+  "project" : "netty-incubator-codec-quic",
+  "projectOrganisation" : "netty",
+  "breakingCommit" : "751a6d385db6aeea79133c78ed2911fb92762cd2",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-jni-util",
+    "previousVersion" : "0.0.5.Final",
+    "newVersion" : "0.0.6.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

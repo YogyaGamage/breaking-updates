@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/oncokb/oncokb/pull/3274",
+  "project" : "oncokb",
+  "projectOrganisation" : "oncokb",
+  "breakingCommit" : "c32f5dee8283b606aef53d5c783e938a99f34871",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.9.10.8",
+    "newVersion" : "2.13.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

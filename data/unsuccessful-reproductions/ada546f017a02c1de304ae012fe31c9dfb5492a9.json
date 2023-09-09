@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/2138",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "ada546f017a02c1de304ae012fe31c9dfb5492a9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.12.0",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

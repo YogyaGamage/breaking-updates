@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-dynamic-sql/pull/553",
+  "project" : "mybatis-dynamic-sql",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "f4f1ec98ffdca65402673f5a27989e7b33fa9246",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-jdbc",
+    "previousVersion" : "5.3.24",
+    "newVersion" : "6.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

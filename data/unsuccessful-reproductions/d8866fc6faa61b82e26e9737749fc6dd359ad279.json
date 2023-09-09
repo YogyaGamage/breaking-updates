@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/2098",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "d8866fc6faa61b82e26e9737749fc6dd359ad279",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/karatelabs/karate/pull/2369",
+  "project" : "karate",
+  "projectOrganisation" : "karatelabs",
+  "breakingCommit" : "57e277b59900c240ae210878a7fcd0c2e68ee18d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.linecorp.armeria",
+    "dependencyArtifactID" : "armeria",
+    "previousVersion" : "1.22.0",
+    "newVersion" : "1.24.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

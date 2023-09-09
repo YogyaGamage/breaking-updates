@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/skywalking-java/pull/529",
+  "project" : "skywalking-java",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "33e2edbd7b933f1dbf8c2f01a00f1b7984863a0c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.clickhouse",
+    "dependencyArtifactID" : "clickhouse-jdbc",
+    "previousVersion" : "0.3.2-patch11",
+    "newVersion" : "0.4.6",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

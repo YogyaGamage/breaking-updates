@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micronaut-projects/micronaut-maven-plugin/pull/646",
+  "project" : "micronaut-maven-plugin",
+  "projectOrganisation" : "micronaut-projects",
+  "breakingCommit" : "378ebd23dcaf9827c977857dfd4f50e9b5e75a58",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.33",
+    "newVersion" : "2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

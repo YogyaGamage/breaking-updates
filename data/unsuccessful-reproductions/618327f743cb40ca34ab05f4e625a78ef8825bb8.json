@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dbmdz/cudami/pull/2356",
+  "project" : "cudami",
+  "projectOrganisation" : "dbmdz",
+  "breakingCommit" : "618327f743cb40ca34ab05f4e625a78ef8825bb8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs",
+    "previousVersion" : "4.7.2",
+    "newVersion" : "4.7.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

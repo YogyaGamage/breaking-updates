@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/oncokb/oncokb/pull/3125",
+  "project" : "oncokb",
+  "projectOrganisation" : "oncokb",
+  "breakingCommit" : "34c1afd3622ccefaa8f6c6fbedbd8ce26a10611f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.code.gson",
+    "dependencyArtifactID" : "gson",
+    "previousVersion" : "2.3",
+    "newVersion" : "2.8.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/skywalking-java/pull/576",
+  "project" : "skywalking-java",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "7c46ea7795826fd8f71c3c7e8e39622d02293eaf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.4.196",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

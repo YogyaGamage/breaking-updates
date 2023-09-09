@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nicoulaj/checksum-maven-plugin/pull/141",
+  "project" : "checksum-maven-plugin",
+  "projectOrganisation" : "nicoulaj",
+  "breakingCommit" : "e2bb2e5e189f58a5ad0cf0da3d2ab686b968408e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "1.1",
+    "newVersion" : "3.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

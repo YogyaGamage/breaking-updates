@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/965",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "a96286b40e3a1ea63ac36f0222d48746b9d2c3db",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.sf.saxon",
+    "dependencyArtifactID" : "Saxon-HE",
+    "previousVersion" : "9.8.0-5",
+    "newVersion" : "9.9.1-8",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

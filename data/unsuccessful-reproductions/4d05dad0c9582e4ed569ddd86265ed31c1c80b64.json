@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/systemds/pull/1707",
+  "project" : "systemds",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4d05dad0c9582e4ed569ddd86265ed31c1c80b64",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.12.6.1",
+    "newVersion" : "2.13.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

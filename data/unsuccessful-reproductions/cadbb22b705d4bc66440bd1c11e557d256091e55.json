@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microsoft/botbuilder-java/pull/1517",
+  "project" : "botbuilder-java",
+  "projectOrganisation" : "microsoft",
+  "breakingCommit" : "cadbb22b705d4bc66440bd1c11e557d256091e55",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netgrif/application-engine/pull/138",
+  "project" : "application-engine",
+  "projectOrganisation" : "netgrif",
+  "breakingCommit" : "e31837e9d05847338b28611c5f2747c554068858",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.xmlgraphics",
+    "dependencyArtifactID" : "batik-all",
+    "previousVersion" : "1.14",
+    "newVersion" : "1.15",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

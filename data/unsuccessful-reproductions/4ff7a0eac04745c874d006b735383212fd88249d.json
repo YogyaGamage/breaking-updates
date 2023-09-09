@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rxjava2-jdbc/pull/191",
+  "project" : "rxjava2-jdbc",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "4ff7a0eac04745c874d006b735383212fd88249d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.12.0",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

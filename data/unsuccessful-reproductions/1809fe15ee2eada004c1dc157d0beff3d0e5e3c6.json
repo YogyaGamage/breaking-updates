@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/494",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "1809fe15ee2eada004c1dc157d0beff3d0e5e3c6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mybatis",
+    "dependencyArtifactID" : "mybatis",
+    "previousVersion" : "3.5.10",
+    "newVersion" : "3.5.11",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

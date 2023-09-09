@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/478",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "2dfe664b7adfc894352fa325a92401f551cc4ab8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "jcl-over-slf4j",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

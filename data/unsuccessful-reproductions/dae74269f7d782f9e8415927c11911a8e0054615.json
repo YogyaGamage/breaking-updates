@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/4983",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "dae74269f7d782f9e8415927c11911a8e0054615",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "maven-dependency-analyzer",
+    "previousVersion" : "1.11.1",
+    "newVersion" : "1.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

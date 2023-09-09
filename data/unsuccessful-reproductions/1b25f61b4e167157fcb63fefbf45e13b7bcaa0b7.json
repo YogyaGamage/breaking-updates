@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/872",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "1b25f61b4e167157fcb63fefbf45e13b7bcaa0b7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.10.0",
+    "newVersion" : "10.11.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

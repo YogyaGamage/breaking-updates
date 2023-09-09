@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/981",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "1a1d85c69de502e508baa2eeb4c95ac8a63dc22b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.microsoft.azure.sdk.iot",
+    "dependencyArtifactID" : "iot-device-client",
+    "previousVersion" : "2.1.5",
+    "newVersion" : "2.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/okta/okta-cli/pull/375",
+  "project" : "okta-cli",
+  "projectOrganisation" : "okta",
+  "breakingCommit" : "1289c9941ae7f96db3c02464de63b2f9a1e56045",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.graalvm.nativeimage",
+    "dependencyArtifactID" : "svm",
+    "previousVersion" : "22.2.0",
+    "newVersion" : "22.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

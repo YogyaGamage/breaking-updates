@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/858",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "46a00d6de2c059771caaf0458cc6ef9924cd8123",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.swagger",
+    "dependencyArtifactID" : "swagger-annotations",
+    "previousVersion" : "1.6.9",
+    "newVersion" : "1.6.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

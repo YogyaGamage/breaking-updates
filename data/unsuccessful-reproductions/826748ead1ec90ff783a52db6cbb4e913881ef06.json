@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/mybatis-3/pull/2658",
+  "project" : "mybatis-3",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "826748ead1ec90ff783a52db6cbb4e913881ef06",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

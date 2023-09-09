@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mirkosertic/MogwaiERDesignerNG/pull/291",
+  "project" : "MogwaiERDesignerNG",
+  "projectOrganisation" : "mirkosertic",
+  "breakingCommit" : "4e6872ff8de51578288efd1045f5dffb79356098",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

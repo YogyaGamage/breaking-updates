@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/redis-cache/pull/206",
+  "project" : "redis-cache",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "424f3b5ab919435333b8b887254c8330be411c22",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "redis.clients",
+    "dependencyArtifactID" : "jedis",
+    "previousVersion" : "4.4.2",
+    "newVersion" : "4.4.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/jpetstore-6/pull/667",
+  "project" : "jpetstore-6",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "78a4d65342a4368fa4410db64bc1341178565ed4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet",
+    "dependencyArtifactID" : "jakarta.servlet-api",
+    "previousVersion" : "4.0.4",
+    "newVersion" : "6.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/extra-enforcer-rules/pull/192",
+  "project" : "extra-enforcer-rules",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "e1be1c8b7d6884493de372e3020102ed485e585d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-beans",
+    "previousVersion" : "2.5.6",
+    "newVersion" : "5.3.18",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/metersphere/node-controller/pull/34",
+  "project" : "node-controller",
+  "projectOrganisation" : "metersphere",
+  "breakingCommit" : "c90997bcb0574b6cb2e1a6036fccf36fd3baf4c6",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.metersphere",
+    "dependencyArtifactID" : "ms-jmeter-core",
+    "previousVersion" : "1.1.5",
+    "newVersion" : "1.1.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

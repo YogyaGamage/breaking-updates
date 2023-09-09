@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/syncope/pull/453",
+  "project" : "syncope",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "5d6e9ded7e84613029f0e237079102b23a4621fe",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.pdfbox",
+    "dependencyArtifactID" : "pdfbox",
+    "previousVersion" : "3.0.0-alpha3",
+    "newVersion" : "3.0.0-RC1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/925",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "18a5edd2918b4223170c2e30444b7732b1af6e7d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.checkerframework",
+    "dependencyArtifactID" : "checker-qual",
+    "previousVersion" : "3.33.0",
+    "newVersion" : "3.34.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/cdi/pull/322",
+  "project" : "cdi",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "b200632d499abe999884573830cf849ce7a31f1d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.transaction",
+    "dependencyArtifactID" : "jakarta.transaction-api",
+    "previousVersion" : "1.3.3",
+    "newVersion" : "2.0.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

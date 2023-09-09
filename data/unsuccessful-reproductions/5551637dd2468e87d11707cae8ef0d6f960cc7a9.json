@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/150",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "5551637dd2468e87d11707cae8ef0d6f960cc7a9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-fileupload",
+    "dependencyArtifactID" : "commons-fileupload",
+    "previousVersion" : "1.4",
+    "newVersion" : "1.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

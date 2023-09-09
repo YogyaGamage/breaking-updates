@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dbmdz/cudami/pull/2446",
+  "project" : "cudami",
+  "projectOrganisation" : "dbmdz",
+  "breakingCommit" : "af66f71762be60447d0b6fcbea5f0efa5ea47a40",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.flywaydb",
+    "dependencyArtifactID" : "flyway-core",
+    "previousVersion" : "9.19.0",
+    "newVersion" : "9.19.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

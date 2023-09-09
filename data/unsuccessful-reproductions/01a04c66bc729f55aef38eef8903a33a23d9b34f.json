@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/skywalking-java/pull/277",
+  "project" : "skywalking-java",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "01a04c66bc729f55aef38eef8903a33a23d9b34f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.squareup.okhttp3",
+    "dependencyArtifactID" : "okhttp",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.1.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo-files/pull/47",
+  "project" : "eo-files",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "50377a4973e20cbfbaf532fa7020ac14f2c02366",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "eo-runtime",
+    "previousVersion" : "0.28.5",
+    "newVersion" : "0.28.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

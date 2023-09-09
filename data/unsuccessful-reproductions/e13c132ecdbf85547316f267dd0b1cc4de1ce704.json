@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/720",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "e13c132ecdbf85547316f267dd0b1cc4de1ce704",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.github.x-stream",
+    "dependencyArtifactID" : "mxparser",
+    "previousVersion" : "1.2.1",
+    "newVersion" : "1.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

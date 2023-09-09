@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/keytool/pull/20",
+  "project" : "keytool",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "da7f280c2a653a39ee2577fb328af165f88262ae",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.0.1",
+    "newVersion" : "3.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

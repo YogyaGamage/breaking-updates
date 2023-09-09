@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/mock-server/mockserver/pull/1687",
+  "project" : "mockserver",
+  "projectOrganisation" : "mock-server",
+  "breakingCommit" : "768be5041cd1c9f1fe65dabb23cb4bced1bb0a9c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.nimbusds",
+    "dependencyArtifactID" : "nimbus-jose-jwt",
+    "previousVersion" : "9.30.2",
+    "newVersion" : "9.31",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/4991",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "8f16a36e5f9a1cb9a65e7bc9f12672c4921161ea",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "8.36.2",
+    "newVersion" : "10.12.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

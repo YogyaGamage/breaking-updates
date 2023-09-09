@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micromata/projectforge/pull/203",
+  "project" : "projectforge",
+  "projectOrganisation" : "micromata",
+  "breakingCommit" : "beb97619dac34543f8b32dc209d62dedf85d4fbd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "30.1.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

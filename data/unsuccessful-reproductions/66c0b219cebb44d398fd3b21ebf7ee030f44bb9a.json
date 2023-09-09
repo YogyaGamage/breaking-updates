@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/701",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "66c0b219cebb44d398fd3b21ebf7ee030f44bb9a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.osgi",
+    "dependencyArtifactID" : "osgi.core",
+    "previousVersion" : "7.0.0",
+    "newVersion" : "8.0.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

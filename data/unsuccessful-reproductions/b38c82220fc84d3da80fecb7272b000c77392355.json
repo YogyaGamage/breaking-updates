@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/356",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "b38c82220fc84d3da80fecb7272b000c77392355",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.spockframework",
+    "dependencyArtifactID" : "spock-bom",
+    "previousVersion" : "2.0-groovy-3.0",
+    "newVersion" : "2.1-groovy-3.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/652",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "a81a60b8f0e0181f06c58b092dfb9b0970f04cea",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testng",
+    "dependencyArtifactID" : "testng",
+    "previousVersion" : "7.5",
+    "newVersion" : "7.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netty/netty/pull/13498",
+  "project" : "netty",
+  "projectOrganisation" : "netty",
+  "breakingCommit" : "0c44fe11ec675e45252d3ced42a1656ed2f7ba63",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-jni-util",
+    "previousVersion" : "0.0.6.Final",
+    "newVersion" : "0.0.7.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

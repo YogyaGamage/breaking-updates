@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/microsoft/botbuilder-java/pull/1512",
+  "project" : "botbuilder-java",
+  "projectOrganisation" : "microsoft",
+  "breakingCommit" : "9470995a6fb94846fd1d9a12adf24cf982e4cc5e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-core",
+    "previousVersion" : "5.3.23",
+    "newVersion" : "5.3.27",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/khmarbaise/maven-it-extension/pull/372",
+  "project" : "maven-it-extension",
+  "projectOrganisation" : "khmarbaise",
+  "breakingCommit" : "7612a4f25c314d045be847622519f6f54185d384",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.1.0",
+    "newVersion" : "3.8.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}
