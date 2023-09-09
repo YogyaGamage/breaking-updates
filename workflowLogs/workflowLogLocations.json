@@ -2548,5 +2548,83 @@
     "https://github.com/approvals/ApprovalTests.Java/actions/runs/5649488534/job/15303927561" : true,
     "https://github.com/approvals/ApprovalTests.Java/actions/runs/5649488534/job/15303927891" : true,
     "https://github.com/approvals/ApprovalTests.Java/actions/runs/5649488534/job/15303929564" : true
+  },
+  "18388413b808c908795fc30aa94d7b1fa8306005" : {
+    "https://github.com/objectionary/eo-strings/actions/runs/6028167414/job/16354882053" : true
+  },
+  "201c0fc37987a988f1df82e4e79674537d360b6f" : {
+    "https://github.com/mojohaus/aspectj-maven-plugin/actions/runs/5052644524/job/13678312558" : false
+  },
+  "253e54bf4d09d4fd383245e8aeac44940cddb636" : {
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2242977576/job/6221679404" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2242977579/job/6221679449" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2242977578/job/6221679403" : false
+  },
+  "31ce310b607a5cf524e305b1e7c2985a24ca4676" : {
+    "https://github.com/moditect/deptective/actions/runs/2569350740/job/7073244839" : false
+  },
+  "3af868758a5c2f76119ceee789e14b524d1a965c" : {
+    "https://github.com/mojohaus/webstart/actions/runs/5048410519/job/13666581417" : false,
+    "https://github.com/mojohaus/webstart/actions/runs/5048410519/job/13666581603" : false
+  },
+  "4aee2d0d61077651d3389bce1617377d7345fc9f" : {
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2240791876/job/6215438958" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2240791879/job/6215438940" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2240791877/job/6215438989" : false
+  },
+  "67b89340016b17f3b13f92f6d75ceb489f5ac733" : {
+    "https://github.com/moditect/deptective/actions/runs/3731628831/job/10182013128" : false
+  },
+  "75467e7c95b4c101ffc1ab17bd53c5128a78362f" : {
+    "https://github.com/open-feature/java-sdk/actions/runs/3167219237/job/8660301268" : false
+  },
+  "76943110f13699775b932d9cded7ec8a7eac8382" : {
+    "https://github.com/open-feature/java-sdk/actions/runs/3989187822/job/10829491922" : false
+  },
+  "781ed870a4fcfca1b50f898b17d3a4c27d291650" : {
+    "https://github.com/ontodev/robot/actions/runs/4710935508/job/12777178578" : false
+  },
+  "992cd6117739abba440b82122a52730ab544bd18" : {
+    "https://github.com/objectionary/eo-files/actions/runs/6027700413/job/16353457396" : true
+  },
+  "a877ae5c5b5cbb2bc08d4ce3a4ea96212ddabb31" : {
+    "https://github.com/apache/plc4x/actions/runs/3739967185/job/10205005128" : false
+  },
+  "b60c2891ae5354916ac379577c24d54cf6241212" : {
+    "https://github.com/micycle1/PGS/actions/runs/5858164567/job/15881570464" : true
+  },
+  "ba92cf594093b1e8df627a9fcfed54c5ae0d44c8" : {
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2233929231/job/6196003435" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2233929234/job/6196003432" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2233929237/job/6196003414" : false
+  },
+  "d31c348d308e0dde0756bd5b6d83b3701b9c55b0" : {
+    "https://github.com/moditect/moditect/actions/runs/4692032887/job/12729761144" : false
+  },
+  "d7e38828f0ddd93296612619b62123dce2e7f268" : {
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2227555304/job/6178228494" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2227555295/job/6178228503" : false,
+    "https://github.com/micronaut-projects/micronaut-maven-plugin/actions/runs/2227555291/job/6178228509" : false
+  },
+  "dbd78629aefee39596f4c6d722c6485b0240f6f5" : {
+    "https://github.com/open-feature/java-sdk/actions/runs/3235086480/job/8847104398" : false
+  },
+  "df6fb339ce3b4f3f8a1a1e0e809ab640c05e4732" : {
+    "https://github.com/mojohaus/build-helper-maven-plugin/actions/runs/2684811432/job/7376287617" : false,
+    "https://github.com/mojohaus/build-helper-maven-plugin/actions/runs/2684811432/job/7376287580" : false,
+    "https://github.com/mojohaus/build-helper-maven-plugin/actions/runs/2684811432/job/7376287657" : false,
+    "https://github.com/mojohaus/build-helper-maven-plugin/actions/runs/2684811432/job/7376287732" : false,
+    "https://github.com/mojohaus/build-helper-maven-plugin/actions/runs/2684811432/job/7376287686" : false
+  },
+  "f77f1806e3f478e3a4f2b4e0eb87b9794ca7c7ca" : {
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687063807" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687064085" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687064639" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687063409" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687064450" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687063020" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687063227" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687064269" : false,
+    "https://github.com/mojohaus/maven-native/actions/runs/5055883901/job/13687063588" : false
   }
 }
