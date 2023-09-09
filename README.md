@@ -100,12 +100,12 @@ java -jar target/BreakingUpdateReproducer.jar --help
 ```
 
 ## Stats
-As of Sep 4 2023:
-  * The benchmark consists of 629 reproducible breaking updates from 162 unique projects.
-    - Of these breaking updates, 263 (41.81%) fail compilation with the updated dependency.
-    - 212 (33.70%) fail tests with the updated dependency.
-    - 5 (0.79%) have dependency resolution failures with the updated dependency.
-    - 69 (10.97%) fail after updating the dependency due to maven enforcer failures.
-    - 3 (0.48%) fail due to unknown failures after updating the dependency.
-  * Overall, reproduction has been attempted for 5392 breaking updates, and 4763 (88.33%) could not be locally reproduced.
-  * For 0 potential breaking updates, reproduction has not been attempted yet.
+As of Sep 9 2023:
+  * The benchmark consists of 651 reproducible breaking updates from 176 unique projects.
+    - Of these breaking updates, 267 (41.01%) fail compilation with the updated dependency.
+    - 220 (33.79%) fail tests with the updated dependency.
+    - 5 (0.77%) have dependency resolution failures with the updated dependency.
+    - 70 (10.75%) fail after updating the dependency due to maven enforcer failures.
+    - 7 (1.08%) fail due to unknown failures after updating the dependency.
+  * Overall, reproduction has been attempted for 5893 breaking updates, and 5242 (88.95%) could not be locally reproduced.
+  * For 3 potential breaking updates, reproduction has not been attempted yet.
