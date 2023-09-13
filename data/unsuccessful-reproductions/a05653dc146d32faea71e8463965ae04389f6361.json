@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OWASP/wrongsecrets/pull/957",
+  "project" : "wrongsecrets",
+  "projectOrganisation" : "OWASP",
+  "breakingCommit" : "a05653dc146d32faea71e8463965ae04389f6361",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-starter-webmvc-ui",
+    "previousVersion" : "2.1.0",
+    "newVersion" : "2.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

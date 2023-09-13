@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Activiti/activiti-cloud/pull/1153",
+  "project" : "activiti-cloud",
+  "projectOrganisation" : "Activiti",
+  "breakingCommit" : "0229cbe30d703f03e32b501e72c2500478e63adb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.dasniko",
+    "dependencyArtifactID" : "testcontainers-keycloak",
+    "previousVersion" : "2.2.2",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DevLeoko/AdvancedBan/pull/627",
+  "project" : "AdvancedBan",
+  "projectOrganisation" : "DevLeoko",
+  "breakingCommit" : "8e511ceb9d1b5f9790f690e3fe71e34e791d4bb5",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.velocitypowered",
+    "dependencyArtifactID" : "velocity-api",
+    "previousVersion" : "1.1.3",
+    "newVersion" : "3.2.0-SNAPSHOT",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

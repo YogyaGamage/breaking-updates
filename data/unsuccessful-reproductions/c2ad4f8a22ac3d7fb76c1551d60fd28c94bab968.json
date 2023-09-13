@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/pinot/pull/11324",
+  "project" : "pinot",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c2ad4f8a22ac3d7fb76c1551d60fd28c94bab968",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.25",
+    "newVersion" : "2.0.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

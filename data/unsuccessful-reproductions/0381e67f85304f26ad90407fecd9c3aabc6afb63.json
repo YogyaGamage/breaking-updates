@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/paulcwarren/spring-content-examples/pull/1269",
+  "project" : "spring-content-examples",
+  "projectOrganisation" : "paulcwarren",
+  "breakingCommit" : "0381e67f85304f26ad90407fecd9c3aabc6afb63",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "software.amazon.awssdk",
+    "dependencyArtifactID" : "s3",
+    "previousVersion" : "2.17.290",
+    "newVersion" : "2.20.124",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

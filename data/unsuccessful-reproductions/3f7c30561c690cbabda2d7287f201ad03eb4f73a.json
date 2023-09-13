@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gruelbox/transaction-outbox/pull/482",
+  "project" : "transaction-outbox",
+  "projectOrganisation" : "gruelbox",
+  "breakingCommit" : "3f7c30561c690cbabda2d7287f201ad03eb4f73a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

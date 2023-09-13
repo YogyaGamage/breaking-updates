@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/zoltar/pull/545",
+  "project" : "zoltar",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "21b4db6ddf995573d4ffd122e70d54abe04035bd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-simple",
+    "previousVersion" : "1.7.25",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

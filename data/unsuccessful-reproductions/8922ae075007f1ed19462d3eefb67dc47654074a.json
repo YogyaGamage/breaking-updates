@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jnidzwetzki/bboxdb/pull/504",
+  "project" : "bboxdb",
+  "projectOrganisation" : "jnidzwetzki",
+  "breakingCommit" : "8922ae075007f1ed19462d3eefb67dc47654074a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.protobuf",
+    "dependencyArtifactID" : "protobuf-java",
+    "previousVersion" : "3.24.0",
+    "newVersion" : "3.24.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

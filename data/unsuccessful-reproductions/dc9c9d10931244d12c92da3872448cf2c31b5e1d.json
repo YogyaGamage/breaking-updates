@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ghost-chu/QuickShop-Hikari/pull/1011",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "Ghost-chu",
+  "breakingCommit" : "dc9c9d10931244d12c92da3872448cf2c31b5e1d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.sk89q.worldguard",
+    "dependencyArtifactID" : "worldguard-bukkit",
+    "previousVersion" : "7.0.8",
+    "newVersion" : "7.0.9",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

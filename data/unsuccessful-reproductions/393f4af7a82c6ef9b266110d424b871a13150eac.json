@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/digital-preservation/droid/pull/980",
+  "project" : "droid",
+  "projectOrganisation" : "digital-preservation",
+  "breakingCommit" : "393f4af7a82c6ef9b266110d424b871a13150eac",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.netbeans.api",
+    "dependencyArtifactID" : "org-netbeans-swing-outline",
+    "previousVersion" : "RELEASE130",
+    "newVersion" : "RELEASE180",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

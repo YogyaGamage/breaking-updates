@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/andreschaffer/microservices-testing-examples/pull/375",
+  "project" : "microservices-testing-examples",
+  "projectOrganisation" : "andreschaffer",
+  "breakingCommit" : "17b37740364d7a3c55cc63d46f3ac69024888b99",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/saucelabs/ci-sauce/pull/194",
+  "project" : "ci-sauce",
+  "projectOrganisation" : "saucelabs",
+  "breakingCommit" : "2b3ad8ec585d6279a8440e73a543e18d45da00f0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.saucelabs",
+    "dependencyArtifactID" : "saucerest",
+    "previousVersion" : "2.0.3",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/saucelabs/saucerest/2.0.3/saucerest-2.0.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/saucelabs/saucerest/2.1.0/saucerest-2.1.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:2b3ad8ec585d6279a8440e73a543e18d45da00f0-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:2b3ad8ec585d6279a8440e73a543e18d45da00f0-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

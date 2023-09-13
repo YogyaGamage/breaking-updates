@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/streamthoughts/jikkou/pull/243",
+  "project" : "jikkou",
+  "projectOrganisation" : "streamthoughts",
+  "breakingCommit" : "2bf48492b32f4dfd1b1dc3db39c1df77d0953c37",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "software.amazon.msk",
+    "dependencyArtifactID" : "aws-msk-iam-auth",
+    "previousVersion" : "1.1.7",
+    "newVersion" : "1.1.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

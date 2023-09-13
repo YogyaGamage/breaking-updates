@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse/jetty.toolchain/pull/283",
+  "project" : "jetty.toolchain",
+  "projectOrganisation" : "eclipse",
+  "breakingCommit" : "f2d15c0a50c99ff3e4a92ca25077bb67c71e6db4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

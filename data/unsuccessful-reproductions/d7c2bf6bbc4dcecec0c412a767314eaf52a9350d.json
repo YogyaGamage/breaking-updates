@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/pinterest/singer/pull/341",
+  "project" : "singer",
+  "projectOrganisation" : "pinterest",
+  "breakingCommit" : "d7c2bf6bbc4dcecec0c412a767314eaf52a9350d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk-s3",
+    "previousVersion" : "1.12.248",
+    "newVersion" : "1.12.539",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ghost-chu/QuickShop-Hikari/pull/1008",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "Ghost-chu",
+  "breakingCommit" : "d7df94f8fb3ddbc9ebe46bd0757fb3c455068bc0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.angeschossen",
+    "dependencyArtifactID" : "LandsAPI",
+    "previousVersion" : "6.29.12",
+    "newVersion" : "6.33.9",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

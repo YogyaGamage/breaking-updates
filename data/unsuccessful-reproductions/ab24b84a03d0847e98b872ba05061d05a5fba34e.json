@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse-tycho/tycho/pull/2734",
+  "project" : "tycho",
+  "projectOrganisation" : "eclipse-tycho",
+  "breakingCommit" : "ab24b84a03d0847e98b872ba05061d05a5fba34e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.takari.polyglot",
+    "dependencyArtifactID" : "polyglot-common",
+    "previousVersion" : "0.4.10",
+    "newVersion" : "0.4.11",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

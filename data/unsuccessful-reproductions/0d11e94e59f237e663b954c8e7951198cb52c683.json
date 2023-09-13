@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dadus33-plugins/ChatItem/pull/81",
+  "project" : "ChatItem",
+  "projectOrganisation" : "dadus33-plugins",
+  "breakingCommit" : "0d11e94e59f237e663b954c8e7951198cb52c683",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.MajekDev",
+    "dependencyArtifactID" : "HexNicks",
+    "previousVersion" : "3.1.0",
+    "newVersion" : "3.1.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

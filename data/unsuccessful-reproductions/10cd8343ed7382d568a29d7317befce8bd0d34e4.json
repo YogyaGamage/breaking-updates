@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ekryd/sortpom/pull/348",
+  "project" : "sortpom",
+  "projectOrganisation" : "Ekryd",
+  "breakingCommit" : "10cd8343ed7382d568a29d7317befce8bd0d34e4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-framework-bom",
+    "previousVersion" : "LATEST",
+    "newVersion" : "4.3.30.RELEASE",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

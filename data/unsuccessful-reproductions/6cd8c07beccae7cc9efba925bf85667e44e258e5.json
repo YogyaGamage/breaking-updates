@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/hapifhir/hapi-fhir/pull/5221",
+  "project" : "hapi-fhir",
+  "projectOrganisation" : "hapifhir",
+  "breakingCommit" : "6cd8c07beccae7cc9efba925bf85667e44e258e5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ant",
+    "dependencyArtifactID" : "ant",
+    "previousVersion" : "1.10.11",
+    "newVersion" : "1.10.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

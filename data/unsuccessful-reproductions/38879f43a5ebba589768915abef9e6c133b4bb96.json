@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ree6-Applications/Ree6/pull/422",
+  "project" : "Ree6",
+  "projectOrganisation" : "Ree6-Applications",
+  "breakingCommit" : "38879f43a5ebba589768915abef9e6c133b4bb96",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "me.presti",
+    "dependencyArtifactID" : "YoutubeWrapper",
+    "previousVersion" : "0ae3a59111",
+    "newVersion" : "1.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

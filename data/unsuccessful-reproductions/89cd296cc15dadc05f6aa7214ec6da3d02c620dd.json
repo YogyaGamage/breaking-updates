@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/maddingo/nio-fs-provider/pull/84",
+  "project" : "nio-fs-provider",
+  "projectOrganisation" : "maddingo",
+  "breakingCommit" : "89cd296cc15dadc05f6aa7214ec6da3d02c620dd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.ben-manes.caffeine",
+    "dependencyArtifactID" : "caffeine",
+    "previousVersion" : "2.9.3",
+    "newVersion" : "3.1.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

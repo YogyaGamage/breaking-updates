@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/digital-preservation/droid/pull/982",
+  "project" : "droid",
+  "projectOrganisation" : "digital-preservation",
+  "breakingCommit" : "2a841e4ff611b86800be5a794fffab211fd4995f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

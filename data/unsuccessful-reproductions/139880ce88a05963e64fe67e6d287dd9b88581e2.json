@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/configuration-as-code-plugin/pull/2328",
+  "project" : "configuration-as-code-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "139880ce88a05963e64fe67e6d287dd9b88581e2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20230227",
+    "newVersion" : "20230618",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

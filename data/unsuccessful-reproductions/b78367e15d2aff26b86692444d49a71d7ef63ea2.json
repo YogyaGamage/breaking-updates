@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/tokuhirom/avans/pull/233",
+  "project" : "avans",
+  "projectOrganisation" : "tokuhirom",
+  "breakingCommit" : "b78367e15d2aff26b86692444d49a71d7ef63ea2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.4.9",
+    "newVersion" : "1.4.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aklivity/zilla/pull/384",
+  "project" : "zilla",
+  "projectOrganisation" : "aklivity",
+  "breakingCommit" : "e9fba21b425be67f3bd8fee9578a5b46f2a5b659",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.guicedee.services",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "1.1.0.7",
+    "newVersion" : "62",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

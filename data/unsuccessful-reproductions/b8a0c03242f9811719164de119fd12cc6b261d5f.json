@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ghost-chu/QuickShop-Hikari/pull/973",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "Ghost-chu",
+  "breakingCommit" : "b8a0c03242f9811719164de119fd12cc6b261d5f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.palmergames.bukkit.towny",
+    "dependencyArtifactID" : "towny",
+    "previousVersion" : "0.99.1.2",
+    "newVersion" : "0.99.2.6",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

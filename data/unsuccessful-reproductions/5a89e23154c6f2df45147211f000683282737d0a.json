@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eXist-db/exist/pull/4967",
+  "project" : "exist",
+  "projectOrganisation" : "eXist-db",
+  "breakingCommit" : "5a89e23154c6f2df45147211f000683282737d0a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-codec",
+    "dependencyArtifactID" : "commons-codec",
+    "previousVersion" : "1.15",
+    "newVersion" : "1.16.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

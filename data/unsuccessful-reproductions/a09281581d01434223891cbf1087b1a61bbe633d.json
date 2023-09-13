@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ghost-chu/QuickShop-Hikari/pull/987",
+  "project" : "QuickShop-Hikari",
+  "projectOrganisation" : "Ghost-chu",
+  "breakingCommit" : "a09281581d01434223891cbf1087b1a61bbe633d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.1.214",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

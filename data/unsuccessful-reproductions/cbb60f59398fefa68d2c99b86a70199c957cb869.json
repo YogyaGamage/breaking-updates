@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/ec2-plugin/pull/881",
+  "project" : "ec2-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "cbb60f59398fefa68d2c99b86a70199c957cb869",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "aws-credentials",
+    "previousVersion" : "191.vcb_f183ce58b_9",
+    "newVersion" : "218.v1b_e9466ec5da_",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/google/truth/pull/1147",
+  "project" : "truth",
+  "projectOrganisation" : "google",
+  "breakingCommit" : "5ce1eb36fd3a5198e42a3958899aa917785cda1b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.jsinterop",
+    "dependencyArtifactID" : "jsinterop-annotations",
+    "previousVersion" : "2.0.0",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

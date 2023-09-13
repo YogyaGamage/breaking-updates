@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/zoltar/pull/543",
+  "project" : "zoltar",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "48d4b2e4f271e0107e324e2cd20d61733c327010",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.apis",
+    "dependencyArtifactID" : "google-api-services-storage",
+    "previousVersion" : "v1-rev20210127-1.32.1",
+    "newVersion" : "v1-rev20230710-2.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/nifi/pull/7632",
+  "project" : "nifi",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "1d2b32111a4f453ddf21935bdef5ec3665973bf0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ivy",
+    "dependencyArtifactID" : "ivy",
+    "previousVersion" : "2.5.1",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

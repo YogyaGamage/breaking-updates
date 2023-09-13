@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opentripplanner/OpenTripPlanner/pull/5281",
+  "project" : "OpenTripPlanner",
+  "projectOrganisation" : "opentripplanner",
+  "breakingCommit" : "bb5f32721b9c39e974b6824713e3ab07eec194e2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.onebusaway",
+    "dependencyArtifactID" : "onebusaway-gtfs",
+    "previousVersion" : "1.4.3",
+    "newVersion" : "1.4.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

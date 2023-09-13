@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/comixed/comixed/pull/1655",
+  "project" : "comixed",
+  "projectOrganisation" : "comixed",
+  "breakingCommit" : "04fa14e5690dc8f2622da5edf408fd34b6d9f9a1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tika",
+    "dependencyArtifactID" : "tika-core",
+    "previousVersion" : "1.22",
+    "newVersion" : "1.28.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

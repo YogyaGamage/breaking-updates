@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ChanceSD/PvPManager/pull/410",
+  "project" : "PvPManager",
+  "projectOrganisation" : "ChanceSD",
+  "breakingCommit" : "44f8a9a82adbf49a5fce3d15a37d6ec82a47d67e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.zaxxer",
+    "dependencyArtifactID" : "HikariCP",
+    "previousVersion" : "4.0.3",
+    "newVersion" : "5.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

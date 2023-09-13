@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OWASP/SecurityShepherd/pull/769",
+  "project" : "SecurityShepherd",
+  "projectOrganisation" : "OWASP",
+  "breakingCommit" : "aa03112f18c41283902ec7b1fb903dd44d9aa055",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mariadb.jdbc",
+    "dependencyArtifactID" : "mariadb-java-client",
+    "previousVersion" : "3.0.6",
+    "newVersion" : "3.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/googleapis/java-bigtable/pull/1901",
+  "project" : "java-bigtable",
+  "projectOrganisation" : "googleapis",
+  "breakingCommit" : "7712b5ed83be2ac588ab5fcd0c134ae74a5f5d2e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-shared-dependencies",
+    "previousVersion" : "3.14.0",
+    "newVersion" : "3.15.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

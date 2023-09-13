@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gitbucket/solidbase/pull/91",
+  "project" : "solidbase",
+  "projectOrganisation" : "gitbucket",
+  "breakingCommit" : "a4a0c6372142eac6f19bb7a5498bf237157c9dce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.liquibase",
+    "dependencyArtifactID" : "liquibase-core",
+    "previousVersion" : "4.16.1",
+    "newVersion" : "4.23.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

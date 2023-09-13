@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-bigquery/pull/179",
+  "project" : "liquibase-bigquery",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "9ff8461112e72b8cfe0065a2f389cf433ed83281",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-bigquery",
+    "previousVersion" : "2.31.1",
+    "newVersion" : "2.31.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

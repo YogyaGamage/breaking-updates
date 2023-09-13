@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eXist-db/exist/pull/5001",
+  "project" : "exist",
+  "projectOrganisation" : "eXist-db",
+  "breakingCommit" : "80ecc00b3bce2caac4b8028148f866f0c2b72af9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fifesoft",
+    "dependencyArtifactID" : "rsyntaxtextarea",
+    "previousVersion" : "3.3.3",
+    "newVersion" : "3.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

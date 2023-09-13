@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/pinot/pull/11353",
+  "project" : "pinot",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c6a0ebb23aa3a4aa2089a871684bae2b44a7c17b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.janino",
+    "dependencyArtifactID" : "commons-compiler",
+    "previousVersion" : "3.1.6",
+    "newVersion" : "3.1.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

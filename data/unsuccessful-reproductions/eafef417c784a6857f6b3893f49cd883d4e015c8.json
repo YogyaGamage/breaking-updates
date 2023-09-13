@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/feuyeux/jax-rs2-guide-II/pull/235",
+  "project" : "jax-rs2-guide-II",
+  "projectOrganisation" : "feuyeux",
+  "breakingCommit" : "eafef417c784a6857f6b3893f49cd883d4e015c8",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tomcat.embed",
+    "dependencyArtifactID" : "tomcat-embed-core",
+    "previousVersion" : "8.5.88",
+    "newVersion" : "8.5.93",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

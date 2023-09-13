@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/liquibase/liquibase-bigquery/pull/178",
+  "project" : "liquibase-bigquery",
+  "projectOrganisation" : "liquibase",
+  "breakingCommit" : "7d905a16336ea86a9013088c6915583ac164b623",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "info.picocli",
+    "dependencyArtifactID" : "picocli",
+    "previousVersion" : "4.7.4",
+    "newVersion" : "4.7.5",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

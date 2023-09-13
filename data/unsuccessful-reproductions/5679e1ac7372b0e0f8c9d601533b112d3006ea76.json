@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/streamthoughts/jikkou/pull/222",
+  "project" : "jikkou",
+  "projectOrganisation" : "streamthoughts",
+  "breakingCommit" : "5679e1ac7372b0e0f8c9d601533b112d3006ea76",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.4.7",
+    "newVersion" : "1.4.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

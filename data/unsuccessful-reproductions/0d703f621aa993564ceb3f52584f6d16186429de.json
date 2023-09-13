@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sfuhrm/radiobrowser4j/pull/41",
+  "project" : "radiobrowser4j",
+  "projectOrganisation" : "sfuhrm",
+  "breakingCommit" : "0d703f621aa993564ceb3f52584f6d16186429de",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wenqiglantz/customer-service/pull/252",
+  "project" : "customer-service",
+  "projectOrganisation" : "wenqiglantz",
+  "breakingCommit" : "abb83538bbed1067ce516bc6d4865d110bfbe20d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.grpc",
+    "dependencyArtifactID" : "grpc-netty-shaded",
+    "previousVersion" : "1.54.1",
+    "newVersion" : "1.57.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

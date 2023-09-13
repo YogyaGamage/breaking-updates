@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PimvanderLoos/AnimatedArchitecture/pull/575",
+  "project" : "AnimatedArchitecture",
+  "projectOrganisation" : "PimvanderLoos",
+  "breakingCommit" : "700ae0c469136040c572cceea6d0c7908973147f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.plotsquared",
+    "dependencyArtifactID" : "PlotSquared-Core",
+    "previousVersion" : "6.11.1",
+    "newVersion" : "6.11.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

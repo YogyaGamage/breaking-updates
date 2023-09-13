@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Alfresco/alfresco-community-repo/pull/2141",
+  "project" : "alfresco-community-repo",
+  "projectOrganisation" : "Alfresco",
+  "breakingCommit" : "d886d3584dd60d6ee7161b073d1158ce81635b9c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.aspectj",
+    "dependencyArtifactID" : "aspectjrt",
+    "previousVersion" : "1.9.19",
+    "newVersion" : "1.9.20",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

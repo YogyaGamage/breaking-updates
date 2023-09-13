@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eXist-db/exist/pull/4986",
+  "project" : "exist",
+  "projectOrganisation" : "eXist-db",
+  "breakingCommit" : "0326e7d1f22ddb7c092bd8eb86022f34742e6337",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.ben-manes.caffeine",
+    "dependencyArtifactID" : "caffeine",
+    "previousVersion" : "3.1.6",
+    "newVersion" : "3.1.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

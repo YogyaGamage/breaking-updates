@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/docker-java/docker-java/pull/2191",
+  "project" : "docker-java",
+  "projectOrganisation" : "docker-java",
+  "breakingCommit" : "777c75b59cb0357e88b93cf05417c8a1505cd487",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testcontainers",
+    "dependencyArtifactID" : "testcontainers",
+    "previousVersion" : "1.16.3",
+    "newVersion" : "1.19.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aws/aws-encryption-sdk-java/pull/1732",
+  "project" : "aws-encryption-sdk-java",
+  "projectOrganisation" : "aws",
+  "breakingCommit" : "6793ee62d71434255030e696b853e9f135e657b5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.amazonaws",
+    "dependencyArtifactID" : "aws-java-sdk",
+    "previousVersion" : "1.12.394",
+    "newVersion" : "1.12.533",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

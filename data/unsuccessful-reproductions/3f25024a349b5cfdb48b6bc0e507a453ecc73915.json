@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/gtasa-savegame-editor/gtasa-savegame-editor/pull/181",
+  "project" : "gtasa-savegame-editor",
+  "projectOrganisation" : "gtasa-savegame-editor",
+  "breakingCommit" : "3f25024a349b5cfdb48b6bc0e507a453ecc73915",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-simple",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

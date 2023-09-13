@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/smooks/smooks-edi-cartridge/pull/240",
+  "project" : "smooks-edi-cartridge",
+  "projectOrganisation" : "smooks",
+  "breakingCommit" : "b0f48f067e5d799e353148aa44b3b2115af7db1d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ant",
+    "dependencyArtifactID" : "ant",
+    "previousVersion" : "1.10.13",
+    "newVersion" : "1.10.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

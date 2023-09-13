@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse/jetty.toolchain/pull/284",
+  "project" : "jetty.toolchain",
+  "projectOrganisation" : "eclipse",
+  "breakingCommit" : "181b099cd8f2979ce8c8fe3ee177e4cafc657f8d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-util",
+    "previousVersion" : "9.4.51.v20230217",
+    "newVersion" : "12.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

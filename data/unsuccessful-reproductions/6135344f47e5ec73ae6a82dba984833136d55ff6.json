@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/quarkusio/quarkus-platform/pull/970",
+  "project" : "quarkus-platform",
+  "projectOrganisation" : "quarkusio",
+  "breakingCommit" : "6135344f47e5ec73ae6a82dba984833136d55ff6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-xml",
+    "previousVersion" : "11.0.15",
+    "newVersion" : "11.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs/saucerest-java/pull/405",
+  "project" : "saucerest-java",
+  "projectOrganisation" : "saucelabs",
+  "breakingCommit" : "b4f0a4188d23fb6900046d86b871ab1eaf859120",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "32.0.1-jre",
+    "newVersion" : "32.1.2-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

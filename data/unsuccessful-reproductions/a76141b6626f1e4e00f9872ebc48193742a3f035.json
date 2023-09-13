@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/getgauge/gauge-java/pull/717",
+  "project" : "gauge-java",
+  "projectOrganisation" : "getgauge",
+  "breakingCommit" : "a76141b6626f1e4e00f9872ebc48193742a3f035",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.grpc",
+    "dependencyArtifactID" : "grpc-bom",
+    "previousVersion" : "1.57.1",
+    "newVersion" : "1.57.2",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

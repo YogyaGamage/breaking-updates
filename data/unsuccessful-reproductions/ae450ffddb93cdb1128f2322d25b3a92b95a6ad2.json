@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dadus33-plugins/ChatItem/pull/80",
+  "project" : "ChatItem",
+  "projectOrganisation" : "dadus33-plugins",
+  "breakingCommit" : "ae450ffddb93cdb1128f2322d25b3a92b95a6ad2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.willfp",
+    "dependencyArtifactID" : "eco",
+    "previousVersion" : "6.65.1",
+    "newVersion" : "6.65.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

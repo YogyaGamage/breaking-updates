@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/genepi/cloudgene/pull/110",
+  "project" : "cloudgene",
+  "projectOrganisation" : "genepi",
+  "breakingCommit" : "7e2f0c2b827a204c3dd407ce25b37ab8057720c5",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ivy",
+    "dependencyArtifactID" : "ivy",
+    "previousVersion" : "2.5.1",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

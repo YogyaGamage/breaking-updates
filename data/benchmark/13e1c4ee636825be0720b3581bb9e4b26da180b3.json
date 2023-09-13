@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/pholser/junit-quickcheck/pull/515",
+  "project" : "junit-quickcheck",
+  "projectOrganisation" : "pholser",
+  "breakingCommit" : "13e1c4ee636825be0720b3581bb9e4b26da180b3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mockito",
+    "dependencyArtifactID" : "mockito-core",
+    "previousVersion" : "4.11.0",
+    "newVersion" : "5.5.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:13e1c4ee636825be0720b3581bb9e4b26da180b3-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:13e1c4ee636825be0720b3581bb9e4b26da180b3-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

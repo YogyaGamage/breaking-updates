@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Ree6-Applications/Ree6/pull/418",
+  "project" : "Ree6",
+  "projectOrganisation" : "Ree6-Applications",
+  "breakingCommit" : "5b77c4c8ff26c8bc9dc3894ea4bfe82b3a6aaf60",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "de.ree6",
+    "dependencyArtifactID" : "Ree6-SQL",
+    "previousVersion" : "a16277c760",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

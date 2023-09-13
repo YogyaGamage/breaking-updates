@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/artipie/gem-adapter/pull/268",
+  "project" : "gem-adapter",
+  "projectOrganisation" : "artipie",
+  "breakingCommit" : "813d846a80583d19cb6503711d88b290b96f8192",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.artipie",
+    "dependencyArtifactID" : "http",
+    "previousVersion" : "v1.2.17",
+    "newVersion" : "v1.2.20",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

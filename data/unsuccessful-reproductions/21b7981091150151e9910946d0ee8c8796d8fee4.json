@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/informatique-cdc/ebad/pull/429",
+  "project" : "ebad",
+  "projectOrganisation" : "informatique-cdc",
+  "breakingCommit" : "21b7981091150151e9910946d0ee8c8796d8fee4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.liquibase",
+    "dependencyArtifactID" : "liquibase-core",
+    "previousVersion" : "4.12.0",
+    "newVersion" : "4.23.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

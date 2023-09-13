@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/digital-preservation/droid/pull/972",
+  "project" : "droid",
+  "projectOrganisation" : "digital-preservation",
+  "breakingCommit" : "6aff568a05887c2b796723eb480e533e22b67494",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "maven-dependency-analyzer",
+    "previousVersion" : "1.11.1",
+    "newVersion" : "1.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

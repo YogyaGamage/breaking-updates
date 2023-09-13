@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/streamnative/kop/pull/1976",
+  "project" : "kop",
+  "projectOrganisation" : "streamnative",
+  "breakingCommit" : "10f9940ce98814786cf0278ef652c14083b51a2d",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.kafka",
+    "dependencyArtifactID" : "kafka-clients",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.5.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

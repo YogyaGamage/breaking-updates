@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/docker-java/docker-java/pull/2197",
+  "project" : "docker-java",
+  "projectOrganisation" : "docker-java",
+  "breakingCommit" : "085339de6d361cf51134c38b09ddafc9a0412d6a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-jdk14",
+    "previousVersion" : "1.7.35",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

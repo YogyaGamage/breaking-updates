@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/osalvador/ReplicaDB/pull/156",
+  "project" : "ReplicaDB",
+  "projectOrganisation" : "osalvador",
+  "breakingCommit" : "55917e6cca11d3cc209007d3caeca845d9b7d9e4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.kafka",
+    "dependencyArtifactID" : "kafka-clients",
+    "previousVersion" : "2.7.0",
+    "newVersion" : "2.7.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

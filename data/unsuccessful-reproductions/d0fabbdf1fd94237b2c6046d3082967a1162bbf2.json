@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Alfresco/alfresco-community-repo/pull/2162",
+  "project" : "alfresco-community-repo",
+  "projectOrganisation" : "Alfresco",
+  "breakingCommit" : "d0fabbdf1fd94237b2c6046d3082967a1162bbf2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "2.1",
+    "newVersion" : "2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

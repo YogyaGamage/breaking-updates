@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/jclouds/pull/182",
+  "project" : "jclouds",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "51e5bd0ea32633e5daf5ba0017d000b41d7978f6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty",
+    "previousVersion" : "3.5.9.Final",
+    "newVersion" : "3.9.8.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/georchestra/georchestra/pull/4026",
+  "project" : "georchestra",
+  "projectOrganisation" : "georchestra",
+  "breakingCommit" : "bb286dca9f20d2ba9129d02327d3340c7c0bff35",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-servlets",
+    "previousVersion" : "9.4.41.v20210516",
+    "newVersion" : "11.0.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

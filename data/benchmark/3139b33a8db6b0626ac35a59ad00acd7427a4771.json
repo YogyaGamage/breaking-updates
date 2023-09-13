@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/quarkiverse/quarkus-micrometer-registry/pull/318",
+  "project" : "quarkus-micrometer-registry",
+  "projectOrganisation" : "quarkiverse",
+  "breakingCommit" : "3139b33a8db6b0626ac35a59ad00acd7427a4771",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.quarkiverse.googlecloudservices",
+    "dependencyArtifactID" : "quarkus-google-cloud-common-grpc",
+    "previousVersion" : "1.4.0",
+    "newVersion" : "2.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/io/quarkiverse/googlecloudservices/quarkus-google-cloud-common-grpc/1.4.0/quarkus-google-cloud-common-grpc-1.4.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/io/quarkiverse/googlecloudservices/quarkus-google-cloud-common-grpc/2.3.0/quarkus-google-cloud-common-grpc-2.3.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3139b33a8db6b0626ac35a59ad00acd7427a4771-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3139b33a8db6b0626ac35a59ad00acd7427a4771-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

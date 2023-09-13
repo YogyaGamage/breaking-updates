@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/aklivity/zilla/pull/347",
+  "project" : "zilla",
+  "projectOrganisation" : "aklivity",
+  "breakingCommit" : "0130a48e6f6717d18322d6f04219c9e032971244",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.sonatype.plexus",
+    "dependencyArtifactID" : "plexus-sec-dispatcher",
+    "previousVersion" : "1.3",
+    "newVersion" : "1.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

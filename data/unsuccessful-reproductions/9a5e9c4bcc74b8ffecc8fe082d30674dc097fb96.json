@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GluuFederation/oxAuth/pull/1851",
+  "project" : "oxAuth",
+  "projectOrganisation" : "GluuFederation",
+  "breakingCommit" : "9a5e9c4bcc74b8ffecc8fe082d30674dc097fb96",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.json",
+    "dependencyArtifactID" : "json",
+    "previousVersion" : "20200518",
+    "newVersion" : "20230227",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

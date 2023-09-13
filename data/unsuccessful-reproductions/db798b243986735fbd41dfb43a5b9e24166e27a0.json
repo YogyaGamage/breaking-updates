@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/phisix-org/phisix/pull/337",
+  "project" : "phisix",
+  "projectOrganisation" : "phisix-org",
+  "breakingCommit" : "db798b243986735fbd41dfb43a5b9e24166e27a0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.4.8",
+    "newVersion" : "1.4.9",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

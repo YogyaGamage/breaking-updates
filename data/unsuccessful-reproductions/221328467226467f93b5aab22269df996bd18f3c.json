@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/MorphiaOrg/morphia/pull/2510",
+  "project" : "morphia",
+  "projectOrganisation" : "MorphiaOrg",
+  "breakingCommit" : "221328467226467f93b5aab22269df996bd18f3c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.forge.roaster",
+    "dependencyArtifactID" : "roaster-api",
+    "previousVersion" : "2.28.0.Final",
+    "newVersion" : "2.29.0.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

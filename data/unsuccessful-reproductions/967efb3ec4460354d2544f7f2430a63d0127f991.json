@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jetlinks/jetlinks-community/pull/416",
+  "project" : "jetlinks-community",
+  "projectOrganisation" : "jetlinks",
+  "breakingCommit" : "967efb3ec4460354d2544f7f2430a63d0127f991",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "32.0.0-jre",
+    "newVersion" : "32.1.2-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

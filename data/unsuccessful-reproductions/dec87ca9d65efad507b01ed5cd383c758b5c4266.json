@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Doclic/NoEncryption/pull/128",
+  "project" : "NoEncryption",
+  "projectOrganisation" : "Doclic",
+  "breakingCommit" : "dec87ca9d65efad507b01ed5cd383c758b5c4266",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-transport",
+    "previousVersion" : "4.1.90.Final",
+    "newVersion" : "4.1.97.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

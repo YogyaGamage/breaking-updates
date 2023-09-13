@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/archiva/pull/153",
+  "project" : "archiva",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "f70c59a062361b4eb41239ed269e0f9c1637ab78",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tika",
+    "dependencyArtifactID" : "tika-core",
+    "previousVersion" : "1.27",
+    "newVersion" : "1.28.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

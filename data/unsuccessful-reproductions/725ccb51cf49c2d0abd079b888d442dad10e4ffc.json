@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/structr/structr/pull/595",
+  "project" : "structr",
+  "projectOrganisation" : "structr",
+  "breakingCommit" : "725ccb51cf49c2d0abd079b888d442dad10e4ffc",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.sshd",
+    "dependencyArtifactID" : "sshd-core",
+    "previousVersion" : "1.2.0",
+    "newVersion" : "2.7.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

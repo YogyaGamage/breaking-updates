@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/MorphiaOrg/morphia/pull/2470",
+  "project" : "morphia",
+  "projectOrganisation" : "MorphiaOrg",
+  "breakingCommit" : "87af57ee9a5c935b984e0ddda96536f9bcc44b7b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.14.4",
+    "newVersion" : "1.14.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

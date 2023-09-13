@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/prestodb/presto/pull/20505",
+  "project" : "presto",
+  "projectOrganisation" : "prestodb",
+  "breakingCommit" : "1db36baff564d4b6fa98f41d53bedcd381bf5a61",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.xerial.snappy",
+    "dependencyArtifactID" : "snappy-java",
+    "previousVersion" : "1.1.1.7",
+    "newVersion" : "1.1.10.1",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

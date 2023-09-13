@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/algorand/java-algorand-sdk/pull/602",
+  "project" : "java-algorand-sdk",
+  "projectOrganisation" : "algorand",
+  "breakingCommit" : "26cb4583b3dbf44c7e2288f497676cfe371ff711",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk15to18",
+    "previousVersion" : "1.66",
+    "newVersion" : "1.74",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15to18/1.66/bcprov-jdk15to18-1.66-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15to18/1.74/bcprov-jdk15to18-1.74-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:26cb4583b3dbf44c7e2288f497676cfe371ff711-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:26cb4583b3dbf44c7e2288f497676cfe371ff711-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

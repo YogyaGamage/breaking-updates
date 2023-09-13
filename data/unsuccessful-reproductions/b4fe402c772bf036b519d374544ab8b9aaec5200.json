@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/OWASP/wrongsecrets/pull/961",
+  "project" : "wrongsecrets",
+  "projectOrganisation" : "OWASP",
+  "breakingCommit" : "b4fe402c772bf036b519d374544ab8b9aaec5200",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "10.12.2",
+    "newVersion" : "10.12.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

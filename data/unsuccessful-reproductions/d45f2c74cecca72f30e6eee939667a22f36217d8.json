@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/javaparser/javaparser/pull/4110",
+  "project" : "javaparser",
+  "projectOrganisation" : "javaparser",
+  "breakingCommit" : "d45f2c74cecca72f30e6eee939667a22f36217d8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "32.1.1-jre",
+    "newVersion" : "32.1.2-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dev-aspectj/aspectj-maven-plugin/pull/127",
+  "project" : "aspectj-maven-plugin",
+  "projectOrganisation" : "dev-aspectj",
+  "breakingCommit" : "a0318699d085822555507cf99d49fe581a90ed34",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.reporting",
+    "dependencyArtifactID" : "maven-reporting-impl",
+    "previousVersion" : "3.1.0",
+    "newVersion" : "3.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

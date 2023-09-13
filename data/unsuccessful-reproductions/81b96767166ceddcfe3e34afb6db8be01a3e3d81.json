@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/zerocracy/farm/pull/2340",
+  "project" : "farm",
+  "projectOrganisation" : "zerocracy",
+  "breakingCommit" : "81b96767166ceddcfe3e34afb6db8be01a3e3d81",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.xmlgraphics",
+    "dependencyArtifactID" : "batik-transcoder",
+    "previousVersion" : "1.8",
+    "newVersion" : "1.17",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/feedzai/pdb/pull/394",
+  "project" : "pdb",
+  "projectOrganisation" : "feedzai",
+  "breakingCommit" : "22bdde02b2628d9b1e867e3d73dfb4ae79c72066",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

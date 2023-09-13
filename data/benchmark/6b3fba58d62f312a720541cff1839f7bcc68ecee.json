@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/eclipse-basyx/basyx-java-sdk/pull/328",
+  "project" : "basyx-java-sdk",
+  "projectOrganisation" : "eclipse-basyx",
+  "breakingCommit" : "6b3fba58d62f312a720541cff1839f7bcc68ecee",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.keycloak",
+    "dependencyArtifactID" : "keycloak-admin-client",
+    "previousVersion" : "19.0.3",
+    "newVersion" : "22.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/keycloak/keycloak-admin-client/19.0.3/keycloak-admin-client-19.0.3-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/keycloak/keycloak-admin-client/22.0.1/keycloak-admin-client-22.0.1-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:6b3fba58d62f312a720541cff1839f7bcc68ecee-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:6b3fba58d62f312a720541cff1839f7bcc68ecee-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

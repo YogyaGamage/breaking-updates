@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eXist-db/exist/pull/5023",
+  "project" : "exist",
+  "projectOrganisation" : "eXist-db",
+  "breakingCommit" : "ba4a7b5280835ed19d73a1bd25cebc8f7b34ee02",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.14.6",
+    "newVersion" : "1.14.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

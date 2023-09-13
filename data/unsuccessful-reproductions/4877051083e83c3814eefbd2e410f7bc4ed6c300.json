@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/5215",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "4877051083e83c3814eefbd2e410f7bc4ed6c300",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.jackson",
+    "dependencyArtifactID" : "jackson-core-asl",
+    "previousVersion" : "1.9.13",
+    "newVersion" : "1.9.14-MULE-002",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

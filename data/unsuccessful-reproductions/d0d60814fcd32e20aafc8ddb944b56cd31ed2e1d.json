@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alibaba/fastjson2/pull/1670",
+  "project" : "fastjson2",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "d0d60814fcd32e20aafc8ddb944b56cd31ed2e1d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "cn.hutool",
+    "dependencyArtifactID" : "hutool-all",
+    "previousVersion" : "5.8.17",
+    "newVersion" : "5.8.19",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

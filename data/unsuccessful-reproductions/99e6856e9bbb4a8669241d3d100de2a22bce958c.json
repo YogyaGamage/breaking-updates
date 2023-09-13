@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Password4j/password4j/pull/124",
+  "project" : "password4j",
+  "projectOrganisation" : "Password4j",
+  "breakingCommit" : "99e6856e9bbb4a8669241d3d100de2a22bce958c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

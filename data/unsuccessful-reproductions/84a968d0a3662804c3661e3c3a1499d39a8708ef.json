@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/websight-io/howlite/pull/743",
+  "project" : "howlite",
+  "projectOrganisation" : "websight-io",
+  "breakingCommit" : "84a968d0a3662804c3661e3c3a1499d39a8708ef",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.25",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

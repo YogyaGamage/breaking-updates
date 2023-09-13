@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wiremock/wiremock-testcontainers-java/pull/65",
+  "project" : "wiremock-testcontainers-java",
+  "projectOrganisation" : "wiremock",
+  "breakingCommit" : "5caa05907606695867d4404f27508fa2766d42fb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.3.7",
+    "newVersion" : "1.4.11",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

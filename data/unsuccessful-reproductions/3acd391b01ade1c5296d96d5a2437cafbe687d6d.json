@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dadoonet/fscrawler/pull/1686",
+  "project" : "fscrawler",
+  "projectOrganisation" : "dadoonet",
+  "breakingCommit" : "3acd391b01ade1c5296d96d5a2437cafbe687d6d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "32.0.1-jre",
+    "newVersion" : "32.1.2-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

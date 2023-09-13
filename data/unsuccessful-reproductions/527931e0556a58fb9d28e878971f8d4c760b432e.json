@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/PimvanderLoos/AnimatedArchitecture/pull/574",
+  "project" : "AnimatedArchitecture",
+  "projectOrganisation" : "PimvanderLoos",
+  "breakingCommit" : "527931e0556a58fb9d28e878971f8d4c760b432e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.plotsquared",
+    "dependencyArtifactID" : "PlotSquared-Bukkit",
+    "previousVersion" : "6.11.1",
+    "newVersion" : "6.11.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

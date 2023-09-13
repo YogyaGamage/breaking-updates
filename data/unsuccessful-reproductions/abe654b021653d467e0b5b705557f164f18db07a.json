@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/git-forensics-plugin/pull/647",
+  "project" : "git-forensics-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "abe654b021653d467e0b5b705557f164f18db07a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci",
+    "dependencyArtifactID" : "acceptance-test-harness",
+    "previousVersion" : "5631.v2dcb_f66e58f7",
+    "newVersion" : "5699.v27deb_ef5796c",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

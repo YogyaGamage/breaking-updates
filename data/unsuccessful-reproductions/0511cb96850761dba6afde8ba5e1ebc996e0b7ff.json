@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/MarcGiffing/bucket4j-spring-boot-starter/pull/183",
+  "project" : "bucket4j-spring-boot-starter",
+  "projectOrganisation" : "MarcGiffing",
+  "breakingCommit" : "0511cb96850761dba6afde8ba5e1ebc996e0b7ff",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.redisson",
+    "dependencyArtifactID" : "redisson",
+    "previousVersion" : "3.20.0",
+    "newVersion" : "3.23.4",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

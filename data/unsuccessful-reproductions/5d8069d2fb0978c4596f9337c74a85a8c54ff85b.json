@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opentripplanner/OpenTripPlanner/pull/5306",
+  "project" : "OpenTripPlanner",
+  "projectOrganisation" : "opentripplanner",
+  "breakingCommit" : "5d8069d2fb0978c4596f9337c74a85a8c54ff85b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.conveyal",
+    "dependencyArtifactID" : "kryo-tools",
+    "previousVersion" : "1.5.0",
+    "newVersion" : "1.6.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

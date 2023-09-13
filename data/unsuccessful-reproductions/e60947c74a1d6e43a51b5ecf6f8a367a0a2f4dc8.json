@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/KnowledgeCaptureAndDiscovery/wings/pull/165",
+  "project" : "wings",
+  "projectOrganisation" : "KnowledgeCaptureAndDiscovery",
+  "breakingCommit" : "e60947c74a1d6e43a51b5ecf6f8a367a0a2f4dc8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.tomcat",
+    "dependencyArtifactID" : "tomcat-catalina",
+    "previousVersion" : "7.0.55",
+    "newVersion" : "7.0.81",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

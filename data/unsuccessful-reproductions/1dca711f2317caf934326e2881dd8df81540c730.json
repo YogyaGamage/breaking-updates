@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/algorand/java-algorand-sdk/pull/601",
+  "project" : "java-algorand-sdk",
+  "projectOrganisation" : "algorand",
+  "breakingCommit" : "1dca711f2317caf934326e2881dd8df81540c730",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk15to18",
+    "previousVersion" : "1.66",
+    "newVersion" : "1.74",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

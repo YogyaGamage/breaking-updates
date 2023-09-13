@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/geonetwork/core-geonetwork/pull/7285",
+  "project" : "core-geonetwork",
+  "projectOrganisation" : "geonetwork",
+  "breakingCommit" : "2c636d911e3f7adf2a559f1ce9db7df5f3aa3515",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.xmlgraphics",
+    "dependencyArtifactID" : "batik-transcoder",
+    "previousVersion" : "1.10",
+    "newVersion" : "1.17",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

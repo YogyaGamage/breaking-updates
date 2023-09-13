@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Backbase/stream-services/pull/374",
+  "project" : "stream-services",
+  "projectOrganisation" : "Backbase",
+  "breakingCommit" : "fb8683b68d176fa0bc9cd0ce787fc5ee9e2734c1",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.tomakehurst",
+    "dependencyArtifactID" : "wiremock-jre8",
+    "previousVersion" : "2.33.2",
+    "newVersion" : "2.35.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

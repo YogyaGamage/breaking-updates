@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/5233",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "8b646b4d5e7c49ff53f6742ba40d0ca829190a98",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.vintage",
+    "dependencyArtifactID" : "junit-vintage-engine",
+    "previousVersion" : "5.9.3",
+    "newVersion" : "5.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

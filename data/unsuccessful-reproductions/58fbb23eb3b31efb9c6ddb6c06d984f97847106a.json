@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/hapifhir/hapi-fhir/pull/5067",
+  "project" : "hapi-fhir",
+  "projectOrganisation" : "hapifhir",
+  "breakingCommit" : "58fbb23eb3b31efb9c6ddb6c06d984f97847106a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.1.214",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

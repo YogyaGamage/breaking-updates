@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/spotify/zoltar/pull/542",
+  "project" : "zoltar",
+  "projectOrganisation" : "spotify",
+  "breakingCommit" : "35fa8a094dc5e3dd4b1e286b8da0c26436e2b1c8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-bom",
+    "previousVersion" : "0.158.0",
+    "newVersion" : "0.203.0",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

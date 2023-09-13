@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/BadSkater0729/WorldwideChat/pull/344",
+  "project" : "WorldwideChat",
+  "projectOrganisation" : "BadSkater0729",
+  "breakingCommit" : "4fdec2ce57773456a75d05433d06ca086da701a0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.cryptomorin",
+    "dependencyArtifactID" : "XSeries",
+    "previousVersion" : "9.3.1",
+    "newVersion" : "9.5.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/comixed/comixed/pull/1640",
+  "project" : "comixed",
+  "projectOrganisation" : "comixed",
+  "breakingCommit" : "75b360a50438a4430ec18b5def61ef2a698b8137",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.python",
+    "dependencyArtifactID" : "jython-standalone",
+    "previousVersion" : "2.7.1",
+    "newVersion" : "2.7.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

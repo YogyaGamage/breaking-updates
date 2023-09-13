@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/DSpace/DSpace/pull/8929",
+  "project" : "DSpace",
+  "projectOrganisation" : "DSpace",
+  "breakingCommit" : "15ca8e59866488d39a67062727f966f810edc1df",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.dspace",
+    "dependencyArtifactID" : "handle",
+    "previousVersion" : "6.2",
+    "newVersion" : "6.2.5_03",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

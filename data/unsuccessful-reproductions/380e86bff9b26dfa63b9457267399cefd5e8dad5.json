@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/nifi/pull/7653",
+  "project" : "nifi",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "380e86bff9b26dfa63b9457267399cefd5e8dad5",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.servlet.jsp",
+    "dependencyArtifactID" : "javax.servlet.jsp-api",
+    "previousVersion" : "2.3.1",
+    "newVersion" : "2.3.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/dadoonet/fscrawler/pull/1701",
+  "project" : "fscrawler",
+  "projectOrganisation" : "dadoonet",
+  "breakingCommit" : "48c86be934bbf4aa89ca2cb14ea0f8b0cd73134f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty.websocket",
+    "dependencyArtifactID" : "websocket-client",
+    "previousVersion" : "9.4.51.v20230217",
+    "newVersion" : "9.4.52.v20230823",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

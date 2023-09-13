@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/dubbo-admin/pull/1232",
+  "project" : "dubbo-admin",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "9fe027884b7551f43104040671d6b56d6c773916",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.2.3",
+    "newVersion" : "1.2.8",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jenkinsci/dependency-track-plugin/pull/188",
+  "project" : "dependency-track-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "ea27ca167007973c62e0b656b8ad29b04cf1167a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "credentials",
+    "previousVersion" : "1224.vc23ca_a_9a_2cb_0",
+    "newVersion" : "1268.v3f0d043d60e9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

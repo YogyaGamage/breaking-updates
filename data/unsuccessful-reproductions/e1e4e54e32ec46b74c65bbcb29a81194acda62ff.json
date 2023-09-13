@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ShaftHQ/SHAFT_ENGINE/pull/1263",
+  "project" : "SHAFT_ENGINE",
+  "projectOrganisation" : "ShaftHQ",
+  "breakingCommit" : "e1e4e54e32ec46b74c65bbcb29a81194acda62ff",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.crypto.tink",
+    "dependencyArtifactID" : "tink-awskms",
+    "previousVersion" : "1.8.0",
+    "newVersion" : "1.9.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

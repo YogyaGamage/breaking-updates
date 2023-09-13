@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/sofastack/sofa-rpc/pull/1358",
+  "project" : "sofa-rpc",
+  "projectOrganisation" : "sofastack",
+  "breakingCommit" : "ac5ed03f3d1b4763d8d8daf0240c1950b6dbac00",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.ctrip.framework.apollo",
+    "dependencyArtifactID" : "apollo-client",
+    "previousVersion" : "1.4.0",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

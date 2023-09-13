@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-vfs/pull/413",
+  "project" : "commons-vfs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "6542b5c68cc34d67897089f99d8a2e41af73b586",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mockito",
+    "dependencyArtifactID" : "mockito-core",
+    "previousVersion" : "4.11.0",
+    "newVersion" : "5.5.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

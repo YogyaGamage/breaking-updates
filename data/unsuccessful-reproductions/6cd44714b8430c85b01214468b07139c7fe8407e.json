@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/alibaba/fastjson2/pull/1704",
+  "project" : "fastjson2",
+  "projectOrganisation" : "alibaba",
+  "breakingCommit" : "6cd44714b8430c85b01214468b07139c7fe8407e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "9.2",
+    "newVersion" : "10.12.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/jcabi/jcabi-aether/pull/133",
+  "project" : "jcabi-aether",
+  "projectOrganisation" : "jcabi",
+  "breakingCommit" : "2d71e30835123a07f1e54676e03ad5ea4ac2fa07",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.0.5",
+    "newVersion" : "3.8.1",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

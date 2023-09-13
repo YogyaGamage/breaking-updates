@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Vipin-Sharma/MSG/pull/52",
+  "project" : "MSG",
+  "projectOrganisation" : "Vipin-Sharma",
+  "breakingCommit" : "a748ab844aebb69baa973e50bc23c418a7bd55a8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.jsqlparser",
+    "dependencyArtifactID" : "jsqlparser",
+    "previousVersion" : "4.5",
+    "newVersion" : "4.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

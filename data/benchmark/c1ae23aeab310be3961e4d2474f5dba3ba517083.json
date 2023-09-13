@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/jiangxincode/ApkToolBoxGUI/pull/229",
+  "project" : "ApkToolBoxGUI",
+  "projectOrganisation" : "jiangxincode",
+  "breakingCommit" : "c1ae23aeab310be3961e4d2474f5dba3ba517083",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.pdfbox",
+    "dependencyArtifactID" : "pdfbox",
+    "previousVersion" : "2.0.29",
+    "newVersion" : "3.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/apache/pdfbox/compare/2.0.29...3.0.0",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/3.0.0/pdfbox-3.0.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:c1ae23aeab310be3961e4d2474f5dba3ba517083-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:c1ae23aeab310be3961e4d2474f5dba3ba517083-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eclipse/jetty.project/pull/10266",
+  "project" : "jetty.project",
+  "projectOrganisation" : "eclipse",
+  "breakingCommit" : "f437967a82d16f1d1417bf9cd41d838ab4817a57",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.scm",
+    "dependencyArtifactID" : "maven-scm-provider-jgit",
+    "previousVersion" : "2.0.0",
+    "newVersion" : "2.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

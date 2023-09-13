@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/commons-jcs/pull/166",
+  "project" : "commons-jcs",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "2ff9e81d3babf44a5bbe0dd5a684f1ce933633a8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.servlet",
+    "dependencyArtifactID" : "javax.servlet-api",
+    "previousVersion" : "3.1.0",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

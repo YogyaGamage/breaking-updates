@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/saucelabs/saucerest-java/pull/406",
+  "project" : "saucerest-java",
+  "projectOrganisation" : "saucelabs",
+  "breakingCommit" : "46cfb62a669b3b36fd2cd3ad88fc46eb1259e251",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter",
+    "previousVersion" : "5.9.3",
+    "newVersion" : "5.10.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

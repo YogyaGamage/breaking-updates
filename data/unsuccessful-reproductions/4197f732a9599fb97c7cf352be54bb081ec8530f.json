@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eXist-db/exist/pull/5019",
+  "project" : "exist",
+  "projectOrganisation" : "eXist-db",
+  "breakingCommit" : "4197f732a9599fb97c7cf352be54bb081ec8530f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.xmlgraphics",
+    "dependencyArtifactID" : "xmlgraphics-commons",
+    "previousVersion" : "2.8",
+    "newVersion" : "2.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/hapifhir/hapi-fhir/pull/5269",
+  "project" : "hapi-fhir",
+  "projectOrganisation" : "hapifhir",
+  "breakingCommit" : "884b6f22792481fb8631c8833b093ac923ae603f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.graphql-java",
+    "dependencyArtifactID" : "graphql-java",
+    "previousVersion" : "21.0",
+    "newVersion" : "21.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/diverse-project/k3/pull/104",
+  "project" : "k3",
+  "projectOrganisation" : "diverse-project",
+  "breakingCommit" : "7f0f816888ecf66b4de634bf496538e185ca0391",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.5.4",
+    "newVersion" : "3.8.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/UniversalMediaServer/UniversalMediaServer/pull/4064",
+  "project" : "UniversalMediaServer",
+  "projectOrganisation" : "UniversalMediaServer",
+  "breakingCommit" : "fd16d6ed29fa6b54e0387470e0388db83586b4d2",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "2.1.214",
+    "newVersion" : "2.2.222",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

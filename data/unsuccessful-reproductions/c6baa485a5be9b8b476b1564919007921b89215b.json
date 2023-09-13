@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/intuit/identity-authz-apl/pull/49",
+  "project" : "identity-authz-apl",
+  "projectOrganisation" : "intuit",
+  "breakingCommit" : "c6baa485a5be9b8b476b1564919007921b89215b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-expression",
+    "previousVersion" : "4.3.22.RELEASE",
+    "newVersion" : "5.2.20.RELEASE",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

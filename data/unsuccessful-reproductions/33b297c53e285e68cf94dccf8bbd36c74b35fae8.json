@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/camunda-community-hub/zeebe-test-container/pull/525",
+  "project" : "zeebe-test-container",
+  "projectOrganisation" : "camunda-community-hub",
+  "breakingCommit" : "33b297c53e285e68cf94dccf8bbd36c74b35fae8",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.bytebuddy",
+    "dependencyArtifactID" : "byte-buddy",
+    "previousVersion" : "1.14.5",
+    "newVersion" : "1.14.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

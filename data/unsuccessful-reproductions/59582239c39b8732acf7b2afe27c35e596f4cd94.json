@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/testingisdocumenting/webtau/pull/1532",
+  "project" : "webtau",
+  "projectOrganisation" : "testingisdocumenting",
+  "breakingCommit" : "59582239c39b8732acf7b2afe27c35e596f4cd94",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.ivy",
+    "dependencyArtifactID" : "ivy",
+    "previousVersion" : "2.5.1",
+    "newVersion" : "2.5.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

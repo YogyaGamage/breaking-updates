@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/igor-baiborodine/campsite-booking/pull/64",
+  "project" : "campsite-booking",
+  "projectOrganisation" : "igor-baiborodine",
+  "breakingCommit" : "37ecc23e243124655d6770182dc211754000446f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}
