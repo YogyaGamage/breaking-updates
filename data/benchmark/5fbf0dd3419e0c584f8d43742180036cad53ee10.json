@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/bitpay/java-bitpay-client/pull/249",
+  "project" : "java-bitpay-client",
+  "projectOrganisation" : "bitpay",
+  "breakingCommit" : "5fbf0dd3419e0c584f8d43742180036cad53ee10",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.14.2",
+    "newVersion" : "2.15.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/fasterxml/jackson-databind/compare/jackson-databind-2.14.2...jackson-databind-2.15.2",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5fbf0dd3419e0c584f8d43742180036cad53ee10-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:5fbf0dd3419e0c584f8d43742180036cad53ee10-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

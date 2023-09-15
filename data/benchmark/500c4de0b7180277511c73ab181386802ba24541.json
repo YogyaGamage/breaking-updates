@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/387",
+  "project" : "cyclonedx-maven-plugin",
+  "projectOrganisation" : "CycloneDX",
+  "breakingCommit" : "500c4de0b7180277511c73ab181386802ba24541",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-core",
+    "previousVersion" : "3.8.7",
+    "newVersion" : "3.9.4",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.8.7/maven-core-3.8.7-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.9.4/maven-core-3.9.4-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:500c4de0b7180277511c73ab181386802ba24541-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:500c4de0b7180277511c73ab181386802ba24541-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

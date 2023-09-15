@@ -235,15 +235,6 @@ public class ResultManager {
         JsonUtils.writeToFile(benchmarkDir.resolve(reproducibleBU.breakingCommit + JsonUtils.JSON_FILE_ENDING),
                 reproducibleBU);
 
-        if (workflowDir != null) {
-            // Download the workflow log files.
-            WorkflowLogFinder workflowLogFinder = new WorkflowLogFinder(tokenQueue, httpConnector);
-            try {
-                workflowLogFinder.extractWorkflowLogFile(workflowDir, chromeDriverPath, userDataDir, bu);
-            } catch (IOException e) {
-                log.error("Could not download the workflow log files for the BU {}", reproducibleBU.breakingCommit, e);
-            }
-        }
         // Delete the local images.
         deleteImages(reproducibleBU.breakingCommit);
     }

@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/YehiaFarghaly/database-engine/pull/96",
+  "project" : "database-engine",
+  "projectOrganisation" : "YehiaFarghaly",
+  "breakingCommit" : "8b653e069a029071d702f80105ea64473a474bbf",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjfx",
+    "dependencyArtifactID" : "javafx-controls",
+    "previousVersion" : "16",
+    "newVersion" : "20.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/openjfx/javafx-controls/16/javafx-controls-16-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/openjfx/javafx-controls/20.0.2/javafx-controls-20.0.2-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:8b653e069a029071d702f80105ea64473a474bbf-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:8b653e069a029071d702f80105ea64473a474bbf-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

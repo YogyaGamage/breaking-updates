@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/jenkinsci/code-coverage-api-plugin/pull/744",
+  "project" : "code-coverage-api-plugin",
+  "projectOrganisation" : "jenkinsci",
+  "breakingCommit" : "1749eb6b14c3b7a5348d0222d1f2171cc31e0f91",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci",
+    "dependencyArtifactID" : "acceptance-test-harness",
+    "previousVersion" : "5588.vd13b_52985008",
+    "newVersion" : "5688.vb_f1ceb_4b_74c4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : null,
+    "mavenSourceLinkBreaking" : null,
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1749eb6b14c3b7a5348d0222d1f2171cc31e0f91-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:1749eb6b14c3b7a5348d0222d1f2171cc31e0f91-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -41,7 +41,7 @@ public class WorkflowLogFinder {
             for (File breakingUpdate : breakingUpdates) {
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), jsonType);
                 String downloadDirectory = baseDownloadDirectory + "\\" + bu.get("breakingCommit") + "\\";
-                if (!Files.exists(Path.of(downloadDirectory))) {
+                if (!workflowLogs.containsKey((String) bu.get("breakingCommit"))) {
                     new File(downloadDirectory).mkdirs();
 
                     String prUrl = (String) bu.get("url");

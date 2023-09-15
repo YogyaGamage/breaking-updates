@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/wvengen/proguard-maven-plugin/pull/291",
+  "project" : "proguard-maven-plugin",
+  "projectOrganisation" : "wvengen",
+  "breakingCommit" : "eb37dbe2cf93d307050e16a72ddaff10617dd160",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven",
+    "dependencyArtifactID" : "maven-archiver",
+    "previousVersion" : "2.4",
+    "newVersion" : "3.6.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "https://github.com/apache/maven-archiver/compare/maven-archiver-2.4...maven-archiver-3.6.1",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4/maven-archiver-2.4-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:eb37dbe2cf93d307050e16a72ddaff10617dd160-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:eb37dbe2cf93d307050e16a72ddaff10617dd160-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

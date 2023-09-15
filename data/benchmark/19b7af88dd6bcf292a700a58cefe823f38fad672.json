@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/openmrs/openmrs-core/pull/4353",
+  "project" : "openmrs-core",
+  "projectOrganisation" : "openmrs",
+  "breakingCommit" : "19b7af88dd6bcf292a700a58cefe823f38fad672",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.4.200",
+    "newVersion" : "2.2.220",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:19b7af88dd6bcf292a700a58cefe823f38fad672-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:19b7af88dd6bcf292a700a58cefe823f38fad672-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

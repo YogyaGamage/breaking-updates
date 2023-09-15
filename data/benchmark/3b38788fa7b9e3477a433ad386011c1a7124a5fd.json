@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/aidanwhiteley/books/pull/446",
+  "project" : "books",
+  "projectOrganisation" : "aidanwhiteley",
+  "breakingCommit" : "3b38788fa7b9e3477a433ad386011c1a7124a5fd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "de.codecentric",
+    "dependencyArtifactID" : "spring-boot-admin-starter-client",
+    "previousVersion" : "2.7.2",
+    "newVersion" : "3.1.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : null,
+    "mavenSourceLinkBreaking" : null,
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3b38788fa7b9e3477a433ad386011c1a7124a5fd-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:3b38788fa7b9e3477a433ad386011c1a7124a5fd-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}
