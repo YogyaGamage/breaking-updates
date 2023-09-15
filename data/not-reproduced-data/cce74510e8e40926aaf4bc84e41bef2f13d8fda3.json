@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/mock-server/mockserver/pull/1249",
+  "project" : "mockserver",
+  "projectOrganisation" : "mock-server",
+  "breakingCommit" : "cce74510e8e40926aaf4bc84e41bef2f13d8fda3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.13.2.1",
+    "newVersion" : "2.13.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  }
+}

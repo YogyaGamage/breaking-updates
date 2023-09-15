@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/ohbus/PJP/pull/46",
+  "project" : "PJP",
+  "projectOrganisation" : "ohbus",
+  "breakingCommit" : "f152d65446f136e87ccfe63e0682ae801db29002",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "mysql",
+    "dependencyArtifactID" : "mysql-connector-java",
+    "previousVersion" : "8.0.16",
+    "newVersion" : "8.0.28",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

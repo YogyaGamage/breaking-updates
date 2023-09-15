@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/open-feature/java-sdk/pull/103",
+  "project" : "java-sdk",
+  "projectOrganisation" : "open-feature",
+  "breakingCommit" : "75467e7c95b4c101ffc1ab17bd53c5128a78362f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "8.31",
+    "newVersion" : "10.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/8.31/checkstyle-8.31-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/10.3.4/checkstyle-10.3.4-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:75467e7c95b4c101ffc1ab17bd53c5128a78362f-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:75467e7c95b4c101ffc1ab17bd53c5128a78362f-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "CHECKSTYLE_FAILURE"
+}

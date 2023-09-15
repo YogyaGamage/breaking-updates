@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/592",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "605e06008d1dc7759116fe86759ab96d7b76279f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.web",
+    "dependencyArtifactID" : "jakarta.servlet.jsp.jstl",
+    "previousVersion" : "2.0.0",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo/pull/1162",
+  "project" : "eo",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "518b0b18b4a62590da1b10973a35fd65172ea1ae",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.antlr",
+    "dependencyArtifactID" : "antlr4-runtime",
+    "previousVersion" : "4.10.1",
+    "newVersion" : "4.11.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

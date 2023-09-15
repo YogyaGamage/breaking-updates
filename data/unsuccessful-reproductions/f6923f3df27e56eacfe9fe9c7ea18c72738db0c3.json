@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/open-feature/java-sdk/pull/117",
+  "project" : "java-sdk",
+  "projectOrganisation" : "open-feature",
+  "breakingCommit" : "f6923f3df27e56eacfe9fe9c7ea18c72738db0c3",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "8.45.1",
+    "newVersion" : "10.3.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "buildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

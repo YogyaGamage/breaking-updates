@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/5038",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "c36d8103c8dd300f5562e6ffb7a3cbbdfc5b87d2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.20.v20190813",
+    "newVersion" : "10.0.14",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

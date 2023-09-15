@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/161",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "5d793e82a286c91c02c7f9f98a2239c3d92403ef",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.xerial",
+    "dependencyArtifactID" : "sqlite-jdbc",
+    "previousVersion" : "3.41.2.1",
+    "newVersion" : "3.41.2.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

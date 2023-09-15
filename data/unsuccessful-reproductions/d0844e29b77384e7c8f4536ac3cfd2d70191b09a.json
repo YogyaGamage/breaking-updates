@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/719",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "d0844e29b77384e7c8f4536ac3cfd2d70191b09a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mortbay.jetty",
+    "dependencyArtifactID" : "jsp-2.1",
+    "previousVersion" : "6.1.26",
+    "newVersion" : "7.0.0pre2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/734",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "f5e804617d70c5db4f7af00d01da9aa7ddc4358c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "opensymphony",
+    "dependencyArtifactID" : "sitemesh",
+    "previousVersion" : "2.4.2",
+    "newVersion" : "2.5.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

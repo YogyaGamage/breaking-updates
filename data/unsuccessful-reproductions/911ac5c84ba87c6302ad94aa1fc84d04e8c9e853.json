@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/michelin/suricate/pull/741",
+  "project" : "suricate",
+  "projectOrganisation" : "michelin",
+  "breakingCommit" : "911ac5c84ba87c6302ad94aa1fc84d04e8c9e853",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jgit",
+    "dependencyArtifactID" : "org.eclipse.jgit",
+    "previousVersion" : "5.13.1.202206130422-r",
+    "newVersion" : "6.5.0.202303070854-r",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/4638",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "4c8fcc31e092b7da141b7e81f0e660238b1158d7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.antlr",
+    "dependencyArtifactID" : "antlr4-runtime",
+    "previousVersion" : "4.7.2",
+    "newVersion" : "4.11.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/ibatis-2/pull/180",
+  "project" : "ibatis-2",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "921b6d38ba68a865899a353d42c81627c0c5e012",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "2.0.7",
+    "newVersion" : "2.0.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

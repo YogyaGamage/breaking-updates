@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/730",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c73df0542c29e7f76a7722032b34c573c3dfb233",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.enterprise",
+    "dependencyArtifactID" : "jakarta.enterprise.cdi-api",
+    "previousVersion" : "2.0.2",
+    "newVersion" : "3.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

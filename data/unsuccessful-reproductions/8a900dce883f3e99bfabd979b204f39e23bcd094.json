@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/94",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "8a900dce883f3e99bfabd979b204f39e23bcd094",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.jcraft",
+    "dependencyArtifactID" : "jsch",
+    "previousVersion" : "0.1.51",
+    "newVersion" : "0.1.54",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "profileBuildPlugins"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

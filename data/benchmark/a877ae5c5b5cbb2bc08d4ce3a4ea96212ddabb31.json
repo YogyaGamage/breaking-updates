@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/704",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "a877ae5c5b5cbb2bc08d4ce3a4ea96212ddabb31",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-compiler-eclipse",
+    "previousVersion" : "2.12.1",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-eclipse/2.12.1/plexus-compiler-eclipse-2.12.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-eclipse/2.13.0/plexus-compiler-eclipse-2.13.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:a877ae5c5b5cbb2bc08d4ce3a4ea96212ddabb31-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:a877ae5c5b5cbb2bc08d4ce3a4ea96212ddabb31-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "UNKNOWN_FAILURE"
+}

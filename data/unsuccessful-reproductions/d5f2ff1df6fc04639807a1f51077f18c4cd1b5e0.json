@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/4635",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "d5f2ff1df6fc04639807a1f51077f18c4cd1b5e0",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.33",
+    "newVersion" : "2.0.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

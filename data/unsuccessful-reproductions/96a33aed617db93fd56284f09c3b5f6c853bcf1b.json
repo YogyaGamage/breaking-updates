@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mojohaus/webstart/pull/122",
+  "project" : "webstart",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "96a33aed617db93fd56284f09c3b5f6c853bcf1b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "maven-shared-utils",
+    "previousVersion" : "3.3.4",
+    "newVersion" : "3.4.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

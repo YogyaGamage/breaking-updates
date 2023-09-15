@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/nielsbasjes/yauaa/pull/1120",
+  "project" : "yauaa",
+  "projectOrganisation" : "nielsbasjes",
+  "breakingCommit" : "be1c097c17b8e1384e59108f99f420146d5c3360",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.commons",
+    "dependencyArtifactID" : "commons-lang3",
+    "previousVersion" : "3.12.0",
+    "newVersion" : "3.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

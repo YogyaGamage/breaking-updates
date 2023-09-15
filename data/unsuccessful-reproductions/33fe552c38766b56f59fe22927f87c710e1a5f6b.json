@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/struts/pull/711",
+  "project" : "struts",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "33fe552c38766b56f59fe22927f87c710e1a5f6b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "javax.servlet.jsp",
+    "dependencyArtifactID" : "jsp-api",
+    "previousVersion" : "2.1",
+    "newVersion" : "2.2",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

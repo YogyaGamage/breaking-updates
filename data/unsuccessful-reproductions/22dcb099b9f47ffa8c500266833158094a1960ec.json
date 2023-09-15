@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/odata-client/pull/265",
+  "project" : "odata-client",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "22dcb099b9f47ffa8c500266833158094a1960ec",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "3.0.2",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

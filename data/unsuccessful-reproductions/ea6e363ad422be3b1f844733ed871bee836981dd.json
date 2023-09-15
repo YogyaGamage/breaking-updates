@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/netgrif/application-engine/pull/144",
+  "project" : "application-engine",
+  "projectOrganisation" : "netgrif",
+  "breakingCommit" : "ea6e363ad422be3b1f844733ed871bee836981dd",
+  "prAuthor" : "human",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-hateoas",
+    "previousVersion" : "1.6.9",
+    "newVersion" : "1.6.13",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

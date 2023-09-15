@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mthmulders/mcs/pull/224",
+  "project" : "mcs",
+  "projectOrganisation" : "mthmulders",
+  "breakingCommit" : "6655d4e0d5c772acdb1043c1a528d1c8f25eb153",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.pitest",
+    "dependencyArtifactID" : "pitest-junit5-plugin",
+    "previousVersion" : "1.1.2",
+    "newVersion" : "1.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

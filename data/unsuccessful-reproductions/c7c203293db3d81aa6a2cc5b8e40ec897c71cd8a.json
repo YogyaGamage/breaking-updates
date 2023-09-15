@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/metersphere/node-controller/pull/65",
+  "project" : "node-controller",
+  "projectOrganisation" : "metersphere",
+  "breakingCommit" : "c7c203293db3d81aa6a2cc5b8e40ec897c71cd8a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.fabric8",
+    "dependencyArtifactID" : "kubernetes-client",
+    "previousVersion" : "4.13.0",
+    "newVersion" : "4.13.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

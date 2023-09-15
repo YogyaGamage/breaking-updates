@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/micycle1/PGS/pull/96",
+  "project" : "PGS",
+  "projectOrganisation" : "micycle1",
+  "breakingCommit" : "b60c2891ae5354916ac379577c24d54cf6241212",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.tinspin",
+    "dependencyArtifactID" : "tinspin-indexes",
+    "previousVersion" : "1.7.1",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/tinspin/tinspin-indexes/1.7.1/tinspin-indexes-1.7.1-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/tinspin/tinspin-indexes/2.1.0/tinspin-indexes-2.1.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:b60c2891ae5354916ac379577c24d54cf6241212-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:b60c2891ae5354916ac379577c24d54cf6241212-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/guice/pull/504",
+  "project" : "guice",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "859b8953a1307c24d8062248f7050e8cb38dcea7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.github.spotbugs",
+    "dependencyArtifactID" : "spotbugs-annotations",
+    "previousVersion" : "4.7.2",
+    "newVersion" : "4.7.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

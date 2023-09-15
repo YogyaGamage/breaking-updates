@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/officefloor/OfficeFloor/pull/1562",
+  "project" : "OfficeFloor",
+  "projectOrganisation" : "officefloor",
+  "breakingCommit" : "d72cc8c4f0fac39b9ef5d41297e2c763f76d5494",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.easymock",
+    "dependencyArtifactID" : "easymock",
+    "previousVersion" : "5.1.0",
+    "newVersion" : "5.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

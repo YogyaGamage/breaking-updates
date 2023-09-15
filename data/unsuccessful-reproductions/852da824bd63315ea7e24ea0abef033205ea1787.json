@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/cqfn/rio/pull/82",
+  "project" : "rio",
+  "projectOrganisation" : "cqfn",
+  "breakingCommit" : "852da824bd63315ea7e24ea0abef033205ea1787",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jctools",
+    "dependencyArtifactID" : "jctools-core",
+    "previousVersion" : "3.3.1-ea",
+    "newVersion" : "4.0.1",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

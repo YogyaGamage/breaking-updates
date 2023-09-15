@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/moditect/layrry/pull/188",
+  "project" : "layrry",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "894348de20f74fae0e523842a8b98912da58ff00",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/migrations-maven-plugin/pull/243",
+  "project" : "migrations-maven-plugin",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "7ef99a5cb61a48ed1db6ea20db4122ad48dceb8f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "32.0.0-jre",
+    "newVersion" : "32.0.1-jre",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

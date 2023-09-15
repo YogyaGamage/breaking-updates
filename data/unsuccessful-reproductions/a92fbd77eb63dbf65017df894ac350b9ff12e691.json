@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/openforis/collect/pull/133",
+  "project" : "collect",
+  "projectOrganisation" : "openforis",
+  "breakingCommit" : "a92fbd77eb63dbf65017df894ac350b9ff12e691",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.lingala.zip4j",
+    "dependencyArtifactID" : "zip4j",
+    "previousVersion" : "2.11.2",
+    "newVersion" : "2.11.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

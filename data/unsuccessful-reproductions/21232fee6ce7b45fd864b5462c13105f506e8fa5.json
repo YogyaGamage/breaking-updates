@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/opencast/opencast/pull/5142",
+  "project" : "opencast",
+  "projectOrganisation" : "opencast",
+  "breakingCommit" : "21232fee6ce7b45fd864b5462c13105f506e8fa5",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.influxdb",
+    "dependencyArtifactID" : "influxdb-java",
+    "previousVersion" : "2.15",
+    "newVersion" : "2.23",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

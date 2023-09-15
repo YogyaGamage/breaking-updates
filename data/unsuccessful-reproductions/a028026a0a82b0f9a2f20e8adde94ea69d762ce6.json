@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/plc4x/pull/433",
+  "project" : "plc4x",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "a028026a0a82b0f9a2f20e8adde94ea69d762ce6",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.influxdb",
+    "dependencyArtifactID" : "influxdb-client-java",
+    "previousVersion" : "4.3.0",
+    "newVersion" : "6.3.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

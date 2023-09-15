@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/937",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4a326ae8ed47a579a68f28dc994d4b7125b18a91",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.shrinkwrap.resolver",
+    "dependencyArtifactID" : "shrinkwrap-resolver-bom",
+    "previousVersion" : "3.1.4",
+    "newVersion" : "3.1.5",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

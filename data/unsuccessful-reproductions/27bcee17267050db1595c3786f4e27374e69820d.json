@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/database-rider/database-rider/pull/472",
+  "project" : "database-rider",
+  "projectOrganisation" : "database-rider",
+  "breakingCommit" : "27bcee17267050db1595c3786f4e27374e69820d",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.dbunit",
+    "dependencyArtifactID" : "dbunit",
+    "previousVersion" : "2.7.0",
+    "newVersion" : "2.7.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shenyu/pull/4699",
+  "project" : "shenyu",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "b00a4f29ed5766cdf8e710bcb6620c431aa6ba48",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-core",
+    "previousVersion" : "5.3.23",
+    "newVersion" : "5.3.27",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

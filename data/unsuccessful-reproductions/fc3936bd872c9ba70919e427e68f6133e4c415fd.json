@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/metersphere/node-controller/pull/109",
+  "project" : "node-controller",
+  "projectOrganisation" : "metersphere",
+  "breakingCommit" : "fc3936bd872c9ba70919e427e68f6133e4c415fd",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jsoup",
+    "dependencyArtifactID" : "jsoup",
+    "previousVersion" : "1.14.2",
+    "newVersion" : "1.15.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/database-rider/database-rider/pull/410",
+  "project" : "database-rider",
+  "projectOrganisation" : "database-rider",
+  "breakingCommit" : "af26a96f6f396e0563254acf1f3240fb064a801c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate",
+    "dependencyArtifactID" : "hibernate-core",
+    "previousVersion" : "4.3.5.Final",
+    "newVersion" : "5.4.24.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

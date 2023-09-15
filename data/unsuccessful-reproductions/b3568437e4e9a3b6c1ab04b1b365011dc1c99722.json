@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/objectionary/eo-collections/pull/167",
+  "project" : "eo-collections",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "b3568437e4e9a3b6c1ab04b1b365011dc1c99722",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "eo-runtime",
+    "previousVersion" : "0.29.2",
+    "newVersion" : "0.29.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

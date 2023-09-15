@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mybatis/cdi/pull/346",
+  "project" : "cdi",
+  "projectOrganisation" : "mybatis",
+  "breakingCommit" : "4e7cc6e7d693ff32294eff29e1403ca869b8e11a",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.classfilewriter",
+    "dependencyArtifactID" : "jboss-classfilewriter",
+    "previousVersion" : "1.2.5.Final",
+    "newVersion" : "1.3.0.Final",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

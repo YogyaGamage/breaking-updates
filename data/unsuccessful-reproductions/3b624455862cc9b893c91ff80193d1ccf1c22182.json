@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/davidmoten/rxjava2-extras/pull/122",
+  "project" : "rxjava2-extras",
+  "projectOrganisation" : "davidmoten",
+  "breakingCommit" : "3b624455862cc9b893c91ff80193d1ccf1c22182",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.esotericsoftware",
+    "dependencyArtifactID" : "kryo",
+    "previousVersion" : "4.0.2",
+    "newVersion" : "4.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

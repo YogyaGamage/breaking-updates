@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/khmarbaise/maven-it-extension/pull/368",
+  "project" : "maven-it-extension",
+  "projectOrganisation" : "khmarbaise",
+  "breakingCommit" : "4978bdeb5b031e9a0c6de098aff0fc6d610fadb4",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-archiver",
+    "previousVersion" : "3.1.1",
+    "newVersion" : "4.8.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

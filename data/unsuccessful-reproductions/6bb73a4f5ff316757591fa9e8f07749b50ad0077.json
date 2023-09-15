@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/odpi/egeria-connector-ibm-information-server/pull/772",
+  "project" : "egeria-connector-ibm-information-server",
+  "projectOrganisation" : "odpi",
+  "breakingCommit" : "6bb73a4f5ff316757591fa9e8f07749b50ad0077",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "unknown",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.kafka",
+    "dependencyArtifactID" : "kafka-clients",
+    "previousVersion" : "3.2.1",
+    "newVersion" : "3.3.0",
+    "dependencyScope" : "provided",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencyManagement"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

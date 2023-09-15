@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/mojohaus/build-helper-maven-plugin/pull/139",
+  "project" : "build-helper-maven-plugin",
+  "projectOrganisation" : "mojohaus",
+  "breakingCommit" : "df6fb339ce3b4f3f8a1a1e0e809ab640c05e4732",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "file-management",
+    "previousVersion" : "3.0.0",
+    "newVersion" : "3.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:df6fb339ce3b4f3f8a1a1e0e809ab640c05e4732-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:df6fb339ce3b4f3f8a1a1e0e809ab640c05e4732-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "COMPILATION_FAILURE"
+}

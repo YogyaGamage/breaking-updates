@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shenyu/pull/4255",
+  "project" : "shenyu",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4bc72fd3e1216b9e5ba4eb223b86c66736250775",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-web",
+    "previousVersion" : "5.3.20",
+    "newVersion" : "6.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

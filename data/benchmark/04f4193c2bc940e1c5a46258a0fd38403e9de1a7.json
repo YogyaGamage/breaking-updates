@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/objectionary/eo-collections/pull/197",
+  "project" : "eo-collections",
+  "projectOrganisation" : "objectionary",
+  "breakingCommit" : "04f4193c2bc940e1c5a46258a0fd38403e9de1a7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eolang",
+    "dependencyArtifactID" : "eo-runtime",
+    "previousVersion" : "0.30.0",
+    "newVersion" : "0.31.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/eolang/eo-runtime/0.30.0/eo-runtime-0.30.0-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/eolang/eo-runtime/0.31.0/eo-runtime-0.31.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:04f4193c2bc940e1c5a46258a0fd38403e9de1a7-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:04f4193c2bc940e1c5a46258a0fd38403e9de1a7-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "TEST_FAILURE"
+}

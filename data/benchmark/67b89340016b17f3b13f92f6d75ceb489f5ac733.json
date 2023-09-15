@@ -1,0 +1,26 @@
+{
+  "url" : "https://github.com/moditect/deptective/pull/118",
+  "project" : "deptective",
+  "projectOrganisation" : "moditect",
+  "breakingCommit" : "67b89340016b17f3b13f92f6d75ceb489f5ac733",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-compiler-javac",
+    "previousVersion" : "2.8.5",
+    "newVersion" : "2.13.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "buildPluginManagement",
+    "githubCompareLink" : "A GitHub repository could not be found for the updated dependency.",
+    "mavenSourceLinkPre" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.5/plexus-compiler-javac-2.8.5-sources.jar",
+    "mavenSourceLinkBreaking" : "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.13.0/plexus-compiler-javac-2.13.0-sources.jar",
+    "updatedFileType" : "JAR"
+  },
+  "preCommitReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:67b89340016b17f3b13f92f6d75ceb489f5ac733-pre",
+  "breakingUpdateReproductionCommand" : "docker run ghcr.io/chains-project/breaking-updates:67b89340016b17f3b13f92f6d75ceb489f5ac733-breaking",
+  "javaVersionUsedForReproduction" : "11",
+  "failureCategory" : "UNKNOWN_FAILURE"
+}

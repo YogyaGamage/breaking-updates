@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/shiro/pull/672",
+  "project" : "shiro",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "d2345c4d371c252d23b6a41f33780e8bd57f626c",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.cxf",
+    "dependencyArtifactID" : "cxf-rt-rs-client",
+    "previousVersion" : "3.5.3",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}

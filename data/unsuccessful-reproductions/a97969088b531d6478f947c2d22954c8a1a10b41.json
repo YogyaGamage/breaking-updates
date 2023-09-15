@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mwiede/jsch/pull/367",
+  "project" : "jsch",
+  "projectOrganisation" : "mwiede",
+  "breakingCommit" : "a97969088b531d6478f947c2d22954c8a1a10b41",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.bouncycastle",
+    "dependencyArtifactID" : "bcprov-jdk18on",
+    "previousVersion" : "1.75",
+    "newVersion" : "1.76",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "javaVersionUsedForReproduction" : "11"
+}
