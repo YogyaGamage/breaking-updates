@@ -23,6 +23,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -43,7 +44,7 @@ public class ReproducibilityChecker {
     static {
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(COMPILATION ERROR | Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
                 ReproducibleBreakingUpdate.FailureCategory.COMPILATION_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(\\[ERROR] Tests run: | There are test failures | There were test failures |" +
+        FAILURE_PATTERNS.put(Pattern.compile("(?i)(\\[ERROR] Tests run: | There are test failures | There were test failures: |" +
                         "Failed to execute goal org\\.apache\\.maven\\.plugins:maven-surefire-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.TEST_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.jenkins-ci\\.tools:maven-hpi-plugin)"),
@@ -56,7 +57,7 @@ public class ReproducibilityChecker {
                 ReproducibleBreakingUpdate.FailureCategory.CHECKSTYLE_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-enforcer-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.MAVEN_ENFORCER_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Could not resolve dependencies | \\[ERROR] Some problems were encountered while processing the POMs | " +
+        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Could not resolve dependencies | \\[ERROR] Some problems were encountered while processing the POMs: | " +
                         "\\[ERROR] .*?The following artifacts could not be resolved)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_RESOLUTION_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal se\\.vandmo:dependency-lock-maven-plugin:.*?:check)"),
@@ -153,21 +154,34 @@ public class ReproducibilityChecker {
                 .withCmd("sh", "-c", "--network none", "set -o pipefail && (mvn clean test -B 2>&1 | tee -ai output.log)");
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
+        long startTime = System.currentTimeMillis();
         dockerClient.startContainerCmd(containerId).exec();
+        Map.Entry<String, Boolean> output = null;
         log.info("Created container for " + image);
         WaitContainerResultCallback result = dockerClient.waitContainerCmd(containerId).exec(new WaitContainerResultCallback());
         if (result.awaitStatusCode().intValue() != EXIT_CODE_OK) {
             if (isPrevImage) {
                 log.error("Previous commit failed for {}", image);
-                return Map.entry(containerId, false);
+                output = Map.entry(containerId, false);
             }
         } else {
             if (!isPrevImage) {
                 log.error("Breaking commit did not fail for {}", image);
-                return Map.entry(containerId, false);
+                output = Map.entry(containerId, false);
             }
         }
-        return Map.entry(containerId, true);
+        if (output == null) {
+            output = Map.entry(containerId, true);
+        }
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+        String outputLine = image + " : " + elapsedTime + "\n";
+        try {
+            Files.write(Path.of("repairnator_exe_times.txt"), outputLine.getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            log.error("Could not write the time to file for the image: {}", image);
+        }
+        return output;
     }
 
     private Path storeLogFile(String project, String containerId, Path outputDir) {
