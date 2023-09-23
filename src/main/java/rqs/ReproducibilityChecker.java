@@ -42,9 +42,9 @@ public class ReproducibilityChecker {
     public static final Map<Pattern, ReproducibleBreakingUpdate.FailureCategory> FAILURE_PATTERNS = new HashMap<>();
 
     static {
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(COMPILATION ERROR | Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
+        FAILURE_PATTERNS.put(Pattern.compile("(?i)(COMPILATION ERROR|COMPILATION_ERROR|Failed to execute goal io\\.takari\\.maven\\.plugins:takari-lifecycle-plugin.*?:compile)"),
                 ReproducibleBreakingUpdate.FailureCategory.COMPILATION_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(\\[ERROR] Tests run: | There are test failures | There were test failures: |" +
+        FAILURE_PATTERNS.put(Pattern.compile("(?i)(\\[ERROR] Tests run:|There are test failures|There were test failures|" +
                         "Failed to execute goal org\\.apache\\.maven\\.plugins:maven-surefire-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.TEST_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.jenkins-ci\\.tools:maven-hpi-plugin)"),
@@ -57,7 +57,7 @@ public class ReproducibilityChecker {
                 ReproducibleBreakingUpdate.FailureCategory.CHECKSTYLE_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal org\\.apache\\.maven\\.plugins:maven-enforcer-plugin)"),
                 ReproducibleBreakingUpdate.FailureCategory.MAVEN_ENFORCER_FAILURE);
-        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Could not resolve dependencies | \\[ERROR] Some problems were encountered while processing the POMs: | " +
+        FAILURE_PATTERNS.put(Pattern.compile("(?i)(Could not resolve dependencies|\\[ERROR] Some problems were encountered while processing the POMs|" +
                         "\\[ERROR] .*?The following artifacts could not be resolved)"),
                 ReproducibleBreakingUpdate.FailureCategory.DEPENDENCY_RESOLUTION_FAILURE);
         FAILURE_PATTERNS.put(Pattern.compile("(?i)(Failed to execute goal se\\.vandmo:dependency-lock-maven-plugin:.*?:check)"),
