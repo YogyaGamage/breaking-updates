@@ -72,7 +72,7 @@ public class ReproducibilityChecker {
 
         // Read reproducibility results
         MapType reproducibilityJsonType = JsonUtils.getTypeFactory().constructMapType(Map.class, String.class, Boolean.class);
-        Path reproducibilityResultsFilePath = Path.of("src/main/java/rqs/reproducibility-results" +
+        Path reproducibilityResultsFilePath = Path.of("src/main/java/rqs/reproducibility-results_3" +
                 JsonUtils.JSON_FILE_ENDING);
         if (Files.notExists(reproducibilityResultsFilePath)) {
             try {
@@ -177,7 +177,7 @@ public class ReproducibilityChecker {
         long elapsedTime = endTime - startTime;
         String outputLine = image + " : " + elapsedTime + "\n";
         try {
-            Files.write(Path.of("repairnator_exe_times.txt"), outputLine.getBytes(), StandardOpenOption.APPEND);
+            Files.write(Path.of("repairnator_exe_times_3.txt"), outputLine.getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
             log.error("Could not write the time to file for the image: {}", image);
         }
