@@ -120,7 +120,7 @@
   "097d93fbb2f9998ef1390ad10f92d1b70fda8b90" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 2,
     "testErrors" : 0,
     "randomisedTestFailures" : 2
   },
@@ -151,7 +151,7 @@
   "dde0743630a540bff1ba3033b7016fcfc345122f" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 1,
     "testErrors" : 0,
     "randomisedTestFailures" : 1
   },
@@ -231,7 +231,7 @@
   "90df9018630b8f8248f332e747d88254d99da1c9" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 2,
     "testErrors" : 0,
     "randomisedTestFailures" : 2
   },
@@ -519,7 +519,7 @@
   "4c7b193ce573e31766da82268ffc9ba51412faa6" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 2,
     "testErrors" : 0,
     "randomisedTestFailures" : 2
   },
@@ -568,7 +568,7 @@
   "9d450e88e8744638ba37037d6f41e65d9067aa3b" : {
     "skippedTests" : 1,
     "totalModuleTests" : 25,
-    "testFailures" : 0,
+    "testFailures" : 2,
     "testErrors" : 0,
     "randomisedTestFailures" : 2
   },
@@ -582,7 +582,7 @@
   "51e103fc80aec2526ab5dd3bcc2d4d5ce4177842" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 1,
     "testErrors" : 0,
     "randomisedTestFailures" : 1
   },
@@ -619,7 +619,7 @@
   "b209fe48162aad0f97eec1ddbb10fae165af4791" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 3,
     "testErrors" : 0,
     "randomisedTestFailures" : 3
   },
@@ -720,7 +720,7 @@
   "65b5a75419981118d5a65e295abfd2069dfce0b0" : {
     "skippedTests" : 1,
     "totalModuleTests" : 25,
-    "testFailures" : 0,
+    "testFailures" : 4,
     "testErrors" : 0,
     "randomisedTestFailures" : 4
   },
@@ -758,7 +758,7 @@
   "8f16da085185a09deb5f3d810cc66f6e73348a22" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 4,
     "testErrors" : 0,
     "randomisedTestFailures" : 4
   },
@@ -786,7 +786,7 @@
   "99d4dfc8ca5b2db281f154ca9db3ad953b792b4d" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 1,
     "testErrors" : 0,
     "randomisedTestFailures" : 1
   },
@@ -912,7 +912,7 @@
   "44a15fa526c10b0c39d8d7337b833d42448fcca4" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 4,
     "testErrors" : 0,
     "randomisedTestFailures" : 4
   },
@@ -1055,7 +1055,7 @@
   "30caf72b737bd40b6b4a16c6b25ba574e3048810" : {
     "skippedTests" : 1,
     "totalModuleTests" : 25,
-    "testFailures" : 0,
+    "testFailures" : 1,
     "testErrors" : 0,
     "randomisedTestFailures" : 1
   },
@@ -1104,7 +1104,7 @@
   "0a62cebef8b3dd4c544e8b70ce1b96b33390f4c0" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 4,
     "testErrors" : 0,
     "randomisedTestFailures" : 4
   },
@@ -1239,7 +1239,7 @@
   "4507371bb061f3add726d3ab7527bebb8c41960e" : {
     "skippedTests" : 1,
     "totalModuleTests" : 24,
-    "testFailures" : 0,
+    "testFailures" : 1,
     "testErrors" : 0,
     "randomisedTestFailures" : 1
   },

@@ -78,8 +78,9 @@ public class TestTypeFinder {
             BufferedReader reader = new BufferedReader(inputStreamReader);
             String line;
 
-            Pattern errorPattern = Pattern.compile("Tests run: (\\d+), Failures: (\\d+), Errors: (\\d+), Skipped: (\\d+)");
+            Pattern errorPattern = Pattern.compile("Tests run: (\\d+), Failures: (\\d+), Errors: (\\d+), Skipped: (\\d+)$");
             Pattern errorPattern2 = Pattern.compile("Tests summary: \\d+ suites, (\\d+) tests, (\\d+) failur.*?, (\\d+) ignored");
+            Pattern errorPattern6 = Pattern.compile("There were test failures: \\d+ suites, (\\d+) tests, (\\d+) failure.*?, (\\d+) ignored");
             Pattern errorPattern3 = Pattern.compile("The forked VM terminated without properly saying goodbye. VM crash or System.exit called?");
             Pattern errorPattern4 = Pattern.compile("\\[ERROR] Number of foreign imports: 1");
             Pattern errorPattern5 = Pattern.compile("\\[ERROR] .java\\.util\\.Set org\\.junit\\.platform\\.engine\\.TestDescriptor\\.getAncestors");
@@ -104,6 +105,13 @@ public class TestTypeFinder {
                     testCount = Integer.parseInt(matcher2.group(1));
                     randomisedTestFailureCount = Integer.parseInt(matcher2.group(2));
                     skippedCount = Integer.parseInt(matcher2.group(3));
+                }
+                Matcher matcher6 = errorPattern6.matcher(line);
+                if (matcher6.find()) {
+                    // This will get the last line with test errors in the log folder.'
+                    testCount = Integer.parseInt(matcher6.group(1));
+                    failureCount = Integer.parseInt(matcher6.group(2));
+                    skippedCount = Integer.parseInt(matcher6.group(3));
                 }
                 Matcher matcher3 = errorPattern3.matcher(line);
                 if (matcher3.find()) {
