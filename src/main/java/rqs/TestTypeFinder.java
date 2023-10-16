@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 
 public class TestTypeFinder {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws IOException {
 
         Path benchmarkDir = Path.of("data/benchmark");
         File[] breakingUpdates = benchmarkDir.toFile().listFiles();
@@ -39,12 +39,11 @@ public class TestTypeFinder {
         if (testFailureTypes == null) {
             testFailureTypes = new HashMap<>();
         }
-
         if (breakingUpdates != null) {
             for (File breakingUpdate : breakingUpdates) {
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
                 Map<String, Integer> testFailureTypeRecord = new HashMap<>();
-                if (bu.get("failureCategory").equals("TEST_FAILURE") && !testFailureTypes.containsKey((String) bu.get("breakingCommit"))) {
+                if (bu.get("failureCategory").equals("TEST_FAILURE")) {
                     String logFilePath = logFileFolder + "/" + bu.get("breakingCommit") + ".log";
                     List <Integer> failureTypes = extractTestFailureType(logFilePath);
                     if (failureTypes.get(0) == -1) {
@@ -62,12 +61,28 @@ public class TestTypeFinder {
                         testFailureTypeRecord.put("testErrors", failureTypes.get(2));
                         testFailureTypeRecord.put("randomisedTestFailures", failureTypes.get(3));
                         testFailureTypeRecord.put("skippedTests", failureTypes.get(4));
+
+                        if (failureTypes.get(2) > 0) {
+                            List<String> errorLines = extractErrorLines(logFilePath);
+
+                            try (BufferedWriter writer = new BufferedWriter(new FileWriter("testErrors.txt", true))) {
+                                for (String errorLine : errorLines) {
+                                    writer.write(errorLine);
+                                    writer.newLine();
+                                }
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
                     }
                     testFailureTypes.put((String) bu.get("breakingCommit"), testFailureTypeRecord);
                     JsonUtils.writeToFile(testTypeFilePath, testFailureTypes);
                 }
             }
         }
+
+        String logFilePath = "testErrors.txt";
+        extractTestErrorType(logFilePath);
     }
 
     private static List<Integer> extractTestFailureType(String logFilePath) {
@@ -139,5 +154,79 @@ public class TestTypeFinder {
             e.printStackTrace();
         }
         return counts;
+    }
+
+    private static void extractTestErrorType(String logFilePath) {
+        try {
+            Path testErrorCountFilePath = Path.of("testErrorTypeCounts" + JsonUtils.JSON_FILE_ENDING);
+            FileInputStream fileInputStream = new FileInputStream(logFilePath);
+            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, StandardCharsets.ISO_8859_1);
+            BufferedReader reader = new BufferedReader(inputStreamReader);
+            String line;
+            List<Pattern> errorPatterns = List.of(Pattern.compile("java\\.lang\\.UnsupportedClassVersionError: "),
+                    Pattern.compile("java\\.lang\\.ClassCastException: "),
+                    Pattern.compile("java\\.lang\\.Exception: java\\.lang\\.ExceptionInInitializerError"),
+                    Pattern.compile("java\\.lang\\.IllegalStateException: "),
+                    Pattern.compile("java\\.lang\\.NoSuchMethodError: "),
+                    Pattern.compile("java\\.lang\\.NoClassDefFoundError: "),
+                    Pattern.compile("java\\.lang\\.AbstractMethodError: "),
+                    Pattern.compile("org\\.springframework\\.beans\\.BeanInstantiationException: "),
+                    Pattern.compile("org\\.codehaus\\.plexus\\.archiver\\.ArchiverException: "),
+                    Pattern.compile("java\\.io\\.FileNotFoundException: "),
+                    Pattern.compile("java\\.lang\\.IllegalArgumentException: "),
+                    Pattern.compile("org\\.json\\.JSONException: "),
+                    Pattern.compile("java\\.lang\\.NullPointerException"),
+                    Pattern.compile("com\\.google\\.api\\.gax\\.rpc\\.ApiException:"),
+                    Pattern.compile("javax\\.ws\\.rs\\.ProcessingException: "),
+                    Pattern.compile("java\\.lang\\.RuntimeException: "),
+                    Pattern.compile("io\\.dropwizard\\.configuration\\.ConfigurationParsingException:"),
+                    Pattern.compile("java\\.lang\\.VerifyError: "),
+                    Pattern.compile("javax\\.servlet\\.ServletException: "),
+                    Pattern.compile("java\\.io\\.IOException: "),
+                    Pattern.compile("java\\.util\\.concurrent\\.ExecutionException: "),
+                    Pattern.compile("chat\\.tamtam\\.botapi\\.exceptions\\.APIException: "),
+                    Pattern.compile("java\\.lang\\.NoSuchFieldError: "),
+                    Pattern.compile("org\\.mockito\\.exceptions\\.misusing\\.UnfinishedMockingSessionException:"),
+                    Pattern.compile("org\\.aspectj\\.lang\\.NoAspectBoundException: "),
+                    Pattern.compile("uk\\.gov\\.pay\\.connector\\.gateway\\.util\\.XMLUnmarshallerException:"));
+
+            Map<Pattern, Integer> patternMap = new HashMap<>();
+            for (Pattern pattern : errorPatterns) {
+                patternMap.put(pattern, 0);
+            }
+
+            while ((line = reader.readLine()) != null) {
+                for (Pattern pattern : errorPatterns) {
+                    Matcher matcher = pattern.matcher(line);
+                    if (matcher.find()) {
+                        int count = patternMap.get(pattern) + 1;
+                        patternMap.put(pattern, count);
+                    }
+                }
+
+            }
+
+            JsonUtils.writeToFile(testErrorCountFilePath, patternMap);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static List<String> extractErrorLines(String filePath) throws IOException {
+        List<String> errorLines = new ArrayList<>();
+        boolean isErrorLine = false;
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.contains("[ERROR]")) {
+                    isErrorLine = true;
+                    errorLines.add(line);
+                } else if (isErrorLine) {
+                    errorLines.add(line);
+                    isErrorLine = false;
+                }
+            }
+        }
+        return errorLines;
     }
 }
