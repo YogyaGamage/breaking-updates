@@ -7,10 +7,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -39,6 +36,7 @@ public class TestTypeFinder {
         if (testFailureTypes == null) {
             testFailureTypes = new HashMap<>();
         }
+        Map<String, Integer> patternMap = new HashMap<>();
         if (breakingUpdates != null) {
             for (File breakingUpdate : breakingUpdates) {
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), buJsonType);
@@ -73,16 +71,17 @@ public class TestTypeFinder {
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
+
+                            patternMap = extractTestErrorType(logFilePath, patternMap);
                         }
                     }
                     testFailureTypes.put((String) bu.get("breakingCommit"), testFailureTypeRecord);
                     JsonUtils.writeToFile(testTypeFilePath, testFailureTypes);
                 }
             }
+            Path testErrorCountFilePath = Path.of("testErrorTypeCountsPerFile" + JsonUtils.JSON_FILE_ENDING);
+            JsonUtils.writeToFile(testErrorCountFilePath, patternMap);
         }
-
-        String logFilePath = "testErrors.txt";
-        extractTestErrorType(logFilePath);
     }
 
     private static List<Integer> extractTestFailureType(String logFilePath) {
@@ -156,13 +155,8 @@ public class TestTypeFinder {
         return counts;
     }
 
-    private static void extractTestErrorType(String logFilePath) {
+    private static Map<String, Integer> extractTestErrorType(String logFilePath,  Map<String, Integer> patternMap) {
         try {
-            Path testErrorCountFilePath = Path.of("testErrorTypeCounts" + JsonUtils.JSON_FILE_ENDING);
-            FileInputStream fileInputStream = new FileInputStream(logFilePath);
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, StandardCharsets.ISO_8859_1);
-            BufferedReader reader = new BufferedReader(inputStreamReader);
-            String line;
             List<Pattern> errorPatterns = List.of(Pattern.compile("java\\.lang\\.UnsupportedClassVersionError: "),
                     Pattern.compile("java\\.lang\\.ClassCastException: "),
                     Pattern.compile("java\\.lang\\.Exception: java\\.lang\\.ExceptionInInitializerError"),
@@ -190,26 +184,26 @@ public class TestTypeFinder {
                     Pattern.compile("org\\.aspectj\\.lang\\.NoAspectBoundException: "),
                     Pattern.compile("uk\\.gov\\.pay\\.connector\\.gateway\\.util\\.XMLUnmarshallerException:"));
 
-            Map<Pattern, Integer> patternMap = new HashMap<>();
             for (Pattern pattern : errorPatterns) {
-                patternMap.put(pattern, 0);
-            }
-
-            while ((line = reader.readLine()) != null) {
-                for (Pattern pattern : errorPatterns) {
+                int count = patternMap.getOrDefault(pattern.toString(), 0);
+                String line;
+                FileInputStream fileInputStream = new FileInputStream(logFilePath);
+                InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, StandardCharsets.ISO_8859_1);
+                BufferedReader reader = new BufferedReader(inputStreamReader);
+                while ((line = reader.readLine()) != null) {
                     Matcher matcher = pattern.matcher(line);
                     if (matcher.find()) {
-                        int count = patternMap.get(pattern) + 1;
-                        patternMap.put(pattern, count);
+                        patternMap.put(pattern.toString(), count + 1);
+                        break;
                     }
                 }
-
             }
 
-            JsonUtils.writeToFile(testErrorCountFilePath, patternMap);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        return patternMap;
     }
 
     public static List<String> extractErrorLines(String filePath) throws IOException {
