@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/googleapis/java-storage/pull/1550",
+  "project" : "java-storage",
+  "breakingCommit" : "99ea58c42fe0aa521e6c62d04258f155b5abe26e",
+  "passingCommit" : "0db4d7ad1bdd568b3ad0d8040769edaa4e35af71",
+  "fixDuration" : 6,
+  "changedFilesCount" : 13,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.apis",
+    "dependencyArtifactID" : "google-api-services-storage",
+    "previousVersion" : "v1-rev20220705-1.32.1",
+    "newVersion" : "v1-rev20220705-2.0.0",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

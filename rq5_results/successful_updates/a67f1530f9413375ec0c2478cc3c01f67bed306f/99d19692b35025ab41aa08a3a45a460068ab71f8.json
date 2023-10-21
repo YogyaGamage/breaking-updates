@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/quick-perf/quickperf/pull/208",
+  "project" : "quickperf",
+  "breakingCommit" : "a67f1530f9413375ec0c2478cc3c01f67bed306f",
+  "passingCommit" : "99d19692b35025ab41aa08a3a45a460068ab71f8",
+  "fixDuration" : 71,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testng",
+    "dependencyArtifactID" : "testng",
+    "previousVersion" : "7.0.0",
+    "newVersion" : "7.5.1",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

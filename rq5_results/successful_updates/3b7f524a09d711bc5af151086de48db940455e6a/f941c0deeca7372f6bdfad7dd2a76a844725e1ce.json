@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/397",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "3b7f524a09d711bc5af151086de48db940455e6a",
+  "passingCommit" : "f941c0deeca7372f6bdfad7dd2a76a844725e1ce",
+  "fixDuration" : 358,
+  "changedFilesCount" : 15,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jersey.core",
+    "dependencyArtifactID" : "jersey-server",
+    "previousVersion" : "2.32",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

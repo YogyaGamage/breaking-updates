@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/397",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "2bc88ebc6046473426ebb029c33d7050662d4c2b",
+  "passingCommit" : "f941c0deeca7372f6bdfad7dd2a76a844725e1ce",
+  "fixDuration" : 431,
+  "changedFilesCount" : 15,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.eclipse.jetty",
+    "dependencyArtifactID" : "jetty-server",
+    "previousVersion" : "9.4.35.v20201120",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

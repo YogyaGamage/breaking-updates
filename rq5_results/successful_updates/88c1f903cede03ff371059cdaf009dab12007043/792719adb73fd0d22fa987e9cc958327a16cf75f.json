@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/allure-framework/allure-maven/pull/270",
+  "project" : "allure-maven",
+  "breakingCommit" : "88c1f903cede03ff371059cdaf009dab12007043",
+  "passingCommit" : "792719adb73fd0d22fa987e9cc958327a16cf75f",
+  "fixDuration" : 141,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.lingala.zip4j",
+    "dependencyArtifactID" : "zip4j",
+    "previousVersion" : "1.3.2",
+    "newVersion" : "1.3.3",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

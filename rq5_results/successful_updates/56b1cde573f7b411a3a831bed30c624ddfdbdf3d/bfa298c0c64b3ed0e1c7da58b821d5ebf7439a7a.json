@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/fmtn/a/pull/181",
+  "project" : "a",
+  "breakingCommit" : "56b1cde573f7b411a3a831bed30c624ddfdbdf3d",
+  "passingCommit" : "bfa298c0c64b3ed0e1c7da58b821d5ebf7439a7a",
+  "fixDuration" : 299,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.graalvm.js",
+    "dependencyArtifactID" : "js-scriptengine",
+    "previousVersion" : "22.0.0",
+    "newVersion" : "22.3.1",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

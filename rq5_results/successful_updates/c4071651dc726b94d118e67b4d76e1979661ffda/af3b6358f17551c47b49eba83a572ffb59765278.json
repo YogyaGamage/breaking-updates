@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jadler-mocking/jadler/pull/276",
+  "project" : "jadler",
+  "breakingCommit" : "c4071651dc726b94d118e67b4d76e1979661ffda",
+  "passingCommit" : "af3b6358f17551c47b49eba83a572ffb59765278",
+  "fixDuration" : 34,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "2.0.3",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

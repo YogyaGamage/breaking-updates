@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/mathieucarbou/license-maven-plugin/pull/494",
+  "project" : "license-maven-plugin",
+  "breakingCommit" : "b554e03428f2ba877c33a0fece7f0f00fb38a5fa",
+  "passingCommit" : "8d24499a70cbc861c6301846dd638b95bd3a931a",
+  "fixDuration" : 173,
+  "changedFilesCount" : 4,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.shared",
+    "dependencyArtifactID" : "maven-dependency-tree",
+    "previousVersion" : "3.1.1",
+    "newVersion" : "3.2.1",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

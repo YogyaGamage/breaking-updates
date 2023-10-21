@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/354",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "55ce27e3d1dbff348810971e5d3127a9c1f01e17",
+  "passingCommit" : "b5764677f6b22676e60c8cdbf9f9882d765a29f7",
+  "fixDuration" : 219,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.assertj",
+    "dependencyArtifactID" : "assertj-core",
+    "previousVersion" : "3.18.1",
+    "newVersion" : "3.24.0",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/camunda-community-hub/camunda-platform-7-mockito/pull/338",
+  "project" : "camunda-platform-7-mockito",
+  "breakingCommit" : "0ed34fa61c9e31bd4ebb7e4bf12ce792aec96091",
+  "passingCommit" : "91b8bac8340e547387b6b535e7635d8d0d0bbf20",
+  "fixDuration" : 148,
+  "changedFilesCount" : 9,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-context",
+    "previousVersion" : "5.3.23",
+    "newVersion" : "${spring.version}",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

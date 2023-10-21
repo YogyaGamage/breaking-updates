@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/rest-list-parameter-plugin/pull/202",
+  "project" : "rest-list-parameter-plugin",
+  "breakingCommit" : "44b14e90e4baa1b1971327f7167afb1b0f0dd8f0",
+  "passingCommit" : "12d42d2dd9249d11ac394d22d89021f51e89ad95",
+  "fixDuration" : 14,
+  "changedFilesCount" : 6,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.plugins",
+    "dependencyArtifactID" : "jquery3-api",
+    "previousVersion" : "3.6.0-4",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

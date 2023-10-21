@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/s4u/pgpverify-maven-plugin/pull/436",
+  "project" : "pgpverify-maven-plugin",
+  "breakingCommit" : "d0eb69d8fbb6266c96fef6247b3116bc0875f6ae",
+  "passingCommit" : "30a230978d2f5823de1f5f8dac28e0d9c143667c",
+  "fixDuration" : 260,
+  "changedFilesCount" : 29,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.testng",
+    "dependencyArtifactID" : "testng",
+    "previousVersion" : "7.4.0",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

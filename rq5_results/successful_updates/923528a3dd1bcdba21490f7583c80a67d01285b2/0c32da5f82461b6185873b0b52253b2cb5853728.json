@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/s4u/pgpverify-maven-plugin/pull/460",
+  "project" : "pgpverify-maven-plugin",
+  "breakingCommit" : "923528a3dd1bcdba21490f7583c80a67d01285b2",
+  "passingCommit" : "0c32da5f82461b6185873b0b52253b2cb5853728",
+  "fixDuration" : 72,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter-params",
+    "previousVersion" : "5.9.1",
+    "newVersion" : "5.9.3",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

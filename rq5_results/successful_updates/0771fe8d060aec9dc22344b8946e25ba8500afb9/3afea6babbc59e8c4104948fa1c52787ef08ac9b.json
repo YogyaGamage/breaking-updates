@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/apache/opennlp/pull/483",
+  "project" : "opennlp",
+  "breakingCommit" : "0771fe8d060aec9dc22344b8946e25ba8500afb9",
+  "passingCommit" : "3afea6babbc59e8c4104948fa1c52787ef08ac9b",
+  "fixDuration" : null,
+  "changedFilesCount" : 31,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.puppycrawl.tools",
+    "dependencyArtifactID" : "checkstyle",
+    "previousVersion" : "7.2",
+    "newVersion" : "10.6.0",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

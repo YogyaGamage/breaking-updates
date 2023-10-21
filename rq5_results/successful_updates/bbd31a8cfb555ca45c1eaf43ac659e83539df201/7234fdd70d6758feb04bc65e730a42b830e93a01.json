@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/googleapis/java-storage-nio/pull/1244",
+  "project" : "java-storage-nio",
+  "breakingCommit" : "bbd31a8cfb555ca45c1eaf43ac659e83539df201",
+  "passingCommit" : "7234fdd70d6758feb04bc65e730a42b830e93a01",
+  "fixDuration" : 64,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-android",
+    "newVersion" : "32.0.0-android",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

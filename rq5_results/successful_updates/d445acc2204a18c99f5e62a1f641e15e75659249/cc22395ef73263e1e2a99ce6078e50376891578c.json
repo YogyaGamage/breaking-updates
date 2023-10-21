@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/sloccount-plugin/pull/91",
+  "project" : "sloccount-plugin",
+  "breakingCommit" : "d445acc2204a18c99f5e62a1f641e15e75659249",
+  "passingCommit" : "cc22395ef73263e1e2a99ce6078e50376891578c",
+  "fixDuration" : -7,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.332.x",
+    "previousVersion" : "1643.v1cffef51df73",
+    "newVersion" : "1678.vc1feb_6a_3c0f1",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/takari/polyglot-maven/pull/268",
+  "project" : "polyglot-maven",
+  "breakingCommit" : "249c3b394540fde4fcb72f66172af5e02b9c637e",
+  "passingCommit" : "2a8ec4dd3f424a9ff273ebd8b3b4a484aab93328",
+  "fixDuration" : 346,
+  "changedFilesCount" : 7,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.17",
+    "newVersion" : "2.2",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/ORCID/ORCID-Source/pull/6735",
+  "project" : "ORCID-Source",
+  "breakingCommit" : "18102f7a87e7ab8308a86208d47696c060110d0c",
+  "passingCommit" : "3290a31897935fa123831ffc05adbc9eb53fb20a",
+  "fixDuration" : 309,
+  "changedFilesCount" : 207,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.10.0",
+    "newVersion" : "${jackson.version}",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

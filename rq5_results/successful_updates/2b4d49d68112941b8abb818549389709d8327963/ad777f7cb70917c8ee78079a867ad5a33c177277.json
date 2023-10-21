@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/igniterealtime/openfire-hazelcast-plugin/pull/89",
+  "project" : "openfire-hazelcast-plugin",
+  "breakingCommit" : "2b4d49d68112941b8abb818549389709d8327963",
+  "passingCommit" : "ad777f7cb70917c8ee78079a867ad5a33c177277",
+  "fixDuration" : 339,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.hazelcast",
+    "dependencyArtifactID" : "hazelcast",
+    "previousVersion" : "3.12.5",
+    "newVersion" : "3.12.13",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

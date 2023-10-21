@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/forensics-api-plugin/pull/491",
+  "project" : "forensics-api-plugin",
+  "breakingCommit" : "8b1bc48bc378cd22999b9f7d495aa5b00b080770",
+  "passingCommit" : "fef7d0b6f13f47984e5bf5477357ac54be1fc056",
+  "fixDuration" : 1,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.plugins",
+    "dependencyArtifactID" : "echarts-api",
+    "previousVersion" : "5.4.0-4",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/397",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "1750bac074c30b06ae5cdff7a25db401a4f45de2",
+  "passingCommit" : "f941c0deeca7372f6bdfad7dd2a76a844725e1ce",
+  "fixDuration" : 276,
+  "changedFilesCount" : 15,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.10.5.1",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/artipie/http/pull/506",
+  "project" : "http",
+  "breakingCommit" : "4aab2869639226035c999c282f31efba15648ea3",
+  "passingCommit" : "a42b5de208a0061c4b39c2b656cf391775c0fba5",
+  "fixDuration" : -2,
+  "changedFilesCount" : 14,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.artipie",
+    "dependencyArtifactID" : "asto-core",
+    "previousVersion" : "v1.13.0",
+    "newVersion" : "v1.15.3",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/googleapis/java-pubsub-group-kafka-connector/pull/83",
+  "project" : "java-pubsub-group-kafka-connector",
+  "breakingCommit" : "88a20ece4db960e35fbfa39fcb40e61daceb15b1",
+  "passingCommit" : "b583125d487533c55dfaaf7a2e2bad814c6af551",
+  "fixDuration" : 0,
+  "changedFilesCount" : 5,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-pubsublite",
+    "previousVersion" : "0.6.0",
+    "newVersion" : "1.6.3",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

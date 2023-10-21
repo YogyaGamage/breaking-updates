@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/googleapis/java-storage-nio/pull/963",
+  "project" : "java-storage-nio",
+  "breakingCommit" : "5eb6dbe8e9c3dd1ba5e3f52c15608d28fc85e3a6",
+  "passingCommit" : "55188ae9124d1568a07d1575c364208ca32c6be1",
+  "fixDuration" : 0,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-storage",
+    "previousVersion" : "2.10.0",
+    "newVersion" : "2.11.0",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

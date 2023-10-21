@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/codehaus-plexus/plexus-archiver/pull/277",
+  "project" : "plexus-archiver",
+  "breakingCommit" : "ee0827d4c9bf80982241e8c3559dceb8b39063e4",
+  "passingCommit" : "f2ddaa0b65d679e5c98c7d1367818faf3fcea31a",
+  "fixDuration" : 64,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-io",
+    "dependencyArtifactID" : "commons-io",
+    "previousVersion" : "2.11.0",
+    "newVersion" : "2.12.0",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

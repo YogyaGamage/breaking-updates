@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/file-operations-plugin/pull/33",
+  "project" : "file-operations-plugin",
+  "breakingCommit" : "8d55e2e454692c14deeffa58518698ad112602a0",
+  "passingCommit" : "0f38deb62312679186903a084efd4b50c95e8f32",
+  "fixDuration" : 0,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.jenkins.tools.bom",
+    "dependencyArtifactID" : "bom-2.387.x",
+    "previousVersion" : "2133.v2e6c00fe4d61",
+    "newVersion" : "2163.v2d916d90c305",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

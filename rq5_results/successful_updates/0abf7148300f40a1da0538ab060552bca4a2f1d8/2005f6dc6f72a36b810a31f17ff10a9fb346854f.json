@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/xdev-software/biapi/pull/101",
+  "project" : "biapi",
+  "breakingCommit" : "0abf7148300f40a1da0538ab060552bca4a2f1d8",
+  "passingCommit" : "2005f6dc6f72a36b810a31f17ff10a9fb346854f",
+  "fixDuration" : 313,
+  "changedFilesCount" : 88,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "net.sf.jasperreports",
+    "dependencyArtifactID" : "jasperreports",
+    "previousVersion" : "6.18.1",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

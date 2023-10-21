@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/artipie/docker-adapter/pull/545",
+  "project" : "docker-adapter",
+  "breakingCommit" : "d38182a8a0fe1ec039aed97e103864fce717a0be",
+  "passingCommit" : "ea642bb2e36539cf71593337944f02b14db5ee05",
+  "fixDuration" : -4,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.artipie",
+    "dependencyArtifactID" : "http",
+    "previousVersion" : "v1.1.4",
+    "newVersion" : "v1.2.0",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

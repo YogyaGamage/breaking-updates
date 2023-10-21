@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/s4u/pgpverify-maven-plugin/pull/432",
+  "project" : "pgpverify-maven-plugin",
+  "breakingCommit" : "feffea0a79cb081714cad3f02c109ad4972dcbfe",
+  "passingCommit" : "017b0bb1b5ea09a3ea709b35901d072268e49c3c",
+  "fixDuration" : 11,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.assertj",
+    "dependencyArtifactID" : "assertj-core",
+    "previousVersion" : "3.23.1",
+    "newVersion" : "3.24.2",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

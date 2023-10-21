@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/incrementals-tools/pull/56",
+  "project" : "incrementals-tools",
+  "breakingCommit" : "5769bdad76925da568294cb8a40e7d4469699ac3",
+  "passingCommit" : "1bf6d3529f2abe449cf04c290c8394fc3cce0e93",
+  "fixDuration" : 93,
+  "changedFilesCount" : 2,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.kohsuke",
+    "dependencyArtifactID" : "github-api",
+    "previousVersion" : "1.93",
+    "newVersion" : "1.314",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

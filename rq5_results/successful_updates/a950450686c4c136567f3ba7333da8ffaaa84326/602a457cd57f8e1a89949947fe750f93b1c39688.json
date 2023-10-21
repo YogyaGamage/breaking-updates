@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/simplelocalize/simplelocalize-cli/pull/79",
+  "project" : "simplelocalize-cli",
+  "breakingCommit" : "a950450686c4c136567f3ba7333da8ffaaa84326",
+  "passingCommit" : "602a457cd57f8e1a89949947fe750f93b1c39688",
+  "fixDuration" : 527,
+  "changedFilesCount" : 76,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.9.10.5",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

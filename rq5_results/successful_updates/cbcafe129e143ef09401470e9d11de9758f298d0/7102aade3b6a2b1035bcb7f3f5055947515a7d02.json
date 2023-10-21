@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/alphagov/pay-adminusers/pull/2049",
+  "project" : "pay-adminusers",
+  "breakingCommit" : "cbcafe129e143ef09401470e9d11de9758f298d0",
+  "passingCommit" : "7102aade3b6a2b1035bcb7f3f5055947515a7d02",
+  "fixDuration" : 99,
+  "changedFilesCount" : 28,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.11",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

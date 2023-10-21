@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/Samsung/LPVS/pull/148",
+  "project" : "LPVS",
+  "breakingCommit" : "c1fc16b4fe9dfdfa16ce7248fccad0e7d994094d",
+  "passingCommit" : "68a585feee65e03e10e942136d5586207af0950c",
+  "fixDuration" : 136,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-core",
+    "previousVersion" : "5.3.23",
+    "newVersion" : "5.3.27",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

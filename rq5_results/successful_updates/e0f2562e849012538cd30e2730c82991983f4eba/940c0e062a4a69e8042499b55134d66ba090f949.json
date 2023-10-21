@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/323",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "e0f2562e849012538cd30e2730c82991983f4eba",
+  "passingCommit" : "940c0e062a4a69e8042499b55134d66ba090f949",
+  "fixDuration" : 18,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.30",
+    "newVersion" : "1.7.36",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

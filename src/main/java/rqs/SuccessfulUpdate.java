@@ -112,7 +112,7 @@ public class SuccessfulUpdate {
             // additional checks.
             return user.getType().equals("Bot") || userLogin.contains("dependabot") || userLogin.contains("renovate") ?
                     "bot" : "human";
-        } catch (IOException e) {
+        } catch (Exception e) {
             log.error("passingCommitAuthorType could not be parsed", e);
             return "unknown";
         }
@@ -124,7 +124,7 @@ public class SuccessfulUpdate {
             Date brCommitDate = pr.getRepository().getCommit(breakingCommit).getCommitDate();
             Date passingCommitDate = pr.getHead().getCommit().getCommitDate();
             return (int) ((passingCommitDate.getTime() - brCommitDate.getTime()) / (1000 * 60 * 60 * 24));
-        } catch (IOException e) {
+        } catch (Exception e) {
             log.error("Fix Duration could not be parsed", e);
             return null;
         }

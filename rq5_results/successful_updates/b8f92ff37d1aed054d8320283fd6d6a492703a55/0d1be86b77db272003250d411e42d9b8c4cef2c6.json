@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/ASSERT-KTH/flacoco/pull/213",
+  "project" : "flacoco",
+  "breakingCommit" : "b8f92ff37d1aed054d8320283fd6d6a492703a55",
+  "passingCommit" : "0d1be86b77db272003250d411e42d9b8c4cef2c6",
+  "fixDuration" : 5,
+  "changedFilesCount" : 4,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.maven.surefire",
+    "dependencyArtifactID" : "maven-surefire-common",
+    "previousVersion" : "3.0.0-M5",
+    "newVersion" : "3.0.0-M7",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

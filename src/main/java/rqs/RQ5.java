@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.type.MapType;
 import miner.GitHubAPITokenQueue;
 import miner.GitPatchCache;
 import miner.JsonUtils;
+import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 import org.apache.maven.artifact.versioning.ComparableVersion;
 import org.kohsuke.github.*;
@@ -14,6 +15,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
@@ -27,6 +29,7 @@ import java.util.Map;
 public class RQ5 {
 
     private final GitHubAPITokenQueue tokenQueue;
+    private static final File CACHE_DIR = Paths.get(System.getProperty("java.io.tmpdir")).toFile();
     private final OkHttpClient httpConnector;
     private final Logger log = LoggerFactory.getLogger(this.getClass());
     private final String successfulUpdatesPath = "rq5_results/successful_updates";
@@ -35,12 +38,15 @@ public class RQ5 {
 
     public RQ5(Collection<String> apiTokens) throws IOException {
         // We use OkHttp with a 10 MB cache for HTTP requests
+        Cache cache = new Cache(CACHE_DIR, 10 * 1024 * 1024);
         httpConnector = new OkHttpClient.Builder()
                 .connectTimeout(60, TimeUnit.SECONDS)
                 .writeTimeout(120, TimeUnit.SECONDS)
                 .readTimeout(60, TimeUnit.SECONDS)
-                .build();
+                .cache(cache).build();
         tokenQueue = new GitHubAPITokenQueue(apiTokens);
+        String apiToken = apiTokens.iterator().next();
+        GitPatchCache.initialize(httpConnector, apiToken);
     }
 
     public void getPRStates() throws IOException {
@@ -58,35 +64,40 @@ public class RQ5 {
             for (File breakingUpdate : breakingUpdates) {
                 Map<String, String> prState = new HashMap<>();
                 Map<String, Object> bu = JsonUtils.readFromFile(breakingUpdate.toPath(), jsonType);
-                String prUrl = (String) bu.get("url");
-                String[] urlParts = prUrl.split("/");
-                String repoOwner = urlParts[3];
-                String repoName = urlParts[4];
-                int prNumber = Integer.parseInt(urlParts[6]);
-                GitHub github = tokenQueue.getGitHub(httpConnector);
-                GHRepository repository = github.getRepository(repoOwner + "/" + repoName);
-                GHPullRequest pr = repository.getPullRequest(prNumber);
-                GHIssue prAsIssue = repository.getIssue(prNumber);
-                Date prDate = pr.getCreatedAt();
-                prState.put("url", prUrl);
-                prState.put("status", getPRStatus(pr));
-                prState.put("failureCategory", (String) bu.get("failureCategory"));
-                if (prState.get("status").equals("closed")) {
-                    if (Files.notExists(Path.of(successfulUpdatesPath, (String) bu.get("breakingCommit")))) {
-                        Map updatedDependency = (Map) bu.get("updatedDependency");
-                        retrieveFixCommit(repository, prDate, (String) bu.get("breakingCommit"),
-                                (String) updatedDependency.get("dependencyGroupID"),
-                                (String) updatedDependency.get("dependencyArtifactID"),
-                                (String) updatedDependency.get("previousVersion"),
-                                (String) updatedDependency.get("newVersion"));
+                if (!prStates.containsKey((String) bu.get("breakingCommit"))) {
+                    System.out.println(bu.get("breakingCommit"));
+                    String prUrl = (String) bu.get("url");
+                    String[] urlParts = prUrl.split("/");
+                    String repoOwner = urlParts[3];
+                    String repoName = urlParts[4];
+                    int prNumber = Integer.parseInt(urlParts[6]);
+                    GitHub github = tokenQueue.getGitHub(httpConnector);
+                    GHRepository repository = github.getRepository(repoOwner + "/" + repoName);
+                    GHPullRequest pr = repository.getPullRequest(prNumber);
+                    GHIssue prAsIssue = repository.getIssue(prNumber);
+                    Date prDate = pr.getCreatedAt();
+                    prState.put("url", prUrl);
+                    prState.put("status", getPRStatus(pr));
+                    prState.put("failureCategory", (String) bu.get("failureCategory"));
+                    if (prState.get("status").equals("closed")) {
+                        if (Files.notExists(Path.of(successfulUpdatesPath, (String) bu.get("breakingCommit"))) &&
+                                !prStates.containsKey((String) bu.get("breakingCommit"))) {
+                            Map updatedDependency = (Map) bu.get("updatedDependency");
+                            retrieveFixCommit(repository, prDate, (String) bu.get("breakingCommit"),
+                                    (String) updatedDependency.get("dependencyGroupID"),
+                                    (String) updatedDependency.get("dependencyArtifactID"),
+                                    (String) updatedDependency.get("previousVersion"),
+                                    (String) updatedDependency.get("newVersion"));
+                        }
+                        prState.put("closedBy", parseAuthorType(prAsIssue.getClosedBy()));
                     }
-                    prState.put("closedBy", parseAuthorType(prAsIssue.getClosedBy()));
+                    if (prState.get("status").equals("merged")) {
+                        prState.put("mergedBy", parseAuthorType(pr.getMergedBy()));
+                    }
+                    prStates.put((String) bu.get("breakingCommit"), prState);
+                    log.info("pr state {}", prState);
+                    JsonUtils.writeToFile(prStatesFilePath, prStates);
                 }
-                if (prState.get("status").equals("merged")) {
-                    prState.put("mergedBy", parseAuthorType(pr.getMergedBy()));
-                }
-                prStates.put((String) bu.get("breakingCommit"), prState);
-                log.info("pr state {}", prState);
             }
         }
         JsonUtils.writeToFile(prStatesFilePath, prStates);
@@ -184,18 +195,23 @@ public class RQ5 {
 
     private static Boolean changesDependencyVersionInPomXML(GHPullRequest pr, String groupID, String artifactID,
                                                             String previousVersion) {
-        String patch = GitPatchCache.get(pr).orElse("");
-        String formattedGrpID = groupID.replace(".", "\\.");
-        String formattedPrevVersion = previousVersion.replace(".", "\\.");
-        Pattern dependency_version_change =
-                Pattern.compile(String.format("<groupId>%s</groupId>.*?" +
-                                        "<artifactId>%s</artifactId>.*?" +
-                                        ".*^-\\s*<version>%s</version>.*",
-                                formattedGrpID, artifactID, formattedPrevVersion),
-                        Pattern.DOTALL | Pattern.MULTILINE);
-        if (POM_XML_CHANGE.matcher(patch).find() && dependency_version_change.matcher(patch).find()) {
-            return true;
-        } else {
+        try {
+            String patch = GitPatchCache.get(pr).orElse("");
+            String formattedGrpID = groupID.replace(".", "\\.");
+            String formattedPrevVersion = previousVersion.replace(".", "\\.");
+            Pattern dependency_version_change =
+                    Pattern.compile(String.format("<groupId>%s</groupId>.*?" +
+                                            "<artifactId>%s</artifactId>.*?" +
+                                            ".*^-\\s*<version>%s</version>.*",
+                                    formattedGrpID, artifactID, formattedPrevVersion),
+                            Pattern.DOTALL | Pattern.MULTILINE);
+            if (POM_XML_CHANGE.matcher(patch).find() && dependency_version_change.matcher(patch).find()) {
+                return true;
+            } else {
+                GitPatchCache.remove(pr);
+                return false;
+            }
+        } catch (Exception e) {
             GitPatchCache.remove(pr);
             return false;
         }
@@ -248,7 +264,9 @@ public class RQ5 {
                         prs.add(String.valueOf(pr.getHtmlUrl()));
                     });
         }
-        return prs.get(prs.size() - 1);
+        if (prs.size() > 0)
+            return prs.get(prs.size() - 1);
+        return null;
     }
 
     private boolean higherVersionUpdateExists(GHPullRequest pr, String groupID, String artifactID,

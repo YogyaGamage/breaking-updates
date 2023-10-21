@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/RedisGraph/JRedisGraph/pull/161",
+  "project" : "JRedisGraph",
+  "breakingCommit" : "ea03f6488449fcfe8cd0a678b4c64891e1427a32",
+  "passingCommit" : "2c62a61315c102f03267b8f5c8e2b27b13d58ace",
+  "fixDuration" : 36,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "redis.clients",
+    "dependencyArtifactID" : "jedis",
+    "previousVersion" : "3.9.0",
+    "newVersion" : "3.10.0",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

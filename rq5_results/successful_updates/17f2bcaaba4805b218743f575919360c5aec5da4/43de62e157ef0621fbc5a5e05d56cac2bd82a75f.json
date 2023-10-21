@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/micycle1/PGS/pull/94",
+  "project" : "PGS",
+  "breakingCommit" : "17f2bcaaba4805b218743f575919360c5aec5da4",
+  "passingCommit" : "43de62e157ef0621fbc5a5e05d56cac2bd82a75f",
+  "fixDuration" : 8,
+  "changedFilesCount" : 7,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.tinspin",
+    "dependencyArtifactID" : "tinspin-indexes",
+    "previousVersion" : "1.7.1",
+    "newVersion" : "2.0.0",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/equinor/neqsim/pull/604",
+  "project" : "neqsim",
+  "breakingCommit" : "d8e0311e6203d6b15c187e8536ea910b1bbc362f",
+  "passingCommit" : "72d1f265f69cb4c25bfb731950156f60de61d614",
+  "fixDuration" : 251,
+  "changedFilesCount" : 263,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.derby",
+    "dependencyArtifactID" : "derby",
+    "previousVersion" : "10.15.2.0",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

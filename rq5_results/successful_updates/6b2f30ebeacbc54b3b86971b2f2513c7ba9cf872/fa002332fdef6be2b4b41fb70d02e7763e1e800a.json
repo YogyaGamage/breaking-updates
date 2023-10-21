@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/328",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "6b2f30ebeacbc54b3b86971b2f2513c7ba9cf872",
+  "passingCommit" : "fa002332fdef6be2b4b41fb70d02e7763e1e800a",
+  "fixDuration" : 3,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.hibernate.validator",
+    "dependencyArtifactID" : "hibernate-validator",
+    "previousVersion" : "6.2.4.Final",
+    "newVersion" : "6.2.5.Final",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/code-coverage-api-plugin/pull/652",
+  "project" : "code-coverage-api-plugin",
+  "breakingCommit" : "f9763c18c7e1fa54fb67dcf3935aa5106807aba9",
+  "passingCommit" : "7cc49bf2b633a9e8c995ffb2fe1122d5eea2655b",
+  "fixDuration" : 11,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci",
+    "dependencyArtifactID" : "acceptance-test-harness",
+    "previousVersion" : "5504.v485694f31cdf",
+    "newVersion" : "5554.vccd9f0a_22594",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

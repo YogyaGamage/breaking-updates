@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/artipie/http/pull/534",
+  "project" : "http",
+  "breakingCommit" : "60c05d7f413430e47f624cc3c7b13c97466c6bb3",
+  "passingCommit" : "1f1c8d0fb254fcff9642cb5c2b388f3f54895dd5",
+  "fixDuration" : -61,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.junit.jupiter",
+    "dependencyArtifactID" : "junit-jupiter-engine",
+    "previousVersion" : "5.8.1",
+    "newVersion" : "5.9.3",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

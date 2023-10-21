@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/feedzai/pdb/pull/382",
+  "project" : "pdb",
+  "breakingCommit" : "43b3a858b77ec27fc8946aba292001c3de465012",
+  "passingCommit" : "16bd99334a3d9be891fa50f8745f607805fbdefc",
+  "fixDuration" : 141,
+  "changedFilesCount" : 6,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "unknown",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-classic",
+    "previousVersion" : "1.2.11",
+    "newVersion" : "1.2.12",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

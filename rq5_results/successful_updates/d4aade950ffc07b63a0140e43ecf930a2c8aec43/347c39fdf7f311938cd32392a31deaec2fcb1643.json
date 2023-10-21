@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/lookfirst/sardine/pull/371",
+  "project" : "sardine",
+  "breakingCommit" : "d4aade950ffc07b63a0140e43ecf930a2c8aec43",
+  "passingCommit" : "347c39fdf7f311938cd32392a31deaec2fcb1643",
+  "fixDuration" : 0,
+  "changedFilesCount" : 2,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.httpcomponents",
+    "dependencyArtifactID" : "httpclient",
+    "previousVersion" : "4.5.1",
+    "newVersion" : "4.5.14",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

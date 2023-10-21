@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/jenkinsci/github-oauth-plugin/pull/227",
+  "project" : "github-oauth-plugin",
+  "breakingCommit" : "9fd4403e49fe380d2cb348172029c64f1d8f7ecb",
+  "passingCommit" : "a0210a4e433a0e1f34a20a3b6df8f04c90634713",
+  "fixDuration" : 252,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jenkins-ci.plugins",
+    "dependencyArtifactID" : "github-branch-source",
+    "previousVersion" : "2.11.4",
+    "newVersion" : "1701.v00cc8184df93",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

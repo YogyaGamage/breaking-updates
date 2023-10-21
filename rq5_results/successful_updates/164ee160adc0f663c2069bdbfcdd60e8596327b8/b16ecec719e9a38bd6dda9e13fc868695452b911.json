@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/introproventures/graphql-jpa-query/pull/356",
+  "project" : "graphql-jpa-query",
+  "breakingCommit" : "164ee160adc0f663c2069bdbfcdd60e8596327b8",
+  "passingCommit" : "b16ecec719e9a38bd6dda9e13fc868695452b911",
+  "fixDuration" : 142,
+  "changedFilesCount" : 341,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.boot",
+    "dependencyArtifactID" : "spring-boot-dependencies",
+    "previousVersion" : "2.7.7",
+    "newVersion" : "${spring-boot.version}",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

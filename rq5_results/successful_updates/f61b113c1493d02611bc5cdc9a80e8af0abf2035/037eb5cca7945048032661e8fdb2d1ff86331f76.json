@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/kstateome/lti-launch/pull/41",
+  "project" : "lti-launch",
+  "breakingCommit" : "f61b113c1493d02611bc5cdc9a80e8af0abf2035",
+  "passingCommit" : "037eb5cca7945048032661e8fdb2d1ff86331f76",
+  "fixDuration" : 259,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-webmvc",
+    "previousVersion" : "4.1.6.RELEASE",
+    "newVersion" : "5.2.20.RELEASE",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

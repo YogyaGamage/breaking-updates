@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/informatici/openhospital-core/pull/853",
+  "project" : "openhospital-core",
+  "breakingCommit" : "9da8825fbdb24922b94be9eb82eefc73640d8f6b",
+  "passingCommit" : "6b181135db17e931cde6b2cfee70d6a67b414d4d",
+  "fixDuration" : 59,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework.data",
+    "dependencyArtifactID" : "spring-data-jpa",
+    "previousVersion" : "2.7.6",
+    "newVersion" : "2.7.7",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

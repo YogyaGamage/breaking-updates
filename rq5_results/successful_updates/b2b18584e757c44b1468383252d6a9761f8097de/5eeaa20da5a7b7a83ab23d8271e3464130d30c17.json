@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/kokuwaio/micronaut-openapi-codegen/pull/284",
+  "project" : "micronaut-openapi-codegen",
+  "breakingCommit" : "b2b18584e757c44b1468383252d6a9761f8097de",
+  "passingCommit" : "5eeaa20da5a7b7a83ab23d8271e3464130d30c17",
+  "fixDuration" : 179,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-context",
+    "previousVersion" : "5.3.25",
+    "newVersion" : "6.0.11",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

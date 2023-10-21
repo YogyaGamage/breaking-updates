@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/tokuhirom/avans/pull/105",
+  "project" : "avans",
+  "breakingCommit" : "d3c95ff17d26fa7a708166828672ed5de280f029",
+  "passingCommit" : "2fddc3741efe7702f1b3fefb2e63498672a2af98",
+  "fixDuration" : 0,
+  "changedFilesCount" : 3,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.fasterxml.jackson.core",
+    "dependencyArtifactID" : "jackson-databind",
+    "previousVersion" : "2.3.3",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

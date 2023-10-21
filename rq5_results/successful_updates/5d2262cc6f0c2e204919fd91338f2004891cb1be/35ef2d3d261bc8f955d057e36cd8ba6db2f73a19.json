@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/vandmo/dependency-lock-maven-plugin/pull/71",
+  "project" : "dependency-lock-maven-plugin",
+  "breakingCommit" : "5d2262cc6f0c2e204919fd91338f2004891cb1be",
+  "passingCommit" : "35ef2d3d261bc8f955d057e36cd8ba6db2f73a19",
+  "fixDuration" : 0,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.guava",
+    "dependencyArtifactID" : "guava",
+    "previousVersion" : "31.1-jre",
+    "newVersion" : "32.0.0-jre",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

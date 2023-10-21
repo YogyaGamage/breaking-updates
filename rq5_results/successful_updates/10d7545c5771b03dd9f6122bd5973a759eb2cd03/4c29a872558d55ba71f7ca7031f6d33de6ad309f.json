@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/wireapp/lithium/pull/104",
+  "project" : "lithium",
+  "breakingCommit" : "10d7545c5771b03dd9f6122bd5973a759eb2cd03",
+  "passingCommit" : "4c29a872558d55ba71f7ca7031f6d33de6ad309f",
+  "fixDuration" : 188,
+  "changedFilesCount" : 23,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.dropwizard",
+    "dependencyArtifactID" : "dropwizard-client",
+    "previousVersion" : "2.1.5",
+    "newVersion" : "4.0.0",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

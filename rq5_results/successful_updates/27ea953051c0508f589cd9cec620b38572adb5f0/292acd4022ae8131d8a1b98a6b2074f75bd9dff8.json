@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/googleapis/google-cloud-java/pull/9577",
+  "project" : "google-cloud-java",
+  "breakingCommit" : "27ea953051c0508f589cd9cec620b38572adb5f0",
+  "passingCommit" : "292acd4022ae8131d8a1b98a6b2074f75bd9dff8",
+  "fixDuration" : 0,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.cloud",
+    "dependencyArtifactID" : "google-cloud-pubsub-bom",
+    "previousVersion" : "1.123.14",
+    "newVersion" : "1.123.15",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

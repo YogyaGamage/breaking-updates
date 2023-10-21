@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/geosolutions-it/geostore/pull/327",
+  "project" : "geostore",
+  "breakingCommit" : "12e237710199fafa086fd2299edefd5f8f05a63c",
+  "passingCommit" : "189664ab17228b9b5ef20780b7de5ed604649c4d",
+  "fixDuration" : 546,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.h2database",
+    "dependencyArtifactID" : "h2",
+    "previousVersion" : "1.3.175",
+    "newVersion" : "2.2.220",
+    "versionUpdateSimilarity" : "higher",
+    "higherUpdatePR" : null
+  }
+}

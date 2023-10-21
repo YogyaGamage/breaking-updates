@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/International-Data-Spaces-Association/IDS-Messaging-Services/pull/731",
+  "project" : "IDS-Messaging-Services",
+  "breakingCommit" : "90cca141fc95d0510f92e23032c9d03813b074d8",
+  "passingCommit" : "a109ebef108097475323fb635c064330c78c6150",
+  "fixDuration" : 66,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springframework",
+    "dependencyArtifactID" : "spring-core",
+    "previousVersion" : "5.3.24",
+    "newVersion" : "5.3.26",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

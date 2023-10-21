@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/alphagov/pay-adminusers/pull/2050",
+  "project" : "pay-adminusers",
+  "breakingCommit" : "fcac4926cf5adb0de62abda8c386056bcc516f70",
+  "passingCommit" : "87540352de2854a76976c48e777e808c6990e782",
+  "fixDuration" : 305,
+  "changedFilesCount" : 28,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.slf4j",
+    "dependencyArtifactID" : "slf4j-api",
+    "previousVersion" : "1.7.36",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

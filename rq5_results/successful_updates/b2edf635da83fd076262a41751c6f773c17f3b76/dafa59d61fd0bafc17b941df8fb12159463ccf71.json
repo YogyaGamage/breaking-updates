@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/apache/jclouds/pull/170",
+  "project" : "jclouds",
+  "breakingCommit" : "b2edf635da83fd076262a41751c6f773c17f3b76",
+  "passingCommit" : "dafa59d61fd0bafc17b941df8fb12159463ccf71",
+  "fixDuration" : 0,
+  "changedFilesCount" : 3,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "1.32",
+    "newVersion" : "2.0",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}

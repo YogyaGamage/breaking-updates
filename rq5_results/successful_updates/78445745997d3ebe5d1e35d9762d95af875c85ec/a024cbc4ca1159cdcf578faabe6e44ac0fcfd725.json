@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/spotify/missinglink/pull/326",
+  "project" : "missinglink",
+  "breakingCommit" : "78445745997d3ebe5d1e35d9762d95af875c85ec",
+  "passingCommit" : "a024cbc4ca1159cdcf578faabe6e44ac0fcfd725",
+  "fixDuration" : 6,
+  "changedFilesCount" : 1,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.codehaus.plexus",
+    "dependencyArtifactID" : "plexus-utils",
+    "previousVersion" : "3.5.0",
+    "newVersion" : "3.5.1",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

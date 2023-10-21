@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/pac4j/dropwizard-pac4j/pull/397",
+  "project" : "dropwizard-pac4j",
+  "breakingCommit" : "115827c6675f532a4d33751d1a0c0ba394bbd304",
+  "passingCommit" : "f941c0deeca7372f6bdfad7dd2a76a844725e1ce",
+  "fixDuration" : 371,
+  "changedFilesCount" : 15,
+  "passingPRAuthor" : "human",
+  "passingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet",
+    "dependencyArtifactID" : "jakarta.servlet-api",
+    "previousVersion" : "4.0.4",
+    "newVersion" : "unknown",
+    "versionUpdateSimilarity" : "lower",
+    "higherUpdatePR" : null
+  }
+}

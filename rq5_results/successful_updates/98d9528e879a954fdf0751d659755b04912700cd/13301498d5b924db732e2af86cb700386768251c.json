@@ -1,0 +1,18 @@
+{
+  "url" : "https://github.com/charite/jannovar/pull/573",
+  "project" : "jannovar",
+  "breakingCommit" : "98d9528e879a954fdf0751d659755b04912700cd",
+  "passingCommit" : "13301498d5b924db732e2af86cb700386768251c",
+  "fixDuration" : 301,
+  "changedFilesCount" : 2,
+  "passingPRAuthor" : "bot",
+  "passingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "commons-net",
+    "dependencyArtifactID" : "commons-net",
+    "previousVersion" : "3.3",
+    "newVersion" : "3.9.0",
+    "versionUpdateSimilarity" : "same",
+    "higherUpdatePR" : null
+  }
+}
