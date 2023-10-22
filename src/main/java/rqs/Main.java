@@ -5,18 +5,19 @@ import picocli.CommandLine;
 import java.nio.file.Path;
 
 /**
- * This class represents the main entry point to the breaking update reproducer.
- *
- * @author <a href="mailto:gabsko@kth.se">Gabriel Skoglund</a>
- * <p>
- * // TODO: Add option to select a whole directory of files to reproduce
- * // TODO: Add option to redo reproduction (default should be to ignore the breaking update if already reproduced)
+ * This class represents the main entry points to the reproducibility checker and the dependency diff checker.
  */
 public class Main {
 
     public static void main(String[] args) {
-        int exitCode = new CommandLine(new Reproduce()).execute(args);
+        int exitCode = new CommandLine(new CLIEntryPoint()).execute(args);
         System.exit(exitCode);
+    }
+
+    @CommandLine.Command(subcommands = {Reproduce.class, SaveNGetDiff.class},mixinStandardHelpOptions = true,version = "0.1")
+    public static class CLIEntryPoint implements Runnable {
+        @Override
+        public void run() { CommandLine.usage(this, System.out); }
     }
 
     @CommandLine.Command(name = "check-reproducibility", mixinStandardHelpOptions = true, version = "0.1")
@@ -34,6 +35,24 @@ public class Main {
         public void run() {
             ReproducibilityChecker reproducibilityChecker = new ReproducibilityChecker();
             reproducibilityChecker.runReproducibilityCheckerAndCounter(benchmarkDir);
+        }
+    }
+
+    @CommandLine.Command(name = "save-image-n-get-dep-diff", mixinStandardHelpOptions = true, version = "0.1")
+    private static class SaveNGetDiff implements Runnable {
+
+        @CommandLine.Option(
+                names = {"-b", "--benchmark-dir"},
+                paramLabel = "BENCHMARK-DIR",
+                description = "The directory where successful breaking update reproduction information are written.",
+                required = true
+        )
+        Path benchmarkDir;
+
+        @Override
+        public void run() {
+            DepChangeChecker depChangeChecker = new DepChangeChecker();
+            depChangeChecker.runDepChangeChecker(benchmarkDir);
         }
     }
 }
