@@ -30,6 +30,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+class Test {
+    public static void main(String[] args) {
+        DepChangeChecker depChangeChecker = new DepChangeChecker();
+        depChangeChecker.runDepChangeChecker(Path.of("/Users/frank/Documents/Work/PHD/chains-project/yoggya/2/breaking-updates/example"));
+    }
+}
+
 public class DepChangeChecker {
 
     private static final String PRECEDING_COMMIT_CONTAINER_TAG = "-pre";
@@ -91,34 +98,36 @@ public class DepChangeChecker {
                 String breakingContainer = startContainer(breakingImage);
                 copyProject(prevContainer, (String) bu.get("project"), preProjectPath);
                 copyProject(breakingContainer, (String) bu.get("project"), breakingProjectPath);
-                boolean isMultiModule = isMultiModuleMavenProject(String.valueOf(preProjectPath));
-                if (!isMultiModule || bu.get("failureCategory").equals("TEST_FAILURE")) {
-                    try {
-                        if (!depCountResults.containsKey((String) bu.get("breakingCommit"))) {
-                            System.out.println("making tree");
-                            File preTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-pre.txt");
-                            downloadDepTree(preProjectPath.toAbsolutePath() + File.separator + bu.get("project"), preTreeFile.getAbsolutePath(), isMultiModule);
+//                boolean isMultiModule = isMultiModuleMavenProject(String.valueOf(preProjectPath));
+//                if (!isMultiModule || bu.get("failureCategory").equals("TEST_FAILURE")) {
+                try {
+                    if (!depCountResults.containsKey((String) bu.get("breakingCommit"))) {
+                        System.out.println("making tree");
+                        File preTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "/" + bu.get("breakingCommit") + "-pre");
+                        downloadDepTree(preProjectPath.toAbsolutePath() + File.separator + bu.get("project"), preTreeFile.getAbsolutePath());
 
-                            File breTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-bre.txt");
-                            downloadDepTree(breakingProjectPath.toAbsolutePath() + File.separator + bu.get("project"), breTreeFile.getAbsolutePath(), isMultiModule);
+                        File breTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "/" + bu.get("breakingCommit") + "-bre");
+                        downloadDepTree(breakingProjectPath.toAbsolutePath() + File.separator + bu.get("project"), breTreeFile.getAbsolutePath());
 
-                            File diffFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-diff.txt");
+                        File diffFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-diff.txt");
 
-                            DependencyCounts allDepCounts = null;
+                        DependencyCounts allDepCounts = null;
 
-                            allDepCounts = countChangedDependencies(preTreeFile, breTreeFile, diffFile);
+//                            allDepCounts = countChangedDependencies(preTreeFile, breTreeFile, diffFile);
 
-                            depCount.put("artifactChanges", allDepCounts.artifactChanges);
-                            depCount.put("versionChanges", allDepCounts.versionChanges);
-                            depCount.put("scopeChanges", allDepCounts.scopeChanges);
-                            depCountResults.put((String) bu.get("breakingCommit"), depCount);
+                        depCount.put("artifactChanges", 0);
+                        depCount.put("versionChanges", 0);
+                        depCount.put("scopeChanges", 0);
 
-                            JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-                        }
-                    } catch (IOException | InterruptedException e) {
-                        e.printStackTrace();
+
+                        depCountResults.put((String) bu.get("breakingCommit"), depCount);
+
+                        JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
                     }
+                } catch (IOException | InterruptedException e) {
+                    e.printStackTrace();
                 }
+//                }
                 removeProject(prevImage, breakingImage, preProjectPath, breakingProjectPath);
             }
         }
@@ -149,7 +158,8 @@ public class DepChangeChecker {
             e.printStackTrace();
         }
 
-        CreateContainerCmd containerCmd = dockerClient.createContainerCmd(image);
+        CreateContainerCmd containerCmd = dockerClient.createContainerCmd(image)
+                .withCmd("sh", "-c", "echo");
         CreateContainerResponse container = containerCmd.exec();
         String containerId = container.getId();
         log.info("Created container for " + image);
@@ -158,7 +168,7 @@ public class DepChangeChecker {
 
 
     private Path copyProject(String containerId, String project, Path dir) {
-        dockerClient.startContainerCmd(containerId).exec();
+//        dockerClient.startContainerCmd(containerId).exec();
         containers.add(containerId);
 
         try (InputStream dependencyStream = dockerClient.copyArchiveFromContainerCmd(containerId, "/" + project)
@@ -187,18 +197,31 @@ public class DepChangeChecker {
         }
     }
 
-    private void downloadDepTree(String projectPath, String treeFilePath, boolean isMultiModule) throws IOException, InterruptedException {
+    private void downloadDepTree(String projectPath, String treeFilePath) throws IOException, InterruptedException {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        if (isMultiModule) {
-            processBuilder.command("mvn", "compile", "-f", projectPath,
-                    "dependency:tree", "-DoutputFile=" + treeFilePath, "-DappendOutput=true");
-        } else {
-            processBuilder.command("mvn", "-f", projectPath,
-                    "dependency:tree", "-DoutputFile=" + treeFilePath, "-DappendOutput=true");
-        }
+//        if (isMultiModule) {
+        processBuilder.command("mvn", "depgraph:aggregate", "-f", projectPath,
+                "-DgraphFormat=json", "-Ddetail=true", "-DoutputFileName=" + treeFilePath);
+
         Process process = processBuilder.start();
 
         int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            log.error("Process for creating the dependency tree exited with error code {} for the tree in {}",
+                    exitCode,
+                    treeFilePath);
+        }
+
+
+        processBuilder.command("mvn", "depgraph:aggregate", "-f", projectPath,
+                "-DgraphFormat=text", "-Ddetail=true", "-DshowVersions=true", "-DoutputFileName=" + treeFilePath);
+//        } else {
+//            processBuilder.command("mvn", "-f", projectPath,
+//                    "dependency:tree", "-DoutputFile=" + treeFilePath, "-DappendOutput=true");
+//        }
+        process = processBuilder.start();
+
+        exitCode = process.waitFor();
         if (exitCode != 0) {
             log.error("Process for creating the dependency tree exited with error code {} for the tree in {}",
                     exitCode,
@@ -267,10 +290,20 @@ public class DepChangeChecker {
 
     private void removeProject(String prevImage, String breakingImage, Path preProjectPath, Path breProjectPath) {
         try {
-            // dockerClient.removeImageCmd(prevImage).withForce(true).exec();
-            // dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
-            FileUtils.forceDelete(new File(preProjectPath.toUri()));
-            FileUtils.forceDelete(new File(breProjectPath.toUri()));
+
+            containers.forEach(container -> {
+                try {
+                    dockerClient.removeContainerCmd(container).withForce(true).exec();
+                } catch (Exception e) {
+                    log.error("Container {} could not be deleted.", container, e);
+                }
+            });
+
+
+            dockerClient.removeImageCmd(prevImage).withForce(true).exec();
+            dockerClient.removeImageCmd(breakingImage).withForce(true).exec();
+//            FileUtils.forceDelete(new File(preProjectPath.toUri()));
+//            FileUtils.forceDelete(new File(breProjectPath.toUri()));
         } catch (Exception e) {
             log.error("Project {} could not be deleted.", breProjectPath, e);
         }
