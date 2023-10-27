@@ -1,0 +1,63 @@
+org.openpdfsign:openpdfsign:0.1.0-SNAPSHOT:jar:compile
++- org.apache.pdfbox:pdfbox:2.0.26:jar:compile
+|  +- org.apache.pdfbox:fontbox:2.0.26:jar:compile
+|  \- commons-logging:commons-logging:1.2:jar:compile
++- eu.europa.ec.joinup.sd-dss:dss-pades:5.9:jar:compile
+|  \- eu.europa.ec.joinup.sd-dss:dss-cades:5.9:jar:compile
+|     \- eu.europa.ec.joinup.sd-dss:dss-document:5.9:jar:compile
+|        \- eu.europa.ec.joinup.sd-dss:validation-policy:5.9:jar:compile
+|           +- eu.europa.ec.joinup.sd-dss:dss-policy-jaxb:5.9:jar:compile
+|           |  \- eu.europa.ec.joinup.sd-dss:dss-jaxb-parsers:5.9:jar:compile
+|           |     +- eu.europa.ec.joinup.sd-dss:dss-jaxb-common:5.9:jar:compile
+|           |     |  \- eu.europa.ec.joinup.sd-dss:dss-alert:5.9:jar:compile
+|           |     +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.2:jar:compile
+|           |     |  \- jakarta.activation:jakarta.activation-api:1.2.1:jar:compile
+|           |     \- org.glassfish.jaxb:jaxb-runtime:2.3.2:jar:runtime
+|           |        +- org.glassfish.jaxb:txw2:2.3.2:jar:runtime
+|           |        +- com.sun.istack:istack-commons-runtime:3.0.8:jar:runtime
+|           |        +- org.jvnet.staxex:stax-ex:1.8.1:jar:runtime
+|           |        \- com.sun.xml.fastinfoset:FastInfoset:1.2.16:jar:runtime
+|           +- eu.europa.ec.joinup.sd-dss:dss-diagnostic-jaxb:5.9:jar:compile
+|           +- eu.europa.ec.joinup.sd-dss:dss-simple-report-jaxb:5.9:jar:compile
+|           +- eu.europa.ec.joinup.sd-dss:dss-simple-certificate-report-jaxb:5.9:jar:compile
+|           +- eu.europa.ec.joinup.sd-dss:dss-detailed-report-jaxb:5.9:jar:compile
+|           +- eu.europa.ec.joinup.sd-dss:specs-validation-report:5.9:jar:compile
+|           |  +- eu.europa.ec.joinup.sd-dss:specs-xmldsig:5.9:jar:compile
+|           |  +- eu.europa.ec.joinup.sd-dss:specs-xades:5.9:jar:compile
+|           |  \- eu.europa.ec.joinup.sd-dss:specs-trusted-list:5.9:jar:compile
+|           \- eu.europa.ec.joinup.sd-dss:dss-i18n:5.9:jar:compile
++- eu.europa.ec.joinup.sd-dss:dss-pades-pdfbox:5.10.2:jar:compile
++- eu.europa.ec.joinup.sd-dss:dss-token:5.9:jar:compile
+|  +- eu.europa.ec.joinup.sd-dss:dss-model:5.9:jar:compile
+|  |  \- eu.europa.ec.joinup.sd-dss:dss-enumerations:5.9:jar:compile
+|  \- org.slf4j:slf4j-api:1.7.31:jar:compile
++- eu.europa.ec.joinup.sd-dss:dss-utils-apache-commons:5.9:jar:compile
+|  +- eu.europa.ec.joinup.sd-dss:dss-utils:5.9:jar:compile
+|  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  +- org.apache.commons:commons-collections4:4.4:jar:compile
+|  +- commons-codec:commons-codec:1.15:jar:compile
+|  \- commons-io:commons-io:2.10.0:jar:compile
++- eu.europa.ec.joinup.sd-dss:dss-service:5.9:jar:compile
+|  +- eu.europa.ec.joinup.sd-dss:dss-spi:5.9:jar:compile
+|  |  +- eu.europa.ec.joinup.sd-dss:dss-crl-parser:5.9:jar:compile
+|  |  \- org.bouncycastle:bcpkix-jdk15on:1.69:jar:compile
+|  |     \- org.bouncycastle:bcutil-jdk15on:1.69:jar:compile
+|  \- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|     \- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
++- com.beust:jcommander:1.82:jar:compile
++- org.projectlombok:lombok:1.18.24:jar:provided
++- com.github.vandeseer:easytable:0.8.5:jar:compile
++- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+|  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  \- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|     \- org.junit.platform:junit-platform-engine:1.8.2:jar:test
++- org.bouncycastle:bcprov-jdk15on:1.70:jar:compile
++- org.apache.commons:commons-configuration2:2.8.0:jar:compile
+|  \- org.apache.commons:commons-text:1.9:jar:compile
++- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  \- commons-collections:commons-collections:3.2.2:jar:compile
+\- org.slf4j:slf4j-simple:1.7.21:jar:compile

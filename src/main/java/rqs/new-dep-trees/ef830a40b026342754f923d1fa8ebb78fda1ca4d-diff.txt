@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.apache.commons:commons-lang3:3.12.0:jar:compile
+ org.apache.commons:commons-text:1.9:jar:compile
+ io.jenkins.plugins:jquery3-api:3.6.4-1:jar:compile
+ io.jenkins.plugins:commons-lang3-api:3.12.0-36.vd97de6465d5b_:jar:compile
+ io.jenkins.plugins:commons-text-api:1.9-19.v8df45c678366:jar:compile
+Removed Dependencies:
+ io.jenkins.plugins:jquery3-api:3.6.0-4:jar:compile

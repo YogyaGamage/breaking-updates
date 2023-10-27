@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.eclipse.jetty:jetty-server:9.4.50.v20221201:jar:provided
+Removed Dependencies:
+ org.eclipse.jetty:jetty-server:9.4.35.v20201120:jar:provided

@@ -1,0 +1,9 @@
+Added Dependencies:
+ wtf.g4s8:tuples:0.1.2:jar:compile
+ io.github.resilience4j:resilience4j-core:1.7.1:jar:compile
+ com.artipie:asto:v1.11.0:jar:compile
+ io.github.resilience4j:resilience4j-retry:1.7.1:jar:compile
+Removed Dependencies:
+ io.github.resilience4j:resilience4j-retry:1.5.0:jar:compile
+ io.github.resilience4j:resilience4j-core:1.5.0:jar:compile
+ com.artipie:asto:v1.8.0:jar:compile

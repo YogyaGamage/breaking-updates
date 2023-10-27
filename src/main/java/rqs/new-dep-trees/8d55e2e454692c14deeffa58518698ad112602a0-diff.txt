@@ -1,0 +1,28 @@
+Added Dependencies:
+ com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.15.2:jar:compile
+ com.fasterxml.jackson.core:jackson-core:2.15.2:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.2:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.15.2:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.15.2:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.15.2:jar:compile
+ com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.2:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2:jar:compile
+ com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.15.2:jar:compile
+ org.jenkins-ci.plugins:jackson2-api:2.15.2-350.v0c2f3f8fc595:jar:compile
+ org.jenkins-ci.plugins:branch-api:2.1109.vdf225489a_16d:jar:compile (optional)
+ com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2:jar:compile
+Removed Dependencies:
+ org.jenkins-ci.plugins:jackson2-api:2.15.1-344.v6eb_55303dc3e:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.15.1:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.1:jar:compile
+ com.fasterxml.jackson.core:jackson-core:2.15.1:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.15.1:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.15.1:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.15.1:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.1:jar:compile
+ com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.1:jar:compile
+ com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.15.1:jar:compile
+ org.jenkins-ci.plugins:branch-api:2.1105.v472604208c55:jar:compile (optional)
+ com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.1:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.1:jar:compile

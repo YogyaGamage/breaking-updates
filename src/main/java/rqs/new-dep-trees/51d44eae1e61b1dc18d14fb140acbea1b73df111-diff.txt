@@ -1,0 +1,6 @@
+Added Dependencies:
+ net.bytebuddy:byte-buddy:1.12.20:jar:test
+ org.assertj:assertj-core:3.24.0:jar:test
+Removed Dependencies:
+ org.assertj:assertj-core:3.23.1:jar:test
+ net.bytebuddy:byte-buddy:1.12.10:jar:test

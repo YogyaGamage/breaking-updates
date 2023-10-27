@@ -1,0 +1,10 @@
+Added Dependencies:
+ com.google.auth:google-auth-library-credentials:1.18.0:jar:compile
+ com.google.api:gax:2.30.0:jar:compile
+ com.google.auth:google-auth-library-oauth2-http:1.18.0:jar:compile
+ com.google.api:api-common:2.13.0:jar:compile
+Removed Dependencies:
+ com.google.auth:google-auth-library-credentials:1.6.0:jar:compile
+ com.google.api:gax:2.16.0:jar:compile
+ com.google.api:api-common:2.1.5:jar:compile
+ com.google.auth:google-auth-library-oauth2-http:1.6.0:jar:compile

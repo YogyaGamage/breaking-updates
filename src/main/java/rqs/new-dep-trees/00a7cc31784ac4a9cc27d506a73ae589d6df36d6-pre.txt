@@ -1,0 +1,91 @@
+org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT:maven-plugin:compile
++- org.apache.maven:maven-plugin-api:3.8.3:jar:compile
+|  +- org.apache.maven:maven-model:3.8.3:jar:compile
+|  +- org.apache.maven:maven-artifact:3.8.3:jar:compile
+|  |  \- org.apache.commons:commons-lang3:3.8.1:jar:compile
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:jar:compile
+|  |  +- javax.annotation:javax.annotation-api:1.2:jar:compile
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:compile
+|  |  \- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:compile
+|  +- org.codehaus.plexus:plexus-utils:3.3.0:jar:compile
+|  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:compile
++- org.apache.maven:maven-project:2.2.1:jar:compile
+|  +- org.apache.maven:maven-settings:2.2.1:jar:compile
+|  +- org.apache.maven:maven-profile:2.2.1:jar:compile
+|  +- org.apache.maven:maven-artifact-manager:2.2.1:jar:compile
+|  |  +- org.apache.maven:maven-repository-metadata:2.2.1:jar:compile
+|  |  +- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6:jar:compile
+|  |  \- backport-util-concurrent:backport-util-concurrent:3.1:jar:compile
+|  +- org.apache.maven:maven-plugin-registry:2.2.1:jar:compile
+|  +- org.codehaus.plexus:plexus-interpolation:1.11:jar:compile
+|  \- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1:jar:compile
+|     +- junit:junit:3.8.1:jar:compile
+|     \- classworlds:classworlds:1.1-alpha-2:jar:compile
+\- net.sf.saxon:Saxon-HE:9.9.1-8:jar:compile
+org.quickfixj:quickfixj-dictgenerator:3.0.0-SNAPSHOT:bundle:compile
++- org.dom4j:dom4j:2.1.3:jar:compile (optional)
+\- jaxen:jaxen:1.2.0:jar:runtime
+org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:bundle:compile
++- junit:junit:4.13.1:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.mockito:mockito-core:3.12.4:jar:test
+|  +- net.bytebuddy:byte-buddy:1.11.13:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.11.13:jar:test
+|  \- org.objenesis:objenesis:3.2:jar:test
++- org.hamcrest:hamcrest-all:1.1:jar:test
++- hsqldb:hsqldb:1.8.0.10:jar:test
++- tyrex:tyrex:1.0.1:jar:test
++- org.slf4j:slf4j-jdk14:1.7.32:jar:test
++- org.apache.mina:mina-core:2.1.5:jar:compile
++- org.slf4j:slf4j-api:1.7.32:jar:compile
++- com.cloudhopper.proxool:proxool:0.9.1:jar:compile (optional)
++- com.cloudhopper.proxool:proxool-cglib:0.9.1:jar:compile (optional)
++- org.slf4j:jcl-over-slf4j:1.7.32:jar:runtime (optional)
+\- com.sleepycat:je:18.3.12:jar:compile (optional)
+org.quickfixj:quickfixj-examples-executor:3.0.0-SNAPSHOT:bundle:compile
++- org.quickfixj:quickfixj-messages-all:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
+|     +- org.apache.mina:mina-core:2.1.5:jar:compile
+|     \- org.slf4j:slf4j-api:1.7.32:jar:compile
+\- org.slf4j:slf4j-jdk14:1.7.32:jar:runtime
+org.quickfixj:quickfixj-examples-ordermatch:3.0.0-SNAPSHOT:bundle:compile
++- org.quickfixj:quickfixj-messages-all:3.0.0-SNAPSHOT:jar:compile
+\- org.slf4j:slf4j-jdk14:1.7.32:jar:runtime
+org.quickfixj:quickfixj-examples-banzai:3.0.0-SNAPSHOT:bundle:compile
++- org.quickfixj:quickfixj-messages-all:3.0.0-SNAPSHOT:jar:compile
+\- org.slf4j:slf4j-jdk14:1.7.32:jar:runtime
+org.quickfixj:quickfixj-all:3.0.0-SNAPSHOT:bundle:compile
++- org.quickfixj:quickfixj-messages-all:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.maven:maven-plugin-api:3.8.3:jar:compile
+|  +- org.apache.maven:maven-project:2.2.1:jar:compile
+|  \- net.sf.saxon:Saxon-HE:9.9.1-8:jar:compile
+\- org.quickfixj:quickfixj-dictgenerator:3.0.0-SNAPSHOT:jar:compile
+   \- jaxen:jaxen:1.2.0:jar:runtime
+org.quickfixj:quickfixj-distribution:3.0.0-SNAPSHOT:pom:compile
++- org.quickfixj:quickfixj-codegenerator:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-dictgenerator:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-all:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-examples-banzai:3.0.0-SNAPSHOT:jar:compile
+|  \- org.slf4j:slf4j-jdk14:1.7.32:jar:runtime
++- org.quickfixj:quickfixj-examples-executor:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-examples-ordermatch:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-all:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix50sp2:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix50sp1:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fixt11:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix50:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix44:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix43:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix42:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
++- org.quickfixj:quickfixj-messages-fix41:3.0.0-SNAPSHOT:jar:compile
+|  \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile
+\- org.quickfixj:quickfixj-messages-fix40:3.0.0-SNAPSHOT:jar:compile
+   \- org.quickfixj:quickfixj-core:3.0.0-SNAPSHOT:jar:compile

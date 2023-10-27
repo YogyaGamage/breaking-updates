@@ -1,0 +1,4 @@
+Added Dependencies:
+ io.jenkins.plugins:select2-api:4.0.13-8:jar:compile
+Removed Dependencies:
+ io.jenkins.plugins:select2-api:4.0.13-7:jar:compile

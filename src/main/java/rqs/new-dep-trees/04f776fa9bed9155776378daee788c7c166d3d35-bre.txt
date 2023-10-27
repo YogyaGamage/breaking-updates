@@ -1,0 +1,105 @@
+net.snowflake:snowflake-jdbc:3.13.33:jar:compile
++- com.amazonaws:aws-java-sdk-core:1.12.327:jar:compile
+|  +- software.amazon.ion:ion-java:1.0.2:jar:compile
+|  \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.5:jar:compile
++- com.amazonaws:aws-java-sdk-kms:1.12.327:jar:compile
+|  \- com.amazonaws:jmespath-java:1.12.327:jar:compile
++- com.amazonaws:aws-java-sdk-s3:1.12.327:jar:compile
++- com.fasterxml.jackson.core:jackson-annotations:2.13.5:jar:compile
++- com.fasterxml.jackson.core:jackson-core:2.13.5:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.5:jar:compile
++- com.google.api:gax:2.30.0:jar:compile
+|  +- com.google.api:api-common:2.13.0:jar:compile
+|  +- com.google.auth:google-auth-library-credentials:1.18.0:jar:compile
+|  +- com.google.api.grpc:proto-google-common-protos:2.8.4:jar:compile
+|  +- com.google.protobuf:protobuf-java:3.19.6:jar:compile
+|  +- org.threeten:threetenbp:1.6.0:jar:compile
+|  +- io.opencensus:opencensus-api:0.31.0:jar:compile
+|  \- com.google.auth:google-auth-library-oauth2-http:1.18.0:jar:compile
++- com.google.cloud:google-cloud-core:2.6.0:jar:compile
+|  +- com.google.auto.value:auto-value-annotations:1.9:jar:compile
+|  +- com.google.protobuf:protobuf-java-util:3.19.6:jar:compile
+|  +- com.google.api.grpc:proto-google-iam-v1:1.3.1:jar:compile
+|  \- com.google.http-client:google-http-client-gson:1.41.7:jar:compile
++- com.google.cloud:google-cloud-storage:2.6.2:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- org.checkerframework:checker-qual:3.21.4:jar:compile
+|  +- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  +- io.opencensus:opencensus-contrib-http-util:0.31.0:jar:compile
+|  +- com.google.http-client:google-http-client-jackson2:1.41.7:jar:compile
+|  +- com.google.api-client:google-api-client:1.34.0:jar:compile
+|  +- com.google.oauth-client:google-oauth-client:1.33.3:jar:compile
+|  +- com.google.http-client:google-http-client-apache-v2:1.41.7:jar:compile
+|  +- com.google.apis:google-api-services-storage:v1-rev20220401-1.32.1:jar:compile
+|  +- com.google.code.gson:gson:2.9.0:jar:compile
+|  +- com.google.cloud:google-cloud-core-http:2.6.0:jar:compile
+|  +- com.google.http-client:google-http-client-appengine:1.41.7:jar:compile
+|  +- com.google.api:gax-httpjson:0.101.0:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  \- io.grpc:grpc-context:1.45.2:jar:compile
++- com.google.code.findbugs:jsr305:3.0.2:jar:compile
++- com.google.guava:guava:31.1-jre:jar:compile
+|  \- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
++- com.google.http-client:google-http-client:1.41.7:jar:compile
++- com.microsoft.azure:azure-storage:5.0.0:jar:compile
+|  \- com.microsoft.azure:azure-keyvault-core:0.8.0:jar:compile
++- com.nimbusds:nimbus-jose-jwt:9.21:jar:compile
+|  \- com.github.stephenc.jcip:jcip-annotations:1.0-1:jar:compile
++- com.yammer.metrics:metrics-core:2.2.0:jar:compile
++- com.yammer.metrics:metrics-servlet:2.2.0:jar:compile
++- commons-codec:commons-codec:1.15:jar:compile
++- commons-io:commons-io:2.11.0:jar:compile
++- commons-logging:commons-logging:1.2:jar:compile
++- javax.servlet:javax.servlet-api:3.1.0:jar:compile
++- joda-time:joda-time:2.8.1:jar:compile
++- net.minidev:json-smart:2.4.9:jar:compile
+|  \- net.minidev:accessors-smart:2.4.9:jar:compile
+|     \- org.ow2.asm:asm:9.3:jar:compile
++- net.snowflake:snowflake-common:5.1.4:jar:compile
++- org.apache.arrow:arrow-memory-core:10.0.1:jar:compile
++- org.apache.arrow:arrow-vector:10.0.1:jar:compile
+|  \- io.netty:netty-common:4.1.82.Final:jar:compile
++- org.apache.httpcomponents:httpclient:4.5.14:jar:compile
++- org.apache.httpcomponents:httpcore:4.4.16:jar:compile
++- org.apache.tika:tika-core:2.4.1:jar:compile
++- org.bouncycastle:bcpkix-jdk15on:1.70:jar:compile
+|  \- org.bouncycastle:bcutil-jdk15on:1.70:jar:compile
++- org.bouncycastle:bcprov-jdk15on:1.70:jar:compile
++- org.jsoup:jsoup:1.15.3:jar:compile
++- org.slf4j:slf4j-api:2.0.6:jar:provided
++- net.java.dev.jna:jna:5.13.0:jar:provided
++- net.java.dev.jna:jna-platform:5.13.0:jar:provided
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5:jar:runtime
++- com.google.flatbuffers:flatbuffers-java:1.12.0:jar:runtime
++- io.netty:netty-buffer:4.1.82.Final:jar:runtime
++- org.apache.arrow:arrow-format:10.0.1:jar:runtime
++- org.apache.arrow:arrow-memory-netty:10.0.1:jar:runtime
++- org.apache.arrow:arrow-memory-unsafe:10.0.1:jar:runtime
++- ch.qos.logback:logback-classic:1.3.6:jar:test
++- ch.qos.logback:logback-core:1.3.6:jar:test
++- com.amazonaws:aws-java-sdk-sns:1.12.327:jar:test
+|  \- com.amazonaws:aws-java-sdk-sqs:1.12.327:jar:test
++- com.mchange:c3p0:0.9.5.4:jar:test
+|  \- com.mchange:mchange-commons-java:0.2.15:jar:test
++- com.zaxxer:HikariCP:2.4.3:jar:test
++- commons-cli:commons-cli:1.2:jar:test
++- commons-dbcp:commons-dbcp:1.4:jar:test
++- commons-pool:commons-pool:1.5.4:jar:test
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:2.2:jar:test
++- org.apache.avro:avro:1.8.1:jar:test
+|  +- org.codehaus.jackson:jackson-core-asl:1.9.13:jar:test
+|  +- org.codehaus.jackson:jackson-mapper-asl:1.9.13:jar:test
+|  +- com.thoughtworks.paranamer:paranamer:2.7:jar:test
+|  +- org.xerial.snappy:snappy-java:1.1.1.3:jar:test
+|  \- org.tukaani:xz:1.9:jar:test
++- org.apache.commons:commons-compress:1.21:jar:test
++- org.apache.commons:commons-lang3:3.12.0:jar:test
++- org.apache.commons:commons-text:1.10.0:jar:test
++- org.hamcrest:hamcrest:2.2:jar:test
++- org.mockito:mockito-core:3.5.6:jar:test
+|  +- net.bytebuddy:byte-buddy:1.10.13:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.10.13:jar:test
+|  \- org.objenesis:objenesis:3.1:jar:test
+\- org.mockito:mockito-inline:3.5.6:jar:test

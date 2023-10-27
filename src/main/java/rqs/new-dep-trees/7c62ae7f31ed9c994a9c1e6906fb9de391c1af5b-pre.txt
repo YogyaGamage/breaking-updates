@@ -1,0 +1,86 @@
+org.onebusaway:onebusaway-gtfs-hibernate-cli:1.3.109-SNAPSHOT:jar:compile
++- org.onebusaway:onebusaway-gtfs-hibernate:1.3.109-SNAPSHOT:jar:compile
+|  +- org.onebusaway:onebusaway-gtfs:1.3.109-SNAPSHOT:jar:compile
+|  |  +- org.onebusaway:onebusaway-csv-entities:1.1.6:jar:compile
+|  |  |  +- commons-beanutils:commons-beanutils:1.7.0:jar:compile
+|  |  |  |  \- commons-logging:commons-logging:1.0.3:jar:compile
+|  |  |  \- org.slf4j:slf4j-api:1.7.5:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.12.0:jar:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.12.0:jar:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:2.12.0:jar:compile
+|  |  +- de.grundid.opendatalab:geojson-jackson:1.8.1:jar:compile
+|  |  +- org.slf4j:slf4j-log4j12:1.7.5:jar:test
+|  |  |  +- log4j:log4j:1.2.17:jar:test
+|  |  |  \- org.slf4j:slf4j-api:1.7.5:jar:compile
+|  |  +- junit:junit:4.4:jar:test
+|  |  \- org.mockito:mockito-core:1.8.0:jar:test
+|  |     +- org.hamcrest:hamcrest-core:1.1:jar:test
+|  |     \- org.objenesis:objenesis:1.0:jar:test
+|  +- org.hibernate:hibernate-core:4.0.1.Final:jar:compile
+|  |  +- commons-collections:commons-collections:3.2.1:jar:compile
+|  |  +- antlr:antlr:2.7.7:jar:compile
+|  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final:jar:compile
+|  |  +- dom4j:dom4j:1.6.1:jar:compile
+|  |  |  \- xml-apis:xml-apis:1.0.b2:jar:compile
+|  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final:jar:compile
+|  |  +- org.jboss.logging:jboss-logging:3.1.0.CR2:jar:compile
+|  |  +- org.javassist:javassist:3.15.0-GA:jar:compile
+|  |  \- org.hibernate.common:hibernate-commons-annotations:4.0.1.Final:jar:compile
+|  +- org.hsqldb:hsqldb:2.3.2:jar:test
+|  +- mysql:mysql-connector-java:3.1.14:jar:test
+|  +- junit:junit:4.4:jar:test
+|  \- org.slf4j:slf4j-log4j12:1.7.5:jar:test
++- commons-cli:commons-cli:1.2:jar:compile
+\- org.slf4j:slf4j-log4j12:1.7.5:jar:compile
+   +- org.slf4j:slf4j-api:1.7.5:jar:compile
+   \- log4j:log4j:1.2.17:jar:compile
+org.onebusaway:onebusaway-gtfs-transformer-cli-aws:1.3.109-SNAPSHOT:jar:compile
++- org.onebusaway:onebusaway-gtfs-transformer-cli:1.3.109-SNAPSHOT:jar:compile
+|  +- org.onebusaway:onebusaway-gtfs-transformer:1.3.109-SNAPSHOT:jar:compile
+|  |  +- org.onebusaway:onebusaway-gtfs:1.3.109-SNAPSHOT:jar:compile
+|  |  +- org.onebusaway:onebusaway-collections:1.2.8:jar:compile
+|  |  |  +- io.github.classgraph:classgraph:4.8.105:jar:compile
+|  |  |  \- junit:junit:4.4:jar:test
+|  |  +- org.json:json:20090211:jar:compile
+|  |  +- junit:junit:4.4:jar:test
+|  |  +- org.slf4j:slf4j-log4j12:1.7.5:jar:test
+|  |  +- org.mockito:mockito-core:1.8.0:jar:test
+|  |  +- com.kurtraschke:wsf-api:1.0:jar:compile
+|  |  +- org.onebusaway:onebusaway-cloud-noop:0.0.10:jar:compile
+|  |  |  +- org.onebusaway:onebusaway-cloud-api:0.0.10:jar:compile
+|  |  |  \- commons-beanutils:commons-beanutils:1.7.0:jar:compile
+|  |  +- javax.xml.bind:jaxb-api:2.3.0:jar:compile
+|  |  +- com.sun.xml.bind:jaxb-core:2.3.0:jar:compile
+|  |  \- com.sun.xml.bind:jaxb-impl:2.3.0:jar:compile
+|  +- commons-cli:commons-cli:1.2:jar:compile
+|  +- org.slf4j:slf4j-log4j12:1.7.5:jar:compile
+|  \- junit:junit:4.4:jar:test
++- org.onebusaway:onebusaway-cloud-aws:0.0.10:jar:compile
+|  +- org.onebusaway:onebusaway-cloud-api:0.0.10:jar:compile
+|  +- commons-beanutils:commons-beanutils:1.7.0:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.5:jar:compile
+|  +- com.amazonaws:aws-java-sdk-sns:1.11.602:jar:compile
+|  |  +- com.amazonaws:aws-java-sdk-sqs:1.11.602:jar:compile
+|  |  +- com.amazonaws:aws-java-sdk-core:1.11.602:jar:compile
+|  |  |  +- software.amazon.ion:ion-java:1.0.2:jar:compile
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.7:jar:compile
+|  |  |  \- joda-time:joda-time:2.8.1:jar:compile
+|  |  \- com.amazonaws:jmespath-java:1.11.602:jar:compile
+|  +- com.amazonaws:aws-java-sdk-cloudwatch:1.11.602:jar:compile
+|  +- com.amazonaws:aws-java-sdk-ec2:1.11.602:jar:compile
+|  +- com.amazonaws:aws-java-sdk-autoscaling:1.11.602:jar:compile
+|  +- com.amazonaws:aws-java-sdk-s3:1.11.602:jar:compile
+|  |  \- com.amazonaws:aws-java-sdk-kms:1.11.602:jar:compile
+|  \- org.apache.httpcomponents:httpclient:4.5.9:jar:compile
+|     +- org.apache.httpcomponents:httpcore:4.4.11:jar:compile
+|     \- commons-codec:commons-codec:1.11:jar:compile
+\- junit:junit:4.4:jar:test
+org.onebusaway:onebusaway-gtfs-merge-cli:1.3.109-SNAPSHOT:jar:compile
++- org.onebusaway:onebusaway-gtfs-merge:1.3.109-SNAPSHOT:jar:compile
+|  +- org.onebusaway:onebusaway-gtfs:1.3.109-SNAPSHOT:jar:compile
+|  +- org.onebusaway:onebusaway-collections:1.2.8:jar:compile
+|  +- org.slf4j:slf4j-log4j12:1.7.5:jar:test
+|  +- junit:junit:4.4:jar:test
+|  \- org.mockito:mockito-core:1.8.0:jar:test
++- commons-cli:commons-cli:1.2:jar:compile
+\- org.slf4j:slf4j-log4j12:1.7.5:jar:compile

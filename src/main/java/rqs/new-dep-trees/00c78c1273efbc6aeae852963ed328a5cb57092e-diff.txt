@@ -1,0 +1,10 @@
+Added Dependencies:
+ org.jenkins-ci.plugins:structs:318.va_f3ccb_729b_71:jar:compile
+ org.jenkins-ci:symbol-annotation:1.1:jar:provided
+ org.jenkins-ci.plugins:credentials:2.6.1.1:jar:compile
+ org.jenkins-ci.plugins:ssh-credentials:277.v95c2fec1c047:jar:compile
+Removed Dependencies:
+ org.jenkins-ci.plugins:ssh-credentials:1.19:jar:compile
+ org.jenkins-ci.plugins:structs:1.23:jar:compile
+ org.jenkins-ci:symbol-annotation:1.23:jar:compile
+ org.jenkins-ci.plugins:credentials:2.6.1:jar:compile

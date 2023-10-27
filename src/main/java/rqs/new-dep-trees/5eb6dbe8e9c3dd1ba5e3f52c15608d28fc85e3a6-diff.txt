@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.google.cloud:google-cloud-storage:2.11.0:jar:compile
+Removed Dependencies:
+ com.google.cloud:google-cloud-storage:2.10.0:jar:compile

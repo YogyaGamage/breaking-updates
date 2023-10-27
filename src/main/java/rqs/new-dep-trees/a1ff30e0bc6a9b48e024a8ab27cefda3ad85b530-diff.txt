@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.jooq:jooq-meta:3.17.3:jar:compile
+ org.jooq:jooq:3.17.3:jar:compile
+ io.r2dbc:r2dbc-spi:0.9.1.RELEASE:jar:compile
+Removed Dependencies:
+ io.r2dbc:r2dbc-spi:0.9.0.RELEASE:jar:compile
+ org.jooq:jooq:3.16.6:jar:compile
+ org.jooq:jooq-meta:3.16.6:jar:compile

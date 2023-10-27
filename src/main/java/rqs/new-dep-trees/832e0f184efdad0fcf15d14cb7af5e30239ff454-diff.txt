@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.github.cryptomorin:XSeries:8.6.0:jar:compile
+Removed Dependencies:
+ com.github.cryptomorin:XSeries:8.5.0.1:jar:compile

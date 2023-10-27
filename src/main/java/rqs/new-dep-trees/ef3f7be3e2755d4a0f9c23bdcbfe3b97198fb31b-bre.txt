@@ -1,0 +1,197 @@
+micycle:PGS:1.4.0:jar:compile
++- com.github.micycle1:processing3:3.5.4:jar:provided (optional)
+|  +- org.jogamp.jogl:jogl-all-main:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  |  \- org.jogamp.jogl:jogl-all:2.3.2:jar:provided (optional)
+|  +- org.jogamp.gluegen:gluegen-rt-main:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  +- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  |  \- org.jogamp.gluegen:gluegen-rt:2.3.2:jar:provided (optional)
+|  \- javax.xml.bind:jaxb-api:2.3.0:jar:provided (optional)
++- org.locationtech.jts:jts-core:1.20.0-SNAPSHOT:jar:compile
++- com.github.twak:campskeleton:8df5b241d5:jar:compile
+|  +- javax.vecmath:vecmath:1.5.2:jar:compile
+|  +- gov.nist.math:jama:1.0.3:jar:compile
+|  \- com.github.twak:jutils:master-SNAPSHOT:jar:compile
+|     +- com.thoughtworks.xstream:xstream:1.4.10:jar:compile
+|     |  +- xmlpull:xmlpull:1.1.3.1:jar:compile
+|     |  \- xpp3:xpp3_min:1.1.4c:jar:compile
+|     +- org.apache.xmlgraphics:batik-svg-dom:1.10:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-awt-util:1.10:jar:compile
+|     |  |  \- org.apache.xmlgraphics:xmlgraphics-commons:2.2:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-css:1.10:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-dom:1.10:jar:compile
+|     |  |  +- org.apache.xmlgraphics:batik-xml:1.10:jar:compile
+|     |  |  \- xalan:xalan:2.7.2:jar:compile
+|     |  |     \- xalan:serializer:2.7.2:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-ext:1.10:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-parser:1.10:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-util:1.10:jar:compile
+|     |  |  +- org.apache.xmlgraphics:batik-constants:1.10:jar:compile
+|     |  |  \- org.apache.xmlgraphics:batik-i18n:1.10:jar:compile
+|     |  \- xml-apis:xml-apis-ext:1.3.04:jar:compile
+|     +- org.apache.xmlgraphics:batik-svggen:1.10:jar:compile
+|     +- org.apache.xmlgraphics:batik-codec:1.10:jar:compile
+|     |  +- org.apache.xmlgraphics:batik-bridge:1.10:jar:compile
+|     |  |  +- org.apache.xmlgraphics:batik-gvt:1.10:jar:compile
+|     |  |  \- org.apache.xmlgraphics:batik-script:1.10:jar:compile
+|     |  \- org.apache.xmlgraphics:batik-transcoder:1.10:jar:compile
+|     +- org.apache.xmlgraphics:batik-anim:1.10:jar:compile
+|     \- org.orbisgis:poly2tri-core:0.1.2:jar:compile
++- org.jgrapht:jgrapht-core:1.4.0:jar:compile
+|  \- org.jheaps:jheaps:0.11:jar:compile
++- org.tinfour:TinfourCore:2.1.7:jar:compile
++- com.github.micycle1:JMedialAxis:5207bec2f2:jar:compile
++- org.dyn4j:dyn4j:5.0.1:jar:compile
++- org.apache.commons:commons-math3:3.6.1:jar:compile
++- org.tinspin:tinspin-indexes:2.0.0:jar:compile
++- org.junit.jupiter:junit-jupiter-api:5.10.0:jar:test
+|  +- org.opentest4j:opentest4j:1.3.0:jar:test
+|  +- org.junit.platform:junit-platform-commons:1.10.0:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.10.0:jar:test
+|  \- org.junit.platform:junit-platform-engine:1.10.0:jar:test
++- com.github.micycle1:balaban-intersection:1.0.0:jar:compile
++- com.github.micycle1:UniformNoise:1.1:jar:compile
++- com.github.micycle1:space-filling-curves:1.0:jar:compile
++- com.github.bsideup.jabel:jabel-javac-plugin:1.0.0:jar:provided
+|  +- net.bytebuddy:byte-buddy:1.12.18:jar:provided
+|  +- net.bytebuddy:byte-buddy-agent:1.12.18:jar:provided
+|  \- net.java.dev.jna:jna:5.12.1:jar:provided
++- com.github.micycle1:kendzi-math:99f9217e84:jar:compile
+|  +- com.github.micycle1.kendzi-math:kendzi-math-geometry:99f9217e84:jar:compile
+|  |  +- org.joml:joml:1.10.3:jar:compile
+|  |  \- org.ejml:ejml-simple:0.41:jar:compile
+|  |     +- org.ejml:ejml-core:0.41:jar:compile
+|  |     +- org.ejml:ejml-fdense:0.41:jar:compile
+|  |     +- org.ejml:ejml-ddense:0.41:jar:compile
+|  |     +- org.ejml:ejml-cdense:0.41:jar:compile
+|  |     +- org.ejml:ejml-zdense:0.41:jar:compile
+|  |     +- org.ejml:ejml-dsparse:0.41:jar:compile
+|  |     \- org.ejml:ejml-fsparse:0.41:jar:compile
+|  +- com.github.micycle1.kendzi-math:kendzi-math-geometry-debug:99f9217e84:jar:compile
+|  \- com.github.micycle1.kendzi-math:kendzi-straight-skeleton:99f9217e84:jar:compile
++- com.github.paudan:jswarmopt:1.0.3a:jar:compile
++- com.github.micycle1:TrapMap:1.0:jar:compile
+|  \- quil:processing-core:3.5.4:jar:compile
++- it.unimi.dsi:fastutil:8.5.12:jar:compile
++- net.jafama:jafama:2.3.2:jar:compile
++- com.github.openjump-gis:topology-extension:v2.0.5:jar:compile
+|  \- org.openjump:OpenJUMP:2.2.0-main-SNAPSHOT:jar:compile
+|     +- log4j:log4j:1.2.17:jar:compile
+|     +- org.locationtech.jts.io:jts-io-common:1.19.0:jar:compile
+|     +- org.apache-extras.beanshell:bsh:2.0b6:jar:compile
+|     +- org.orbisgis:cts:1.5.2:jar:compile
+|     +- org.jdom:jdom2:2.0.6:jar:compile
+|     +- xerces:xercesImpl:2.12.2:jar:compile
+|     |  \- xml-apis:xml-apis:1.4.01:jar:compile
+|     +- org.postgresql:postgresql:42.5.1:jar:compile
+|     +- batik:batik-svggen:1.6-1:jar:compile
+|     |  +- batik:batik-gvt:1.6-1:jar:compile
+|     |  |  \- batik:batik-awt-util:1.6-1:jar:compile
+|     |  |     \- batik:batik-util:1.6-1:jar:compile
+|     |  |        \- batik:batik-gui-util:1.6-1:jar:compile
+|     |  |           \- batik:batik-ext:1.6-1:jar:compile
+|     |  \- batik:batik-svg-dom:1.6-1:jar:compile
+|     |     +- batik:batik-dom:1.6-1:jar:compile
+|     |     |  +- batik:batik-css:1.6-1:jar:compile
+|     |     |  \- batik:batik-xml:1.6-1:jar:compile
+|     |     \- batik:batik-parser:1.6-1:jar:compile
+|     +- batik:batik-transcoder:1.6-1:jar:compile
+|     |  \- batik:batik-bridge:1.6-1:jar:compile
+|     |     \- batik:batik-script:1.6-1:jar:compile
+|     +- net.sf.buoy:buoy:1.9:jar:compile
+|     +- com.github.yannrichet:JMathArray:1.0:jar:compile
+|     +- com.github.yannrichet:JMathPlot:1.0.1:jar:compile
+|     |  \- com.github.yannrichet:JMathIO:1.0:jar:compile
+|     +- org.python:jython:2.2.1:jar:compile
+|     +- org.tukaani:xz:1.9:jar:compile
+|     +- commons-codec:commons-codec:1.15:jar:compile
+|     +- org.apache.commons:commons-compress:1.21:jar:compile
+|     +- org.apache.commons:commons-imaging:1.0-alpha3:jar:compile
+|     +- commons-io:commons-io:2.11.0:jar:compile
+|     +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|     +- commons-logging:commons-logging:1.2:jar:compile
+|     +- com.github.jai-imageio:jai-imageio-core:1.4.0:jar:compile
+|     +- javax.media:jai_core:1.1.3:jar:compile
+|     +- javax.media:jai_codec:1.1.3:jar:compile
+|     +- javax.media:jai_imageio:1.1:jar:compile
+|     +- org.gdal:gdal:3.5.0:jar:compile
+|     +- it.geosolutions.imageio-ext:imageio-ext-utilities:1.4.6:jar:compile
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalframework:1.4.6:jar:compile
+|     |  \- it.geosolutions.imageio-ext:imageio-ext-streams:1.4.6:jar:compile
+|     +- it.geosolutions.imageio-ext:imageio-ext-geocore:1.4.6:jar:compile
+|     +- it.geosolutions.imageio-ext:imageio-ext-tiff:1.1.13:jar:compile
+|     +- it.geosolutions.imageio-ext:imageio-ext-arcgrid:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalarcbinarygrid:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalarcgrid:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalbsb:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdaldoq1:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdaldoq2:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdaldted:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalecw:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalehdr:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalenvihdr:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalenvisat:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalerdasimg:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalgeotiff:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalidrisi:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdaljpeg:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalkakadujp2:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalmrsid:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalmrsidjp2:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalnitf:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-gdalvrt:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-imagereadmt:1.4.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-kakadu:1.4.6:jar:runtime
+|     |  \- it.geosolutions.imageio-ext:imageio-ext-kakadujni:5.2.6:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-nitf:1.4.6:jar:runtime
+|     |  +- nitro-nitf:nitf-bindings:2.7-r1269:jar:runtime
+|     |  \- commons-lang:commons-lang:2.4:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-png:1.4.6:jar:runtime
+|     |  \- ar.com.hjg:pngj:2.0.1:jar:runtime
+|     +- it.geosolutions.imageio-ext:imageio-ext-turbojpeg:1.4.6:jar:runtime
+|     |  \- org.libjpegturbo:turbojpeg-wrapper:1.2.1.5:jar:runtime
+|     +- uk.gov.nationalarchives.thirdparty.netbeans:org-netbeans-swing-outline:7.2:jar:compile
+|     \- com.googlecode.json-simple:json-simple:1.1.1:jar:compile
++- com.github.scoutant:polyline-decoder:5b6f55fc1a:jar:compile
++- it.unimi.dsi:dsiutils:2.7.2:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.30:jar:compile
+|  +- ch.qos.logback:logback-core:1.2.3:jar:runtime
+|  +- ch.qos.logback:logback-classic:1.2.3:jar:runtime
+|  +- it.unimi.di:jsap:20210129:jar:compile
+|  +- org.apache.commons:commons-configuration2:2.7:jar:compile
+|  |  \- org.apache.commons:commons-text:1.8:jar:compile
+|  \- com.google.guava:guava:31.1-jre:jar:compile
+|     +- com.google.guava:failureaccess:1.0.1:jar:compile
+|     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|     +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|     +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|     \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
++- com.github.micycle1:RectPacking:9178e79df3:jar:compile
++- com.github.micycle1:BetterBeziers:19567c7be4:jar:compile
++- com.github.micycle1:Hobby-Curves:1.0:jar:compile
++- com.github.whitegreen:Dalsoo-Bin-Packing:bde2a3ef09:jar:compile
++- com.github.micycle1:SRPG:1.0:jar:compile
+|  \- it.unimi.dsi:fastutil-core:8.5.12:jar:compile
+\- com.scrtwpns:mixbox:2.0.0:jar:compile

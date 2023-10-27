@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.hazelcast:hazelcast:4.0.5:jar:compile
+Removed Dependencies:
+ com.hazelcast:hazelcast:3.12.5:jar:compile

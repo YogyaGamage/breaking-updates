@@ -1,0 +1,1266 @@
+org.apache.jclouds:jclouds-project:2.6.0-SNAPSHOT:pom:compile
++- org.testng:testng:7.5:jar:test
+|  +- org.slf4j:slf4j-api:1.7.32:jar:test
+|  +- com.beust:jcommander:1.78:jar:test
+|  +- org.webjars:jquery:3.5.1:jar:test
+|  \- org.slf4j:slf4j-api:1.7.32:jar:compile
++- org.easymock:easymock:4.3:jar:test
+|  \- org.objenesis:objenesis:3.2:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+|  \- net.bytebuddy:byte-buddy:1.12.10:jar:test
++- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- com.google.guava:guava:31.1-jre:jar:test
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  |  +- org.checkerframework:checker-qual:3.12.0:jar:test
+|  |  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:test
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:test
+|  \- com.google.guava:guava:31.1-jre:jar:compile
+|     +- com.google.guava:failureaccess:1.0.1:jar:compile
+|     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|     +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|     +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|     \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+\- com.google.code.findbugs:jsr305:1.3.9:jar:provided
+org.apache.jclouds:jclouds-resources:2.6.0-SNAPSHOT:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
++- org.assertj:assertj-guava:1.3.0:jar:test
+\- com.google.code.findbugs:jsr305:1.3.9:jar:provided
+org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- com.google.code.gson:gson:2.8.9:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  +- com.google.inject:guice:5.1.0:jar:compile
+|  |  +- javax.inject:javax.inject:1:jar:compile
+|  |  \- aopalliance:aopalliance:1.0:jar:compile
+|  +- com.google.inject.extensions:guice-assistedinject:5.1.0:jar:compile
+|  +- javax.ws.rs:javax.ws.rs-api:2.1.1:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.2:jar:compile
+|  +- com.sun.xml.bind:jaxb-impl:2.3.3:jar:compile
+|  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  \- com.sun.activation:jakarta.activation:1.2.2:jar:runtime
+|  +- org.osgi:org.osgi.core:6.0.0:jar:provided
+|  +- org.osgi:osgi.cmpn:6.0.0:jar:provided
+|  +- com.google.auto.service:auto-service:1.0-rc3:jar:compile (optional)
+|  |  \- com.google.auto:auto-common:0.3:jar:compile (optional)
+|  +- org.gaul:modernizer-maven-annotations:1.8.0:jar:compile (optional)
+|  +- org.eclipse.jetty:jetty-security:9.4.46.v20220331:jar:test
+|  |  \- org.eclipse.jetty:jetty-server:9.4.46.v20220331:jar:test
+|  |     +- javax.servlet:javax.servlet-api:3.1.0:jar:test
+|  |     +- org.eclipse.jetty:jetty-http:9.4.46.v20220331:jar:test
+|  |     |  \- org.eclipse.jetty:jetty-util:9.4.46.v20220331:jar:test
+|  |     \- org.eclipse.jetty:jetty-io:9.4.46.v20220331:jar:test
+|  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.squareup.okhttp3:okhttp:3.14.9:jar:test
+|  |  |  \- com.squareup.okio:okio:1.17.2:jar:test
+|  |  \- junit:junit:4.12:jar:test
+|  |     \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  +- com.squareup.okhttp3:okhttp-tls:3.14.9:jar:test
+|  |  \- org.bouncycastle:bcprov-jdk15on:1.60:jar:test
+|  +- com.google.auto.value:auto-value:1.4.1:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  +- org.assertj:assertj-guava:1.3.0:jar:test
+|  \- com.google.code.findbugs:jsr305:1.3.9:jar:provided
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- com.google.code.gson:gson:2.8.9:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  +- com.google.inject:guice:5.1.0:jar:compile
+|  +- com.google.inject.extensions:guice-assistedinject:5.1.0:jar:compile
+|  +- javax.ws.rs:javax.ws.rs-api:2.1.1:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.2:jar:compile
+|  \- com.sun.xml.bind:jaxb-impl:2.3.3:jar:compile
++- org.apache.logging.log4j:log4j-core:2.17.2:jar:compile
+|  \- org.apache.logging.log4j:log4j-api:2.17.2:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.common:openstack-common:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.api:filesystem:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- com.google.auto.value:auto-value:1.4.1:jar:compile (optional)
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  \- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  \- org.apache.logging.log4j:log4j-api:2.17.2:jar:test
+|  \- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.driver:jclouds-apachehc:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  +- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  \- commons-codec:commons-codec:1.11:jar:compile
++- org.eclipse.jetty:jetty-security:9.4.46.v20220331:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.driver:jclouds-enterprise:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-joda:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- joda-time:joda-time:2.1:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.driver:jclouds-netty:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- io.netty:netty:3.5.9.Final:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.driver:jclouds-bouncycastle:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.bouncycastle:bcprov-ext-jdk18on:1.71:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.eclipse.jetty:jetty-security:9.4.46.v20220331:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-ams-e:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-scriptbuilder:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-scriptbuilder:2.6.0-SNAPSHOT:jar:compile
+|  |  \- org.apache.jclouds:jclouds-scriptbuilder:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.slf4j:slf4j-api:1.7.32:jar:test
+|  |  |  +- org.slf4j:slf4j-api:1.7.32:jar:compile
+|  |  |  \- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.driver:jclouds-bouncycastle:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.bouncycastle:bcprov-ext-jdk18on:1.71:jar:test
+|  |  +- com.hierynomus:sshj:0.27.0:jar:test
+|  |  |  +- org.bouncycastle:bcpkix-jdk15on:1.60:jar:test
+|  |  |  +- com.jcraft:jzlib:1.1.3:jar:test
+|  |  |  \- net.i2p.crypto:eddsa:0.2.0:jar:test
+|  |  +- com.jcraft:jsch.agentproxy.sshj:0.0.9:jar:test
+|  |  |  \- com.jcraft:jsch.agentproxy.core:0.0.9:jar:test
+|  |  \- com.jcraft:jsch.agentproxy.connector-factory:0.0.9:jar:test
+|  |     +- com.jcraft:jsch.agentproxy.usocket-jna:0.0.9:jar:test
+|  |     |  +- net.java.dev.jna:jna:4.1.0:jar:test
+|  |     |  \- net.java.dev.jna:jna-platform:4.1.0:jar:test
+|  |     +- com.jcraft:jsch.agentproxy.usocket-nc:0.0.9:jar:test
+|  |     +- com.jcraft:jsch.agentproxy.sshagent:0.0.9:jar:test
+|  |     \- com.jcraft:jsch.agentproxy.pageant:0.0.9:jar:test
+|  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  +- com.squareup.okhttp3:okhttp-tls:3.14.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-dal-a:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-hkg-e:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-lax-p:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-mmi-a:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-sjc-c:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-syd-v:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:elastichosts-tor-p:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:glesys:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:rackspace-cloudnetworks-uk:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- com.squareup.okhttp3:okhttp:3.14.9:jar:test
+|  |  |  \- com.squareup.okio:okio:1.17.2:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  \- ch.qos.logback:logback-core:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- com.google.auto:auto-common:0.3:jar:provided (optional)
+|  |  \- com.google.guava:guava:31.1-jre:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
++- ch.qos.logback:logback-classic:1.2.9:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.provider:rackspace-cloudnetworks-us:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
++- ch.qos.logback:logback-classic:1.2.9:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.driver:jclouds-jsch:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.slf4j:slf4j-api:1.7.32:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- ch.qos.logback:logback-classic:1.2.9:jar:test
++- com.jcraft:jsch:0.1.55:jar:compile
++- com.jcraft:jsch.agentproxy.jsch:0.0.9:jar:compile
+|  \- com.jcraft:jsch.agentproxy.core:0.0.9:jar:compile
++- com.jcraft:jsch.agentproxy.connector-factory:0.0.9:jar:compile
+|  +- com.jcraft:jsch.agentproxy.usocket-jna:0.0.9:jar:compile
+|  |  +- net.java.dev.jna:jna:4.1.0:jar:compile
+|  |  \- net.java.dev.jna:jna-platform:4.1.0:jar:compile
+|  +- com.jcraft:jsch.agentproxy.usocket-nc:0.0.9:jar:compile
+|  +- com.jcraft:jsch.agentproxy.sshagent:0.0.9:jar:compile
+|  \- com.jcraft:jsch.agentproxy.pageant:0.0.9:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds.api:servermanager:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
++- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
++- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
++- org.apache.jclouds.driver:jclouds-jsch:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- com.jcraft:jsch:0.1.55:jar:test
+|  +- com.jcraft:jsch.agentproxy.jsch:0.0.9:jar:test
+|  |  \- com.jcraft:jsch.agentproxy.core:0.0.9:jar:test
+|  \- com.jcraft:jsch.agentproxy.connector-factory:0.0.9:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test
+org.apache.jclouds:jclouds-all:2.6.0-SNAPSHOT:jar:compile
++- org.apache.jclouds.provider:aws-cloudwatch:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:cloudwatch:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:cloudwatch:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-cloudblockstorage-us:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-cloudblockstorage-uk:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-clouddns-us:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:rackspace-clouddns:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.provider:rackspace-cloudservers-us:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.jclouds.api:rackspace-clouddns:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudservers-us:2.6.0-SNAPSHOT:jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-clouddns-uk:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:rackspace-clouddns:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-clouddns:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-clouddatabases-us:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-trove:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-trove:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:rackspace-clouddatabases-uk:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:openstack-trove:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-trove:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:aws-sqs:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:sqs:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:sqs:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:aws-sts:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:aws-route53:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.api:route53:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:route53:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:ultradns-ws:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.provider:dynect:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds.api:chef:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-scriptbuilder:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds:jclouds-scriptbuilder:2.6.0-SNAPSHOT:test-jar:test
+|  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds:jclouds-allloadbalancer:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.provider:rackspace-cloudloadbalancers-uk:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudloadbalancers:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-loadbalancer:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds:jclouds-loadbalancer:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds:jclouds-loadbalancer:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudloadbalancers:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudloadbalancers-us:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudloadbalancers:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-loadbalancer:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudloadbalancers:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds:jclouds-allcompute:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.provider:aws-ec2:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:ec2:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.apache.jclouds.api:ec2:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.provider:aws-cloudwatch:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.jclouds.api:cloudwatch:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:openstack-nova-ec2:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.api:openstack-neutron:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds.api:ec2:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:ec2:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:byon:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.yaml:snakeyaml:2.0:jar:compile
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:gogrid:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:elastichosts-lon-p:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:elastichosts-sat-p:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:elastichosts-lon-b:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:openhosting-east1:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:serverlove-z1-man:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:skalicloud-sdg-my:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:go2cloud-jhb1:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:elasticstack:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:softlayer:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.squareup.okhttp3:okhttp-tls:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:cloudstack:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudservers-us:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.apache.jclouds.provider:rackspace-cloudblockstorage-us:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudservers-uk:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-nova:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.apache.jclouds.provider:rackspace-cloudblockstorage-uk:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.jclouds.api:openstack-cinder:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:google-compute-engine:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.driver:jclouds-bouncycastle:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.common:googlecloud:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds.common:googlecloud:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:digitalocean2:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:profitbricks:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-core:1.2.9:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:docker:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-bouncycastle:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- com.hierynomus:sshj:0.27.0:jar:compile
+|  |  |  |  +- org.bouncycastle:bcpkix-jdk15on:1.60:jar:compile
+|  |  |  |  +- com.jcraft:jzlib:1.1.3:jar:compile
+|  |  |  |  \- net.i2p.crypto:eddsa:0.2.0:jar:compile
+|  |  |  +- com.jcraft:jsch.agentproxy.sshj:0.0.9:jar:compile
+|  |  |  |  \- com.jcraft:jsch.agentproxy.core:0.0.9:jar:compile
+|  |  |  +- com.jcraft:jsch.agentproxy.connector-factory:0.0.9:jar:compile
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- com.squareup.okhttp3:okhttp:3.14.9:jar:compile
+|  |  |  +- com.squareup.okio:okio:1.17.2:jar:compile
+|  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  +- com.squareup.okhttp3:okhttp-tls:3.14.9:jar:test
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.squareup.okhttp3:okhttp-tls:3.14.9:jar:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-depchain:1.2.0:pom:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-api:1.2.0:jar:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-spi:1.2.0:jar:test
+|  |  |  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.0:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:packet:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  \- org.slf4j:slf4j-api:1.7.32:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:azurecompute-arm:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-compute:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-sshj:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- com.github.spotbugs:spotbugs-annotations:3.1.3:jar:provided
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.apache.jclouds:jclouds-allblobstore:2.6.0-SNAPSHOT:jar:compile
+|  +- org.apache.jclouds.provider:aws-s3:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:s3:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds.api:s3:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-apachehc:2.6.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.httpcomponents:httpclient:4.5.13:jar:test
+|  |  |     +- org.apache.httpcomponents:httpcore:4.4.13:jar:test
+|  |  |     +- commons-logging:commons-logging:1.2:jar:test
+|  |  |     \- commons-codec:commons-codec:1.11:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-enterprise:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-joda:2.6.0-SNAPSHOT:jar:test
+|  |  |  |  \- joda-time:joda-time:2.1:jar:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-netty:2.6.0-SNAPSHOT:jar:test
+|  |  |  |  \- io.netty:netty:3.5.9.Final:jar:test
+|  |  |  \- org.apache.jclouds.driver:jclouds-bouncycastle:2.6.0-SNAPSHOT:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:azureblob:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:atmos:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:b2:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  +- com.google.auto.value:auto-value:1.4.1:jar:provided
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.api:glacier:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:sts:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-log4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:google-cloud-storage:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.common:googlecloud:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.common:googlecloud:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:oauth:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-okhttp:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudfiles-us:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-swift:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  \- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:rackspace-cloudfiles:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudfiles:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds.api:openstack-swift:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  |  +- org.jboss.shrinkwrap:shrinkwrap-depchain:1.2.0:pom:test
+|  |  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-swift:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds.api:rackspace-cloudidentity:2.6.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-depchain:1.2.0:pom:test
+|  |  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  |  +- com.squareup.okhttp3:mockwebserver:3.14.9:jar:test
+|  |  |  +- com.google.auto.service:auto-service:1.0-rc3:jar:provided (optional)
+|  |  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- org.easymock:easymock:4.3:jar:test
+|  |  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.apache.jclouds.provider:rackspace-cloudfiles-uk:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-swift:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudfiles:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.api:rackspace-cloudfiles:2.6.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.jclouds.api:openstack-keystone:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-blobstore:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds:jclouds-core:2.6.0-SNAPSHOT:test-jar:test
+|  |  +- org.apache.jclouds.driver:jclouds-slf4j:2.6.0-SNAPSHOT:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  +- org.easymock:easymock:4.3:jar:test
+|  |  +- xmlunit:xmlunit:1.3:jar:test
+|  |  +- org.assertj:assertj-core:3.23.1:jar:test
+|  |  \- org.assertj:assertj-guava:1.3.0:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.easymock:easymock:4.3:jar:test
+|  +- xmlunit:xmlunit:1.3:jar:test
+|  +- org.assertj:assertj-core:3.23.1:jar:test
+|  \- org.assertj:assertj-guava:1.3.0:jar:test
++- org.testng:testng:7.5:jar:test
++- org.easymock:easymock:4.3:jar:test
++- xmlunit:xmlunit:1.3:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
+\- org.assertj:assertj-guava:1.3.0:jar:test

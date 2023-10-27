@@ -1,0 +1,27 @@
+com.premiumminds:wicket-crudifier:4.3-SNAPSHOT:jar:compile
++- org.apache.wicket:wicket-core:8.15.0:jar:provided
+|  +- com.github.openjson:openjson:1.0.11:jar:provided
+|  +- org.apache.wicket:wicket-request:8.15.0:jar:provided
+|  +- org.apache.wicket:wicket-util:8.15.0:jar:provided
+|  |  +- commons-fileupload:commons-fileupload:1.5:jar:provided
+|  |  \- commons-io:commons-io:2.6:jar:provided
+|  +- org.danekja:jdk-serializable-functional:1.8.6:jar:provided
+|  \- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.apache.wicket:wicket-extensions:8.15.0:jar:provided
++- com.premiumminds:pm-wicket-utils:4.4:jar:compile
+|  +- commons-beanutils:commons-beanutils:1.9.3:jar:compile
+|  |  +- commons-logging:commons-logging:1.2:jar:compile
+|  |  \- commons-collections:commons-collections:3.2.2:jar:compile
+|  +- org.apache.commons:commons-lang3:3.8:jar:compile
+|  +- org.hibernate.validator:hibernate-validator:6.0.12.Final:jar:compile
+|  |  +- javax.validation:validation-api:2.0.1.Final:jar:compile
+|  |  +- org.jboss.logging:jboss-logging:3.3.2.Final:jar:compile
+|  |  \- com.fasterxml:classmate:1.3.4:jar:compile
+|  +- org.glassfish:javax.el:3.0.0:jar:compile
+|  +- org.apache.commons:commons-collections4:4.2:jar:compile
+|  \- org.apache.commons:commons-text:1.4:jar:compile
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- jakarta.servlet:jakarta.servlet-api:4.0.4:jar:test
+\- org.easymock:easymock:5.1.0:jar:test
+   \- org.objenesis:objenesis:3.3:jar:test

@@ -1,0 +1,5 @@
+Added Dependencies:
+ jakarta.xml.bind:jakarta.xml.bind-api:3.0.1:jar:compile
+ com.sun.activation:jakarta.activation:2.0.1:jar:compile
+Removed Dependencies:
+ jakarta.xml.bind:jakarta.xml.bind-api:2.3.2:jar:compile

@@ -1,0 +1,6 @@
+Added Dependencies:
+ org.apache.poi:poi:5.1.0:jar:compile
+ org.apache.poi:poi:5.1.0:jar:test
+Removed Dependencies:
+ org.apache.poi:poi:4.1.2:jar:test
+ org.apache.poi:poi:4.1.2:jar:compile

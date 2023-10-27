@@ -1,0 +1,5 @@
+Added Dependencies:
+ org.liquibase:liquibase-core:4.8.0:jar:compile
+ javax.xml.bind:jaxb-api:2.3.0:jar:compile
+Removed Dependencies:
+ org.liquibase:liquibase-core:3.4.2:jar:compile

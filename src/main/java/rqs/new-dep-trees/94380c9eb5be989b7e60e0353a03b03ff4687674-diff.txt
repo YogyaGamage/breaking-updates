@@ -1,0 +1,5 @@
+Added Dependencies:
+ jakarta.inject:jakarta.inject-api:2.0.1:jar:compile
+ com.google.inject:guice:7.0.0:jar:compile
+Removed Dependencies:
+ com.google.inject:guice:5.1.0:jar:compile

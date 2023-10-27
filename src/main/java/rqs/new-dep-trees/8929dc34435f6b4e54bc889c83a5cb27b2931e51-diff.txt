@@ -1,0 +1,4 @@
+Added Dependencies:
+ jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:provided
+Removed Dependencies:
+ jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:provided

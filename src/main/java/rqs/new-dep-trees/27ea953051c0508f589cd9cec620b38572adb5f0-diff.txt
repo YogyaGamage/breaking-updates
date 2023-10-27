@@ -1,0 +1,8 @@
+Added Dependencies:
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.15:jar:compile
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.15:jar:test
+ com.google.cloud:google-cloud-pubsub:1.123.15:jar:test
+Removed Dependencies:
+ com.google.cloud:google-cloud-pubsub:1.123.14:jar:test
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.14:jar:test
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.14:jar:compile

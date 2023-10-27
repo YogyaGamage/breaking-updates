@@ -1,0 +1,4 @@
+Added Dependencies:
+ jakarta.validation:jakarta.validation-api:3.0.2:jar:provided
+Removed Dependencies:
+ jakarta.validation:jakarta.validation-api:2.0.2:jar:provided

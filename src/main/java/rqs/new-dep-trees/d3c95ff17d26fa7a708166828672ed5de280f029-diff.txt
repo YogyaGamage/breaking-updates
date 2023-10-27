@@ -1,0 +1,6 @@
+Added Dependencies:
+ com.fasterxml.jackson.core:jackson-databind:2.13.3:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.13.3:jar:compile
+Removed Dependencies:
+ com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.3.3:jar:compile

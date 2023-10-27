@@ -1,0 +1,141 @@
+com.example:jakartaee-mvc-sample:1.0-SNAPSHOT:war:compile
++- jakarta.platform:jakarta.jakartaee-api:8.0.0:jar:provided
++- org.eclipse.krazo:krazo-core:1.1.1:jar:compile
+|  \- jakarta.mvc:jakarta.mvc-api:1.1.0:jar:compile
++- org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:2.7.7:jar:provided
+|  +- org.eclipse.persistence:org.eclipse.persistence.core:2.7.7:jar:provided
+|  |  \- org.eclipse.persistence:org.eclipse.persistence.asm:2.7.7:jar:provided
+|  \- org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.7:jar:provided
+|     +- org.eclipse.persistence:jakarta.persistence:2.2.3:jar:provided
+|     +- org.eclipse.persistence:org.eclipse.persistence.antlr:2.7.7:jar:provided
+|     \- org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:2.7.7:jar:provided
++- org.jboss.arquillian.junit:arquillian-junit-container:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.junit:arquillian-junit-core:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.test:arquillian-test-api:1.6.0.Final:jar:test
+|  |  \- org.jboss.arquillian.core:arquillian-core-api:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.test:arquillian-test-spi:1.6.0.Final:jar:test
+|  |  \- org.jboss.arquillian.core:arquillian-core-spi:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.container:arquillian-container-test-api:1.6.0.Final:jar:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-api:1.2.6:jar:test
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:2.0.0:jar:test
+|  +- org.jboss.arquillian.container:arquillian-container-test-spi:1.6.0.Final:jar:test
+|  |  \- org.jboss.arquillian.container:arquillian-container-spi:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.core:arquillian-core-impl-base:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.test:arquillian-test-impl-base:1.6.0.Final:jar:test
+|  +- org.jboss.arquillian.container:arquillian-container-impl-base:1.6.0.Final:jar:test
+|  |  +- org.jboss.arquillian.config:arquillian-config-api:1.6.0.Final:jar:test
+|  |  +- org.jboss.arquillian.config:arquillian-config-impl-base:1.6.0.Final:jar:test
+|  |  |  \- org.jboss.arquillian.config:arquillian-config-spi:1.6.0.Final:jar:test
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:2.0.0:jar:test
+|  +- org.jboss.arquillian.container:arquillian-container-test-impl-base:1.6.0.Final:jar:test
+|  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.6:jar:test
+|     \- org.jboss.shrinkwrap:shrinkwrap-spi:1.2.6:jar:test
++- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain:3.1.4:pom:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:3.1.4:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:3.1.4:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:3.1.4:jar:test
+|  |  \- org.apache.maven:maven-model:3.6.3:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:3.1.4:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:3.1.4:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:3.1.4:jar:test
+|  |  +- org.apache.maven:maven-resolver-provider:3.6.3:jar:test
+|  |  |  +- javax.inject:javax.inject:1:jar:test
+|  |  |  \- org.slf4j:slf4j-api:1.7.29:jar:test
+|  |  +- org.apache.maven:maven-model-builder:3.6.3:jar:test
+|  |  |  +- org.apache.maven:maven-artifact:3.6.3:jar:test
+|  |  |  +- org.apache.maven:maven-builder-support:3.6.3:jar:test
+|  |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:test
+|  |  +- org.apache.maven:maven-repository-metadata:3.6.3:jar:test
+|  |  +- org.apache.maven:maven-settings:3.6.3:jar:test
+|  |  +- org.apache.maven:maven-settings-builder:3.6.3:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-api:1.4.1:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-impl:1.4.1:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-spi:1.4.1:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-util:1.4.1:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-connector-basic:1.4.1:jar:test
+|  |  +- org.apache.maven.resolver:maven-resolver-transport-wagon:1.4.1:jar:test
+|  |  +- org.codehaus.plexus:plexus-interpolation:1.25:jar:test
+|  |  +- org.codehaus.plexus:plexus-utils:3.2.1:jar:test
+|  |  +- org.sonatype.plexus:plexus-sec-dispatcher:1.4:jar:test
+|  |  |  \- org.sonatype.plexus:plexus-cipher:1.7:jar:test
+|  |  +- org.apache.maven.wagon:wagon-provider-api:3.3.4:jar:test
+|  |  +- org.apache.maven.wagon:wagon-file:3.3.4:jar:test
+|  |  \- org.apache.maven.wagon:wagon-http-lightweight:2.12:jar:test
+|  |     \- org.apache.maven.wagon:wagon-http-shared:2.12:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:3.1.4:jar:test
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven-archive:3.1.4:jar:test
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.4:jar:test
+|  |  \- org.codehaus.plexus:plexus-compiler-javac:2.7:jar:test
+|  |     \- org.codehaus.plexus:plexus-compiler-api:2.7:jar:test
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-embedded:3.1.4:jar:test
+|  |  \- org.apache.maven.shared:maven-invoker:3.0.0:jar:test
+|  |     \- org.codehaus.plexus:plexus-component-annotations:2.1.0:jar:test
+|  \- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-embedded:3.1.4:jar:test
+|     \- org.arquillian.spacelift:arquillian-spacelift:1.0.2:jar:test
+|        +- org.arquillian.spacelift:arquillian-spacelift-api:1.0.2:jar:test
+|        \- org.apache.commons:commons-compress:1.8.1:jar:test
++- com.google.guava:guava:31.1-jre:jar:test
+|  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:test
+|  +- org.checkerframework:checker-qual:3.12.0:jar:test
+|  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:test
+|  \- com.google.j2objc:j2objc-annotations:1.3:jar:test
++- org.jboss.arquillian.graphene:graphene-webdriver:2.5.4:pom:test
+|  +- org.jboss.arquillian.graphene:graphene-webdriver-api:2.5.4:jar:test
+|  +- org.jboss.arquillian.graphene:graphene-webdriver-spi:2.5.4:jar:test
+|  +- org.jboss.arquillian.graphene:graphene-webdriver-impl:2.5.4:jar:test
+|  |  +- org.jboss.arquillian.extension:arquillian-drone-impl:2.5.5:jar:test
+|  |  +- org.jboss.arquillian.extension:arquillian-drone-configuration:2.5.5:jar:test
+|  |  +- cglib:cglib-nodep:3.2.5:jar:test
+|  |  \- org.objenesis:objenesis:1.2:jar:test
+|  +- org.jboss.arquillian.extension:arquillian-drone-webdriver-depchain:2.5.5:pom:test
+|  |  +- org.jboss.arquillian.extension:arquillian-drone-api:2.5.5:jar:test
+|  |  +- org.jboss.arquillian.extension:arquillian-drone-spi:2.5.5:jar:test
+|  |  +- org.jboss.arquillian.extension:arquillian-drone-webdriver:2.5.5:jar:test
+|  |  |  +- org.jsoup:jsoup:1.12.1:jar:test
+|  |  |  \- org.awaitility:awaitility:4.2.0:jar:test
+|  |  |     \- org.hamcrest:hamcrest:2.2:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-api:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-support:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-chrome-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-firefox-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-ie-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-remote-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:htmlunit-driver:2.28:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-opera-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-safari-driver:3.8.1:jar:test
+|  |  +- org.seleniumhq.selenium:selenium-edge-driver:3.8.1:jar:test
+|  |  \- com.codeborne:phantomjsdriver:1.4.4:jar:test
+|  \- org.seleniumhq.selenium:selenium-java:3.8.1:jar:test
+|     +- net.bytebuddy:byte-buddy:1.7.5:jar:test
+|     +- org.apache.commons:commons-exec:1.3:jar:test
+|     +- com.google.code.gson:gson:2.8.2:jar:test
+|     +- org.apache.httpcomponents:httpclient:4.5.3:jar:test
+|     \- org.apache.httpcomponents:httpcore:4.4.6:jar:test
++- net.sourceforge.htmlunit:htmlunit:2.62.0:jar:test
+|  +- xalan:xalan:2.7.2:jar:test
+|  |  \- xalan:serializer:2.7.2:jar:test
+|  +- org.apache.httpcomponents:httpmime:4.5.13:jar:test
+|  +- net.sourceforge.htmlunit:htmlunit-core-js:2.62.0:jar:test
+|  +- net.sourceforge.htmlunit:neko-htmlunit:2.62.0:jar:test
+|  |  \- xerces:xercesImpl:2.12.2:jar:test
+|  |     \- xml-apis:xml-apis:1.4.01:jar:test
+|  +- net.sourceforge.htmlunit:htmlunit-cssparser:1.12.0:jar:test
+|  +- org.apache.commons:commons-lang3:3.8.1:jar:test
+|  +- org.apache.commons:commons-text:1.9:jar:test
+|  +- commons-io:commons-io:2.10.0:jar:test
+|  +- commons-logging:commons-logging:1.2:jar:test
+|  +- commons-net:commons-net:3.8.0:jar:test
+|  +- commons-codec:commons-codec:1.15:jar:test
+|  +- org.brotli:dec:0.1.2:jar:test
+|  +- com.shapesecurity:salvation2:3.0.0:jar:test
+|  \- org.eclipse.jetty.websocket:websocket-client:9.4.46.v20220331:jar:test
+|     +- org.eclipse.jetty:jetty-client:9.4.46.v20220331:jar:test
+|     |  \- org.eclipse.jetty:jetty-http:9.4.46.v20220331:jar:test
+|     +- org.eclipse.jetty:jetty-util:9.4.46.v20220331:jar:test
+|     +- org.eclipse.jetty:jetty-io:9.4.46.v20220331:jar:test
+|     \- org.eclipse.jetty.websocket:websocket-common:9.4.46.v20220331:jar:test
+|        \- org.eclipse.jetty.websocket:websocket-api:9.4.46.v20220331:jar:test
+\- junit:junit:4.13.2:jar:test
+   \- org.hamcrest:hamcrest-core:1.3:jar:test

@@ -1,0 +1,14 @@
+Added Dependencies:
+ org.glassfish.jaxb:jaxb-runtime:4.0.2:jar:compile
+ jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:compile
+ org.glassfish.jaxb:jaxb-core:4.0.2:jar:compile
+ jakarta.activation:jakarta.activation-api:2.1.1:jar:compile
+ com.sun.istack:istack-commons-runtime:4.1.1:jar:compile
+ org.glassfish.jaxb:txw2:4.0.2:jar:compile
+ org.eclipse.angus:angus-activation:2.0.0:jar:runtime
+Removed Dependencies:
+ com.sun.xml.fastinfoset:FastInfoset:1.2.15:jar:compile
+ org.jvnet.staxex:stax-ex:1.8:jar:compile
+ org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438:jar:compile
+ org.glassfish.jaxb:txw2:2.4.0-b180830.0438:jar:compile
+ com.sun.istack:istack-commons-runtime:3.0.7:jar:compile

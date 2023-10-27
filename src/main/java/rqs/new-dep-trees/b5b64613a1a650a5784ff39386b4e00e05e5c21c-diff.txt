@@ -1,0 +1,15 @@
+Added Dependencies:
+ com.perforce:p4java:2020.1.1999383:jar:compile
+ org.apache.httpcomponents:httpclient:4.5.3:jar:compile
+ org.jenkins-ci.plugins:command-launcher:1.2:jar:compile (optional)
+ com.google.code.gson:gson:2.3.1:jar:compile
+ org.jenkins-ci.plugins:p4:1.11.5:jar:compile (optional)
+ org.apache.commons:commons-lang3:3.5:jar:compile
+ com.mashape.unirest:unirest-java:1.4.9:jar:compile (optional)
+ org.json:json:20160212:jar:compile (optional)
+Removed Dependencies:
+ org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+ org.jenkins-ci.plugins:p4:1.3.8:jar:compile (optional)
+ com.perforce:p4java:2015.2.1312871:jar:compile
+ com.google.code.gson:gson:2.8.9:jar:test
+ org.apache.commons:commons-lang3:3.8.1:jar:compile

@@ -1,0 +1,530 @@
+io.quarkiverse.dashbuilder:quarkus-dashbuilder-docs:999-SNAPSHOT:jar:compile
++- io.quarkiverse.dashbuilder:quarkus-dashbuilder-deployment:999-SNAPSHOT:jar:compile
+|  +- io.quarkus:quarkus-core-deployment:3.2.1.Final:jar:compile
+|  |  +- org.aesh:readline:2.4:jar:compile
+|  |  |  \- org.fusesource.jansi:jansi:2.4.0:jar:compile
+|  |  +- org.aesh:aesh:2.7:jar:compile
+|  |  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  |  +- io.quarkus.gizmo:gizmo:1.6.1.Final:jar:compile
+|  |  |  \- org.ow2.asm:asm-util:9.5:jar:compile
+|  |  |     \- org.ow2.asm:asm-analysis:9.5:jar:compile
+|  |  +- io.smallrye:jandex:3.1.2:jar:compile
+|  |  +- org.ow2.asm:asm:9.5:jar:compile
+|  |  +- org.ow2.asm:asm-commons:9.5:jar:compile
+|  |  |  \- org.ow2.asm:asm-tree:9.5:jar:compile
+|  |  +- io.quarkus:quarkus-class-change-agent:3.2.1.Final:jar:compile
+|  |  +- io.quarkus:quarkus-bootstrap-core:3.2.1.Final:jar:compile
+|  |  |  +- io.quarkus:quarkus-bootstrap-app-model:3.2.1.Final:jar:compile
+|  |  |  |  \- org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final:jar:runtime
+|  |  |  \- io.smallrye.common:smallrye-common-io:2.1.0:jar:compile
+|  |  +- io.quarkus:quarkus-devtools-utilities:3.2.1.Final:jar:compile
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:runtime
+|  |  +- io.quarkus:quarkus-core:3.2.1.Final:jar:compile
+|  |  |  +- jakarta.annotation:jakarta.annotation-api:2.1.1:jar:compile
+|  |  |  +- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1:jar:compile
+|  |  |  |  +- jakarta.enterprise:jakarta.enterprise.lang-model:4.0.1:jar:compile
+|  |  |  |  +- jakarta.el:jakarta.el-api:5.0.1:jar:compile
+|  |  |  |  \- jakarta.interceptor:jakarta.interceptor-api:2.1.0:jar:compile
+|  |  |  +- jakarta.inject:jakarta.inject-api:2.0.1:jar:compile
+|  |  |  +- io.smallrye.common:smallrye-common-os:2.1.0:jar:compile
+|  |  |  +- io.quarkus:quarkus-ide-launcher:3.2.1.Final:jar:compile
+|  |  |  +- io.quarkus:quarkus-development-mode-spi:3.2.1.Final:jar:compile
+|  |  |  +- io.smallrye.config:smallrye-config:3.3.0:jar:compile
+|  |  |  |  \- io.smallrye.config:smallrye-config-core:3.3.0:jar:compile
+|  |  |  |     +- org.eclipse.microprofile.config:microprofile-config-api:3.0.3:jar:compile
+|  |  |  |     +- io.smallrye.common:smallrye-common-annotation:2.1.0:jar:compile
+|  |  |  |     +- io.smallrye.common:smallrye-common-expression:2.1.0:jar:compile
+|  |  |  |     |  \- io.smallrye.common:smallrye-common-function:2.1.0:jar:compile
+|  |  |  |     +- io.smallrye.common:smallrye-common-constraint:2.1.0:jar:compile
+|  |  |  |     +- io.smallrye.common:smallrye-common-classloader:2.1.0:jar:compile
+|  |  |  |     \- io.smallrye.config:smallrye-config-common:3.3.0:jar:compile
+|  |  |  +- org.jboss.logging:jboss-logging:3.5.1.Final:jar:compile
+|  |  |  +- org.jboss.logmanager:jboss-logmanager-embedded:1.1.1:jar:compile
+|  |  |  +- org.jboss.logging:jboss-logging-annotations:2.2.1.Final:jar:compile
+|  |  |  +- org.jboss.threads:jboss-threads:3.5.0.Final:jar:compile
+|  |  |  +- org.slf4j:slf4j-api:2.0.6:jar:compile
+|  |  |  +- org.jboss.slf4j:slf4j-jboss-logmanager:2.0.0.Final:jar:compile
+|  |  |  +- org.graalvm.sdk:graal-sdk:22.3.2:jar:compile
+|  |  |  +- org.wildfly.common:wildfly-common:1.5.4.Final-format-001:jar:compile
+|  |  |  +- io.quarkus:quarkus-bootstrap-runner:3.2.1.Final:jar:compile
+|  |  |  |  +- io.smallrye.common:smallrye-common-io:2.1.0:jar:compile
+|  |  |  |  \- io.github.crac:org-crac:0.1.3:jar:compile
+|  |  |  \- io.quarkus:quarkus-fs-util:0.0.9:jar:compile
+|  |  +- io.quarkus:quarkus-builder:3.2.1.Final:jar:compile
+|  |  +- org.junit.platform:junit-platform-launcher:1.9.3:jar:compile
+|  |  |  +- org.junit.platform:junit-platform-engine:1.9.3:jar:compile
+|  |  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+|  |  |  |  \- org.junit.platform:junit-platform-commons:1.9.3:jar:compile
+|  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+|  |  \- org.junit.jupiter:junit-jupiter:5.9.3:jar:compile
+|  |     +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:compile
+|  |     |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+|  |     |  \- org.junit.platform:junit-platform-commons:1.9.3:jar:compile
+|  |     +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:compile
+|  |     \- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:runtime
+|  +- io.quarkiverse.dashbuilder:quarkus-dashbuilder:999-SNAPSHOT:jar:compile
+|  |  +- io.quarkus:quarkus-core:3.2.1.Final:jar:compile
+|  |  +- io.quarkiverse.dashbuilder:quarkus-dashbuilder-ui:999-SNAPSHOT:jar:compile
+|  |  +- io.quarkus:quarkus-vertx-http-deployment:3.2.1.Final:jar:provided
+|  |  |  +- io.quarkus:quarkus-vertx-deployment:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus:quarkus-arc-deployment:3.2.1.Final:jar:provided
+|  |  |  |  |  +- io.quarkus:quarkus-smallrye-context-propagation-spi:3.2.1.Final:jar:provided
+|  |  |  |  |  +- io.quarkus:quarkus-vertx-http-dev-console-spi:3.2.1.Final:jar:provided
+|  |  |  |  |  \- io.quarkus.arc:arc-processor:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus:quarkus-netty-deployment:3.2.1.Final:jar:provided
+|  |  |  |  |  \- io.quarkus:quarkus-netty:3.2.1.Final:jar:provided
+|  |  |  |  |     +- io.netty:netty-codec:4.1.94.Final:jar:provided
+|  |  |  |  |     +- io.netty:netty-codec-http:4.1.94.Final:jar:provided
+|  |  |  |  |     +- io.netty:netty-codec-http2:4.1.94.Final:jar:provided
+|  |  |  |  |     +- io.netty:netty-handler:4.1.94.Final:jar:provided
+|  |  |  |  |     |  \- io.netty:netty-transport-native-unix-common:4.1.94.Final:jar:provided
+|  |  |  |  |     \- com.aayushatharva.brotli4j:brotli4j:1.12.0:jar:provided
+|  |  |  |  |        +- com.aayushatharva.brotli4j:service:1.12.0:jar:provided
+|  |  |  |  |        \- com.aayushatharva.brotli4j:native-linux-x86_64:1.12.0:jar:provided
+|  |  |  |  \- io.quarkus:quarkus-vertx:3.2.1.Final:jar:provided
+|  |  |  |     +- io.netty:netty-codec-haproxy:4.1.94.Final:jar:provided
+|  |  |  |     |  +- io.netty:netty-buffer:4.1.94.Final:jar:provided
+|  |  |  |     |  \- io.netty:netty-transport:4.1.94.Final:jar:provided
+|  |  |  |     +- io.quarkus:quarkus-vertx-latebound-mdc-provider:3.2.1.Final:jar:provided
+|  |  |  |     +- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.5.0:jar:provided
+|  |  |  |     |  +- io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.5.0:jar:provided
+|  |  |  |     |  \- io.smallrye.reactive:vertx-mutiny-generator:3.5.0:jar:provided
+|  |  |  |     |     \- io.vertx:vertx-codegen:4.4.4:jar:provided
+|  |  |  |     +- io.smallrye:smallrye-fault-tolerance-vertx:6.2.4:jar:provided
+|  |  |  |     \- io.smallrye.common:smallrye-common-annotation:2.1.0:jar:compile
+|  |  |  +- io.quarkus:quarkus-vertx-http:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus:quarkus-security-runtime-spi:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus:quarkus-credentials:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus:quarkus-mutiny:3.2.1.Final:jar:provided
+|  |  |  |  |  +- io.quarkus:quarkus-smallrye-context-propagation:3.2.1.Final:jar:provided
+|  |  |  |  |  |  \- io.smallrye:smallrye-context-propagation:2.1.0:jar:provided
+|  |  |  |  |  |     +- io.smallrye:smallrye-context-propagation-api:2.1.0:jar:provided
+|  |  |  |  |  |     \- io.smallrye:smallrye-context-propagation-storage:2.1.0:jar:provided
+|  |  |  |  |  \- io.smallrye.reactive:mutiny-smallrye-context-propagation:2.3.1:jar:provided
+|  |  |  |  +- io.smallrye.common:smallrye-common-vertx-context:2.1.0:jar:provided
+|  |  |  |  |  +- io.vertx:vertx-core:4.4.4:jar:provided
+|  |  |  |  |  |  +- io.netty:netty-common:4.1.94.Final:jar:provided
+|  |  |  |  |  |  +- io.netty:netty-handler-proxy:4.1.94.Final:jar:provided
+|  |  |  |  |  |  |  \- io.netty:netty-codec-socks:4.1.94.Final:jar:provided
+|  |  |  |  |  |  +- io.netty:netty-resolver:4.1.94.Final:jar:provided
+|  |  |  |  |  |  \- io.netty:netty-resolver-dns:4.1.94.Final:jar:provided
+|  |  |  |  |  |     \- io.netty:netty-codec-dns:4.1.94.Final:jar:provided
+|  |  |  |  |  \- io.smallrye.common:smallrye-common-constraint:2.1.0:jar:compile
+|  |  |  |  +- io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:3.2.1.Final:jar:provided
+|  |  |  |  +- io.quarkus.security:quarkus-security:2.0.2.Final:jar:provided
+|  |  |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-web:3.5.0:jar:provided
+|  |  |  |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.5.0:jar:provided
+|  |  |  |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.5.0:jar:provided
+|  |  |  |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.5.0:jar:provided
+|  |  |  |  |  \- io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.5.0:jar:provided
+|  |  |  |  |     \- io.vertx:vertx-uri-template:4.4.4:jar:provided
+|  |  |  |  +- io.vertx:vertx-web:4.4.4:jar:provided
+|  |  |  |  |  +- io.vertx:vertx-web-common:4.4.4:jar:provided
+|  |  |  |  |  +- io.vertx:vertx-auth-common:4.4.4:jar:provided
+|  |  |  |  |  \- io.vertx:vertx-bridge-common:4.4.4:jar:provided
+|  |  |  |  \- io.github.crac:org-crac:0.1.3:jar:compile
+|  |  |  +- io.quarkus:quarkus-vertx-http-deployment-spi:3.2.1.Final:jar:provided
+|  |  |  |  \- io.quarkus:quarkus-core-deployment:3.2.1.Final:jar:provided
+|  |  |  |     +- org.aesh:readline:2.4:jar:provided
+|  |  |  |     |  \- org.fusesource.jansi:jansi:2.4.0:jar:provided
+|  |  |  |     +- org.aesh:aesh:2.7:jar:provided
+|  |  |  |     +- org.apache.commons:commons-lang3:3.12.0:jar:provided
+|  |  |  |     +- io.quarkus.gizmo:gizmo:1.6.1.Final:jar:provided
+|  |  |  |     |  \- org.ow2.asm:asm-util:9.5:jar:provided
+|  |  |  |     |     \- org.ow2.asm:asm-analysis:9.5:jar:provided
+|  |  |  |     +- io.smallrye:jandex:3.1.2:jar:provided
+|  |  |  |     +- org.ow2.asm:asm:9.5:jar:provided
+|  |  |  |     +- org.ow2.asm:asm-commons:9.5:jar:provided
+|  |  |  |     |  \- org.ow2.asm:asm-tree:9.5:jar:provided
+|  |  |  |     +- io.quarkus:quarkus-class-change-agent:3.2.1.Final:jar:provided
+|  |  |  |     +- io.quarkus:quarkus-bootstrap-core:3.2.1.Final:jar:provided
+|  |  |  |     |  \- io.quarkus:quarkus-bootstrap-app-model:3.2.1.Final:jar:provided
+|  |  |  |     |     \- org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final:jar:provided
+|  |  |  |     +- io.quarkus:quarkus-devtools-utilities:3.2.1.Final:jar:provided
+|  |  |  |     +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:provided
+|  |  |  |     +- io.quarkus:quarkus-builder:3.2.1.Final:jar:provided
+|  |  |  |     +- org.junit.platform:junit-platform-launcher:1.9.3:jar:provided
+|  |  |  |     |  +- org.junit.platform:junit-platform-engine:1.9.3:jar:provided
+|  |  |  |     |  |  +- org.opentest4j:opentest4j:1.2.0:jar:provided
+|  |  |  |     |  |  \- org.junit.platform:junit-platform-commons:1.9.3:jar:provided
+|  |  |  |     |  \- org.apiguardian:apiguardian-api:1.1.2:jar:provided
+|  |  |  |     \- org.junit.jupiter:junit-jupiter:5.9.3:jar:provided
+|  |  |  |        +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:provided
+|  |  |  |        +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:provided
+|  |  |  |        \- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:provided
+|  |  |  +- io.quarkus:quarkus-mutiny-deployment:3.2.1.Final:jar:provided
+|  |  |  |  \- io.quarkus:quarkus-smallrye-context-propagation-deployment:3.2.1.Final:jar:provided
+|  |  |  +- io.quarkus:quarkus-kubernetes-spi:3.2.1.Final:jar:provided
+|  |  |  +- io.quarkus:quarkus-vertx-http-dev-ui-spi:3.2.1.Final:jar:provided
+|  |  |  +- io.quarkus:quarkus-vertx-http-dev-ui-resources:3.2.1.Final:jar:provided
+|  |  |  |  +- org.mvnpm.at.vaadin:router:1.7.5:jar:runtime
+|  |  |  |  +- org.mvnpm:path-to-regexp:2.4.0:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:app-layout:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:avatar-group:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:icons:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:login:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:integer-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:accordion:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:avatar:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:horizontal-layout:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:button:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:combo-box:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:confirm-dialog:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:checkbox:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:checkbox-group:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:component-base:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:context-menu:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:custom-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:date-picker:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:date-time-picker:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:time-picker:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:details:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:dialog:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:email-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:password-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:number-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:field-base:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:grid:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:input-container:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:item:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:list-box:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:lit-renderer:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:menu-bar:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:message-list:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:message-input:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:multi-select-combo-box:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:radio-group:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:overlay:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:progress-bar:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:split-layout:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:text-area:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:tooltip:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vaadin-material-styles:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vaadin-themable-mixin:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vertical-layout:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:tabs:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:scroller:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:text-field:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:form-layout:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:tabsheet:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:select:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:notification:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:upload:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:virtual-list:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:icon:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vaadin-lumo-styles:24.0.5:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vaadin-usage-statistics:2.1.2:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vaadin:vaadin-development-mode-detector:2.0.6:jar:runtime
+|  |  |  |  +- org.mvnpm.at.polymer:polymer:3.5.1:jar:runtime
+|  |  |  |  +- org.mvnpm.at.webcomponents:shadycss:1.11.2:jar:runtime
+|  |  |  |  +- org.mvnpm.at.open-wc:dedupe-mixin:1.3.1:jar:runtime
+|  |  |  |  +- org.mvnpm:lit:2.7.4:jar:runtime
+|  |  |  |  +- org.mvnpm.at.lit:reactive-element:1.6.1:jar:runtime
+|  |  |  |  +- org.mvnpm:lit-element:3.3.2:jar:runtime
+|  |  |  |  +- org.mvnpm:lit-html:2.7.4:jar:runtime
+|  |  |  |  +- org.mvnpm.at.lit-labs:ssr-dom-shim:1.1.1:jar:runtime
+|  |  |  |  +- org.mvnpm.at.types:trusted-types:2.0.3:jar:runtime
+|  |  |  |  +- org.mvnpm:lit-element-state:1.7.0:jar:runtime
+|  |  |  |  +- org.mvnpm:echarts:5.4.2:jar:runtime
+|  |  |  |  |  +- org.mvnpm:tslib:2.3.0:jar:runtime
+|  |  |  |  |  \- org.mvnpm:zrender:5.4.3:jar:runtime
+|  |  |  |  +- org.mvnpm.at.vanillawc:wc-codemirror:2.1.0:jar:runtime
+|  |  |  |  \- org.mvnpm:es-module-shims:1.7.2:jar:runtime
+|  |  |  +- org.mvnpm:importmap:1.0.8:jar:provided
+|  |  |  +- io.quarkus.qute:qute-core:3.2.1.Final:jar:provided
+|  |  |  |  \- io.smallrye.reactive:mutiny:2.3.1:jar:provided
+|  |  |  +- org.yaml:snakeyaml:2.0:jar:provided
+|  |  |  \- com.fasterxml.jackson.core:jackson-databind:2.15.2:jar:provided
+|  |  |     +- com.fasterxml.jackson.core:jackson-annotations:2.15.2:jar:provided
+|  |  |     \- com.fasterxml.jackson.core:jackson-core:2.15.2:jar:provided
+|  |  \- io.quarkus:quarkus-arc:3.2.1.Final:jar:provided
+|  |     +- io.quarkus.arc:arc:3.2.1.Final:jar:provided
+|  |     |  \- jakarta.transaction:jakarta.transaction-api:2.0.1:jar:provided
+|  |     \- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3:jar:provided
+|  +- org.yaml:snakeyaml:2.0:jar:compile
+|  +- io.quarkus:quarkus-junit5-internal:3.2.1.Final:jar:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-depchain:1.2.6:pom:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-api:1.2.6:jar:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-spi:1.2.6:jar:test
+|  |  |  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.6:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:runtime
+|  |  +- io.quarkus:quarkus-test-common:3.2.1.Final:jar:test
+|  |  |  +- io.quarkus:quarkus-bootstrap-maven-resolver:3.2.1.Final:jar:test
+|  |  |  |  +- io.smallrye.beanbag:smallrye-beanbag-maven:1.3.2:jar:test
+|  |  |  |  |  +- io.smallrye.beanbag:smallrye-beanbag-sisu:1.3.2:jar:test
+|  |  |  |  |  |  \- io.smallrye.beanbag:smallrye-beanbag:1.3.2:jar:test
+|  |  |  |  |  +- javax.inject:javax.inject:1:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-artifact:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-builder-support:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-model:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-model-builder:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-repository-metadata:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-settings:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven.resolver:maven-resolver-api:1.9.13:jar:test
+|  |  |  |  |  +- org.apache.maven.resolver:maven-resolver-impl:1.9.13:jar:test
+|  |  |  |  |  |  \- org.apache.maven.resolver:maven-resolver-named-locks:1.9.13:jar:test
+|  |  |  |  |  +- org.apache.maven.resolver:maven-resolver-spi:1.9.13:jar:test
+|  |  |  |  |  +- org.apache.maven.resolver:maven-resolver-util:1.9.13:jar:test
+|  |  |  |  |  +- org.apache.maven.resolver:maven-resolver-transport-http:1.9.10:jar:test
+|  |  |  |  |  +- org.apache.maven.wagon:wagon-provider-api:3.5.3:jar:test
+|  |  |  |  |  +- org.apache.maven.wagon:wagon-http-shared:3.5.3:jar:test
+|  |  |  |  |  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:test
+|  |  |  |  |  +- org.codehaus.plexus:plexus-utils:3.5.1:jar:test
+|  |  |  |  |  +- org.codehaus.plexus:plexus-xml:4.0.0:jar:test
+|  |  |  |  |  |  \- org.apache.maven:maven-xml-impl:4.0.0-alpha-5:jar:test
+|  |  |  |  |  |     \- org.apache.maven:maven-api-xml:4.0.0-alpha-5:jar:test
+|  |  |  |  |  |        \- org.apache.maven:maven-api-meta:4.0.0-alpha-5:jar:test
+|  |  |  |  |  +- org.codehaus.plexus:plexus-cipher:2.0:jar:test
+|  |  |  |  |  \- org.codehaus.plexus:plexus-sec-dispatcher:2.0:jar:test
+|  |  |  |  +- org.apache.maven:maven-embedder:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-core:3.9.3:jar:test
+|  |  |  |  |  |  \- org.codehaus.plexus:plexus-component-annotations:2.1.0:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-plugin-api:3.9.3:jar:test
+|  |  |  |  |  +- org.apache.maven.shared:maven-shared-utils:3.3.4:jar:test
+|  |  |  |  |  +- com.google.inject:guice:5.1.0:jar:test
+|  |  |  |  |  |  \- aopalliance:aopalliance:1.0:jar:test
+|  |  |  |  |  +- com.google.guava:guava:32.0.0-jre:jar:test
+|  |  |  |  |  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  |  |  |  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:test
+|  |  |  |  |  +- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:test
+|  |  |  |  |  \- commons-cli:commons-cli:1.5.0:jar:test
+|  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:jar:test
+|  |  |  |  +- org.apache.maven:maven-settings-builder:3.9.3:jar:test
+|  |  |  |  +- org.apache.maven:maven-resolver-provider:3.9.3:jar:test
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-connector-basic:1.9.13:jar:test
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-transport-wagon:1.9.13:jar:test
+|  |  |  |  +- org.apache.maven.wagon:wagon-http:3.5.3:jar:test
+|  |  |  |  \- org.apache.maven.wagon:wagon-file:3.5.3:jar:test
+|  |  |  +- io.quarkus:quarkus-bootstrap-gradle-resolver:3.2.1.Final:jar:test
+|  |  |  +- commons-io:commons-io:2.13.0:jar:test
+|  |  |  +- org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final:jar:runtime
+|  |  |  +- io.quarkus:quarkus-core-deployment:3.2.1.Final:jar:test
+|  |  |  |  +- org.aesh:readline:2.4:jar:test
+|  |  |  |  |  \- org.fusesource.jansi:jansi:2.4.0:jar:test
+|  |  |  |  +- org.aesh:aesh:2.7:jar:test
+|  |  |  |  +- io.quarkus.gizmo:gizmo:1.6.1.Final:jar:test
+|  |  |  |  |  \- org.ow2.asm:asm-util:9.5:jar:test
+|  |  |  |  |     \- org.ow2.asm:asm-analysis:9.5:jar:test
+|  |  |  |  +- org.ow2.asm:asm:9.5:jar:test
+|  |  |  |  +- org.ow2.asm:asm-commons:9.5:jar:test
+|  |  |  |  |  \- org.ow2.asm:asm-tree:9.5:jar:test
+|  |  |  |  +- io.quarkus:quarkus-class-change-agent:3.2.1.Final:jar:test
+|  |  |  |  +- io.quarkus:quarkus-devtools-utilities:3.2.1.Final:jar:test
+|  |  |  |  +- io.quarkus:quarkus-builder:3.2.1.Final:jar:test
+|  |  |  |  \- org.junit.platform:junit-platform-launcher:1.9.3:jar:test
+|  |  |  +- io.smallrye:jandex:3.1.2:jar:test
+|  |  |  \- org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final:jar:test
+|  |  +- jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1:jar:compile
+|  |  \- org.awaitility:awaitility:4.2.0:jar:test
+|  \- io.rest-assured:rest-assured:5.3.0:jar:test
+|     +- org.apache.groovy:groovy:4.0.6:jar:test
+|     +- org.apache.groovy:groovy-xml:4.0.6:jar:test
+|     +- org.apache.httpcomponents:httpclient:4.5.14:jar:test
+|     |  +- org.apache.httpcomponents:httpcore:4.4.16:jar:test
+|     |  \- commons-codec:commons-codec:1.16.0:jar:test
+|     +- org.apache.httpcomponents:httpmime:4.5.14:jar:test
+|     +- org.hamcrest:hamcrest:2.1:jar:test
+|     +- org.ccil.cowan.tagsoup:tagsoup:1.2.1:jar:test
+|     +- io.rest-assured:json-path:5.3.0:jar:test
+|     |  +- org.apache.groovy:groovy-json:4.0.6:jar:test
+|     |  \- io.rest-assured:rest-assured-common:5.3.0:jar:test
+|     \- io.rest-assured:xml-path:5.3.0:jar:test
+|        \- org.apache.commons:commons-lang3:3.12.0:jar:test
+\- io.quarkus:quarkus-vertx-http-deployment:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-vertx-deployment:3.2.1.Final:jar:compile
+   |  +- io.quarkus:quarkus-arc-deployment:3.2.1.Final:jar:compile
+   |  |  +- io.quarkus:quarkus-smallrye-context-propagation-spi:3.2.1.Final:jar:compile
+   |  |  |  \- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3:jar:compile
+   |  |  +- io.quarkus:quarkus-vertx-http-dev-console-spi:3.2.1.Final:jar:compile
+   |  |  +- io.quarkus:quarkus-arc:3.2.1.Final:jar:compile
+   |  |  |  \- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.3:jar:compile
+   |  |  \- io.quarkus.arc:arc-processor:3.2.1.Final:jar:compile
+   |  +- io.quarkus:quarkus-netty-deployment:3.2.1.Final:jar:compile
+   |  |  \- io.quarkus:quarkus-netty:3.2.1.Final:jar:compile
+   |  |     +- io.netty:netty-codec:4.1.94.Final:jar:compile
+   |  |     +- io.netty:netty-codec-http:4.1.94.Final:jar:compile
+   |  |     +- io.netty:netty-codec-http2:4.1.94.Final:jar:compile
+   |  |     +- io.netty:netty-handler:4.1.94.Final:jar:compile
+   |  |     |  \- io.netty:netty-transport-native-unix-common:4.1.94.Final:jar:compile
+   |  |     \- com.aayushatharva.brotli4j:brotli4j:1.12.0:jar:compile
+   |  |        +- com.aayushatharva.brotli4j:service:1.12.0:jar:compile
+   |  |        \- com.aayushatharva.brotli4j:native-linux-x86_64:1.12.0:jar:compile
+   |  \- io.quarkus:quarkus-vertx:3.2.1.Final:jar:compile
+   |     +- io.netty:netty-codec-haproxy:4.1.94.Final:jar:compile
+   |     |  +- io.netty:netty-buffer:4.1.94.Final:jar:compile
+   |     |  \- io.netty:netty-transport:4.1.94.Final:jar:compile
+   |     +- io.smallrye.common:smallrye-common-annotation:2.1.0:jar:compile
+   |     +- io.quarkus:quarkus-vertx-latebound-mdc-provider:3.2.1.Final:jar:compile
+   |     +- io.smallrye.reactive:smallrye-mutiny-vertx-core:3.5.0:jar:compile
+   |     |  +- io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.5.0:jar:compile
+   |     |  \- io.smallrye.reactive:vertx-mutiny-generator:3.5.0:jar:compile
+   |     |     \- io.vertx:vertx-codegen:4.4.4:jar:compile
+   |     +- io.smallrye:smallrye-fault-tolerance-vertx:6.2.4:jar:compile
+   |     \- io.quarkus:quarkus-netty:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-vertx-http:3.2.1.Final:jar:compile
+   |  +- io.quarkus:quarkus-security-runtime-spi:3.2.1.Final:jar:compile
+   |  +- io.quarkus:quarkus-credentials:3.2.1.Final:jar:compile
+   |  |  \- io.quarkus.arc:arc:3.2.1.Final:jar:compile
+   |  |     \- jakarta.transaction:jakarta.transaction-api:2.0.1:jar:compile
+   |  +- io.quarkus:quarkus-mutiny:3.2.1.Final:jar:compile
+   |  |  +- io.quarkus:quarkus-smallrye-context-propagation:3.2.1.Final:jar:compile
+   |  |  |  \- io.smallrye:smallrye-context-propagation:2.1.0:jar:compile
+   |  |  |     +- io.smallrye:smallrye-context-propagation-api:2.1.0:jar:compile
+   |  |  |     \- io.smallrye:smallrye-context-propagation-storage:2.1.0:jar:compile
+   |  |  +- io.smallrye.reactive:mutiny-smallrye-context-propagation:2.3.1:jar:compile
+   |  |  \- io.smallrye.reactive:mutiny:2.3.1:jar:compile
+   |  +- io.smallrye.common:smallrye-common-vertx-context:2.1.0:jar:compile
+   |  |  +- io.vertx:vertx-core:4.4.4:jar:compile
+   |  |  |  +- io.netty:netty-common:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-handler-proxy:4.1.94.Final:jar:compile
+   |  |  |  |  \- io.netty:netty-codec-socks:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-resolver:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-resolver-dns:4.1.94.Final:jar:compile
+   |  |  |  |  \- io.netty:netty-codec-dns:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-buffer:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-transport:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-handler:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-codec-http:4.1.94.Final:jar:compile
+   |  |  |  +- io.netty:netty-codec-http2:4.1.94.Final:jar:compile
+   |  |  |  \- com.fasterxml.jackson.core:jackson-core:2.15.2:jar:compile
+   |  |  \- io.smallrye.common:smallrye-common-constraint:2.1.0:jar:compile
+   |  +- io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:3.2.1.Final:jar:compile
+   |  +- io.quarkus.security:quarkus-security:2.0.2.Final:jar:compile
+   |  +- io.smallrye.reactive:smallrye-mutiny-vertx-web:3.5.0:jar:compile
+   |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.5.0:jar:compile
+   |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.5.0:jar:compile
+   |  |  +- io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.5.0:jar:compile
+   |  |  \- io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.5.0:jar:compile
+   |  |     \- io.vertx:vertx-uri-template:4.4.4:jar:compile
+   |  +- io.vertx:vertx-web:4.4.4:jar:compile
+   |  |  +- io.vertx:vertx-web-common:4.4.4:jar:compile
+   |  |  +- io.vertx:vertx-auth-common:4.4.4:jar:compile
+   |  |  \- io.vertx:vertx-bridge-common:4.4.4:jar:compile
+   |  +- io.github.crac:org-crac:0.1.3:jar:compile
+   |  \- io.quarkus:quarkus-vertx:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-vertx-http-deployment-spi:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-mutiny-deployment:3.2.1.Final:jar:compile
+   |  \- io.quarkus:quarkus-smallrye-context-propagation-deployment:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-kubernetes-spi:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-vertx-http-dev-ui-spi:3.2.1.Final:jar:compile
+   +- io.quarkus:quarkus-vertx-http-dev-ui-resources:3.2.1.Final:jar:compile
+   |  +- org.mvnpm.at.vaadin:router:1.7.5:jar:runtime
+   |  +- org.mvnpm:path-to-regexp:2.4.0:jar:runtime
+   |  +- org.mvnpm.at.vaadin:app-layout:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:avatar-group:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:icons:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:login:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:integer-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:accordion:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:avatar:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:horizontal-layout:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:button:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:combo-box:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:confirm-dialog:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:checkbox:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:checkbox-group:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:component-base:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:context-menu:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:custom-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:date-picker:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:date-time-picker:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:time-picker:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:details:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:dialog:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:email-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:password-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:number-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:field-base:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:grid:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:input-container:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:item:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:list-box:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:lit-renderer:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:menu-bar:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:message-list:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:message-input:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:multi-select-combo-box:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:radio-group:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:overlay:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:progress-bar:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:split-layout:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:text-area:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:tooltip:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vaadin-material-styles:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vaadin-themable-mixin:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vertical-layout:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:tabs:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:scroller:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:text-field:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:form-layout:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:tabsheet:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:select:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:notification:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:upload:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:virtual-list:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:icon:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vaadin-lumo-styles:24.0.5:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vaadin-usage-statistics:2.1.2:jar:runtime
+   |  +- org.mvnpm.at.vaadin:vaadin-development-mode-detector:2.0.6:jar:runtime
+   |  +- org.mvnpm.at.polymer:polymer:3.5.1:jar:runtime
+   |  +- org.mvnpm.at.webcomponents:shadycss:1.11.2:jar:runtime
+   |  +- org.mvnpm.at.open-wc:dedupe-mixin:1.3.1:jar:runtime
+   |  +- org.mvnpm:lit:2.7.4:jar:runtime
+   |  +- org.mvnpm.at.lit:reactive-element:1.6.1:jar:runtime
+   |  +- org.mvnpm:lit-element:3.3.2:jar:runtime
+   |  +- org.mvnpm:lit-html:2.7.4:jar:runtime
+   |  +- org.mvnpm.at.lit-labs:ssr-dom-shim:1.1.1:jar:runtime
+   |  +- org.mvnpm.at.types:trusted-types:2.0.3:jar:runtime
+   |  +- org.mvnpm:lit-element-state:1.7.0:jar:runtime
+   |  +- org.mvnpm:echarts:5.4.2:jar:runtime
+   |  +- org.mvnpm.at.vanillawc:wc-codemirror:2.1.0:jar:runtime
+   |  \- org.mvnpm:es-module-shims:1.7.2:jar:runtime
+   +- org.mvnpm:importmap:1.0.8:jar:compile
+   +- io.quarkus.qute:qute-core:3.2.1.Final:jar:compile
+   |  +- org.jboss.logging:jboss-logging:3.5.1.Final:jar:compile
+   |  \- io.smallrye.reactive:mutiny:2.3.1:jar:compile
+   \- com.fasterxml.jackson.core:jackson-databind:2.15.2:jar:compile
+      +- com.fasterxml.jackson.core:jackson-annotations:2.15.2:jar:compile
+      \- com.fasterxml.jackson.core:jackson-core:2.15.2:jar:compile
+io.quarkiverse.dashbuilder:quarkus-dashbuilder-integration-tests:999-SNAPSHOT:jar:compile
++- io.quarkus:quarkus-resteasy:3.2.1.Final:jar:compile
+|  +- io.quarkus:quarkus-vertx-http:3.2.1.Final:jar:compile
+|  \- io.quarkus:quarkus-resteasy-server-common:3.2.1.Final:jar:compile
+|     +- io.quarkus:quarkus-arc:3.2.1.Final:jar:compile
+|     +- io.quarkus:quarkus-resteasy-common:3.2.1.Final:jar:compile
+|     |  +- org.jboss.resteasy:resteasy-core:6.2.4.Final:jar:compile
+|     |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:compile
+|     |  |  +- org.jboss.resteasy:resteasy-core-spi:6.2.4.Final:jar:compile
+|     |  |  +- org.reactivestreams:reactive-streams:1.0.4:jar:compile
+|     |  |  \- com.ibm.async:asyncutil:0.1.0:jar:compile
+|     |  +- org.eclipse.angus:angus-activation:2.0.1:jar:compile
+|     |  |  \- jakarta.activation:jakarta.activation-api:2.1.2:jar:compile
+|     |  +- jakarta.ws.rs:jakarta.ws.rs-api:3.1.0:jar:compile
+|     |  +- org.jboss.resteasy:resteasy-cdi:6.2.4.Final:jar:compile
+|     |  |  \- org.jboss.weld:weld-api:5.0.SP2:jar:compile
+|     |  \- org.jboss.resteasy.microprofile:microprofile-config:2.1.1.Final:jar:compile
+|     |     +- jakarta.servlet:jakarta.servlet-api:6.0.0:jar:compile
+|     |     \- org.eclipse.microprofile.config:microprofile-config-api:3.0.3:jar:compile
+|     \- jakarta.validation:jakarta.validation-api:3.0.2:jar:compile
++- io.quarkiverse.dashbuilder:quarkus-dashbuilder:999-SNAPSHOT:jar:compile
++- io.quarkus:quarkus-junit5:3.2.1.Final:jar:test
+|  +- io.quarkus:quarkus-bootstrap-core:3.2.1.Final:jar:test
+|  |  +- io.quarkus:quarkus-bootstrap-app-model:3.2.1.Final:jar:test
+|  |  \- io.smallrye.common:smallrye-common-io:2.1.0:jar:compile
+|  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:test
+|  +- io.quarkus:quarkus-test-common:3.2.1.Final:jar:test
+|  +- io.quarkus:quarkus-junit5-properties:3.2.1.Final:jar:test
+|  +- org.junit.jupiter:junit-jupiter:5.9.3:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:test
+|  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  |  +- org.junit.platform:junit-platform-commons:1.9.3:jar:test
+|  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:test
+|  |  \- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:test
+|  |     \- org.junit.platform:junit-platform-engine:1.9.3:jar:test
+|  \- com.thoughtworks.xstream:xstream:1.4.20:jar:test
+|     \- io.github.x-stream:mxparser:1.2.2:jar:test
+|        \- xmlpull:xmlpull:1.1.3.1:jar:test
+\- io.rest-assured:rest-assured:5.3.0:jar:test

@@ -1,0 +1,1378 @@
+org.optaplanner:optaplanner-wb-ui:7.75.0-SNAPSHOT:gwt-app:compile
++- org.jboss.errai:errai-cdi-jboss:4.15.0.Final:jar:compile
+|  +- org.jboss.errai:errai-client-local-class-hider:4.15.0.Final:jar:compile
+|  |  \- org.ow2.asm:asm:7.1:jar:compile
+|  +- org.wildfly.core:wildfly-cli:15.0.1.Final:jar:compile
+|  |  +- org.aesh:readline:2.2:jar:compile
+|  |  |  \- org.fusesource.jansi:jansi:1.18:jar:compile
+|  |  +- org.aesh:aesh:2.4:jar:compile
+|  |  +- org.aesh:aesh-extensions:1.8:jar:compile
+|  |  +- org.jboss:staxmapper:1.3.0.Final:jar:compile
+|  |  +- org.jboss.modules:jboss-modules:1.11.0.Final:jar:compile
+|  |  +- org.wildfly.core:wildfly-controller-client:17.0.0.Final:jar:compile
+|  |  |  +- org.wildfly.core:wildfly-protocol:17.0.0.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-auth-server:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-credential:1.15.16.Final:jar:compile
+|  |  |  |  |  \- org.wildfly.security:wildfly-elytron-x500:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-auth-server-deprecated:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-http:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-auth-server-http:1.15.16.Final:jar:compile
+|  |  |  |  |  \- org.wildfly.security:wildfly-elytron-auth-server-sasl:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-client:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-credential-source-impl:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-provider-util:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-auth-util:1.15.16.Final:jar:compile
+|  |  |  |  |  |  \- org.wildfly.security:wildfly-elytron-mechanism-gssapi:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-credential-store:1.15.16.Final:jar:compile
+|  |  |  |  |  |  \- org.wildfly.security:wildfly-elytron-encryption:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-keystore:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-mechanism:1.15.16.Final:jar:compile
+|  |  |  |  |  +- org.wildfly.security:wildfly-elytron-password-impl:1.15.16.Final:jar:compile
+|  |  |  |  |  \- org.wildfly.security:wildfly-elytron-x500-cert:1.15.16.Final:jar:compile
+|  |  |  |  |     \- org.wildfly.security:wildfly-elytron-x500-cert-util:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-permission:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-sasl:1.15.16.Final:jar:compile
+|  |  |  |  |  \- org.wildfly.security:wildfly-elytron-ssl:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-sasl-anonymous:1.15.16.Final:jar:compile
+|  |  |  |  +- org.wildfly.security:wildfly-elytron-sasl-localuser:1.15.16.Final:jar:compile
+|  |  |  |  \- org.wildfly.security:wildfly-elytron-realm:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth:1.15.16.Final:jar:compile
+|  |  |  |  \- org.wildfly.security:wildfly-elytron-util:1.15.16.Final:jar:compile
+|  |  |  |     \- org.wildfly.security:wildfly-elytron-asn1:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-base:1.15.16.Final:jar:compile
+|  |  |  \- org.wildfly.security:wildfly-elytron-security-manager:1.15.16.Final:jar:compile
+|  |  |     \- org.wildfly.security:wildfly-elytron-security-manager-action:1.15.16.Final:jar:compile
+|  |  +- org.wildfly.security:wildfly-elytron:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-asn1:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-audit:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth-server:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth-server-deprecated:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth-server-http:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth-server-sasl:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-auth-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-base:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-client:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-credential:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-credential-source-deprecated:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-credential-store:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-digest:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-encryption:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-basic:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-bearer:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-cert:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-deprecated:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-digest:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-external:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-form:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-oidc:1.15.16.Final:jar:compile
+|  |  |  |  \- org.bitbucket.b_c:jose4j:0.7.5:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-spnego:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-sso:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-http-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-jacc:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-jaspi:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-json-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-jose-jwk:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-jose-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-keystore:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism-digest:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism-gssapi:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism-http:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism-oauth2:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-mechanism-scram:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-password-impl:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-permission:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-realm:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-realm-jdbc:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-realm-ldap:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-realm-token:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-anonymous:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-auth-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-deprecated:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-digest:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-entity:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-external:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-gs2:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-gssapi:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-localuser:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-oauth2:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-otp:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-plain:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-sasl-scram:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-security-manager:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-security-manager-action:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-ssl:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500-cert:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500-cert-acme:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500-cert-util:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500-deprecated:1.15.16.Final:jar:compile
+|  |  |  +- org.wildfly.security:wildfly-elytron-x500-principal:1.15.16.Final:jar:compile
+|  |  |  \- org.wildfly.common:wildfly-common:1.5.4.Final:jar:compile
+|  |  +- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
+|  |  +- org.jboss.logmanager:jboss-logmanager:2.1.18.Final:jar:compile
+|  |  +- org.jboss.remoting:jboss-remoting:5.0.20.Final:jar:compile
+|  |  |  +- org.jboss.xnio:xnio-api:3.8.4.Final:jar:compile
+|  |  |  \- org.wildfly.client:wildfly-client-config:1.0.1.Final:jar:compile
+|  |  +- org.jboss.remotingjmx:remoting-jmx:3.0.4.Final:jar:compile
+|  |  |  +- org.jboss.marshalling:jboss-marshalling:2.0.11.Final:jar:compile
+|  |  |  +- org.jboss.marshalling:jboss-marshalling-river:2.0.11.Final:jar:compile
+|  |  |  \- org.jboss.xnio:xnio-nio:3.8.4.Final:jar:compile
+|  |  +- org.jboss:jboss-vfs:3.2.15.Final:jar:compile
+|  |  \- org.jboss.stdio:jboss-stdio:1.1.0.Final:jar:compile
+|  +- org.wildfly.core:wildfly-embedded:15.0.1.Final:jar:compile
+|  |  +- org.jboss:jboss-dmr:1.5.1.Final:jar:compile
+|  |  \- org.jboss.threads:jboss-threads:2.4.0.Final:jar:compile
+|  \- com.google.gwt:gwt-dev:2.9.0:jar:compile
+|     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|     +- com.google.code.gson:gson:2.8.9:jar:compile
+|     +- org.ow2.asm:asm-util:7.1:jar:compile
+|     |  +- org.ow2.asm:asm-tree:7.1:jar:compile
+|     |  \- org.ow2.asm:asm-analysis:7.1:jar:compile
+|     +- org.ow2.asm:asm-commons:7.1:jar:compile
+|     +- colt:colt:1.2.0:jar:compile
+|     +- commons-collections:commons-collections:3.2.2:jar:compile
+|     +- com.ibm.icu:icu4j:63.1:jar:compile
+|     +- tapestry:tapestry:4.0.2:jar:compile
+|     +- net.sourceforge.htmlunit:htmlunit:2.19:jar:compile
+|     |  +- org.apache.httpcomponents:httpmime:4.5.13:jar:compile
+|     |  +- net.sourceforge.htmlunit:htmlunit-core-js:2.17:jar:compile
+|     |  +- net.sourceforge.nekohtml:nekohtml:1.9.22:jar:compile
+|     |  +- net.sourceforge.cssparser:cssparser:0.9.21:jar:compile
+|     |  \- org.eclipse.jetty.websocket:websocket-client:9.2.13.v20150730:jar:compile
+|     |     \- org.eclipse.jetty.websocket:websocket-common:9.2.13.v20150730:jar:compile
+|     |        \- org.eclipse.jetty.websocket:websocket-api:9.2.13.v20150730:jar:compile
+|     +- org.eclipse.jetty:jetty-webapp:9.2.14.v20151106:jar:compile
+|     |  +- org.eclipse.jetty:jetty-xml:9.2.14.v20151106:jar:compile
+|     |  \- org.eclipse.jetty:jetty-servlet:9.4.53.v20231009:jar:compile
+|     |     +- org.eclipse.jetty:jetty-security:9.4.53.v20231009:jar:compile
+|     |     |  \- org.eclipse.jetty:jetty-server:9.4.53.v20231009:jar:compile
+|     |     \- org.eclipse.jetty:jetty-util-ajax:9.4.53.v20231009:jar:compile
+|     +- org.eclipse.jetty:jetty-servlets:9.4.53.v20231009:jar:compile
+|     |  +- org.eclipse.jetty:jetty-continuation:9.4.53.v20231009:jar:compile
+|     |  +- org.eclipse.jetty:jetty-http:9.4.53.v20231009:jar:compile
+|     |  +- org.eclipse.jetty:jetty-util:9.4.53.v20231009:jar:compile
+|     |  \- org.eclipse.jetty:jetty-io:9.4.53.v20231009:jar:compile
+|     \- org.eclipse.jetty:jetty-annotations:9.2.14.v20151106:jar:compile
+|        \- org.eclipse.jetty:jetty-plus:9.2.14.v20151106:jar:compile
+|           \- org.eclipse.jetty:jetty-jndi:9.2.14.v20151106:jar:compile
++- com.google.gwt:gwt-user:2.9.0:jar:compile
+|  +- com.google.jsinterop:jsinterop-annotations:2.0.0:jar:compile
+|  +- javax.validation:validation-api:1.0.0.GA:jar:compile
+|  \- org.w3c.css:sac:1.3:jar:compile
++- org.kie.workbench.widgets:kie-wb-common-ui:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.widgets:kie-wb-config-resource-widget:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.widgets:kie-wb-metadata-widget:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.widgets:kie-wb-config-resource-widget:7.75.0-SNAPSHOT:jar:compile
+|  \- com.google.elemental2:elemental2-promise:1.1.0:jar:compile
++- org.kie.workbench.widgets:kie-wb-decorated-grid-widget:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-widgets-table:7.75.0-SNAPSHOT:jar:compile
++- org.picketlink:picketlink-api:2.6.0.Final:jar:compile
++- org.picketlink:picketlink-idm-api:2.6.0.Final:jar:compile
+|  \- org.picketlink:picketlink-common:2.6.0.Final:jar:compile
++- org.uberfire:uberfire-client-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-workbench-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-maven-support:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-commons:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-commons:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-nio2-model:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-xstream:7.75.0-SNAPSHOT:jar:compile
+|  +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  |  \- io.github.x-stream:mxparser:1.2.2:jar:compile
+|  |     \- xmlpull:xmlpull:1.2.0:jar:compile
+|  \- commons-codec:commons-codec:1.15:jar:compile
++- org.uberfire:uberfire-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-security-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-security-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jboss.errai:errai-security-client:4.15.0.Final:jar:compile
+|     +- org.jboss.errai:errai-navigation:4.15.0.Final:jar:compile
+|     |  \- com.google.guava:guava-gwt:30.1-jre:jar:compile
+|     |     +- com.google.guava:failureaccess:1.0.1:jar:compile
+|     |     \- org.checkerframework:checker-qual:3.5.0:jar:compile
+|     +- org.jboss.errai:errai-jaxrs-client:4.15.0.Final:jar:compile
+|     +- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
+|     \- jakarta.persistence:jakarta.persistence-api:2.2.3:jar:compile
++- org.uberfire:uberfire-widgets-properties-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-properties-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-client-all:7.75.0-SNAPSHOT:jar:compile
+|     +- org.uberfire:uberfire-client:7.75.0-SNAPSHOT:jar:compile
+|     |  \- org.uberfire:uberfire-js:7.75.0-SNAPSHOT:jar:compile
+|     |     \- org.uberfire:appformer-js-bridge:7.75.0-SNAPSHOT:jar:compile
+|     \- org.uberfire:uberfire-client-backend:7.75.0-SNAPSHOT:jar:compile
+|        +- org.uberfire:uberfire-security-client-backend:7.75.0-SNAPSHOT:jar:compile
+|        \- org.uberfire:uberfire-workbench-client-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-service-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-commons-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-backend-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-core-editors:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-widgets-core-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-commons-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- com.google.elemental2:elemental2-core:1.1.0:jar:compile
++- org.uberfire:uberfire-widgets-commons:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-core-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-core-editors:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-table:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-workbench-client-views-patternfly:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-simple-docks-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-simple-docks-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-processors:7.75.0-SNAPSHOT:jar:compile
+|  \- org.freemarker:freemarker:2.3.30:jar:compile
++- org.uberfire:uberfire-preferences-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-client-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-client-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-ui-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-wires-core-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie:lienzo-core:7.75.0-SNAPSHOT:jar:compile
+|     \- com.ahome-it:ahome-tooling-nativetools:1.0.195-RELEASE:jar:compile
+|        \- com.ahome-it:ahome-tooling-common:1.0.190-RELEASE:jar:compile
++- org.uberfire:uberfire-wires-core-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-wires-core-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-widgets-properties-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-wires-core-grids:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-wires-core-trees:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-wires-core-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.server:kie-server-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-persistence-xstream:7.73.0.Final:jar:compile
+|  |  \- org.optaplanner:optaplanner-persistence-common:7.73.0.Final:jar:compile
+|  +- org.optaplanner:optaplanner-persistence-jaxb:7.73.0.Final:jar:compile
+|  +- org.kie:kie-dmn-api:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie:kie-dmn-model:7.75.0-SNAPSHOT:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:2.15.0:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-core:2.15.0:jar:compile
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.15.0:jar:compile
+|  |  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.0:jar:compile
+|  +- org.kie:kie-pmml-dependencies:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.apache.commons:commons-text:1.10.0:jar:compile
+|  |  +- org.kie:kie-pmml-compiler-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.jpmml:pmml-model:1.5.1:jar:compile
+|  |  |     \- org.jpmml:pmml-agent:1.5.1:jar:compile
+|  |  +- org.kie:kie-pmml-compiler-core:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-compiler-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-evaluator-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-evaluator-core:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-evaluator-assembler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-kie-internal:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-drools-common:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-regression-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-regression-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-regression-evaluator:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-tree-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-tree-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-tree-evaluator:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-scorecard-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-scorecard-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-scorecard-evaluator:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-mining-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-mining-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-mining-evaluator:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-clustering-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-pmml-models-clustering-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie:kie-pmml-models-clustering-evaluator:7.75.0-SNAPSHOT:jar:compile
+|  \- org.drools:kie-pmml:7.75.0-SNAPSHOT:jar:compile
+|     +- org.drools:drools-ruleunit:7.75.0-SNAPSHOT:jar:compile
+|     +- org.glassfish.jaxb:jaxb-runtime:2.3.6:jar:compile
+|     |  +- org.glassfish.jaxb:txw2:2.3.6:jar:compile
+|     |  \- com.sun.istack:istack-commons-runtime:3.0.12:jar:compile
+|     \- org.glassfish.jaxb:jaxb-xjc:2.3.6:jar:compile
+|        +- org.glassfish.jaxb:xsom:2.3.6:jar:compile
+|        |  \- com.sun.xml.bind.external:relaxng-datatype:2.3.6:jar:compile
+|        +- org.glassfish.jaxb:codemodel:2.3.6:jar:compile
+|        +- com.sun.xml.bind.external:rngom:2.3.6:jar:compile
+|        +- com.sun.xml.dtd-parser:dtd-parser:1.4.5:jar:compile
+|        \- com.sun.istack:istack-commons-tools:3.0.12:jar:compile
++- org.kie.server:kie-server-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-persistence-xstream:7.73.0.Final:jar:compile
+|  +- org.optaplanner:optaplanner-persistence-jaxb:7.73.0.Final:jar:compile
+|  +- org.kie:kie-dmn-api:7.75.0-SNAPSHOT:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:2.15.0:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-core:2.15.0:jar:compile
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.15.0:jar:compile
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.0:jar:compile
+|  +- org.kie:kie-pmml-dependencies:7.75.0-SNAPSHOT:jar:compile
+|  \- org.drools:kie-pmml:7.75.0-SNAPSHOT:jar:compile
++- org.kie.server:kie-server-controller-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.server:kie-server-controller-api:7.75.0-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.2.9:jar:compile
+|  \- ch.qos.logback:logback-core:1.2.9:jar:compile
++- org.drools:drools-workbench-models-guided-dtable:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-dtree:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-scorecard:7.75.0-SNAPSHOT:jar:compile
+|  \- org.drools:drools-scorecards:7.75.0-SNAPSHOT:jar:compile
+|     \- org.apache.poi:poi:4.1.2:jar:compile
+|        +- org.apache.commons:commons-collections4:4.4:jar:compile
+|        \- com.zaxxer:SparseBitSet:1.2:jar:compile
++- org.drools:drools-workbench-models-guided-template:7.75.0-SNAPSHOT:jar:compile
+|  \- org.drools:drools-templates:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-test-scenarios:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-structure-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-structure-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-services-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-m2repo-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-m2repo-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-m2repo-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-project-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-project-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-workingset-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-workingset-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-message-console-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-message-console-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.profile:kie-wb-common-profile-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-services-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-refactoring-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-refactoring-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-default-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-core-editors:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.workbench.widgets:kie-wb-metadata-widget:7.75.0-SNAPSHOT:jar:compile
+|  |     \- org.kie.workbench.widgets:kie-wb-config-resource-widget:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.widgets:kie-wb-decorated-grid-widget:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-project-imports-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.workbench.screens:kie-wb-common-project-imports-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-structure-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.uberfire:uberfire-widgets-core-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-table:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-core-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-properties-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.screens:kie-wb-common-java-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.workbench.screens:kie-wb-common-java-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.kie.workbench.widgets:kie-wb-config-resource-widget:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.widgets:kie-wb-metadata-widget:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.workbench.services:kie-wb-common-refactoring-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-m2repo-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-imports-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-imports-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.workbench.screens:kie-wb-common-project-imports-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-explorer-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-explorer-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-data-modeller-core:7.75.0-SNAPSHOT:jar:compile
+|  +- org.apache.velocity:velocity:1.7:jar:compile
+|  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  \- commons-lang:commons-lang:2.4:jar:compile
+|  +- org.kie.workbench.services:kie-wb-common-datamodel-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-project-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-workingset-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-structure-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.jboss.errai:errai-cdi-shared:4.15.0.Final:jar:compile
+|  |  |  |  +- org.eclipse.jgit:org.eclipse.jgit:5.10.0.202012080955-r:jar:compile
+|  |  |  |  |  \- com.googlecode.javaewah:JavaEWAH:1.1.7:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-security-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.jboss.errai:errai-common:4.15.0.Final:jar:compile
+|  |  |  |  +- com.google.jsinterop:jsinterop-annotations:2.0.0:jar:compile
+|  |  |  |  +- org.jboss.errai.reflections:reflections:4.15.0.Final:jar:compile
+|  |  |  |  +- de.benediktmeurer.gwt-slf4j:gwt-slf4j:0.0.2:jar:compile
+|  |  |  |  +- org.apache.commons:commons-lang3:3.11:jar:compile
+|  |  |  |  \- com.google.elemental2:elemental2-dom:1.1.0:jar:compile
+|  |  |  |     +- com.google.jsinterop:base:1.0.0:jar:compile
+|  |  |  |     +- com.google.elemental2:elemental2-core:1.1.0:jar:compile
+|  |  |  |     \- com.google.elemental2:elemental2-promise:1.1.0:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-project-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  |  |  |  +- org.apache.activemq:artemis-jms-client:2.19.1:jar:compile
+|  |  |  |  |  +- org.apache.activemq:artemis-core-client:2.19.1:jar:compile
+|  |  |  |  |  |  +- org.apache.johnzon:johnzon-core:0.9.5:jar:compile
+|  |  |  |  |  |  +- io.netty:netty-handler-proxy:4.1.73.Final:jar:compile
+|  |  |  |  |  |  +- io.netty:netty-codec-socks:4.1.73.Final:jar:compile
+|  |  |  |  |  |  \- jakarta.json:jakarta.json-api:1.1.6:jar:compile
+|  |  |  |  |  +- org.apache.activemq:artemis-commons:2.19.1:jar:compile
+|  |  |  |  |  |  \- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |  |  |  |  |     \- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  |  |  \- org.apache.activemq:artemis-selector:2.19.1:jar:compile
+|  |  |  |  +- jakarta.jms:jakarta.jms-api:2.0.3:jar:compile
+|  |  |  |  +- io.netty:netty-buffer:4.1.77.Final:jar:compile
+|  |  |  |  |  \- io.netty:netty-common:4.1.77.Final:jar:compile
+|  |  |  |  +- io.netty:netty-transport:4.1.77.Final:jar:compile
+|  |  |  |  |  \- io.netty:netty-resolver:4.1.77.Final:jar:compile
+|  |  |  |  +- io.netty:netty-handler:4.1.77.Final:jar:compile
+|  |  |  |  |  \- io.netty:netty-codec:4.1.77.Final:jar:compile
+|  |  |  |  +- io.netty:netty-transport-native-epoll:4.1.77.Final:jar:compile
+|  |  |  |  |  +- io.netty:netty-transport-native-unix-common:4.1.77.Final:jar:compile
+|  |  |  |  |  \- io.netty:netty-transport-classes-epoll:4.1.77.Final:jar:compile
+|  |  |  |  +- io.netty:netty-transport-native-kqueue:4.1.77.Final:jar:compile
+|  |  |  |  |  \- io.netty:netty-transport-classes-kqueue:4.1.77.Final:jar:compile
+|  |  |  |  \- io.netty:netty-codec-http:4.1.77.Final:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-client-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- com.google.elemental2:elemental2-promise:1.1.0:jar:compile
+|  |  |  +- org.uberfire:uberfire-commons-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-preferences-processors:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |     +- org.uberfire:uberfire-workbench-processors:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |     +- org.freemarker:freemarker:2.3.30:jar:compile
+|  |  |  |     \- org.slf4j:log4j-over-slf4j:1.7.30:jar:compile
+|  |  |  +- org.uberfire:uberfire-preferences-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.jboss.errai:errai-bus:4.15.0.Final:jar:compile
+|  |  |  |  +- org.jboss.errai:errai-marshalling:4.15.0.Final:jar:compile
+|  |  |  |  |  +- org.jboss.errai:errai-codegen:4.15.0.Final:jar:compile
+|  |  |  |  |  +- org.jboss.errai:errai-codegen-gwt:4.15.0.Final:jar:compile
+|  |  |  |  |  \- jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:jar:compile
+|  |  |  |  |     +- jakarta.el:jakarta.el-api:3.0.3:jar:compile
+|  |  |  |  |     +- jakarta.interceptor:jakarta.interceptor-api:1.2.5:jar:compile
+|  |  |  |  |     |  \- jakarta.ejb:jakarta.ejb-api:3.2.6:jar:compile
+|  |  |  |  |     |     \- jakarta.transaction:jakarta.transaction-api:1.3.3:jar:compile
+|  |  |  |  |     \- jakarta.inject:jakarta.inject-api:1.0.3:jar:compile
+|  |  |  |  +- org.jsoup:jsoup:1.15.3:jar:compile
+|  |  |  |  +- org.mvel:mvel2:2.4.15.Final:jar:compile
+|  |  |  |  +- org.javassist:javassist:3.26.0-GA:jar:compile
+|  |  |  |  +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  |  |  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  |  |  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  |  |  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  |  |  |  +- org.checkerframework:checker-qual:3.5.0:jar:compile
+|  |  |  |  |  +- com.google.errorprone:error_prone_annotations:2.3.4:jar:compile
+|  |  |  |  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  |  |  |  +- org.jgroups:jgroups:3.6.14.Final:jar:compile
+|  |  |  |  +- org.jboss.errai:errai-config:4.15.0.Final:jar:compile
+|  |  |  |  \- org.slf4j:slf4j-api:1.7.30:jar:compile
+|  |  |  \- org.uberfire:uberfire-nio2-model:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- org.kie.soup:kie-soup-xstream:7.75.0-SNAPSHOT:jar:compile
+|  |  |     \- commons-codec:commons-codec:1.15:jar:compile
+|  |  +- org.uberfire:uberfire-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.powermock:powermock-api-mockito2:2.0.7:jar:compile
+|  |  |  |  \- org.powermock:powermock-api-support:2.0.7:jar:compile
+|  |  |  |     +- org.powermock:powermock-reflect:2.0.7:jar:compile
+|  |  |  |     \- org.powermock:powermock-core:2.0.7:jar:compile
+|  |  |  +- org.powermock:powermock-module-junit4:2.0.7:jar:compile
+|  |  |  |  \- org.powermock:powermock-module-junit4-common:2.0.7:jar:compile
+|  |  |  +- org.uberfire:uberfire-server:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- commons-fileupload:commons-fileupload:1.5:jar:compile
+|  |  |  +- org.apache.commons:commons-lang3:3.11:jar:compile
+|  |  |  +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  |  |  \- org.uberfire:uberfire-nio2-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |     \- commons-io:commons-io:2.7:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.drools:drools-workbench-models-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-project-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.maven:maven-core:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-plugin-api:3.3.9:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-util:1.1.0:jar:compile
+|  |  |  |  +- org.apache.maven:maven-repository-metadata:3.3.9:jar:compile
+|  |  |  |  +- org.codehaus.plexus:plexus-interpolation:1.21:jar:compile
+|  |  |  |  \- org.codehaus.plexus:plexus-component-annotations:1.6:jar:compile
+|  |  |  +- org.apache.maven:maven-settings:3.3.9:jar:compile
+|  |  |  +- org.apache.maven:maven-artifact:3.3.9:jar:compile
+|  |  |  +- org.eclipse.aether:aether-api:1.1.0:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-utils:3.0.24:jar:compile
+|  |  |  +- org.uberfire:uberfire-nio2-jgit:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- com.jcraft:jsch:0.1.54:jar:compile
+|  |  |  |  +- org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:5.10.0.202012080955-r:jar:compile
+|  |  |  |  |  \- com.jcraft:jzlib:1.1.1:jar:compile
+|  |  |  |  +- org.eclipse.jgit:org.eclipse.jgit.http.server:5.10.0.202012080955-r:jar:compile
+|  |  |  |  +- org.apache.sshd:sshd-core:2.9.2:jar:compile
+|  |  |  |  |  +- org.apache.sshd:sshd-common:2.9.2:jar:compile
+|  |  |  |  |  \- org.slf4j:jcl-over-slf4j:1.7.30:jar:compile
+|  |  |  |  \- org.eclipse.jgit:org.eclipse.jgit:5.10.0.202012080955-r:jar:compile
+|  |  |  +- org.uberfire:uberfire-preferences-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-m2repo-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-structure-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.commons:commons-text:1.10.0:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-security-management-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.uberfire:uberfire-servlet-security:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  \- jakarta.security.jacc:jakarta.security.jacc-api:1.6.1:jar:compile
+|  |  |  |  |  |     \- jakarta.servlet:jakarta.servlet-api:4.0.3:jar:compile
+|  |  |  |  |  \- javax.validation:validation-api:1.0.0.GA:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-security-management-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- jakarta.json:jakarta.json-api:1.1.6:jar:compile
+|  |  |  |  +- jakarta.ejb:jakarta.ejb-api:3.2.6:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-nio2-jgit:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-maven-integration:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-spi:1.1.0:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-transport-file:1.1.0:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-transport-http:1.1.0:jar:compile
+|  |  |  |  +- org.apache.ant:ant:1.10.11:jar:compile
+|  |  |  |  |  \- org.apache.ant:ant-launcher:1.10.11:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpcore:4.4.14:jar:compile
+|  |  |  |  +- org.apache.maven:maven-plugin-api:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-artifact:3.3.9:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-util:1.1.0:jar:compile
+|  |  |  |  \- com.google.inject:guice:4.0:jar:compile
+|  |  |  |     \- aopalliance:aopalliance:1.0:jar:compile
+|  |  |  +- org.uberfire:uberfire-backend-cdi:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- xalan:xalan:2.7.3:jar:compile
+|  |  |  |  \- xalan:serializer:2.7.3:jar:compile
+|  |  |  \- org.apache.maven:maven-model:3.3.9:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-m2repo-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- com.google.inject.extensions:guice-servlet:4.0:jar:runtime
+|  |  |  |  +- org.eclipse.aether:aether-util:1.1.0:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-m2repo-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-server:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-backend-cdi:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.workbench:kie-wb-common-ala-spi:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- commons-configuration:commons-configuration:1.6:jar:compile
+|  |  |  |  |  +- commons-lang:commons-lang:2.4:jar:compile
+|  |  |  |  |  \- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.15.0:jar:compile
+|  |  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.15.0:jar:compile
+|  |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:2.15.0:jar:compile
+|  |  |  |  \- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |  |  +- org.kie.workbench.services:kie-wb-common-refactoring-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-metadata-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-commons-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- com.google.code.gson:gson:2.8.9:jar:compile
+|  |  |  +- jakarta.json:jakarta.json-api:1.1.6:jar:compile
+|  |  |  +- org.kie.workbench.services:kie-wb-common-refactoring-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.lucene:lucene-core:6.6.6:jar:compile
+|  |  |  |  +- org.apache.lucene:lucene-analyzers-common:6.6.6:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-metadata-backend-lucene:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.apache.lucene:lucene-codecs:6.6.6:jar:compile
+|  |  |  |  |  +- org.apache.lucene:lucene-queryparser:6.6.6:jar:compile
+|  |  |  |  |  |  \- org.apache.lucene:lucene-queries:6.6.6:jar:compile
+|  |  |  |  |  +- org.apache.lucene:lucene-misc:6.6.6:jar:compile
+|  |  |  |  |  +- org.apache.lucene:lucene-sandbox:6.6.6:jar:compile
+|  |  |  |  |  \- org.apache.lucene:lucene-analyzers-common:6.6.6:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-metadata-backend-infinispan:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.apache.lucene:lucene-backward-codecs:6.6.6:jar:compile
+|  |  |  |  |  +- org.infinispan:infinispan-query-dsl:11.0.9.Final:jar:compile
+|  |  |  |  |  +- org.infinispan:infinispan-remote-query-client:11.0.9.Final:jar:compile
+|  |  |  |  |  +- org.infinispan:infinispan-client-hotrod:11.0.9.Final:jar:compile
+|  |  |  |  |  |  +- org.wildfly.security:wildfly-elytron:1.15.16.Final:jar:compile
+|  |  |  |  |  |  \- io.reactivex.rxjava3:rxjava:3.0.4:jar:compile
+|  |  |  |  |  +- org.infinispan:infinispan-commons:11.0.9.Final:jar:compile
+|  |  |  |  |  |  \- com.github.ben-manes.caffeine:caffeine:2.8.4:jar:compile
+|  |  |  |  |  \- org.infinispan.protostream:protostream:4.3.5.Final:jar:compile
+|  |  |  |  +- org.kie:kie-internal:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.uberfire:uberfire-backend-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  +- org.drools:drools-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.kie:kie-memory-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.drools:drools-ecj:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.drools:drools-core-reflective:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  \- org.kie:kie-memory-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.antlr:antlr-runtime:3.5.2:jar:compile
+|  |  |  |  |  \- org.kie.soup:kie-soup-maven-support:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.kie.workbench.services:kie-wb-common-refactoring-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.workbench.screens:kie-wb-common-project-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.kie.workbench.screens:kie-wb-common-default-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.kie.workbench.services:kie-wb-common-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2:jar:compile
+|  |  |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2:jar:compile
+|  |  |  +- org.apache.maven:maven-embedder:3.3.9:jar:compile
+|  |  |  +- com.google.inject:guice:4.0:jar:compile
+|  |  |  +- org.apache.maven:maven-model-builder:3.3.9:jar:compile
+|  |  |  |  \- org.apache.maven:maven-builder-support:3.3.9:jar:compile
+|  |  |  +- org.apache.maven:maven-builder-support:3.3.9:jar:compile
+|  |  |  +- org.apache.maven:maven-settings-builder:3.3.9:jar:compile
+|  |  |  +- org.apache.maven:maven-repository-metadata:3.3.9:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-interpolation:1.21:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-component-annotations:1.6:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-classworlds:2.5.2:jar:compile
+|  |  |  +- org.sonatype.plexus:plexus-sec-dispatcher:1.3:jar:compile
+|  |  |  +- commons-cli:commons-cli:1.4:jar:compile
+|  |  |  +- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
+|  |  |  +- org.uberfire:uberfire-project-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie:kie-ci:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.drools:drools-serialization-protobuf:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.maven:maven-compat:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-aether-provider:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven.wagon:wagon-provider-api:3.0.0:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-impl:1.1.0:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-connector-basic:1.1.0:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-transport-wagon:1.1.0:jar:compile
+|  |  |  |  +- org.apache.maven.wagon:wagon-http:3.0.0:jar:compile
+|  |  |  |  |  +- org.apache.maven.wagon:wagon-http-shared:3.0.0:jar:compile
+|  |  |  |  |  \- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  |  |     +- org.apache.httpcomponents:httpcore:4.4.14:jar:compile
+|  |  |  |  |     \- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  +- org.slf4j:jcl-over-slf4j:1.7.30:jar:compile
+|  |  |  |  +- org.sonatype.plexus:plexus-cipher:1.7:jar:compile
+|  |  |  |  +- org.drools:drools-core:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.drools:drools-core-reflective:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.drools:drools-core-dynamic:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.kie.soup:kie-soup-xstream:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  |  \- org.drools:drools-core-dynamic:7.75.0-SNAPSHOT:jar:runtime
+|  |  |  |  +- org.drools:drools-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.drools:drools-mvel:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  \- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.kie:kie-internal:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  |  \- org.kie.soup:kie-soup-maven-support:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.kie.soup:kie-soup-maven-integration:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.maven:maven-core:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-model:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-model-builder:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-settings:3.3.9:jar:compile
+|  |  |  |  +- org.apache.maven:maven-settings-builder:3.3.9:jar:compile
+|  |  |  |  +- org.sonatype.plexus:plexus-sec-dispatcher:1.3:jar:compile
+|  |  |  |  +- org.codehaus.plexus:plexus-classworlds:2.5.2:jar:compile
+|  |  |  |  +- org.codehaus.plexus:plexus-utils:3.0.24:jar:compile
+|  |  |  |  +- org.eclipse.aether:aether-api:1.1.0:jar:compile
+|  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.2:jar:compile
+|  |  |  |  \- commons-io:commons-io:2.7:jar:compile
+|  |  |  \- org.uberfire:uberfire-project-builder:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- com.google.protobuf:protobuf-java:3.19.6:jar:compile
+|  |  |     +- org.uberfire:uberfire-project-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- org.uberfire:uberfire-m2repo-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- org.uberfire:uberfire-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |     \- org.uberfire:uberfire-backend-server:7.75.0-SNAPSHOT:jar:compile
+|  |  |        +- org.uberfire:uberfire-backend-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |        +- org.uberfire:uberfire-structure-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |        +- org.uberfire:uberfire-security-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |        +- org.uberfire:uberfire-ssh-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |        |  \- org.apache.sshd:sshd-core:2.9.2:jar:compile
+|  |  |        +- org.uberfire:uberfire-server:7.75.0-SNAPSHOT:jar:compile
+|  |  |        +- org.ocpsoft.prettytime:prettytime:3.0.2.Final:jar:compile
+|  |  |        +- org.jdom:jdom:1.1.3:jar:compile
+|  |  |        +- org.jboss.errai:errai-cdi-server:4.15.0.Final:jar:compile
+|  |  |        +- org.jasypt:jasypt:1.9.2:jar:compile
+|  |  |        +- xerces:xercesImpl:2.12.0.SP04:jar:compile
+|  |  |        +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  |  |        +- commons-io:commons-io:2.7:jar:compile
+|  |  |        +- org.apache.commons:commons-lang3:3.11:jar:compile
+|  |  |        +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  |        \- org.uberfire:uberfire-nio2-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-message-console-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-core:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-project-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-io:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.slf4j:log4j-over-slf4j:1.7.30:jar:compile
+|  |  |  |  \- org.uberfire:uberfire-nio2-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.uberfire:uberfire-nio2-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-project-builder:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-ci:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.uberfire:uberfire-backend-server:7.75.0-SNAPSHOT:jar:compile
+|  +- org.jboss.forge.roaster:roaster-jdt:2.19.5.Final:jar:compile
+|  +- org.jboss.forge.roaster:roaster-api:2.19.5.Final:jar:compile
+|  +- jakarta.persistence:jakarta.persistence-api:2.2.3:jar:compile
+|  +- org.hibernate:hibernate-envers:5.4.24.Final:jar:compile
+|  |  \- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
+|  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|     \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
++- org.kie.workbench.screens:kie-wb-common-data-modeller-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-data-modeller-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-datamodel-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-home-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-home-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-home-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-java-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-java-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.workbench.screens:kie-wb-common-java-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-default-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-default-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-server-ui-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.server:kie-server-common:7.75.0-SNAPSHOT:jar:compile
+|     \- jakarta.servlet:jakarta.servlet-api:4.0.3:jar:compile
++- org.kie.workbench.screens:kie-wb-common-server-ui-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.server:kie-server-common:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-server-ui-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-workbench-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-layout-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-displayer-client:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.dashbuilder:dashbuilder-services-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-experimental-client:7.75.0-SNAPSHOT:jar:compile
+|  |  \- com.google.gwt:gwt-user:2.9.0:jar:compile
+|  \- org.uberfire:uberfire-security-management-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-workbench-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-workbench-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-message-console-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.workbench.services:kie-wb-common-refactoring-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-api:7.75.0-SNAPSHOT:jar:compile
+|  \- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-project-explorer-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-dataset-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.dashbuilder:dashbuilder-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.soup:kie-soup-dataset-shared:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.dashbuilder:dashbuilder-common-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-client-views-patternfly:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-security-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- com.allen-sauer.gwt.dnd:gwt-dnd:3.3.3:jar:compile
+|  |  +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  \- com.google.jsinterop:base:1.0.0:jar:compile
+|  +- org.kie.workbench.widgets:kie-wb-common-ui:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-message-console-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-message-console-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-client-all:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.uberfire:uberfire-project-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- org.uberfire:uberfire-preferences-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |     +- org.uberfire:uberfire-preferences-ui-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |     |  +- org.uberfire:uberfire-js:7.75.0-SNAPSHOT:jar:compile
+|  |  |     |  +- org.gwtbootstrap3:gwtbootstrap3:1.0.1:jar:compile
+|  |  |     |  \- org.uberfire:uberfire-client-all:7.75.0-SNAPSHOT:jar:compile
+|  |  |     \- org.uberfire:uberfire-widgets-core-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-backend-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-widgets-service-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-widgets-table:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.gwtbootstrap3:gwtbootstrap3-extras:1.0.2:jar:compile
+|  |  |  \- com.google.guava:guava:30.1-jre:jar:compile
+|  |  +- org.uberfire:uberfire-project-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.soup:kie-soup-project-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-properties-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.uberfire:uberfire-widgets-properties-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-core-ace:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-widgets-service-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.jboss.errai:errai-validation:4.15.0.Final:jar:compile
+|  |  +- org.kie.workbench.profile:kie-wb-common-profile-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.workbench.screens:kie-wb-common-project-explorer-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.workbench.screens:kie-wb-common-examples-screen-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.kie.workbench.services:kie-wb-common-refactoring-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-commons-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- com.google.elemental2:elemental2-core:1.1.0:jar:compile
+|  |  |  \- org.uberfire:uberfire-client-all:7.75.0-SNAPSHOT:jar:compile
+|  |  +- jakarta.inject:jakarta.inject-api:1.0.3:jar:compile
+|  |  \- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-project-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-workbench-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.dashbuilder:dashbuilder-displayer-editor:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-examples-screen-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.playground:kie-decision-playground:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-apps-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-apps-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-apps-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-layout-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-verifier-reporting-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jboss.errai:errai-html5:4.15.0.Final:jar:compile
++- org.kie.workbench.services:kie-wb-common-verifier-reporting-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-verifier-core:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-verifier-core:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-verifier-guided-decision-table-adapter:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jboss.errai:errai-jaxrs-client:4.15.0.Final:jar:compile
++- org.drools:drools-wb-verifier-guided-decision-table-adapter:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-rule-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-rule-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-wires-core-grids:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-wires-core-trees:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-factmodel-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-factmodel-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-globals-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-services-api:7.75.0-SNAPSHOT:jar:compile
+|     +- jakarta.inject:jakarta.inject-api:1.0.3:jar:compile
+|     +- org.jboss.errai:errai-ioc:4.15.0.Final:jar:compile
+|     |  +- org.jboss.errai:errai-codegen:4.15.0.Final:jar:compile
+|     |  +- org.jboss.errai:errai-codegen-gwt:4.15.0.Final:jar:compile
+|     |  +- com.google.guava:guava-gwt:30.1-jre:jar:compile
+|     |  +- jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:jar:compile
+|     |  +- org.jboss.errai:errai-config:4.15.0.Final:jar:compile
+|     |  \- com.google.elemental2:elemental2-dom:1.1.0:jar:compile
+|     +- org.jboss.errai:errai-security-server:4.15.0.Final:jar:compile
+|     |  +- org.apache.deltaspike.core:deltaspike-core-api:1.5.1:jar:compile
+|     |  +- org.jboss.resteasy:resteasy-cdi:3.15.6.Final:jar:compile
+|     |  |  +- org.jboss.resteasy:resteasy-jaxrs:3.15.6.Final:jar:compile
+|     |  |  |  +- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|     |  |  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|     |  |  |  +- com.github.stephenc.jcip:jcip-annotations:1.0-1:jar:compile
+|     |  |  |  \- commons-io:commons-io:2.7:jar:compile
+|     |  |  +- org.jboss.weld:weld-api:3.1.SP3:jar:compile
+|     |  |  \- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
+|     |  +- org.javassist:javassist:3.26.0-GA:jar:compile
+|     |  \- org.jsoup:jsoup:1.15.3:jar:compile
+|     +- org.kie.soup:kie-soup-commons:7.75.0-SNAPSHOT:jar:compile
+|     +- org.jboss.errai:errai-config:4.15.0.Final:jar:compile
+|     +- org.uberfire:uberfire-api:7.75.0-SNAPSHOT:jar:compile
+|     |  +- com.google.elemental2:elemental2-dom:1.1.0:jar:compile
+|     |  +- com.google.jsinterop:jsinterop-annotations:2.0.0:jar:compile
+|     |  +- org.jboss.errai:errai-marshalling:4.15.0.Final:jar:compile
+|     |  +- org.uberfire:uberfire-commons:7.75.0-SNAPSHOT:jar:compile
+|     |  +- org.kie.soup:kie-soup-commons:7.75.0-SNAPSHOT:jar:compile
+|     |  +- org.jboss.errai:errai-ioc:4.15.0.Final:jar:compile
+|     |  \- org.jboss.errai:errai-security-server:4.15.0.Final:jar:compile
+|     +- org.slf4j:slf4j-api:1.7.30:jar:compile
+|     +- org.uberfire:uberfire-nio2-model:7.75.0-SNAPSHOT:jar:compile
+|     +- org.uberfire:uberfire-commons-editor-api:7.75.0-SNAPSHOT:jar:compile
+|     +- org.uberfire:uberfire-preferences-api:7.75.0-SNAPSHOT:jar:compile
+|     +- org.jboss.errai:errai-bus:4.15.0.Final:jar:compile
+|     \- org.jboss.errai:errai-common:4.15.0.Final:jar:compile
++- org.drools:drools-wb-globals-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-globals-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-globals-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-workitems-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-workitems-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-workitems-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-workitems-editor-client:7.75.0-SNAPSHOT:jar:compile
++- org.optaplanner:optaplanner-wb-solver-editor-api:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-wb-solver-editor-client:7.73.0.Final:jar:compile
+|  +- org.gwtbootstrap3:gwtbootstrap3:1.0.1:jar:compile
+|  +- org.optaplanner:optaplanner-workbench-models-core:7.73.0.Final:jar:compile
+|  +- org.uberfire:uberfire-workbench-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-security-client:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.jboss.errai:errai-cdi-client:4.15.0.Final:jar:compile
+|  |  |  |  \- org.jboss.errai:errai-ioc-bus-support:4.15.0.Final:jar:compile
+|  |  |  \- org.jboss.errai:errai-security-client:4.15.0.Final:jar:compile
+|  |  +- org.uberfire:uberfire-experimental-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- com.allen-sauer.gwt.dnd:gwt-dnd:3.3.3:jar:compile
+|  |  \- org.uberfire:uberfire-client-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-client-views-patternfly:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-wb-solver-editor-api:7.73.0.Final:jar:compile
+|  |  +- jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:jar:provided
+|  |  |  +- jakarta.el:jakarta.el-api:3.0.3:jar:provided
+|  |  |  \- jakarta.interceptor:jakarta.interceptor-api:1.2.5:jar:provided
+|  |  |     +- jakarta.ejb:jakarta.ejb-api:3.2.6:jar:compile
+|  |  |     +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  |  |     \- jakarta.ejb:jakarta.ejb-api:3.2.6:jar:provided
+|  |  |        \- jakarta.transaction:jakarta.transaction-api:1.3.3:jar:provided
+|  |  +- jakarta.inject:jakarta.inject-api:1.0.3:jar:provided
+|  |  +- org.optaplanner:optaplanner-core:7.73.0.Final:jar:compile
+|  |  |  +- org.kie:kie-internal:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-mvel:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-canonical-model:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-model-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  +- com.github.javaparser:javaparser-core:3.23.1:jar:compile
+|  |  |  |  +- org.drools:drools-mvel-parser:7.75.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.drools:drools-mvel-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.commons:commons-math3:3.4.1:jar:compile
+|  |  |  +- org.reflections:reflections:0.9.11:jar:compile
+|  |  |  +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  |  |  +- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.drools:drools-core:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- junit:junit:4.13.1:jar:test
+|  |  |  +- org.hamcrest:hamcrest-core:1.3:jar:compile
+|  |  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  \- org.mockito:mockito-core:3.6.0:jar:test
+|  |     +- net.bytebuddy:byte-buddy:1.10.3:jar:compile
+|  |     +- net.bytebuddy:byte-buddy-agent:1.10.15:jar:compile
+|  |     +- org.objenesis:objenesis:3.1:jar:compile
+|  |     +- net.bytebuddy:byte-buddy:1.10.3:jar:test
+|  |     +- net.bytebuddy:byte-buddy-agent:1.10.15:jar:test
+|  |     \- org.objenesis:objenesis:3.1:jar:test
+|  +- org.kie.workbench.widgets:kie-wb-metadata-widget:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.widgets:kie-wb-common-ui:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-commons-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-processors:7.75.0-SNAPSHOT:jar:provided
+|  |  \- org.freemarker:freemarker:2.3.30:jar:compile
+|  +- org.jboss.errai:errai-ui:4.15.0.Final:jar:compile
+|  |  +- org.jboss.errai:errai-data-binding:4.15.0.Final:jar:compile
+|  |  |  +- org.jboss.errai:errai-marshalling:4.15.0.Final:jar:compile
+|  |  |  \- com.google.guava:guava-gwt:30.1-jre:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.15.0:jar:compile
+|  |  +- org.jsoup:jsoup:1.15.3:jar:compile
+|  |  +- org.lesscss:lesscss:1.7.0.1.1:jar:compile
+|  |  |  \- org.mozilla:rhino:1.7.13:jar:compile
+|  |  +- org.slf4j:jcl-over-slf4j:1.7.30:jar:compile
+|  |  \- com.google.elemental2:elemental2-dom:1.1.0:jar:compile
+|  +- com.google.gwt:gwt-user:2.9.0:jar:provided
+|  |  +- javax.validation:validation-api:1.0.0.GA:jar:compile
+|  |  +- javax.validation:validation-api:1.0.0.GA:jar:provided
+|  |  +- org.w3c.css:sac:1.3:jar:provided
+|  |  \- javax.validation:validation-api:1.0.0.GA:jar:provided
+|  +- com.google.gwt.gwtmockito:gwtmockito:1.1.9:jar:test
+|  |  +- com.google.gwt:gwt-dev:2.9.0:jar:test
+|  |  |  +- com.google.code.gson:gson:2.8.9:jar:compile
+|  |  |  +- org.ow2.asm:asm:7.1:jar:test
+|  |  |  +- org.ow2.asm:asm-util:7.1:jar:test
+|  |  |  |  +- org.ow2.asm:asm-tree:7.1:jar:test
+|  |  |  |  \- org.ow2.asm:asm-analysis:7.1:jar:test
+|  |  |  +- org.ow2.asm:asm-commons:7.1:jar:test
+|  |  |  +- colt:colt:1.2.0:jar:test
+|  |  |  +- com.ibm.icu:icu4j:63.1:jar:test
+|  |  |  +- tapestry:tapestry:4.0.2:jar:test
+|  |  |  +- net.sourceforge.htmlunit:htmlunit:2.19:jar:test
+|  |  |  |  +- xalan:xalan:2.7.3:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpmime:4.5.13:jar:test
+|  |  |  |  +- net.sourceforge.htmlunit:htmlunit-core-js:2.17:jar:test
+|  |  |  |  +- net.sourceforge.nekohtml:nekohtml:1.9.22:jar:test
+|  |  |  |  +- net.sourceforge.cssparser:cssparser:0.9.21:jar:test
+|  |  |  |  +- org.eclipse.jetty.websocket:websocket-client:9.2.13.v20150730:jar:test
+|  |  |  |  |  \- org.eclipse.jetty.websocket:websocket-common:9.2.13.v20150730:jar:test
+|  |  |  |  |     \- org.eclipse.jetty.websocket:websocket-api:9.2.13.v20150730:jar:test
+|  |  |  |  +- xalan:xalan:2.7.3:jar:test
+|  |  |  |  \- xerces:xercesImpl:2.12.0.SP04:jar:test
+|  |  |  +- org.eclipse.jetty:jetty-webapp:9.2.14.v20151106:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-xml:9.2.14.v20151106:jar:test
+|  |  |  |  \- org.eclipse.jetty:jetty-servlet:9.4.53.v20231009:jar:test
+|  |  |  |     +- org.eclipse.jetty:jetty-security:9.4.53.v20231009:jar:test
+|  |  |  |     \- org.eclipse.jetty:jetty-util-ajax:9.4.53.v20231009:jar:test
+|  |  |  +- org.eclipse.jetty:jetty-servlets:9.4.53.v20231009:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-continuation:9.4.53.v20231009:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-http:9.4.53.v20231009:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-util:9.4.53.v20231009:jar:test
+|  |  |  |  \- org.eclipse.jetty:jetty-io:9.4.53.v20231009:jar:test
+|  |  |  +- org.eclipse.jetty:jetty-annotations:9.2.14.v20151106:jar:test
+|  |  |  |  \- org.eclipse.jetty:jetty-plus:9.2.14.v20151106:jar:test
+|  |  |  |     \- org.eclipse.jetty:jetty-jndi:9.2.14.v20151106:jar:test
+|  |  |  +- org.eclipse.jetty:apache-jsp:9.2.14.v20151106:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-server:9.4.53.v20231009:jar:test
+|  |  |  |  +- org.eclipse.jetty.toolchain:jetty-schemas:3.1.M0:jar:test
+|  |  |  |  \- org.mortbay.jasper:apache-jsp:8.0.9.M3:jar:test
+|  |  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  \- com.google.code.gson:gson:2.8.9:jar:test
+|  |  \- org.javassist:javassist:3.26.0-GA:jar:compile
+|  +- org.kie.workbench:kie-wb-testing-utils:7.75.0-SNAPSHOT:jar:test
+|  +- org.uberfire:uberfire-testing-utils:7.75.0-SNAPSHOT:jar:test
+|  |  +- org.uberfire:uberfire-nio2-jgit:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:test
+|  |  +- org.uberfire:uberfire-io:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-nio2-model:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-nio2-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- com.google.elemental2:elemental2-promise:1.1.0:jar:compile
+|  |  +- commons-io:commons-io:2.7:jar:compile
+|  |  +- org.uberfire:uberfire-nio2-jgit:7.75.0-SNAPSHOT:jar:test
+|  |  |  +- com.jcraft:jsch:0.1.54:jar:test
+|  |  |  +- org.apache.sshd:sshd-core:2.9.2:jar:test
+|  |  |  |  \- org.apache.sshd:sshd-common:2.9.2:jar:test
+|  |  |  +- org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:5.10.0.202012080955-r:jar:test
+|  |  |  |  \- com.jcraft:jzlib:1.1.1:jar:test
+|  |  |  \- org.eclipse.jgit:org.eclipse.jgit.http.server:5.10.0.202012080955-r:jar:test
+|  |  \- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.optaplanner:optaplanner-wb-solver-editor-client:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-wb-guided-rule-editor-api:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-wb-guided-rule-editor-client:7.73.0.Final:jar:compile
+|  +- org.optaplanner:optaplanner-wb-guided-rule-editor-api:7.73.0.Final:jar:compile
+|  |  +- org.jboss.errai:errai-bus:4.15.0.Final:jar:compile
+|  |  +- org.jboss.errai:errai-common:4.15.0.Final:jar:compile
+|  |  +- org.uberfire:uberfire-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- junit:junit:4.13.1:jar:test
+|  |  \- org.mockito:mockito-core:3.6.0:jar:test
+|  +- org.optaplanner:optaplanner-workbench-models-datamodel-api:7.73.0.Final:jar:compile
+|  |  \- org.kie.soup:kie-soup-project-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.drools:drools-wb-guided-rule-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.widgets:kie-wb-common-ui:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-workbench-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-wb-guided-rule-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.widgets:kie-wb-metadata-widget:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.widgets:kie-wb-config-resource-widget:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-workingset-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-commons-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-workbench-models-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.drools:drools-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  |  |  \- org.apache.commons:commons-lang3:3.11:jar:compile
+|  |  \- org.kie.workbench.services:kie-wb-common-datamodel-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.jboss.errai:errai-ui:4.15.0.Final:jar:compile
+|  +- org.uberfire:uberfire-workbench-client-views-patternfly:7.75.0-SNAPSHOT:jar:compile
+|  +- org.gwtbootstrap3:gwtbootstrap3:1.0.1:jar:compile
+|  +- com.google.gwt:gwt-user:2.9.0:jar:provided
+|  +- org.optaplanner:optaplanner-core:7.73.0.Final:jar:test
+|  |  +- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-internal:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-core:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-compiler:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-mvel:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.drools:drools-canonical-model:7.75.0-SNAPSHOT:jar:test
+|  |  +- org.drools:drools-model-compiler:7.75.0-SNAPSHOT:jar:test
+|  |  |  +- com.github.javaparser:javaparser-core:3.23.1:jar:test
+|  |  |  +- org.drools:drools-mvel-parser:7.75.0-SNAPSHOT:jar:test
+|  |  |  \- org.drools:drools-mvel-compiler:7.75.0-SNAPSHOT:jar:test
+|  |  +- org.apache.commons:commons-math3:3.4.1:jar:test
+|  |  +- org.slf4j:slf4j-api:1.7.30:jar:compile
+|  |  +- org.reflections:reflections:0.9.11:jar:test
+|  |  \- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+|  +- org.uberfire:uberfire-testing-utils:7.75.0-SNAPSHOT:jar:test
+|  +- com.google.gwt.gwtmockito:gwtmockito:1.1.9:jar:test
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.optaplanner:optaplanner-wb-guided-rule-editor-client:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-wb-domain-editor-api:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-wb-domain-editor-client:7.73.0.Final:jar:compile
+|  +- org.gwtbootstrap3:gwtbootstrap3:1.0.1:jar:compile
+|  +- org.gwtbootstrap3:gwtbootstrap3-extras:1.0.2:jar:compile
+|  +- org.kie.workbench.widgets:kie-wb-common-ui:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-client-views-patternfly:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-commons-editor-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.uberfire:uberfire-workbench-processors:7.75.0-SNAPSHOT:jar:provided
+|  +- org.jboss.errai:errai-ui:4.15.0.Final:jar:compile
+|  +- com.google.gwt:gwt-user:2.9.0:jar:provided
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-message-console-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.jboss.errai:errai-marshalling:4.15.0.Final:jar:compile
+|  |  \- org.uberfire:uberfire-commons:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-wb-domain-editor-api:7.73.0.Final:jar:compile
+|  |  +- org.uberfire:uberfire-services-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.jboss.errai:errai-bus:4.15.0.Final:jar:compile
+|  |  +- org.jboss.errai:errai-common:4.15.0.Final:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-data-modeller-core:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- commons-io:commons-io:2.7:jar:compile
+|  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  +- org.drools:drools-core:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-project-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.kie:kie-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-commons:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-io:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-nio2-api:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.uberfire:uberfire-backend-server:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.velocity:velocity:1.7:jar:compile
+|  |  |  +- org.antlr:antlr-runtime:3.5.2:jar:compile
+|  |  |  +- org.kie.workbench.services:kie-wb-common-datamodel-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.jboss.forge.roaster:roaster-jdt:2.19.5.Final:jar:compile
+|  |  |  +- org.jboss.forge.roaster:roaster-api:2.19.5.Final:jar:compile
+|  |  |  +- jakarta.persistence:jakarta.persistence-api:2.2.3:jar:compile
+|  |  |  +- org.hibernate:hibernate-envers:5.4.24.Final:jar:compile
+|  |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  +- org.optaplanner:optaplanner-core:7.73.0.Final:jar:compile
+|  |  +- junit:junit:4.13.1:jar:test
+|  |  \- org.mockito:mockito-core:3.6.0:jar:test
+|  +- org.optaplanner:optaplanner-workbench-models-core:7.73.0.Final:jar:compile
+|  +- com.google.gwt.gwtmockito:gwtmockito:1.1.9:jar:test
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-client:7.75.0-SNAPSHOT:jar:test
+|  +- org.uberfire:uberfire-testing-utils:7.75.0-SNAPSHOT:jar:test
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.optaplanner:optaplanner-wb-domain-editor-client:7.73.0.Final:jar:compile
++- org.optaplanner:optaplanner-workbench-models-datamodel-api:7.73.0.Final:jar:compile
++- org.uberfire:uberfire-runtime-plugins-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-runtime-plugins-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-runtime-plugins-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-layout-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|     +- org.uberfire:uberfire-runtime-plugins-backend:7.75.0-SNAPSHOT:jar:compile
+|     \- org.uberfire:uberfire-commons-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-runtime-plugins-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-metadata-commons-io:7.75.0-SNAPSHOT:jar:compile
+|  \- org.infinispan:infinispan-client-hotrod:11.0.9.Final:jar:compile
++- org.uberfire:uberfire-js:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-all:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-server-all:7.75.0-SNAPSHOT:jar:compile
+|     +- org.uberfire:uberfire-security-codegen:7.75.0-SNAPSHOT:jar:compile
+|     \- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:compile
++- org.jboss.errai:errai-security-picketlink:4.15.0.Final:jar:compile
+|  \- org.picketlink:picketlink-impl:2.6.0.Final:jar:compile
+|     \- org.picketlink:picketlink-idm-impl:2.6.0.Final:jar:compile
++- org.jboss.errai:errai-jboss-as-support:4.15.0.Final:jar:compile
++- org.jboss.errai:errai-javax-enterprise:4.15.0.Final:jar:compile
++- org.hibernate:hibernate-validator:4.1.0.Final:jar:compile
++- org.hibernate:hibernate-validator:4.1.0.Final:jar:compile
++- org.owasp.encoder:encoder:1.2:jar:compile
++- org.uberfire:uberfire-ssh-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-ssh-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-ssh-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-security-management-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-security-management-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-security-management-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-security-management:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-security-management-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-security-management:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-json:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-navigation-api:7.75.0-SNAPSHOT:jar:compile
+|  \- org.kie.soup:kie-soup-json:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-navigation-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-dataset-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-dataset-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-displayer-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-displayer-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-services-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-client-all:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-common-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-common-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-dataset-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-dataset-shared:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-dataset-shared:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-displayer-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-widgets:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.dashbuilder:dashbuilder-validations:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-widgets:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-displayer-screen:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-displayer-screen:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-dataset-editor:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-dataset-editor:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-renderer-default:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-renderer-default:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-navigation-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-navigation-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-cms-client:7.75.0-SNAPSHOT:jar:compile
+|  \- org.dashbuilder:dashbuilder-cms-client:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-renderer-c3:7.75.0-SNAPSHOT:jar:compile
+|  +- org.webjars:c3:0.6.6:jar:compile
+|  |  \- org.webjars:d3js:3.5.5-1:jar:compile
+|  \- org.webjars.npm:d3-geo-projection:2.5.1:jar:compile
+|     \- org.webjars.npm:commander:2.20.3:jar:compile
++- org.dashbuilder:dashbuilder-renderer-c3:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-server-all:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-dataset-core:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-dataset-sql:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-dataset-csv:7.75.0-SNAPSHOT:jar:compile
+|  |  \- net.sf.opencsv:opencsv:2.3:jar:compile
+|  +- org.dashbuilder:dashbuilder-dataset-cdi:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.soup:kie-soup-dataset-prometheus:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.soup:kie-soup-dataset-kafka:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-navigation-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.dashbuilder:dashbuilder-services:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.apache.poi:poi-ooxml:4.1.2:jar:compile
+|  |     +- org.apache.poi:poi-ooxml-schemas:4.1.2:jar:compile
+|  |     |  \- org.apache.xmlbeans:xmlbeans:3.1.0:jar:compile
+|  |     +- org.apache.commons:commons-compress:1.21:jar:compile
+|  |     \- com.github.virtuald:curvesapi:1.06:jar:compile
+|  \- org.dashbuilder:dashbuilder-external-backend:7.75.0-SNAPSHOT:jar:compile
+|     \- org.dashbuilder:dashbuilder-js:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-experimental-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-experimental-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-experimental-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-experimental-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:appformer-js-bridge:7.75.0-SNAPSHOT:jar:compile
++- junit:junit:4.13.1:jar:test
++- com.google.gwt.gwtmockito:gwtmockito:1.1.9:jar:test
++- org.uberfire:uberfire-testing-utils:7.75.0-SNAPSHOT:jar:test
++- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2:jar:provided
+\- org.mockito:mockito-core:3.6.0:jar:test
+org.optaplanner:optaplanner-wb-webapp:7.75.0-SNAPSHOT:war:compile
++- org.optaplanner:optaplanner-wb-ui:7.73.0.Final:war:runtime
++- org.jboss.errai:errai-ui:4.15.0.Final:jar:compile
++- org.uberfire:uberfire-workbench-client:7.75.0-SNAPSHOT:jar:compile
++- org.picketlink:picketlink-api:2.6.0.Final:jar:compile
++- org.picketlink:picketlink-idm-api:2.6.0.Final:jar:compile
++- org.uberfire:uberfire-commons-editor-backend:7.75.0-SNAPSHOT:jar:runtime
+|  \- com.google.code.gson:gson:2.8.9:jar:compile
++- org.uberfire:uberfire-ssh-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-preferences-client-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.server:kie-server-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.server:kie-server-controller-api:7.75.0-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.2.9:jar:compile
++- org.drools:drools-cdi:7.75.0-SNAPSHOT:jar:runtime
+|  \- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-dtable:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-dtree:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-scorecard:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-guided-template:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-workbench-models-test-scenarios:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-project-explorer-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-home-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-default-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-server-ui-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.server:kie-server-controller-impl:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.server:kie-server-client:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.server:kie-server-controller-rest:7.75.0-SNAPSHOT:jar:compile
+|  |  \- io.swagger:swagger-annotations:1.6.2:jar:compile
+|  +- org.kie.server:kie-server-controller-websocket:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.kie.server:kie-server-controller-websocket-common:7.75.0-SNAPSHOT:jar:compile
+|  |     \- jakarta.websocket:jakarta.websocket-api:1.1.2:jar:compile
+|  +- org.kie.server:kie-server-controller-openshift:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.server:kie-server-services-common:7.75.0-SNAPSHOT:jar:compile
+|  |  |  \- org.jbpm:jbpm-bpmn2:7.75.0-SNAPSHOT:jar:runtime
+|  |  \- org.kie.server:kie-server-services-openshift:7.75.0-SNAPSHOT:jar:compile
+|  |     +- io.fabric8:kubernetes-model:4.7.2:jar:compile
+|  |     |  \- io.fabric8:kubernetes-model-common:4.7.2:jar:compile
+|  |     +- io.fabric8:kubernetes-client:4.7.2:jar:compile
+|  |     |  +- com.squareup.okhttp3:okhttp:3.12.1:jar:compile
+|  |     |  |  \- com.squareup.okio:okio:1.15.0:jar:compile
+|  |     |  +- com.squareup.okhttp3:logging-interceptor:3.12.1:jar:compile
+|  |     |  +- io.fabric8:zjsonpatch:0.3.0:jar:compile
+|  |     |  \- com.github.mifmif:generex:1.0.2:jar:compile
+|  |     |     \- dk.brics.automaton:automaton:1.11-8:jar:compile
+|  |     \- io.fabric8:openshift-client:4.7.2:jar:compile
+|  \- org.kie.server:kie-server-controller-client:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-server-ui-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-workbench-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-library-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-testing-utils:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-contributors-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-archetype-mgmt-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.assertj:assertj-core:3.14.0:jar:compile
++- org.kie.workbench.screens:kie-all-templates:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.screens:kie-wb-common-examples-screen-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.profile:kie-wb-common-profile-backend:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.playground:kie-decision-playground:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-rest-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-rest-client:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-widgets-service-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-apps-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-apps-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.uberfire:uberfire-layout-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-layout-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-verifier-core:7.75.0-SNAPSHOT:jar:provided
++- org.drools:drools-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-verifier-webworker:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.services:kie-wb-common-verifier-service:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jboss.errai:errai-jaxrs-client:4.15.0.Final:jar:compile
++- org.drools:drools-wb-verifier-guided-decision-table-adapter:7.75.0-SNAPSHOT:jar:compile
++- org.kie.workbench.services:kie-wb-common-verifier-reporting-client:7.75.0-SNAPSHOT:jar:provided
+|  +- org.kie.workbench.widgets:kie-wb-decorated-grid-widget:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jboss.errai:errai-html5:4.15.0.Final:jar:provided
++- org.kie.workbench.services:kie-wb-common-verifier-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-rule-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-rule-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-template-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtable-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  \- org.apache.poi:poi:4.1.2:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-dtree-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-guided-scorecard-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-drl-text-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-enum-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-factmodel-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-factmodel-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dsl-text-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-dtable-xls-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.apache.poi:poi-ooxml:4.1.2:jar:compile
+|  \- org.drools:drools-decisiontables:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-scorecard-xls-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-globals-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-test-scenario-editor-backend:7.75.0-SNAPSHOT:jar:compile
++- junit:junit:4.13.1:jar:compile
+|  \- org.hamcrest:hamcrest-core:1.3:jar:compile
++- org.drools:drools-wb-workitems-editor-api:7.75.0-SNAPSHOT:jar:compile
++- org.drools:drools-wb-workitems-editor-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.jbpm:jbpm-flow:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie:kie-dmn-feel:7.75.0-SNAPSHOT:jar:compile
+|  |  |  +- org.antlr:antlr4-runtime:4.9.2:jar:compile
+|  |  |  \- ch.obermuhlner:big-math:2.0.1:jar:compile
+|  |  \- org.kie:kie-dmn-core:7.75.0-SNAPSHOT:jar:compile
+|  |     +- org.kie:kie-dmn-backend:7.75.0-SNAPSHOT:jar:compile
+|  |     \- org.drools:drools-alphanetwork-compiler:7.75.0-SNAPSHOT:jar:compile
+|  \- org.jbpm:jbpm-flow-builder:7.75.0-SNAPSHOT:jar:compile
++- org.optaplanner:optaplanner-wb-solver-editor-backend:7.73.0.Final:jar:compile
+|  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:provided
+|  +- org.uberfire:uberfire-backend-server:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-wb-solver-editor-api:7.73.0.Final:jar:compile
+|  +- org.kie.workbench.services:kie-wb-common-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.soup:kie-soup-project-datamodel-commons:7.75.0-SNAPSHOT:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  |  \- ch.qos.logback:logback-core:1.2.9:jar:test
+|  +- org.uberfire:uberfire-test-utils:7.75.0-SNAPSHOT:jar:test
+|  |  \- org.jboss.weld.se:weld-se-core:3.1.6.Final:jar:test
+|  |     +- org.jboss.weld.environment:weld-environment-common:3.1.6.Final:jar:test
+|  |     |  \- org.jboss.weld:weld-core-impl:3.1.6.Final:jar:test
+|  |     |     \- org.jboss.weld:weld-spi:3.1.SP3:jar:test
+|  |     +- org.jboss.weld.probe:weld-probe-core:3.1.6.Final:jar:test
+|  |     \- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final:jar:test
+|  +- org.uberfire:uberfire-services-backend:7.75.0-SNAPSHOT:jar:test
+|  |  +- org.powermock:powermock-api-mockito2:2.0.7:jar:test
+|  |  |  \- org.powermock:powermock-api-support:2.0.7:jar:test
+|  |  |     +- org.powermock:powermock-reflect:2.0.7:jar:test
+|  |  |     \- org.powermock:powermock-core:2.0.7:jar:test
+|  |  \- org.powermock:powermock-module-junit4:2.0.7:jar:test
+|  |     \- org.powermock:powermock-module-junit4-common:2.0.7:jar:test
+|  +- org.uberfire:uberfire-ssh-api:7.75.0-SNAPSHOT:jar:test
+|  |  \- org.apache.sshd:sshd-core:2.9.2:jar:compile
+|  +- org.uberfire:uberfire-ssh-backend:7.75.0-SNAPSHOT:jar:test
+|  +- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:test
+|  +- jakarta.servlet:jakarta.servlet-api:4.0.3:jar:test
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.optaplanner:optaplanner-wb-guided-rule-editor-backend:7.73.0.Final:jar:compile
+|  +- jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:jar:provided
+|  +- jakarta.inject:jakarta.inject-api:1.0.3:jar:provided
+|  +- org.optaplanner:optaplanner-wb-guided-rule-editor-api:7.73.0.Final:jar:compile
+|  +- org.optaplanner:optaplanner-workbench-models-datamodel-api:7.73.0.Final:jar:compile
+|  +- org.drools:drools-wb-globals-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.drools:drools-workbench-models-commons:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-core:7.73.0.Final:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-java-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.services:kie-wb-common-data-modeller-core:7.75.0-SNAPSHOT:jar:compile
+|  +- org.assertj:assertj-core:3.14.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:test
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.optaplanner:optaplanner-wb-domain-editor-backend:7.73.0.Final:jar:compile
+|  +- jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:jar:provided
+|  +- jakarta.inject:jakarta.inject-api:1.0.3:jar:provided
+|  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:provided
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:provided
+|  |  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:provided
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.drools:drools-wb-globals-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  +- org.kie.workbench.screens:kie-wb-common-data-modeller-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.services:kie-wb-common-datamodel-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.kie.workbench.screens:kie-wb-common-java-editor-api:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-services-backend:7.75.0-SNAPSHOT:jar:compile
+|  |  +- org.uberfire:uberfire-project-builder:7.75.0-SNAPSHOT:jar:compile
+|  |  \- org.uberfire:uberfire-project-backend:7.75.0-SNAPSHOT:jar:compile
+|  +- org.optaplanner:optaplanner-wb-domain-editor-api:7.73.0.Final:jar:compile
+|  +- ch.qos.logback:logback-classic:1.2.9:jar:test
+|  +- org.uberfire:uberfire-nio2-fs:7.75.0-SNAPSHOT:jar:test
+|  +- junit:junit:4.13.1:jar:test
+|  \- org.mockito:mockito-core:3.6.0:jar:test
++- org.uberfire:uberfire-runtime-plugins-api:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-metadata-commons-io:7.75.0-SNAPSHOT:jar:compile
++- org.uberfire:uberfire-server-all:7.75.0-SNAPSHOT:jar:compile
++- org.jboss.errai:errai-security-picketlink:4.15.0.Final:jar:compile
++- org.jboss.errai:errai-jboss-as-support:4.15.0.Final:jar:compile
++- org.owasp.encoder:encoder:1.2:jar:compile
++- org.osgi:org.osgi.core:4.3.1:jar:compile
++- com.sun.xml.bind:jaxb-impl:2.3.0:jar:provided
++- com.sun.xml.bind:jaxb-xjc:2.3.0:jar:provided
++- org.kie.soup:kie-soup-json:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-navigation-api:7.75.0-SNAPSHOT:jar:compile
++- org.kie.soup:kie-soup-dataset-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-displayer-api:7.75.0-SNAPSHOT:jar:compile
++- org.dashbuilder:dashbuilder-server-all:7.75.0-SNAPSHOT:jar:compile
++- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.2:jar:runtime
+\- org.mockito:mockito-core:3.6.0:jar:test

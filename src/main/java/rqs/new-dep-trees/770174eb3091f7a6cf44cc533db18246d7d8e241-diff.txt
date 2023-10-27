@@ -1,0 +1,8 @@
+Added Dependencies:
+ io.sentry:sentry-logback:6.23.0:jar:compile
+ io.sentry:sentry:6.23.0:jar:compile
+ org.dhatim:dropwizard-sentry:4.0.1-2:jar:compile
+Removed Dependencies:
+ io.sentry:sentry-logback:6.5.0:jar:compile
+ org.dhatim:dropwizard-sentry:2.1.2-4:jar:compile
+ io.sentry:sentry:6.5.0:jar:compile

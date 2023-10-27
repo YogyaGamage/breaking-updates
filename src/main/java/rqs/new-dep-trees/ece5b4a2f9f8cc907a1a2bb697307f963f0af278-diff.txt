@@ -1,0 +1,11 @@
+Added Dependencies:
+ org.eclipse.angus:angus-activation:1.0.0:jar:runtime
+ org.glassfish.jaxb:jaxb-runtime:4.0.0:jar:compile
+ org.glassfish.jaxb:jaxb-core:4.0.0:jar:compile
+ com.sun.istack:istack-commons-runtime:4.1.1:jar:compile
+ org.glassfish.jaxb:txw2:4.0.0:jar:compile
+Removed Dependencies:
+ org.glassfish.jaxb:jaxb-runtime:2.3.5:jar:compile
+ org.glassfish.jaxb:txw2:2.3.5:jar:compile
+ com.sun.istack:istack-commons-runtime:3.0.12:jar:compile
+ com.sun.activation:jakarta.activation:1.2.2:jar:runtime

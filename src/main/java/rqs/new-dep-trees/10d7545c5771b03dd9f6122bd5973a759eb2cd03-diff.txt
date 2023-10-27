@@ -1,0 +1,16 @@
+Added Dependencies:
+ org.apache.httpcomponents.core5:httpcore5-h2:5.2:jar:compile
+ io.dropwizard.metrics:metrics-httpclient5:4.2.18:jar:compile
+ org.checkerframework:checker-qual:3.32.0:jar:compile
+ org.glassfish.jersey.core:jersey-client:3.0.9:jar:compile
+ io.dropwizard:dropwizard-client:4.0.0:jar:compile
+ org.apache.httpcomponents.core5:httpcore5:5.2.1:jar:compile
+ org.apache.httpcomponents.client5:httpclient5:5.2.1:jar:compile
+Removed Dependencies:
+ commons-codec:commons-codec:1.11:jar:compile
+ org.apache.httpcomponents:httpcore:4.4.16:jar:compile
+ org.glassfish.jersey.core:jersey-client:2.39:jar:compile
+ io.dropwizard.metrics:metrics-httpclient:4.2.17:jar:compile
+ org.apache.httpcomponents:httpclient:4.5.14:jar:compile
+ org.checkerframework:checker-qual:3.5.0:jar:compile
+ io.dropwizard:dropwizard-client:2.1.5:jar:compile

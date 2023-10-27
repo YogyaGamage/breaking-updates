@@ -1,0 +1,21 @@
+com.xdev-software:biapi:6.0.2-SNAPSHOT:jar:compile
++- com.xdev-software:xapi:6.0.1:jar:compile
+|  \- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+\- net.sf.jasperreports:jasperreports:6.18.1:jar:compile
+   +- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+   |  \- commons-collections:commons-collections:3.2.2:jar:compile
+   +- commons-digester:commons-digester:2.1:jar:compile
+   +- commons-logging:commons-logging:1.1.1:jar:compile
+   +- org.apache.commons:commons-collections4:4.2:jar:compile
+   +- com.lowagie:itext:2.1.7.js9:jar:compile
+   |  \- org.bouncycastle:bcprov-jdk15on:1.68:jar:compile
+   +- org.jfree:jcommon:1.0.23:jar:compile
+   +- org.jfree:jfreechart:1.0.19:jar:compile
+   +- org.eclipse.jdt:ecj:3.21.0:jar:compile
+   +- org.codehaus.castor:castor-xml:1.4.1:jar:compile
+   |  +- org.codehaus.castor:castor-core:1.4.1:jar:compile
+   |  +- org.apache.commons:commons-lang3:3.4:jar:compile
+   |  \- javax.inject:javax.inject:1:jar:compile
+   +- com.fasterxml.jackson.core:jackson-core:2.12.2:jar:compile
+   +- com.fasterxml.jackson.core:jackson-databind:2.12.2:jar:compile
+   \- com.fasterxml.jackson.core:jackson-annotations:2.12.2:jar:compile

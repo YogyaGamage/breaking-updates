@@ -1,0 +1,16 @@
+Added Dependencies:
+ com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta1:0.137.0:jar:compile
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta1:0.137.0:jar:compile
+ com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta2:0.137.0:jar:compile
+ com.google.cloud:google-cloud-bigquerystorage:2.13.0:jar:compile
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1:2.13.0:jar:compile
+ io.grpc:grpc-googleapis:1.45.1:jar:runtime
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta2:0.137.0:jar:compile
+Removed Dependencies:
+ com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta1:0.132.3:jar:compile
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta1:0.132.3:jar:compile
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1:2.8.3:jar:compile
+ com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta2:0.132.3:jar:compile
+ com.google.cloud:google-cloud-bigquerystorage:2.8.3:jar:compile
+ com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta2:0.132.3:jar:compile
+ io.grpc:grpc-googleapis:1.45.1:jar:test

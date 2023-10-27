@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.graalvm.js:js-scriptengine:23.0.0:jar:compile
+Removed Dependencies:
+ org.graalvm.js:js-scriptengine:22.3.2:jar:compile

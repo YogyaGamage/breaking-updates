@@ -1,0 +1,4 @@
+Added Dependencies:
+ ch.qos.logback:logback-classic:1.4.7:jar:compile
+Removed Dependencies:
+ ch.qos.logback:logback-classic:1.2.11:jar:compile

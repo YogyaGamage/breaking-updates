@@ -1,0 +1,13 @@
+Added Dependencies:
+ wtf.g4s8:mime:v2.3.2+java8:jar:compile
+ org.apache.httpcomponents.client5:httpclient5:5.1.2:jar:compile
+ org.apache.httpcomponents.client5:httpclient5-fluent:5.1.2:jar:compile
+ com.artipie:http:v1.1.2-d:jar:compile
+ org.apache.httpcomponents.core5:httpcore5:5.1.2:jar:compile
+ org.apache.httpcomponents.core5:httpcore5-h2:5.1.2:jar:compile
+ org.apache.commons:commons-collections4:4.4:jar:compile
+Removed Dependencies:
+ com.artipie:http:v0.25:jar:compile
+ wtf.g4s8:mime:v2.2:jar:compile
+ org.apache.commons:commons-collections4:4.3:jar:compile
+ org.cactoos:cactoos:0.46:jar:compile

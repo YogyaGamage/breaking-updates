@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.mapstruct:mapstruct-processor:1.5.0.Final:jar:compile
+Removed Dependencies:
+ org.mapstruct:mapstruct-processor:1.4.2.Final:jar:compile

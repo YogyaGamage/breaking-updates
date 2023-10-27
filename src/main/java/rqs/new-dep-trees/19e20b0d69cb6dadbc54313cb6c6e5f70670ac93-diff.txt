@@ -1,0 +1,6 @@
+Added Dependencies:
+ com.thoughtworks.xstream:xstream:1.4.19:jar:compile
+ io.github.x-stream:mxparser:1.2.2:jar:compile
+Removed Dependencies:
+ io.github.x-stream:mxparser:1.2.1:jar:compile
+ com.thoughtworks.xstream:xstream:1.4.17:jar:compile

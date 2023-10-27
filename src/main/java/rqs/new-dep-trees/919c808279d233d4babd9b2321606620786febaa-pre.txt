@@ -1,0 +1,15 @@
+dev.brighten.anticheat:Detections:2.19:jar:compile
+\- dev.brighten.anticheat:Impl:2.19:jar:compile
+   +- dev.brighten.anticheat:API:2.19:jar:compile
+   |  +- cc.funkemunky.utils:lombok:1.18.0:jar:provided
+   |  +- org.github.spigot:1.12.2:1.12.2:jar:provided
+   |  +- org.github.spigot:1.8.8:1.8.8:jar:provided
+   |  +- org.github.spigot:1.17:1.17:jar:provided
+   |  +- cc.funkemunky.plugins:Atlas:1.12.0:jar:provided
+   |  +- com.github.lunarclient:bukkitapi:1.0.1:jar:provided
+   |  |  \- org.projectlombok:lombok:1.16.10:jar:provided
+   |  +- org.github.spigot:1.13.2:1.13.2:jar:provided
+   |  \- org.github.spigot:1.7.10:1.7.10:jar:provided
+   +- org.bstats:bstats-bukkit:2.2.1:jar:compile
+   |  \- org.bstats:bstats-base:2.2.1:jar:compile
+   \- com.esotericsoftware:reflectasm:1.11.9:jar:compile

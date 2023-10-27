@@ -1,0 +1,5 @@
+Added Dependencies:
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.4:jar:compile
+ com.google.auto.value:auto-value:1.10.1:jar:compile
+Removed Dependencies:
+ com.google.api.grpc:proto-google-cloud-pubsub-v1:1.102.25:jar:compile

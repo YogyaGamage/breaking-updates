@@ -1,0 +1,50 @@
+com.jcabi:jcabi-s3:1.0-SNAPSHOT:jar:compile
++- com.jcabi:jcabi-aspects:0.24.1:jar:compile
++- com.jcabi:jcabi-log:0.23.0:jar:compile
+|  \- org.slf4j:slf4j-api:2.0.7:jar:compile
++- javax.activation:activation:1.1.1:jar:compile
++- org.projectlombok:lombok:1.18.28:jar:provided
++- org.aspectj:aspectjrt:1.9.19:jar:runtime
++- com.amazonaws:aws-java-sdk-core:1.12.437:jar:compile
+|  +- commons-logging:commons-logging:1.1.3:jar:compile
+|  +- commons-codec:commons-codec:1.15:jar:compile
+|  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  \- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  +- software.amazon.ion:ion-java:1.0.2:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:2.12.7.1:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:2.12.7:jar:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:2.12.7:jar:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.12.6:jar:compile
+|  \- joda-time:joda-time:2.8.1:jar:compile
++- com.amazonaws:aws-java-sdk-s3:1.12.437:jar:compile
+|  +- com.amazonaws:aws-java-sdk-kms:1.12.437:jar:compile
+|  \- com.amazonaws:jmespath-java:1.12.437:jar:compile
++- com.google.guava:guava:32.0.0-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- org.checkerframework:checker-qual:3.33.0:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.18.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:2.8:jar:compile
++- commons-io:commons-io:2.12.0:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- javax.validation:validation-api:2.0.1.Final:jar:test
++- junit:junit:4.13.2:jar:test
++- org.slf4j:slf4j-reload4j:2.0.7:jar:test
+|  \- ch.qos.reload4j:reload4j:1.2.22:jar:test
++- log4j:log4j:1.2.17:jar:test
++- org.hamcrest:hamcrest-core:2.2:jar:test
++- org.hamcrest:hamcrest-library:2.2:jar:test
++- org.junit.vintage:junit-vintage-engine:5.9.1:jar:test
+|  +- org.junit.platform:junit-platform-engine:1.9.1:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.9.1:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.9.1:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.9.1:jar:test
+|  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  \- org.junit.platform:junit-platform-commons:1.9.1:jar:test
++- org.hamcrest:hamcrest:2.2:jar:test
+\- org.mockito:mockito-core:4.8.1:jar:test
+   +- net.bytebuddy:byte-buddy:1.12.16:jar:test
+   +- net.bytebuddy:byte-buddy-agent:1.12.16:jar:test
+   \- org.objenesis:objenesis:3.2:jar:test

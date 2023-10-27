@@ -1,0 +1,86 @@
+com.approvaltests:approvaltests-util-tests:100.0.0-SNAPSHOT:jar:compile
++- org.junit.jupiter:junit-jupiter:5.9.3:jar:test
+|  +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:test
+|  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  +- org.junit.platform:junit-platform-commons:1.9.3:jar:test
+|  |  +- org.apiguardian:apiguardian-api:1.1.2:jar:test
+|  |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+|  |  \- org.junit.platform:junit-platform-commons:1.9.3:jar:compile
+|  +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:test
+|  \- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:test
+|     +- org.junit.platform:junit-platform-engine:1.9.3:jar:test
+|     \- org.junit.platform:junit-platform-engine:1.9.3:jar:runtime
+\- com.approvaltests:approvaltests:100.0.0-SNAPSHOT:jar:compile
+   +- com.approvaltests:approvaltests-util:100.0.0-SNAPSHOT:jar:compile
+   |  +- commons-httpclient:commons-httpclient:3.1:jar:compile
+   |  |  +- commons-logging:commons-logging:1.2:jar:compile
+   |  |  \- commons-codec:commons-codec:1.2:jar:compile
+   |  +- jakarta.servlet:jakarta.servlet-api:5.0.0:jar:compile (optional)
+   |  +- org.apache.velocity:velocity-engine-core:2.3:jar:compile
+   |  |  +- org.slf4j:slf4j-api:1.7.30:jar:compile
+   |  |  \- org.apache.commons:commons-lang3:3.12.0:jar:compile
+   |  +- com.sun.mail:javax.mail:1.6.2:jar:compile
+   |  |  \- javax.activation:activation:1.1:jar:compile
+   |  +- quartz:quartz:1.5.2:jar:compile (optional)
+   |  |  \- commons-logging:commons-logging:1.2:jar:compile
+   |  +- com.google.code.gson:gson:2.10.1:jar:compile
+   |  +- commons-net:commons-net:3.9.0:jar:compile (optional)
+   |  +- sshtools:j2ssh-core:0.2.9:jar:compile (optional)
+   |  +- org.junit.jupiter:junit-jupiter:5.9.3:jar:test
+   |  \- org.apache.commons:commons-lang3:3.12.0:jar:compile
+   +- org.apache.camel:camel-xstream:3.21.0:jar:compile
+   |  +- org.apache.camel:camel-support:3.21.0:jar:compile
+   |  |  +- org.apache.camel:camel-api:3.21.0:jar:compile
+   |  |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+   |  |  |     \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
+   |  |  +- org.apache.camel:camel-management-api:3.21.0:jar:compile
+   |  |  +- org.apache.camel:camel-util:3.21.0:jar:compile
+   |  |  \- org.apache.camel:camel-util-json:3.21.0:jar:compile
+   |  +- stax:stax-api:1.0.1:jar:compile
+   |  +- org.codehaus.woodstox:woodstox-core-asl:4.4.1:jar:compile
+   |  |  \- org.codehaus.woodstox:stax2-api:3.1.4:jar:compile
+   |  +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+   |  |  \- io.github.x-stream:mxparser:1.2.2:jar:compile
+   |  |     \- xmlpull:xmlpull:1.1.3.1:jar:compile
+   |  \- org.codehaus.jettison:jettison:1.5.3:jar:compile
+   +- org.testng:testng:7.5.1:jar:compile (optional)
+   |  +- com.google.code.findbugs:jsr305:3.0.1:jar:compile (optional)
+   |  +- com.beust:jcommander:1.78:jar:compile (optional)
+   |  \- org.webjars:jquery:3.5.1:jar:runtime (optional)
+   +- com.thoughtworks.xstream:xstream:1.4.20:jar:compile
+   +- org.codehaus.jettison:jettison:1.5.3:jar:compile
+   +- com.fasterxml.jackson.core:jackson-databind:2.15.2:jar:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:2.15.2:jar:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:2.15.2:jar:compile
+   +- junit:junit:4.13.2:jar:compile (optional)
+   |  \- org.hamcrest:hamcrest-core:1.3:jar:compile (optional)
+   +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:compile
+   |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+   |  +- org.junit.platform:junit-platform-commons:1.9.3:jar:compile
+   |  \- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+   +- org.junit.jupiter:junit-jupiter:5.9.3:jar:test
+   +- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:test
+   +- org.junit.vintage:junit-vintage-engine:5.9.3:jar:test
+   \- com.github.testng-team:testng-junit5:0.0.1:jar:test
+com.approvaltests:CounterDisplay:100.0.0-SNAPSHOT:jar:compile
++- com.approvaltests:approvaltests-util:100.0.0-SNAPSHOT:jar:compile
+\- org.junit.jupiter:junit-jupiter:5.9.3:jar:test
+com.approvaltests:HtmlLocker:100.0.0-SNAPSHOT:jar:compile
++- com.approvaltests:approvaltests-tests:100.0.0-SNAPSHOT:jar:compile
+|  +- org.junit.jupiter:junit-jupiter:5.9.3:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.9.3:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.9.3:jar:compile
+|  |  \- org.junit.jupiter:junit-jupiter-engine:5.9.3:jar:runtime
+|  |     \- org.junit.platform:junit-platform-engine:1.9.3:jar:runtime
+|  +- com.larseckart:junit-tcr-extensions:0.0.1:jar:test
+|  +- com.approvaltests:approvaltests:100.0.0-SNAPSHOT:jar:compile
+|  +- org.easymock:easymock:5.1.0:jar:test
+|  |  \- org.objenesis:objenesis:3.3:jar:test
+|  +- net.jqwik:jqwik:1.7.4:jar:compile
+|  |  +- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+|  |  +- net.jqwik:jqwik-api:1.7.4:jar:compile
+|  |  +- net.jqwik:jqwik-web:1.7.4:jar:compile
+|  |  +- net.jqwik:jqwik-time:1.7.4:jar:compile
+|  |  \- net.jqwik:jqwik-engine:1.7.4:jar:runtime
+|  \- org.javassist:javassist:3.29.2-GA:jar:compile
+\- org.junit.jupiter:junit-jupiter:5.9.3:jar:test

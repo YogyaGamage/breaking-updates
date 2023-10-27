@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.reflections:reflections:0.10.2:jar:compile
+ org.slf4j:slf4j-api:1.7.32:jar:compile
+ org.javassist:javassist:3.28.0-GA:jar:compile
+Removed Dependencies:
+ com.google.code.findbugs:annotations:2.0.1:jar:compile
+ org.javassist:javassist:3.18.2-GA:jar:compile
+ org.reflections:reflections:0.9.9:jar:compile

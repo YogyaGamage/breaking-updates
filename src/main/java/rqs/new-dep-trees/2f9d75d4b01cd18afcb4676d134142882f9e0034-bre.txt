@@ -1,0 +1,121 @@
+org.apache.directory.scim:scim-server-memory:2.23-SNAPSHOT:war:compile
++- javax.ws.rs:javax.ws.rs-api:2.1:jar:compile
+\- org.apache.directory.scim:scim-server-common:2.23-SNAPSHOT:jar:compile
+   +- edu.psu.swe.commons:commons-jaxrs:1.41.0:jar:compile
+   |  +- javax.mail:javax.mail-api:1.6.0:jar:compile
+   |  +- com.fasterxml.jackson.core:jackson-databind:2.13.3:jar:compile
+   |  |  \- com.fasterxml.jackson.core:jackson-core:2.13.3:jar:compile
+   |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.3:jar:compile
+   |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+   |  |  \- jakarta.activation:jakarta.activation-api:1.2.1:jar:compile
+   |  +- javax:javaee-api:8.0.1:jar:provided
+   |  |  \- com.sun.mail:javax.mail:1.6.2:jar:provided
+   |  |     \- javax.activation:activation:1.1:jar:provided
+   |  \- commons-net:commons-net:3.6:jar:compile
+   +- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
+   |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+   |  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+   |  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+   |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+   |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+   |  \- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+   |     \- org.junit.platform:junit-platform-engine:1.8.2:jar:test
+   +- org.jboss.resteasy:resteasy-client:3.0.11.Final:jar:test
+   |  \- org.jboss.resteasy:resteasy-jaxrs:3.0.11.Final:jar:test
+   |     +- org.jboss.resteasy:jaxrs-api:3.0.11.Final:jar:test
+   |     +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final:jar:test
+   |     +- org.apache.httpcomponents:httpclient:4.2.6:jar:test
+   |     |  +- org.apache.httpcomponents:httpcore:4.2.5:jar:test
+   |     |  +- commons-logging:commons-logging:1.1.1:jar:test
+   |     |  \- commons-codec:commons-codec:1.6:jar:test
+   |     +- commons-io:commons-io:2.1:jar:test
+   |     \- net.jcip:jcip-annotations:1.0:jar:test
+   +- org.jboss.resteasy:resteasy-jackson-provider:3.15.3.Final:jar:test
+   |  +- org.codehaus.jackson:jackson-core-asl:1.9.13.redhat-00007:jar:test
+   |  +- org.codehaus.jackson:jackson-mapper-asl:1.9.13.redhat-00007:jar:test
+   |  +- org.codehaus.jackson:jackson-jaxrs:1.9.13.redhat-00007:jar:test
+   |  \- org.codehaus.jackson:jackson-xc:1.9.13.redhat-00007:jar:test
+   +- org.mockito:mockito-core:4.4.0:jar:test
+   |  +- net.bytebuddy:byte-buddy:1.12.8:jar:test
+   |  +- net.bytebuddy:byte-buddy-agent:1.12.8:jar:test
+   |  \- org.objenesis:objenesis:3.2:jar:test
+   +- org.mockito:mockito-junit-jupiter:4.5.1:jar:test
+   +- org.assertj:assertj-core:3.9.1:jar:test
+   +- org.slf4j:slf4j-simple:1.7.36:jar:test
+   +- org.hamcrest:hamcrest:2.2:jar:test
+   +- eu.codearte.catch-exception:catch-exception:1.4.6:jar:test
+   +- org.apache.directory.scim:scim-common:2.23-SNAPSHOT:jar:compile
+   |  \- org.apache.directory.scim:scim-spec-protocol:2.23-SNAPSHOT:jar:compile
+   |     +- io.swagger:swagger-jaxrs:1.6.6:jar:compile
+   |     |  +- io.swagger:swagger-core:1.6.6:jar:compile
+   |     |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.3:jar:compile
+   |     |  |  |  \- org.yaml:snakeyaml:1.30:jar:compile
+   |     |  |  \- io.swagger:swagger-models:1.6.6:jar:compile
+   |     |  |     \- io.swagger:swagger-annotations:1.6.6:jar:compile
+   |     |  +- org.reflections:reflections:0.9.11:jar:compile
+   |     |  |  \- org.javassist:javassist:3.21.0-GA:jar:compile
+   |     |  \- com.google.guava:guava:31.1-android:jar:compile
+   |     |     +- com.google.guava:failureaccess:1.0.1:jar:compile
+   |     |     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+   |     |     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+   |     |     +- org.checkerframework:checker-qual:3.12.0:jar:compile
+   |     |     +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+   |     |     \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+   |     +- org.apache.directory.scim:scim-spec-schema:2.23-SNAPSHOT:jar:compile
+   |     |  +- javax.xml.bind:jaxb-api:2.3.1:jar:compile
+   |     |  |  \- javax.activation:javax.activation-api:1.2.0:jar:compile
+   |     |  +- javax.validation:validation-api:1.1.0.Final:jar:compile
+   |     |  +- org.projectlombok:lombok:1.18.24:jar:provided
+   |     |  +- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
+   |     |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.3:jar:compile
+   |     |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.3:jar:compile
+   |     |  |  |  +- com.fasterxml.jackson.core:jackson-core:2.13.3:jar:compile
+   |     |  |  |  \- com.fasterxml.jackson.core:jackson-databind:2.13.3:jar:compile
+   |     |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.3:jar:compile
+   |     |  +- org.hibernate:hibernate-validator:5.4.3.Final:jar:test
+   |     |  |  +- org.jboss.logging:jboss-logging:3.3.0.Final:jar:test
+   |     |  |  \- com.fasterxml:classmate:1.3.1:jar:test
+   |     |  +- org.glassfish:javax.el:3.0.1-b12:jar:test
+   |     |  +- javax:javaee-api:8.0.1:jar:provided
+   |     |  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+   |     |  +- com.fasterxml.jackson.core:jackson-annotations:2.13.3:jar:compile
+   |     |  +- org.antlr:antlr4-runtime:4.5.3:jar:compile
+   |     |  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+   |     |  \- org.slf4j:slf4j-simple:1.7.36:jar:test
+   |     +- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
+   |     \- org.slf4j:slf4j-simple:1.7.36:jar:test
+   \- com.flipkart.zjsonpatch:zjsonpatch:0.4.12:jar:compile
+      +- com.fasterxml.jackson.core:jackson-core:2.13.3:jar:compile
+      \- org.apache.commons:commons-collections4:4.2:jar:compile
+org.apache.directory.scim:scim-test-coverage:2.23-SNAPSHOT:jar:compile
++- org.apache.directory.scim:scim-tools-common:2.23-SNAPSHOT:jar:compile
+|  +- org.apache.directory.scim:scim-spec-schema:2.23-SNAPSHOT:jar:compile
+|  +- com.github.foodev:jsondiff:2.0.0:jar:compile
+|  \- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
++- org.apache.directory.scim:scim-server-common:2.23-SNAPSHOT:jar:compile
++- org.apache.directory.scim:scim-client:2.23-SNAPSHOT:jar:compile
+|  +- org.slf4j:slf4j-simple:1.7.36:jar:test
+|  +- org.apache.directory.scim:scim-common:2.23-SNAPSHOT:jar:compile
+|  +- edu.psu.swe.commons:commons-jaxrs:1.41.0:jar:compile
+|  \- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
++- org.apache.directory.scim:scim-compliance-client:2.23-SNAPSHOT:jar:compile
+\- org.apache.directory.scim:scim-compliance-server:2.23-SNAPSHOT:jar:compile
+   +- com.restfuse:com.eclipsesource.restfuse:1.2.0:jar:compile
+   |  +- junit:junit:4.13.2:jar:compile
+   |  |  \- org.hamcrest:hamcrest-core:1.3:jar:compile
+   |  +- org.eclipse.jetty:jetty-server:9.4.45.v20220203:jar:compile
+   |  |  \- javax.servlet:javax.servlet-api:3.1.0:jar:compile
+   |  +- org.eclipse.jetty:jetty-continuation:9.4.45.v20220203:jar:compile
+   |  +- org.eclipse.jetty:jetty-http:9.4.45.v20220203:jar:compile
+   |  +- org.eclipse.jetty:jetty-io:9.4.45.v20220203:jar:compile
+   |  +- org.eclipse.jetty:jetty-security:9.4.45.v20220203:jar:compile
+   |  +- org.eclipse.jetty:jetty-servlet:9.4.45.v20220203:jar:compile
+   |  |  \- org.eclipse.jetty:jetty-util-ajax:9.4.45.v20220203:jar:compile
+   |  \- org.eclipse.jetty:jetty-util:9.4.45.v20220203:jar:compile
+   +- org.apache.directory.scim:scim-spec-protocol:2.23-SNAPSHOT:jar:compile
+   +- org.junit.vintage:junit-vintage-engine:5.8.2:jar:compile
+   |  +- org.junit.platform:junit-platform-engine:1.8.2:jar:compile
+   |  |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+   |  |  \- org.junit.platform:junit-platform-commons:1.8.2:jar:compile
+   |  \- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+   \- org.projectlombok:lombok:1.18.24:jar:compile

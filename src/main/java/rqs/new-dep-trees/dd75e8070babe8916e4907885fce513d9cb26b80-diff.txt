@@ -1,0 +1,10 @@
+Added Dependencies:
+ org.apache.logging.log4j:log4j-api:2.14.1:jar:compile
+ io.sentry:sentry:5.4.3:jar:compile
+ org.dhatim:dropwizard-sentry:2.0.25-2:jar:compile
+ io.sentry:sentry-logback:5.4.3:jar:compile
+ org.apache.logging.log4j:log4j-core:2.14.1:jar:compile
+Removed Dependencies:
+ io.sentry:sentry:1.7.30:jar:compile
+ io.sentry:sentry-logback:1.7.30:jar:compile
+ org.dhatim:dropwizard-sentry:2.0.22:jar:compile

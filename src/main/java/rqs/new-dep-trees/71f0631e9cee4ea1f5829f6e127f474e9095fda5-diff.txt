@@ -1,0 +1,14 @@
+Added Dependencies:
+ org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61:jar:test
+ org.apache.httpcomponents:httpcore:4.4.15:jar:test
+ org.jenkins-ci.plugins:scm-api:620.v0a_5b_1f8054c0:jar:test
+ org.apache.httpcomponents:httpcore-nio:4.4.15:jar:test
+ org.jenkins-ci.plugins.workflow:workflow-step-api:639.v6eca_cd8c04a_a_:jar:compile
+ org.jenkins-ci.plugins.workflow:workflow-cps:2660.2664.v4c114e93f4c1:jar:test
+Removed Dependencies:
+ org.jenkins-ci.plugins.workflow:workflow-cps:2660.vb_c0412dc4e6d:jar:test
+ org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0:jar:test
+ org.apache.httpcomponents:httpcore:4.4.14:jar:test
+ org.jenkins-ci.plugins:scm-api:608.vfa_f971c5a_a_e9:jar:test
+ org.jenkins-ci.plugins.workflow:workflow-step-api:625.vd896b_f445a_f8:jar:compile
+ org.apache.httpcomponents:httpcore-nio:4.4.14:jar:test

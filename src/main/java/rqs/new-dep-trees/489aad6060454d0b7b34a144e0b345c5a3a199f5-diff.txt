@@ -1,0 +1,5 @@
+Added Dependencies:
+ com.google.code.gson:gson:2.10.1:jar:compile
+ org.flywaydb:flyway-core:9.19.1:jar:compile
+Removed Dependencies:
+ org.flywaydb:flyway-core:3.2.1:jar:compile

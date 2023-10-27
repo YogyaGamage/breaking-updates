@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.maven.shared:maven-dependency-tree:3.1.0:jar:compile
+Removed Dependencies:
+ org.apache.maven.shared:maven-dependency-tree:2.2:jar:compile

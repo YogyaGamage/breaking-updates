@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.jenkins-ci.plugins:docker-commons:422.v9d1a_89cede51:jar:compile
+Removed Dependencies:
+ org.jenkins-ci.plugins:docker-commons:1.21:jar:compile

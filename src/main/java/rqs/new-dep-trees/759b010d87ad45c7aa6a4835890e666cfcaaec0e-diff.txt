@@ -1,0 +1,6 @@
+Added Dependencies:
+ com.coravy.hudson.plugins.github:github:1.34.3:jar:compile
+ org.jenkins-ci.plugins:github-branch-source:1628.vb_2f51293cb_78:jar:compile
+Removed Dependencies:
+ com.coravy.hudson.plugins.github:github:1.34.1:jar:compile
+ org.jenkins-ci.plugins:github-branch-source:2.11.4:jar:compile

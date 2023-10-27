@@ -1,0 +1,4 @@
+Added Dependencies:
+ jakarta.interceptor:jakarta.interceptor-api:2.0.0:jar:provided
+Removed Dependencies:
+ jakarta.interceptor:jakarta.interceptor-api:1.2.5:jar:provided

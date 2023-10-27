@@ -1,0 +1,6 @@
+Added Dependencies:
+ org.pitest:pitest-entry:1.10.0:jar:compile
+ org.pitest:pitest:1.10.0:jar:compile
+Removed Dependencies:
+ org.pitest:pitest-entry:1.9.11:jar:compile
+ org.pitest:pitest:1.9.11:jar:compile

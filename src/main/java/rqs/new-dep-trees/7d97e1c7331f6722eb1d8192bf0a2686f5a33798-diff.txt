@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.jcabi:jcabi-aspects:0.25.1:jar:compile
+Removed Dependencies:
+ com.jcabi:jcabi-aspects:0.24.1:jar:compile

@@ -1,0 +1,14 @@
+Added Dependencies:
+ com.google.cloud:google-cloud-pubsublite:0.18.0:jar:compile
+Removed Dependencies:
+ com.google.apis:google-api-services-cloudresourcemanager:v1-rev20200907-1.30.10:jar:compile
+ com.google.oauth-client:google-oauth-client:1.31.1:jar:compile
+ org.apache.commons:commons-lang3:3.5:jar:compile
+ com.google.cloud:google-cloud-resourcemanager:0.118.2-alpha:jar:compile
+ com.google.cloud:google-cloud-core:1.93.9:jar:compile
+ com.google.cloud:google-cloud-pubsublite:0.6.0:jar:compile
+ com.google.http-client:google-http-client-appengine:1.37.0:jar:compile
+ com.google.http-client:google-http-client-jackson2:1.37.0:jar:compile
+ com.google.cloud:google-cloud-core-http:1.93.9:jar:compile
+ com.fasterxml.jackson.core:jackson-core:2.11.3:jar:compile
+ com.google.api-client:google-api-client:1.30.11:jar:compile

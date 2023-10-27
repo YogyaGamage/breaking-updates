@@ -1,0 +1,415 @@
+eu.europa.ec.joinup.sat:nbdemetra-branding:2.2.5-SNAPSHOT:nbm:compile
++- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+|  +- org.junit.jupiter:junit-jupiter-api:5.10.0:jar:test
+|  |  +- org.opentest4j:opentest4j:1.3.0:jar:test
+|  |  \- org.junit.platform:junit-platform-commons:1.10.0:jar:test
+|  +- org.junit.jupiter:junit-jupiter-params:5.10.0:jar:test
+|  \- org.junit.jupiter:junit-jupiter-engine:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+   +- org.junit.platform:junit-platform-engine:1.10.0:jar:test
+   +- junit:junit:4.13.2:jar:test
+   |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+   \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:nbm:compile
++- org.projectlombok:lombok:1.18.30:jar:provided
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
+|  \- net.bytebuddy:byte-buddy:1.12.21:jar:test
++- org.netbeans.api:org-openide-modules:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-util-ui:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:demetra-tss:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:demetra-tstoolkit:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:demetra-utils:2.2.5-SNAPSHOT:jar:compile
+|  +- com.github.nbbrd.java-io-util:java-io-xml:0.0.26:jar:compile
+|  |  \- com.github.nbbrd.java-io-util:java-io-base:0.0.26:jar:compile
+|  \- com.github.nbbrd.java-io-util:java-io-xml-bind:0.0.26:jar:compile
++- eu.europa.ec.joinup.sat:demetra-workspace:2.2.5-SNAPSHOT:jar:compile
++- com.google.guava:guava:32.1.2-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  \- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
++- com.github.stephenc.jcip:jcip-annotations:1.0-1:jar:compile
++- org.slf4j:slf4j-api:2.0.9:jar:compile
++- org.slf4j:slf4j-jdk14:2.0.9:jar:compile
++- org.slf4j:jcl-over-slf4j:2.0.9:jar:compile
++- javax.xml.bind:jaxb-api:2.4.0-b180830.0359:jar:compile
+|  \- javax.activation:javax.activation-api:1.2.0:jar:compile
++- org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438:jar:compile
+|  +- org.glassfish.jaxb:txw2:2.4.0-b180830.0438:jar:compile
+|  +- com.sun.istack:istack-commons-runtime:3.0.7:jar:compile
+|  +- org.jvnet.staxex:stax-ex:1.8:jar:compile
+|  \- com.sun.xml.fastinfoset:FastInfoset:1.2.15:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:nbm:compile
++- org.projectlombok:lombok:1.18.30:jar:provided
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-modules:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-windows:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-modules-settings:RELEASE170:jar:compile
+|  +- org.netbeans.modules:org-netbeans-bootstrap:RELEASE170:jar:runtime
+|  +- org.netbeans.modules:org-netbeans-core-startup:RELEASE170:jar:runtime
+|  |  +- org.netbeans.api:org-netbeans-libs-asm:RELEASE170:jar:runtime
+|  |  |  +- org.ow2.asm:asm:9.4:jar:runtime
+|  |  |  +- org.ow2.asm:asm-tree:9.4:jar:runtime
+|  |  |  \- org.ow2.asm:asm-commons:9.4:jar:runtime
+|  |  \- org.netbeans.modules:org-netbeans-core-startup-base:RELEASE170:jar:runtime
+|  \- org.netbeans.api:org-openide-actions:RELEASE170:jar:compile
+|     \- org.netbeans.api:org-openide-text:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-awt:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-explorer:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-swing-tabcontrol:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-swing-outline:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-filesystems:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-awt:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-actions:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-progress-nb:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-progress:RELEASE170:jar:compile
+|  |  \- org.netbeans.api:org-openide-modules:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-awt:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-filesystems:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-loaders:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-scripting:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-templates:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-editor-mimelookup:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-queries:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-text:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-modules-options-api:RELEASE170:jar:compile
+|  +- org.netbeans.modules:org-netbeans-core:RELEASE170:jar:runtime
+|  |  +- org.netbeans.api:org-netbeans-modules-keyring:RELEASE170:jar:runtime
+|  |  +- org.netbeans.api:org-netbeans-modules-sampler:RELEASE170:jar:runtime
+|  |  \- org.netbeans.api:org-netbeans-swing-plaf:RELEASE170:jar:runtime
+|  +- org.netbeans.api:org-netbeans-spi-quicksearch:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-swing-outline:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-modules-javahelp:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-spi-quicksearch:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-core-multiview:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-editor-mimelookup:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-text:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-io:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-intent:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-api-io:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-swing-outline:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-filesystems-nb:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-api-progress:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-tss:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-tstoolkit:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-utils:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-workspace:2.2.5-SNAPSHOT:jar:compile
+|  +- com.google.guava:guava:32.1.2-jre:jar:compile
+|  +- com.github.stephenc.jcip:jcip-annotations:1.0-1:jar:compile
+|  +- org.slf4j:slf4j-api:2.0.9:jar:compile
+|  +- org.slf4j:slf4j-jdk14:2.0.9:jar:compile
+|  +- org.slf4j:jcl-over-slf4j:2.0.9:jar:compile
+|  +- javax.xml.bind:jaxb-api:2.4.0-b180830.0359:jar:compile
+|  +- org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438:jar:compile
+|  +- org.netbeans.api:org-openide-modules:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- com.miglayout:miglayout:3.7.4:jar:compile
++- org.tros:l2fprod-properties-editor:1.3.0:jar:compile
+|  \- org.tros:l2fprod-common-annotations:1.2.0:jar:compile
++- com.toedter:jcalendar:1.4:jar:compile
++- org.jfree:jfreesvg:3.4.3:jar:compile
++- org.swinglabs:swing-layout:1.0.3:jar:compile
++- com.github.nbbrd.java-desktop-util:java-desktop-util-swing:2.3.0:jar:compile
++- com.github.nbbrd.java-desktop-util:java-desktop-util-chart:2.3.0:jar:compile
+|  \- org.jfree:jfreechart:1.0.19:jar:compile
+|     \- org.jfree:jcommon:1.0.23:jar:compile
++- com.github.nbbrd.java-desktop-util:java-desktop-util-fa:2.3.0:jar:compile
++- com.github.nbbrd.java-desktop-util:java-desktop-util-os:2.3.0:jar:compile
++- com.github.nbbrd.java-io-util:java-io-win:0.0.26:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-jdbc:2.2.5-SNAPSHOT:nbm:compile
++- org.projectlombok:lombok:1.18.30:jar:provided
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-windows:RELEASE170:jar:compile
++- org.netbeans.api:org-netbeans-modules-db:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-core-ide:RELEASE170:jar:compile
+|  |  \- org.netbeans.modules:org-netbeans-core-ui:RELEASE170:jar:runtime
+|  |     \- org.netbeans.api:org-netbeans-modules-sampler:RELEASE170:jar:runtime
+|  +- org.netbeans.api:org-netbeans-modules-db-metadata-model:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-javahelp:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-keyring:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-project-libraries:RELEASE170:jar:compile
+|  |  \- org.netbeans.api:org-netbeans-modules-projectapi:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-explorer:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-filesystems-nb:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-io:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-loaders:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-modules:RELEASE170:jar:compile
+|  \- org.netbeans.external:ddl:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-filesystems:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-settings:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-actions:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-options-api:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-core-multiview:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-swing-outline:RELEASE170:jar:compile
+|  +- com.miglayout:miglayout:3.7.4:jar:compile
+|  +- org.tros:l2fprod-properties-editor:1.3.0:jar:compile
+|  +- com.toedter:jcalendar:1.4:jar:compile
+|  +- org.jfree:jfreesvg:3.4.3:jar:compile
+|  +- org.swinglabs:swing-layout:1.0.3:jar:compile
+|  +- com.github.nbbrd.java-desktop-util:java-desktop-util-swing:2.3.0:jar:compile
+|  +- com.github.nbbrd.java-desktop-util:java-desktop-util-chart:2.3.0:jar:compile
+|  +- com.github.nbbrd.java-desktop-util:java-desktop-util-fa:2.3.0:jar:compile
+|  +- com.github.nbbrd.java-desktop-util:java-desktop-util-os:2.3.0:jar:compile
+|  +- com.github.nbbrd.java-io-util:java-io-win:0.0.26:jar:compile
+|  +- org.netbeans.api:org-openide-windows:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-loaders:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-javahelp:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-io:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-filesystems-nb:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-explorer:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-filesystems:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:demetra-jdbc:2.2.5-SNAPSHOT:jar:compile
+|  \- com.github.nbbrd.java-sql-util:java-sql-jdbc:1.0.3:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-odbc:2.2.5-SNAPSHOT:nbm:compile
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-util-lookup:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-jdbc:2.2.5-SNAPSHOT:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-db:RELEASE170:jar:compile
+|  \- eu.europa.ec.joinup.sat:demetra-jdbc:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:demetra-odbc:2.2.5-SNAPSHOT:jar:compile
+|  \- com.github.nbbrd.java-sql-util:java-sql-odbc:1.0.3:jar:compile
++- com.github.nbbrd.java-sql-util:java-sql-lhod:1.0.3:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-common:2.2.5-SNAPSHOT:nbm:compile
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:demetra-common:2.2.5-SNAPSHOT:jar:compile
+|  \- net.sf.opencsv:opencsv:2.3:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-spreadsheet:2.2.5-SNAPSHOT:nbm:compile
++- org.projectlombok:lombok:1.18.30:jar:provided
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:demetra-spreadsheet:2.2.5-SNAPSHOT:jar:compile
+|  +- com.github.nbbrd.spreadsheet4j:spreadsheet-api:2.5.7:jar:compile
+|  +- com.github.nbbrd.spreadsheet4j:spreadsheet-standalone:2.5.7:jar:compile
+|  \- com.github.nbbrd.spreadsheet4j:spreadsheet-poi:2.5.7:jar:compile
+|     +- org.apache.poi:poi-ooxml:5.2.3:jar:compile
+|     |  +- org.apache.poi:poi:5.2.3:jar:compile
+|     |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|     |  |  +- org.apache.commons:commons-math3:3.6.1:jar:compile
+|     |  |  \- com.zaxxer:SparseBitSet:1.2:jar:compile
+|     |  +- org.apache.poi:poi-ooxml-lite:5.2.3:jar:compile
+|     |  +- org.apache.xmlbeans:xmlbeans:5.1.1:jar:compile
+|     |  +- org.apache.commons:commons-compress:1.21:jar:compile
+|     |  +- commons-io:commons-io:2.11.0:jar:compile
+|     |  +- com.github.virtuald:curvesapi:1.07:jar:compile
+|     |  \- org.apache.commons:commons-collections4:4.4:jar:compile
+|     \- xml-apis:xml-apis:1.0.b2:jar:compile
++- org.apache.logging.log4j:log4j-to-slf4j:2.20.0:jar:compile
+|  \- org.apache.logging.log4j:log4j-api:2.20.0:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-sa:2.2.5-SNAPSHOT:nbm:compile
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-dialogs:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-spreadsheet:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-spreadsheet:2.2.5-SNAPSHOT:jar:compile
+|  +- org.apache.logging.log4j:log4j-to-slf4j:2.20.0:jar:compile
+|  \- org.netbeans.api:org-netbeans-api-progress-nb:RELEASE170:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-sdmx:2.2.5-SNAPSHOT:nbm:compile
++- org.assertj:assertj-core:3.24.2:jar:test
++- eu.europa.ec.joinup.sat:demetra-sdmx:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-anomalydetection:2.2.5-SNAPSHOT:nbm:compile
++- org.checkerframework:checker-qual:3.39.0:jar:provided
++- org.assertj:assertj-core:3.24.2:jar:test
++- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-sa:2.2.5-SNAPSHOT:jar:compile
+|  \- eu.europa.ec.joinup.sat:nbdemetra-spreadsheet:2.2.5-SNAPSHOT:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test
+eu.europa.ec.joinup.sat:nbdemetra-app:2.2.5-SNAPSHOT:nbm-application:compile
++- org.netbeans.cluster:platform:RELEASE170:pom:compile
+|  +- org.ow2.asm:asm:9.4:jar:compile
+|  +- org.ow2.asm:asm-commons:9.4:jar:compile
+|  +- org.ow2.asm:asm-tree:9.4:jar:compile
+|  +- org.netbeans.modules:org-netbeans-core-startup-base:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-startup:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-asm:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-filesystems-compat8:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-filesystems:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-bootstrap:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-modules:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-util-lookup:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-util-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-util:RELEASE170:nbm-file:compile
+|  +- org.netbeans.html:net.java.html.boot.fx:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html.boot.script:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html.boot:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html.geo:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html.json:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html.sound:1.8.1:jar:compile
+|  +- org.netbeans.html:net.java.html:1.8.1:jar:compile
+|  +- org.netbeans.external:org-apache-commons-codec:RELEASE170:jar:compile
+|  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  +- org.netbeans.external:org-apache-commons-logging:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-htmlui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-intent:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-io:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-progress-compat8:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-progress-nb:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-progress:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-scripting:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-search:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-templates:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-api-visual:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-execution:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-io-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-core-multitabs:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-core-multiview:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-nativeaccess:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-core-netigso:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-network:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-osgi:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-output2:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core-windows:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-core:RELEASE170:nbm-file:compile
+|  +- org.netbeans.html:ko4j:1.8.1:jar:runtime
+|  +- org.netbeans.html:generic:1.8.1:jar:compile
+|  +- org.netbeans.html:xhr4j:1.8.1:jar:runtime
+|  +- org.netbeans.api:org-netbeans-lib-uihandler:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-batik-read:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-libs-felix:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-flatlaf:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-javafx:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-jna-platform:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-jna:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-jsr223:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-junit4:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-junit5:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-libs-osgi:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-applemenu:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-autoupdate-cli:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-autoupdate-services:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-autoupdate-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-core-kit:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-editor-mimelookup-impl:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-editor-mimelookup:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-favorites:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-htmlui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-janitor:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-keyring-fallback:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-keyring-impl:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-keyring:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-masterfs-linux:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-masterfs-macosx:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-masterfs-nio2:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-masterfs-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-masterfs-windows:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-masterfs:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-netbinox:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-options-api:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-options-keymap:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-print:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-progress-ui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-queries:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-sampler:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-sendopts:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-settings:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-spi-actions:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-templates:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-modules-templatesui:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-modules-uihandler:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-spi-quicksearch:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-swing-laf-dark:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-netbeans-swing-laf-flatlaf:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-swing-outline:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-swing-plaf:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-netbeans-swing-tabcontrol:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-actions:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-awt:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-compat:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-dialogs:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-execution-compat8:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-execution:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-explorer:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-filesystems-nb:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-io:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-loaders:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-nodes:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-options:RELEASE170:nbm-file:compile
+|  +- org.netbeans.api:org-openide-text:RELEASE170:nbm-file:compile
+|  +- org.netbeans.modules:org-openide-util-ui-svg:RELEASE170:nbm-file:compile
+|  \- org.netbeans.api:org-openide-windows:RELEASE170:nbm-file:compile
++- org.netbeans.modules:org-netbeans-modules-dbapi:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-modules-db:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-openide-nodes:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-openide-util:RELEASE170:jar:compile
++- org.netbeans.modules:org-netbeans-modules-projectapi-nb:RELEASE170:jar:compile
+|  +- org.netbeans.api:org-netbeans-api-annotations-common:RELEASE170:jar:compile
+|  \- org.netbeans.api:org-netbeans-modules-projectapi:RELEASE170:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-branding:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-core:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-ui:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-odbc:2.2.5-SNAPSHOT:jar:compile
+|  +- eu.europa.ec.joinup.sat:demetra-odbc:2.2.5-SNAPSHOT:jar:compile
+|  \- com.github.nbbrd.java-sql-util:java-sql-lhod:1.0.3:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-jdbc:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-common:2.2.5-SNAPSHOT:jar:compile
+|  \- eu.europa.ec.joinup.sat:demetra-common:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-sa:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-sdmx:2.2.5-SNAPSHOT:jar:compile
+|  \- eu.europa.ec.joinup.sat:demetra-sdmx:2.2.5-SNAPSHOT:jar:compile
++- eu.europa.ec.joinup.sat:nbdemetra-anomalydetection:2.2.5-SNAPSHOT:jar:compile
++- org.junit.jupiter:junit-jupiter:5.10.0:jar:test
+\- org.junit.vintage:junit-vintage-engine:5.10.0:jar:test

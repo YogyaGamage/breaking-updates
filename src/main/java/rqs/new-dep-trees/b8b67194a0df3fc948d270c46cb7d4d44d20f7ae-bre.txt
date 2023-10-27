@@ -1,0 +1,1218 @@
+org.apache.isis.security:isis-security-keycloak:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.security:isis-security-spring:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.core:isis-core-transaction:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.apache.isis.core:isis-core-security:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  +- org.apache.isis.core:isis-core-config:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  |  |  +- org.apache.isis.commons:isis-commons:2.0.0-SNAPSHOT:jar:provided
+|  |  |  |  |  |  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.13.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:2.13.2:jar:provided
+|  |  |  |  |  |  |  |  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:provided
+|  |  |  |  |  |  |  |  |  +- org.jdom:jdom2:2.0.6.1:jar:provided
+|  |  |  |  |  |  |  |  |  +- org.yaml:snakeyaml:1.29:jar:provided
+|  |  |  |  |  |  |  |  |  +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.springframework:spring-aop:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- org.springframework:spring-jcl:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  \- org.springframework:spring-expression:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  +- org.springframework:spring-tx:5.3.18:jar:provided
+|  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:provided
+|  |  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot:2.6.6:jar:provided
+|  |  |  |  |  |  |  |  |  |  \- org.springframework.boot:spring-boot-autoconfigure:2.6.6:jar:provided
+|  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-starter-log4j2:2.6.6:jar:provided
+|  |  |  |  |  |  |  |  |  |  +- org.apache.logging.log4j:log4j-slf4j-impl:2.17.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  |  \- org.apache.logging.log4j:log4j-api:2.17.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  +- org.apache.logging.log4j:log4j-jul:2.17.2:jar:provided
+|  |  |  |  |  |  |  |  |  |  \- org.slf4j:jul-to-slf4j:1.7.36:jar:provided
+|  |  |  |  |  |  |  |  |  \- org.slf4j:slf4j-api:1.7.36:jar:provided
+|  |  |  |  |  |  |  |  +- org.apache.isis.core:isis-schema:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  |  |  |  +- org.apache.isis.core:isis-jdk-supplemental:2.0.0-SNAPSHOT:pom:compile
+|  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:jaxws-ri:2.3.5:pom:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:jaxws-tools:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.bind:jaxb-xjc:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  |  \- com.sun.xml.bind:jaxb-jxc:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:jaxws-eclipselink-plugin:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  |  \- jakarta.persistence:jakarta.persistence-api:2.2.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:sdo-eclipselink-plugin:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:release-documentation:2.3.5:zip:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:samples:2.3.5:zip:compile
+|  |  |  |  |  |  |  |  |  |  |  +- jakarta.xml.ws:jakarta.xml.ws-api:2.3.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  |  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- jakarta.xml.soap:jakarta.xml.soap-api:1.4.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:jaxws-rt:2.3.5:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.ws:policy:2.7.10:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- org.glassfish.ha:ha-api:3.1.13:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- org.glassfish.external:management-api:3.2.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- org.glassfish.gmbal:gmbal-api-only:4.0.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- org.jvnet.staxex:stax-ex:1.8.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.stream.buffer:streambuffer:1.5.10:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- org.jvnet.mimepull:mimepull:1.9.15:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.fastinfoset:FastInfoset:1.2.18:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.activation:jakarta.activation:1.2.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.mail:jakarta.mail:1.6.7:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  +- com.sun.xml.messaging.saaj:saaj-impl:1.5.3:jar:runtime
+|  |  |  |  |  |  |  |  |  |  |  +- jakarta.jws:jakarta.jws-api:2.1.0:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- jakarta.annotation:jakarta.annotation-api:2.1.0:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.fasterxml.woodstox:woodstox-core:6.2.8:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.codehaus.woodstox:stax2-api:4.2.1:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.eclipse.persistence:org.eclipse.persistence.moxy:2.7.10:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- org.eclipse.persistence:org.eclipse.persistence.core:2.7.10:jar:compile
+|  |  |  |  |  |  |  |  |  |  |     \- org.eclipse.persistence:org.eclipse.persistence.asm:9.2.0:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.eclipse.persistence:org.eclipse.persistence.sdo:2.7.10:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- org.eclipse.persistence:commonj.sdo:2.1.1:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.sun.xml.bind:jaxb-impl:2.3.6:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.sun.xml.bind.external:rngom:3.0.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.sun.xml.bind.external:relaxng-datatype:2.3.6:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- jakarta.platform:jakarta.jakartaee-api:8.0.0:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  \- org.projectlombok:lombok:1.18.22:jar:provided
+|  |  |  |  |  |  |  |  |  \- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  +- joda-time:joda-time:2.10.14:jar:compile
+|  |  |  |  |  |  |  |  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.junit.platform:junit-platform-engine:1.8.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.junit.vintage:junit-vintage-engine:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  \- junit:junit:4.13.2:jar:test
+|  |  |  |  |  |  |  |  |  |     \- org.hamcrest:hamcrest-core:2.2:jar:test
+|  |  |  |  |  |  |  |  |  |        \- org.hamcrest:hamcrest:2.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.assertj:assertj-core:3.21.0:jar:test
+|  |  |  |  |  |  |  |  |  +- net.bytebuddy:byte-buddy:1.11.22:jar:test
+|  |  |  |  |  |  |  |  |  +- org.mockito:mockito-core:4.0.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.objenesis:objenesis:3.2:jar:test
+|  |  |  |  |  |  |  |  |  |  +- net.bytebuddy:byte-buddy-agent:1.11.22:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.objenesis:objenesis:3.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  \- net.bytebuddy:byte-buddy:1.11.22:jar:test
+|  |  |  |  |  |  |  |  |  +- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:test
+|  |  |  |  |  |  |  |  |  |  +- net.bytebuddy:byte-buddy:1.11.22:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.objenesis:objenesis:3.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.hamcrest:hamcrest-library:2.2:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.hamcrest:hamcrest-core:2.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-test:2.6.6:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-test-autoconfigure:2.6.6:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- org.springframework.boot:spring-boot-autoconfigure:2.6.6:jar:test
+|  |  |  |  |  |  |  |  |  |  +- com.jayway.jsonpath:json-path:2.6.0:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- net.minidev:json-smart:2.4.8:jar:test
+|  |  |  |  |  |  |  |  |  |  |     \- net.minidev:accessors-smart:2.4.8:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.mockito:mockito-junit-jupiter:4.0.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.skyscreamer:jsonassert:1.5.0:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- com.vaadin.external.google:android-json:0.0.20131108.vaadin1:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.xmlunit:xmlunit-core:2.8.4:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.hamcrest:hamcrest:2.2:jar:test
+|  |  |  |  |  |  |  |  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.assertj:assertj-core:3.21.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.mockito:mockito-core:4.0.0:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |  |     +- org.springframework.boot:spring-boot:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |  |     |  \- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  |     +- org.springframework.boot:spring-boot-autoconfigure:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |  |     |  \- org.springframework.boot:spring-boot:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |  |     +- jakarta.annotation:jakarta.annotation-api:2.1.0:jar:compile
+|  |  |  |  |  |  |  |  |  |     \- org.yaml:snakeyaml:1.29:jar:compile
+|  |  |  |  |  |  |  |  |  +- org.springframework:spring-test:5.3.18:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |  +- org.picocontainer:picocontainer:2.15:jar:test
+|  |  |  |  |  |  |  |  |  +- org.jmock:jmock-junit4:2.12.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.jmock:jmock-legacy:2.12.0:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- cglib:cglib:3.2.8:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.jmock:jmock-imposters:2.12.0:jar:test
+|  |  |  |  |  |  |  |  |  |  \- junit:junit:4.13.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.jmock:jmock:2.12.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.jmock:jmock-testjar:2.12.0:jar:test
+|  |  |  |  |  |  |  |  |  |  |  \- com.google.code.findbugs:annotations:3.0.1:jar:test
+|  |  |  |  |  |  |  |  |  |  |     \- net.jcip:jcip-annotations:1.0:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.hamcrest:hamcrest:2.2:jar:test
+|  |  |  |  |  |  |  |  |  |  +- org.apache-extras.beanshell:bsh:2.0b6:jar:test
+|  |  |  |  |  |  |  |  |  |  \- org.hamcrest:hamcrest-library:2.2:jar:test
+|  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:compile
+|  |  |  |  |  |  |  |  |  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+|  |  |  |  |  |  |  |  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:compile
+|  |  |  |  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:runtime
+|  |  |  |  |  |  |  |  |  |  \- org.junit.platform:junit-platform-engine:1.8.2:jar:runtime
+|  |  |  |  |  |  |  |  |  \- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  |  |  |     +- net.bytebuddy:byte-buddy:1.11.22:jar:compile
+|  |  |  |  |  |  |  |  |     +- org.objenesis:objenesis:3.2:jar:compile
+|  |  |  |  |  |  |  |  |     \- org.apache.isis.commons:isis-commons:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.apache.isis.core:isis-jdk-supplemental:2.0.0-SNAPSHOT:pom:compile
+|  |  |  |  |  |  |  |  |        +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- com.fasterxml.jackson.core:jackson-annotations:2.13.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  \- com.fasterxml.jackson.core:jackson-core:2.13.2:jar:compile
+|  |  |  |  |  |  |  |  |        +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  \- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.jdom:jdom2:2.0.6.1:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.yaml:snakeyaml:1.29:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.springframework:spring-tx:5.3.18:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.springframework.boot:spring-boot-starter-log4j2:2.6.6:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- org.apache.logging.log4j:log4j-slf4j-impl:2.17.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  |  \- org.apache.logging.log4j:log4j-api:2.17.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- org.apache.logging.log4j:log4j-core:2.17.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  +- org.apache.logging.log4j:log4j-jul:2.17.2:jar:compile
+|  |  |  |  |  |  |  |  |        |  \- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  |  |  |  |  |  |  |        +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |        +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |        +- org.junit.vintage:junit-vintage-engine:5.8.2:jar:test
+|  |  |  |  |  |  |  |  |        \- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  |  |  |  |  |  \- org.jmock:jmock:2.12.0:jar:test
+|  |  |  |  |  |  |  +- org.hibernate.validator:hibernate-validator:6.2.3.Final:jar:compile
+|  |  |  |  |  |  |  |  +- jakarta.validation:jakarta.validation-api:2.0.2:jar:compile
+|  |  |  |  |  |  |  |  +- org.jboss.logging:jboss-logging:3.4.3.Final:jar:compile
+|  |  |  |  |  |  |  |  \- com.fasterxml:classmate:1.5.1:jar:compile
+|  |  |  |  |  |  |  +- org.springframework.boot:spring-boot-configuration-processor:2.6.6:jar:compile (optional)
+|  |  |  |  |  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  |  |  |  +- org.hamcrest:hamcrest-library:2.2:jar:test
+|  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  |  |  \- org.junit.vintage:junit-vintage-engine:5.8.2:jar:test
+|  |  |  |  |  +- io.swagger:swagger-core:1.6.5:jar:compile
+|  |  |  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  |  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.2:jar:compile
+|  |  |  |  |  |  \- io.swagger:swagger-models:1.6.5:jar:compile
+|  |  |  |  |  |     \- io.swagger:swagger-annotations:1.6.5:jar:compile
+|  |  |  |  |  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  |  |  \- org.jmock:jmock:2.12.0:jar:test
+|  |  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.isis.core:isis-core-interaction:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.isis.valuetypes:isis-valuetypes-jodatime-integration:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.isis.valuetypes:isis-valuetypes-jodatime-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  |  +- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.commons:commons-email:1.5:jar:compile
+|  |  +- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  \- org.hsqldb:hsqldb:2.5.2:jar:compile
+|  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.springframework:spring-web:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  +- org.springframework.boot:spring-boot-actuator:2.6.6:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-thymeleaf:2.6.6:jar:compile
+|  |  |  +- org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE:jar:compile
+|  |  |  |  +- org.thymeleaf:thymeleaf:3.0.15.RELEASE:jar:compile
+|  |  |  |  |  +- org.attoparser:attoparser:2.0.5.RELEASE:jar:compile
+|  |  |  |  |  \- org.unbescape:unbescape:1.1.6.RELEASE:jar:compile
+|  |  |  |  \- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  |  \- org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE:jar:compile
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.springframework.boot:spring-boot-starter-security:2.6.6:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  +- org.springframework.security:spring-security-config:5.6.2:jar:compile
+|  |  |  +- org.springframework.security:spring-security-core:5.6.2:jar:compile
+|  |  |  |  +- org.springframework.security:spring-security-crypto:5.6.2:jar:compile
+|  |  |  |  \- org.springframework:spring-expression:5.3.18:jar:compile
+|  |  |  \- org.springframework:spring-context:5.3.18:jar:compile
+|  |  \- org.springframework.security:spring-security-web:5.6.2:jar:compile
+|  |     \- org.springframework:spring-expression:5.3.18:jar:compile
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
++- org.springframework.security:spring-security-oauth2-client:5.6.2:jar:compile
+|  +- org.springframework.security:spring-security-core:5.6.2:jar:compile
+|  +- org.springframework:spring-core:5.3.18:jar:compile
+|  +- com.nimbusds:oauth2-oidc-sdk:9.19:jar:compile
+|  |  +- com.github.stephenc.jcip:jcip-annotations:1.0-1:jar:compile
+|  |  +- com.nimbusds:content-type:2.1:jar:compile
+|  |  +- net.minidev:json-smart:2.4.8:jar:compile
+|  |  |  \- net.minidev:accessors-smart:2.4.8:jar:compile
+|  |  |     \- org.ow2.asm:asm:9.3:jar:compile
+|  |  \- com.nimbusds:lang-tag:1.5:jar:compile
+|  \- org.springframework.security:spring-security-oauth2-core:5.6.2:jar:compile
++- org.springframework.security:spring-security-oauth2-core:5.6.2:jar:compile
++- org.springframework.security:spring-security-oauth2-jose:5.6.2:jar:compile
+|  \- com.nimbusds:nimbus-jose-jwt:9.14:jar:compile
+\- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.viewer:isis-viewer-restfulobjects-testing:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.viewer:isis-viewer-restfulobjects-viewer:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-common:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.webjars:font-awesome:6.1.0:jar:compile
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-rendering:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.viewer:isis-viewer-restfulobjects-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
+|  |  +- javax.transaction:javax.transaction-api:1.3:jar:provided
+|  |  \- org.glassfish.corba:glassfish-corba-omgapi:4.2.2:jar:provided
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:compile
+   +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:compile
+   +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:compile
+   |  \- org.junit.platform:junit-platform-engine:1.8.2:jar:compile
+   +- org.junit.vintage:junit-vintage-engine:5.8.2:jar:compile
+   |  \- junit:junit:4.13.2:jar:compile
+   +- org.assertj:assertj-core:3.21.0:jar:compile
+   +- org.mockito:mockito-core:4.0.0:jar:compile
+   |  +- org.objenesis:objenesis:3.2:jar:compile
+   |  +- net.bytebuddy:byte-buddy-agent:1.11.22:jar:compile
+   |  +- net.bytebuddy:byte-buddy:1.11.22:jar:compile
+   |  \- org.objenesis:objenesis:3.2:jar:runtime
+   +- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:compile
+   +- org.hamcrest:hamcrest-library:2.2:jar:compile
+   |  \- org.hamcrest:hamcrest-core:2.2:jar:compile
+   +- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
+   +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:compile
+   |  +- org.springframework.boot:spring-boot-test:2.6.6:jar:compile
+   |  +- org.springframework.boot:spring-boot-test-autoconfigure:2.6.6:jar:compile
+   |  +- com.jayway.jsonpath:json-path:2.6.0:jar:compile
+   |  |  \- net.minidev:json-smart:2.4.8:jar:compile
+   |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+   |  +- org.hamcrest:hamcrest:2.2:jar:compile
+   |  +- org.junit.jupiter:junit-jupiter:5.8.2:jar:compile
+   |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:compile
+   |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:compile
+   |  |  \- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:runtime
+   |  +- org.mockito:mockito-junit-jupiter:4.0.0:jar:compile
+   |  +- org.skyscreamer:jsonassert:1.5.0:jar:compile
+   |  |  \- com.vaadin.external.google:android-json:0.0.20131108.vaadin1:jar:compile
+   |  +- org.xmlunit:xmlunit-core:2.8.4:jar:compile
+   |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+   |  +- org.assertj:assertj-core:3.21.0:jar:compile
+   |  \- org.mockito:mockito-core:4.0.0:jar:compile
+   +- org.springframework:spring-test:5.3.18:jar:compile
+   |  \- org.springframework:spring-core:5.3.18:jar:compile
+   +- org.picocontainer:picocontainer:2.15:jar:compile
+   +- org.jmock:jmock:2.12.0:jar:compile
+   |  +- org.jmock:jmock-testjar:2.12.0:jar:compile
+   |  |  \- com.google.code.findbugs:annotations:3.0.1:jar:compile
+   |  |     \- net.jcip:jcip-annotations:1.0:jar:compile
+   |  +- org.apache-extras.beanshell:bsh:2.0b6:jar:compile
+   |  \- org.hamcrest:hamcrest-library:2.2:jar:compile
+   \- org.jmock:jmock-junit4:2.12.0:jar:compile
+      +- org.jmock:jmock-legacy:2.12.0:jar:runtime
+      |  \- cglib:cglib:3.2.8:jar:runtime
+      +- org.jmock:jmock-imposters:2.12.0:jar:runtime
+      \- junit:junit:4.13.2:jar:compile
+org.apache.isis.extensions:isis-extensions-command-log-jdo:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-command-log-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:provided
+|  |  |  +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:provided
+|  |  |  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  |  |  +- org.springframework.boot:spring-boot-test:2.6.6:jar:provided
+|  |  |  |  +- org.springframework.boot:spring-boot-test-autoconfigure:2.6.6:jar:provided
+|  |  |  |  +- com.jayway.jsonpath:json-path:2.6.0:jar:provided
+|  |  |  |  |  \- net.minidev:json-smart:2.4.8:jar:provided
+|  |  |  |  |     \- net.minidev:accessors-smart:2.4.8:jar:provided
+|  |  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  |  |  +- org.assertj:assertj-core:3.21.0:jar:provided
+|  |  |  |  +- org.hamcrest:hamcrest:2.2:jar:provided
+|  |  |  |  +- org.junit.jupiter:junit-jupiter:5.8.2:jar:provided
+|  |  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:provided
+|  |  |  |  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:provided
+|  |  |  |  |  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:provided
+|  |  |  |  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:provided
+|  |  |  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:provided
+|  |  |  |  |  \- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:provided
+|  |  |  |  |     \- org.junit.platform:junit-platform-engine:1.8.2:jar:provided
+|  |  |  |  +- org.mockito:mockito-core:4.0.0:jar:provided
+|  |  |  |  |  \- net.bytebuddy:byte-buddy-agent:1.11.22:jar:provided
+|  |  |  |  +- org.mockito:mockito-junit-jupiter:4.0.0:jar:provided
+|  |  |  |  +- org.skyscreamer:jsonassert:1.5.0:jar:provided
+|  |  |  |  |  \- com.vaadin.external.google:android-json:0.0.20131108.vaadin1:jar:provided
+|  |  |  |  \- org.xmlunit:xmlunit-core:2.8.4:jar:provided
+|  |  |  +- org.springframework:spring-test:5.3.18:jar:provided
+|  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  +- com.approvaltests:approvaltests:15.1.2:jar:provided
+|  |  |  |  \- com.approvaltests:approvaltests-util:15.1.2:jar:provided
+|  |  |  |     \- org.apache.commons:commons-lang3:3.12.0:jar:provided
+|  |  |  +- org.hamcrest:hamcrest-library:2.2:jar:provided
+|  |  |  |  \- org.hamcrest:hamcrest-core:2.2:jar:provided
+|  |  |  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  |  +- org.apache.isis.security:isis-security-bypass:2.0.0-SNAPSHOT:jar:provided
+|  |  |  +- org.hsqldb:hsqldb:2.5.2:jar:provided
+|  |  |  +- com.h2database:h2:1.4.200:jar:provided
+|  |  |  \- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:provided
+|  |  |     \- com.github.javafaker:javafaker:1.0.2:jar:provided
+|  |  |        \- com.github.mifmif:generex:1.0.2:jar:provided
+|  |  |           \- dk.brics.automaton:automaton:1.11-8:jar:provided
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:provided
+|  |  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  \- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
+|  |  +- org.apache.isis.persistence:isis-persistence-jpa-applib:2.0.0-SNAPSHOT:jar:provided
+|  |  \- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:provided
+|  |     +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:provided
+|  |     |  +- org.apache.isis.core:isis-core-transaction:2.0.0-SNAPSHOT:jar:provided
+|  |     |  |  \- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |     |  +- org.apache.isis.core:isis-core-interaction:2.0.0-SNAPSHOT:jar:provided
+|  |     |  +- org.apache.isis.valuetypes:isis-valuetypes-jodatime-integration:2.0.0-SNAPSHOT:jar:provided
+|  |     |  |  \- org.apache.isis.valuetypes:isis-valuetypes-jodatime-applib:2.0.0-SNAPSHOT:jar:provided
+|  |     |  \- org.apache.commons:commons-email:1.5:jar:provided
+|  |     \- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:provided
+|  |        +- net.bytebuddy:byte-buddy:1.11.22:jar:provided
+|  |        \- org.objenesis:objenesis:3.2:jar:provided
+|  +- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.testing:isis-testing-unittestsupport-applib:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:test
+|  |  +- org.springframework:spring-test:5.3.18:jar:test
+|  |  +- org.jmock:jmock:2.12.0:jar:test
+|  |  +- org.jmock:jmock-junit4:2.12.0:jar:test
+|  |  +- com.approvaltests:approvaltests:15.1.2:jar:test
+|  |  |  \- com.approvaltests:approvaltests-util:15.1.2:jar:test
+|  |  |     \- org.apache.commons:commons-lang3:3.12.0:jar:test
+|  |  +- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.picocontainer:picocontainer:2.15:jar:test
+|  |  \- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:compile
+|  \- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:test
+|     +- org.hamcrest:hamcrest-library:2.2:jar:test
+|     +- org.apache.isis.security:isis-security-bypass:2.0.0-SNAPSHOT:jar:test
+|     +- org.hsqldb:hsqldb:2.5.2:jar:test
+|     +- com.h2database:h2:1.4.200:jar:test
+|     +- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:test
+|     |  +- com.github.javafaker:javafaker:1.0.2:jar:test
+|     |  |  +- com.github.mifmif:generex:1.0.2:jar:test
+|     |  |  |  \- dk.brics.automaton:automaton:1.11-8:jar:test
+|     |  |  \- org.apache.commons:commons-lang3:3.12.0:jar:test
+|     |  \- org.apache.isis.commons:isis-commons:2.0.0-SNAPSHOT:jar:compile
+|     +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:test
+|     +- org.springframework:spring-test:5.3.18:jar:test
+|     +- com.approvaltests:approvaltests:15.1.2:jar:test
+|     \- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:test
+|        +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:test
+|        |  +- org.apache.isis.core:isis-core-transaction:2.0.0-SNAPSHOT:jar:test
+|        |  +- org.apache.isis.core:isis-core-interaction:2.0.0-SNAPSHOT:jar:test
+|        |  +- org.apache.isis.valuetypes:isis-valuetypes-jodatime-integration:2.0.0-SNAPSHOT:jar:test
+|        |  |  \- org.apache.isis.valuetypes:isis-valuetypes-jodatime-applib:2.0.0-SNAPSHOT:jar:test
+|        |  \- org.apache.commons:commons-email:1.5:jar:test
+|        \- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.persistence:isis-persistence-jdo-datanucleus:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.persistence:isis-persistence-jdo-integration:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.persistence:isis-persistence-jdo-provider:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  |  +- org.datanucleus:javax.jdo:3.2.0-release:jar:compile
+|  |  |  |  |  |  +- javax.transaction:javax.transaction-api:1.3:jar:compile
+|  |  |  |  |  |  \- org.glassfish.corba:glassfish-corba-omgapi:4.2.2:jar:compile
+|  |  |  |  |  \- org.datanucleus:datanucleus-rdbms:6.0.0-m4:jar:compile
+|  |  |  |  \- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-spring:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.persistence:isis-persistence-jdo-provider:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.springframework:spring-jdbc:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-tx:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-web:5.3.18:jar:provided
+|  |  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  |  \- javax.servlet:javax.servlet-api:4.0.1:jar:test
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.datanucleus:datanucleus-core:6.0.0-m4:jar:compile
+|  +- org.datanucleus:datanucleus-api-jdo:6.0.0-m4:jar:compile
+|  +- org.datanucleus:datanucleus-jdo-query:6.0.0-m1:jar:compile
+|  +- org.datanucleus:datanucleus-jodatime:6.0.0-m4:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-jdbc:2.6.6:jar:runtime
+|  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  +- com.zaxxer:HikariCP:4.0.3:jar:runtime
+|  |  \- org.springframework:spring-jdbc:5.3.18:jar:compile
+|  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  \- com.h2database:h2:1.4.200:jar:test
++- org.apache.isis.testing:isis-testing-unittestsupport-applib:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.extensions:isis-extensions-command-log-jpa:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-command-log-applib:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.persistence:isis-persistence-jpa-eclipselink:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.persistence:isis-persistence-jpa-integration:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.persistence:isis-persistence-jpa-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.isis.persistence:isis-persistence-jpa-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  |  |  \- org.apache.isis.core:isis-core-transaction:2.0.0-SNAPSHOT:jar:provided
+|  |  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.springframework.data:spring-data-jpa:2.6.3:jar:compile
+|  |  |  +- org.springframework.data:spring-data-commons:2.6.3:jar:compile
+|  |  |  +- org.springframework:spring-orm:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-jdbc:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-tx:5.3.18:jar:compile
+|  |  |  \- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.10:jar:compile
+|  |  +- org.eclipse.persistence:jakarta.persistence:2.2.3:jar:compile
+|  |  +- org.eclipse.persistence:org.eclipse.persistence.antlr:2.7.10:jar:compile
+|  |  +- org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:2.7.10:jar:compile
+|  |  \- org.eclipse.persistence:org.eclipse.persistence.core:2.7.10:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-data-jpa:2.6.6:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-aop:2.6.6:jar:compile
+|  |  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  |  \- org.aspectj:aspectjweaver:1.9.7:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-jdbc:2.6.6:jar:compile
+|  |  |  +- com.zaxxer:HikariCP:4.0.3:jar:compile
+|  |  |  \- org.springframework:spring-jdbc:5.3.18:jar:compile
+|  |  +- jakarta.transaction:jakarta.transaction-api:1.3.3:jar:compile
+|  |  +- jakarta.persistence:jakarta.persistence-api:2.2.3:jar:compile
+|  |  \- org.springframework:spring-aspects:5.3.18:jar:compile
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.testing:isis-testing-unittestsupport-applib:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.extensions:isis-extensions-command-replay-primary:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.extensions:isis-extensions-command-log-applib:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.extensions:isis-extensions-command-replay-secondary:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.viewer:isis-viewer-restfulobjects-client:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-applib:2.0.0-SNAPSHOT:jar:compile
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.extensions:isis-extensions-command-log-applib:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-quartz-impl:2.0.0-SNAPSHOT:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-quartz:2.6.6:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  +- org.springframework:spring-context-support:5.3.18:jar:compile
+|  |  |  \- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  +- org.springframework:spring-tx:5.3.18:jar:compile
+|  |  \- org.quartz-scheduler:quartz:2.3.2:jar:compile
+|  |     +- com.mchange:c3p0:0.9.5.4:jar:compile
+|  |     +- com.mchange:mchange-commons-java:0.2.15:jar:compile
+|  |     \- com.zaxxer:HikariCP-java7:2.4.13:jar:compile
+|  \- org.apache.isis.core:isis-core-security:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.viewer:isis-viewer-restfulobjects-jaxrsresteasy4:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-rendering:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-viewer:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:test
+|  |  |  +- org.springframework.boot:spring-boot-actuator:2.6.6:jar:test
+|  |  |  \- org.springframework.boot:spring-boot-starter-thymeleaf:2.6.6:jar:test
+|  |  |     +- org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE:jar:test
+|  |  |     |  \- org.thymeleaf:thymeleaf:3.0.15.RELEASE:jar:test
+|  |  |     |     +- org.attoparser:attoparser:2.0.5.RELEASE:jar:test
+|  |  |     |     \- org.unbescape:unbescape:1.1.6.RELEASE:jar:test
+|  |  |     \- org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE:jar:test
+|  |  \- org.apache.isis.viewer:isis-viewer-common:2.0.0-SNAPSHOT:jar:test
+|  |     \- org.webjars:font-awesome:6.1.0:jar:test
+|  +- org.jboss.resteasy:resteasy-spring-boot-starter:5.0.0.Final:jar:test
+|  |  +- org.springframework.boot:spring-boot-starter-web:2.6.6:jar:test
+|  |  |  +- org.springframework.boot:spring-boot-starter-json:2.6.6:jar:test
+|  |  |  +- org.springframework.boot:spring-boot-starter-tomcat:2.6.6:jar:test
+|  |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:9.0.60:jar:test
+|  |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:9.0.60:jar:test
+|  |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60:jar:test
+|  |  |  \- org.springframework:spring-webmvc:5.3.18:jar:test
+|  |  +- org.jboss.resteasy:resteasy-core:5.0.0.Final:jar:test
+|  |  |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final:jar:test
+|  |  |  +- org.reactivestreams:reactive-streams:1.0.3:jar:test
+|  |  |  \- com.ibm.async:asyncutil:0.1.0:jar:test
+|  |  +- org.jboss.resteasy:resteasy-core-spi:5.0.0.Final:jar:test
+|  |  +- org.jboss.resteasy:resteasy-servlet-initializer:5.0.0.Final:jar:test
+|  |  +- org.jboss.resteasy.spring:resteasy-spring:2.0.0.Final:jar:test
+|  |  |  \- org.jboss.resteasy:resteasy-client:5.0.0.Final:jar:test
+|  |  |     +- org.jboss.resteasy:resteasy-client-api:5.0.0.Final:jar:test
+|  |  |     +- org.apache.httpcomponents:httpclient:4.5.13:jar:test
+|  |  |     |  \- org.apache.httpcomponents:httpcore:4.4.15:jar:test
+|  |  |     \- commons-io:commons-io:2.11.0:jar:test
+|  |  +- org.jboss.resteasy:resteasy-jackson2-provider:5.0.0.Final:jar:test
+|  |  |  \- com.github.java-json-tools:json-patch:1.13:jar:test
+|  |  |     +- com.github.java-json-tools:msg-simple:1.2:jar:test
+|  |  |     |  \- com.github.java-json-tools:btf:1.3:jar:test
+|  |  |     \- com.github.java-json-tools:jackson-coreutils:2.0:jar:test
+|  |  +- javax.servlet:javax.servlet-api:4.0.1:jar:test
+|  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:test
+|  |  +- org.glassfish:javax.json:1.1.2:jar:test
+|  |  |  \- javax.json:javax.json-api:1.1.4:jar:test
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.2:jar:test
+|  |  |  \- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.2:jar:test
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2:jar:test
+|  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.2:jar:test
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2:jar:test
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:2.13.2:jar:compile
+|  |  +- com.google.guava:guava:31.1-jre:jar:test
+|  |  |  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  |  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  |  |  +- org.checkerframework:checker-qual:3.12.0:jar:test
+|  |  |  +- com.google.errorprone:error_prone_annotations:2.12.1:jar:test
+|  |  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:test
+|  |  \- commons-codec:commons-codec:1.15:jar:test
+|  \- org.jboss.resteasy:resteasy-jaxb-provider:5.0.0.Final:jar:test
+\- org.glassfish.jersey.ext:jersey-spring5:2.35:jar:test
+   +- org.glassfish.jersey.core:jersey-server:2.35:jar:test
+   |  +- org.glassfish.jersey.core:jersey-common:2.35:jar:test
+   |  |  \- org.glassfish.hk2:osgi-resource-locator:1.0.3:jar:test
+   |  +- org.glassfish.jersey.core:jersey-client:2.35:jar:test
+   |  +- jakarta.annotation:jakarta.annotation-api:2.1.0:jar:compile
+   |  \- org.glassfish.hk2.external:jakarta.inject:2.6.1:jar:test
+   +- org.glassfish.jersey.inject:jersey-hk2:2.35:jar:test
+   |  +- org.glassfish.hk2:hk2-locator:2.6.1:jar:test
+   |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:2.6.1:jar:test
+   |  \- org.javassist:javassist:3.28.0-GA:jar:test
+   +- org.glassfish.jersey.containers:jersey-container-servlet-core:2.35:jar:test
+   +- org.glassfish.hk2:hk2:2.6.1:jar:test
+   |  +- org.glassfish.hk2:hk2-utils:2.6.1:jar:test
+   |  +- org.glassfish.hk2:hk2-api:2.6.1:jar:test
+   |  +- org.glassfish.hk2:hk2-core:2.6.1:jar:test
+   |  +- org.glassfish.hk2:hk2-runlevel:2.6.1:jar:test
+   |  \- org.glassfish.hk2:class-model:2.6.1:jar:test
+   |     +- org.ow2.asm:asm:9.3:jar:test
+   |     +- org.ow2.asm:asm-analysis:7.1:jar:test
+   |     +- org.ow2.asm:asm-commons:7.1:jar:test
+   |     +- org.ow2.asm:asm-tree:7.1:jar:test
+   |     \- org.ow2.asm:asm-util:9.3:jar:test
+   +- org.glassfish.hk2:spring-bridge:2.6.1:jar:test
+   +- org.springframework:spring-beans:5.3.18:jar:compile
+   +- org.springframework:spring-core:5.3.18:jar:compile
+   +- org.springframework:spring-web:5.3.18:jar:test
+   +- org.springframework:spring-aop:5.3.18:jar:compile
+   \- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:test
+org.apache.isis.extensions:isis-extensions-flyway-impl:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-config:2.0.0-SNAPSHOT:jar:compile
++- org.flywaydb:flyway-core:8.0.5:jar:compile
+\- org.springframework:spring-jdbc:5.3.18:jar:compile
+org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:compile
++- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:compile
+|  +- org.springframework:spring-test:5.3.18:jar:compile
+|  +- com.approvaltests:approvaltests:15.1.2:jar:compile
+|  |  \- com.approvaltests:approvaltests-util:15.1.2:jar:compile
+|  |     \- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  +- org.hamcrest:hamcrest-library:2.2:jar:compile
+|  +- org.apache.isis.security:isis-security-bypass:2.0.0-SNAPSHOT:jar:compile
+|  |  \- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:compile
+|  +- com.h2database:h2:1.4.200:jar:compile
+|  +- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- com.github.javafaker:javafaker:1.0.2:jar:compile
+|  |  |  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  |  |  \- com.github.mifmif:generex:1.0.2:jar:compile
+|  |  |     \- dk.brics.automaton:automaton:1.11-8:jar:compile
+|  |  \- org.apache.isis.testing:isis-testing-unittestsupport-applib:2.0.0-SNAPSHOT:jar:test
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.extensions:isis-extensions-secman-encryption-jbcrypt:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:provided
++- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:provided
+|  |  \- joda-time:joda-time:2.10.14:jar:compile
+|  \- org.springframework.security:spring-security-crypto:5.6.2:jar:provided
+\- org.mindrot:jbcrypt:0.4:jar:compile
+org.apache.isis.extensions:isis-extensions-secman-encryption-spring:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:provided
+\- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:jar:provided
+org.apache.isis.extensions:isis-extensions-secman-persistence-jdo:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:test-jar:test
+|  \- org.springframework.security:spring-security-crypto:5.6.2:jar:compile
++- org.apache.isis.extensions:isis-extensions-secman-integration:2.0.0-SNAPSHOT:jar:compile
+|  \- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:jar:compile
+|     +- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+|     +- org.springframework.security:spring-security-crypto:5.6.2:jar:compile
+|     \- org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:test
+|        +- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:test
+|        \- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.persistence:isis-persistence-jdo-datanucleus:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:test
+org.apache.isis.extensions:isis-extensions-secman-persistence-jpa:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:test-jar:test
++- org.apache.isis.extensions:isis-extensions-secman-integration:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.persistence:isis-persistence-jpa-eclipselink:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:test
+org.apache.isis.extensions:isis-extensions-secman-shiro-realm:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.security:isis-security-shiro:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:provided
+|  |  +- org.springframework.boot:spring-boot-actuator:2.6.6:jar:provided
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:provided
+|  |  +- org.springframework.boot:spring-boot-starter-thymeleaf:2.6.6:jar:provided
+|  |  |  +- org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE:jar:provided
+|  |  |  |  \- org.thymeleaf:thymeleaf:3.0.15.RELEASE:jar:provided
+|  |  |  |     +- org.attoparser:attoparser:2.0.5.RELEASE:jar:provided
+|  |  |  |     \- org.unbescape:unbescape:1.1.6.RELEASE:jar:provided
+|  |  |  \- org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE:jar:provided
+|  |  \- org.springframework:spring-web:5.3.18:jar:provided
+|  +- org.apache.shiro:shiro-core:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-lang:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-cache:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-crypto-hash:1.9.0:jar:provided
+|  |  |  \- org.apache.shiro:shiro-crypto-core:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-crypto-cipher:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-config-core:1.9.0:jar:provided
+|  |  +- org.apache.shiro:shiro-config-ogdl:1.9.0:jar:provided
+|  |  |  \- commons-beanutils:commons-beanutils:1.9.4:jar:provided
+|  |  |     \- commons-collections:commons-collections:3.2.2:jar:provided
+|  |  \- org.apache.shiro:shiro-event:1.9.0:jar:provided
+|  \- org.apache.shiro:shiro-web:1.9.0:jar:provided
+|     \- org.owasp.encoder:encoder:1.2.2:jar:provided
+\- org.apache.isis.extensions:isis-extensions-secman-applib:2.0.0-SNAPSHOT:jar:provided
+org.apache.isis.extensions:isis-extensions-shiro-realm-ldap-impl:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.security:isis-security-shiro:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-core-runtimeservices:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.shiro:shiro-core:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-lang:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-cache:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-crypto-hash:1.9.0:jar:compile
+|  |  |  \- org.apache.shiro:shiro-crypto-core:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-crypto-cipher:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-config-core:1.9.0:jar:compile
+|  |  +- org.apache.shiro:shiro-config-ogdl:1.9.0:jar:compile
+|  |  |  \- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |  |     \- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  \- org.apache.shiro:shiro-event:1.9.0:jar:compile
+|  +- org.apache.shiro:shiro-web:1.9.0:jar:compile
+|  |  \- org.owasp.encoder:encoder:1.2.2:jar:compile
+|  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.extensions:isis-extensions-spring-security-oauth2:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.security:isis-security-spring:2.0.0-SNAPSHOT:jar:compile
++- org.springframework.boot:spring-boot-starter-oauth2-client:2.6.6:jar:compile
+|  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  +- org.springframework.security:spring-security-config:5.6.2:jar:compile
+|  +- org.springframework.security:spring-security-oauth2-client:5.6.2:jar:compile
+|  \- org.springframework.security:spring-security-oauth2-jose:5.6.2:jar:compile
+\- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.extensions:isis-extensions-cors-impl:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:provided
++- org.springframework:spring-web:5.3.18:jar:compile
+\- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.extensions:isis-extensions-exceldownload-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-wicket-model:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.wicket:wicket-core:9.8.0:jar:compile
+|  |  |  +- com.github.openjson:openjson:1.0.12:jar:compile
+|  |  |  +- org.apache.wicket:wicket-request:9.8.0:jar:compile
+|  |  |  +- org.apache.wicket:wicket-util:9.8.0:jar:compile
+|  |  |  |  +- commons-fileupload:commons-fileupload:1.4:jar:compile
+|  |  |  |  +- org.apache.commons:commons-collections4:4.4:jar:compile
+|  |  |  |  \- commons-io:commons-io:2.11.0:jar:compile
+|  |  |  \- org.danekja:jdk-serializable-functional:1.9.0:jar:compile
+|  |  +- org.apache.wicket:wicket-extensions:9.8.0:jar:compile
+|  |  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.viewer:isis-viewer-common:2.0.0-SNAPSHOT:jar:compile
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.wicket:wicket-devutils:9.8.0:jar:compile
+|  +- org.apache.wicket:wicket-auth-roles:9.8.0:jar:compile
+|  +- org.apache.wicket:wicket-spring:9.8.0:jar:compile
+|  |  +- org.apache.wicket:wicket-ioc:9.8.0:jar:compile
+|  |  |  \- javax.inject:javax.inject:1:jar:compile
+|  |  +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  \- org.apache.wicket:wicket-core:9.8.0:jar:compile
+|  +- org.ow2.asm:asm-util:9.3:jar:compile
+|  |  +- org.ow2.asm:asm:9.3:jar:compile
+|  |  +- org.ow2.asm:asm-tree:9.3:jar:compile
+|  |  \- org.ow2.asm:asm-analysis:9.3:jar:compile
+|  +- org.wicketstuff:wicketstuff-select2:9.8.0:jar:compile
+|  +- org.webjars:select2:4.0.13:jar:compile
+|  +- org.webjars:jquery:3.5.1:jar:compile
+|  +- org.webjars:jquery-ui:1.13.1:jar:compile
+|  +- de.agilecoders.wicket.webjars:wicket-webjars:3.0.4:jar:compile
+|  +- de.agilecoders.wicket:wicket-bootstrap-core:6.0.0-M6:jar:compile
+|  |  +- de.agilecoders.wicket:jquery-selectors:3.0.4:jar:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  +- org.webjars:bootstrap:5.1.3:jar:compile
+|  |  +- org.webjars:modernizr:2.8.3-1:jar:compile
+|  |  +- org.webjars:popper.js:2.9.3:jar:compile
+|  |  +- joda-time:joda-time:2.10.14:jar:compile
+|  |  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  |  +- de.agilecoders.wicket.webjars:wicket-webjars:3.0.4:jar:compile
+|  |  +- org.apache.wicket:wicket-core:9.8.0:jar:compile
+|  |  +- org.apache.wicket:wicket-extensions:9.8.0:jar:compile
+|  |  \- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  +- de.agilecoders.wicket:wicket-bootstrap-extensions:6.0.0-M6:jar:compile
+|  |  +- org.webjars:tempusdominus-bootstrap-4:5.39.0:jar:compile
+|  |  +- org.webjars.bower:momentjs:2.24.0:jar:compile
+|  |  +- org.webjars.npm:inputmask:4.0.0:jar:compile
+|  |  +- org.webjars:animate.css:3.7.2:jar:compile
+|  |  \- org.webjars.npm:summernote:0.8.20:jar:compile
+|  +- org.webjars.bower:summernote:0.8.11:jar:compile
+|  +- de.agilecoders.wicket:wicket-bootstrap-themes:6.0.0-M6:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.12.1:jar:compile
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  +- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
+|  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  \- javax.servlet:javax.servlet-api:4.0.1:jar:test
++- org.apache.poi:poi-ooxml:5.2.1:jar:compile
+|  +- org.apache.poi:poi:5.2.1:jar:compile
+|  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  +- org.apache.commons:commons-math3:3.6.1:jar:compile
+|  |  \- com.zaxxer:SparseBitSet:1.2:jar:compile
+|  +- org.apache.xmlbeans:xmlbeans:5.0.3:jar:compile
+|  +- org.apache.commons:commons-compress:1.21:jar:compile
+|  +- commons-io:commons-io:2.11.0:jar:compile
+|  +- com.github.virtuald:curvesapi:1.07:jar:compile
+|  \- org.apache.commons:commons-collections4:4.4:jar:compile
+\- org.apache.poi:poi-ooxml-lite:5.2.1:jar:compile
+org.apache.isis.extensions:isis-extensions-fullcalendar-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-fullcalendar-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  \- de.agilecoders.wicket:wicket-bootstrap-core:6.0.0-M6:jar:compile
++- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:compile
+\- net.ftlines.wicket-fullcalendar:wicket-fullcalendar-core:4.2:jar:compile
+   +- org.codehaus.jackson:jackson-core-asl:1.9.13:jar:compile
+   +- org.codehaus.jackson:jackson-mapper-asl:1.9.13:jar:compile
+   \- org.apache.wicket:wicket-core:9.8.0:jar:compile
+org.apache.isis.extensions:isis-extensions-pdfjs-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.extensions:isis-extensions-pdfjs-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.extensions:isis-extensions-pdfjs-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  \- de.agilecoders.wicket:wicket-bootstrap-core:6.0.0-M6:jar:compile
+|  \- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.mavendeps:isis-mavendeps-unittests:2.0.0-SNAPSHOT:pom:compile
++- org.apache.isis.testing:isis-testing-unittestsupport-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:compile
+|  +- org.springframework:spring-test:5.3.18:jar:compile
+|  +- org.jmock:jmock:2.12.0:jar:compile
+|  +- org.jmock:jmock-junit4:2.12.0:jar:compile
+|  +- com.approvaltests:approvaltests:15.1.2:jar:compile
+|  +- org.apache.isis.core:isis-core-codegen-bytebuddy:2.0.0-SNAPSHOT:jar:compile
+|  +- org.picocontainer:picocontainer:2.15:jar:compile
+|  \- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
+\- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.mavendeps:isis-mavendeps-webapp:2.0.0-SNAPSHOT:pom:compile
++- org.springframework.boot:spring-boot-starter-tomcat:2.6.6:jar:provided
+|  +- jakarta.annotation:jakarta.annotation-api:2.1.0:jar:compile
+|  +- org.apache.tomcat.embed:tomcat-embed-core:9.0.60:jar:provided
+|  +- org.apache.tomcat.embed:tomcat-embed-el:9.0.60:jar:provided
+|  \- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60:jar:provided
++- org.apache.isis.viewer:isis-viewer-wicket-viewer:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:compile
+|  +- com.github.rototor:cglib:4516ac7b61:jar:compile
+|  |  +- com.github.rototor.cglib:cglib:4516ac7b61:jar:compile
+|  |  +- com.github.rototor.cglib:cglib-integration-test:4516ac7b61:jar:compile
+|  |  +- com.github.rototor.cglib:cglib-jmh:4516ac7b61:jar:compile
+|  |  |  \- org.openjdk.jmh:jmh-core:1.21:jar:compile
+|  |  |     +- net.sf.jopt-simple:jopt-simple:6.0-alpha-3:jar:compile
+|  |  |     \- org.apache.commons:commons-math3:3.6.1:jar:compile
+|  |  +- com.github.rototor.cglib:cglib-nodep:4516ac7b61:jar:compile
+|  |  \- com.github.rototor.cglib:cglib-sample:4516ac7b61:jar:compile
+|  +- commons-io:commons-io:2.11.0:jar:compile
+|  +- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  \- org.jmock:jmock-junit4:2.12.0:jar:test
++- org.apache.isis.viewer:isis-viewer-restfulobjects-jaxrsresteasy4:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-viewer:2.0.0-SNAPSHOT:jar:compile
+|  +- org.jboss.resteasy:resteasy-spring-boot-starter:5.0.0.Final:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-web:2.6.6:jar:compile
+|  |  |  +- org.springframework.boot:spring-boot-starter-json:2.6.6:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2:jar:compile
+|  |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.2:jar:compile
+|  |  |  +- org.springframework.boot:spring-boot-starter-tomcat:2.6.6:jar:compile
+|  |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:9.0.60:jar:compile
+|  |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:9.0.60:jar:compile
+|  |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60:jar:compile
+|  |  |  +- org.springframework:spring-webmvc:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-aop:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-expression:5.3.18:jar:compile
+|  |  |  +- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+|  |  |  \- org.springframework:spring-web:5.3.18:jar:compile
+|  |  +- org.jboss.resteasy:resteasy-core:5.0.0.Final:jar:compile
+|  |  |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final:jar:compile
+|  |  |  +- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|  |  |  \- com.ibm.async:asyncutil:0.1.0:jar:compile
+|  |  +- org.jboss.resteasy:resteasy-core-spi:5.0.0.Final:jar:compile
+|  |  +- org.jboss.resteasy:resteasy-servlet-initializer:5.0.0.Final:jar:compile
+|  |  +- org.jboss.resteasy.spring:resteasy-spring:2.0.0.Final:jar:compile
+|  |  |  \- org.jboss.resteasy:resteasy-client:5.0.0.Final:jar:compile
+|  |  |     +- org.jboss.resteasy:resteasy-client-api:5.0.0.Final:jar:compile
+|  |  |     +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |     |  \- org.apache.httpcomponents:httpcore:4.4.15:jar:compile
+|  |  |     \- commons-io:commons-io:2.11.0:jar:compile
+|  |  +- org.jboss.resteasy:resteasy-jackson2-provider:5.0.0.Final:jar:compile
+|  |  |  \- com.github.java-json-tools:json-patch:1.13:jar:compile
+|  |  |     +- com.github.java-json-tools:msg-simple:1.2:jar:compile
+|  |  |     |  \- com.github.java-json-tools:btf:1.3:jar:compile
+|  |  |     \- com.github.java-json-tools:jackson-coreutils:2.0:jar:compile
+|  |  +- javax.servlet:javax.servlet-api:4.0.1:jar:compile
+|  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  |  +- org.glassfish:javax.json:1.1.2:jar:compile
+|  |  |  \- javax.json:javax.json-api:1.1.4:jar:compile
+|  |  +- org.objenesis:objenesis:3.2:jar:compile
+|  |  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.2:jar:compile
+|  |  |  \- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.2:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2:jar:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.2:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2:jar:compile
+|  |  +- com.google.guava:guava:31.1-jre:jar:compile
+|  |  +- jakarta.validation:jakarta.validation-api:2.0.2:jar:compile
+|  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  \- org.junit.platform:junit-platform-commons:1.8.2:jar:compile
+|  +- org.jboss.resteasy:resteasy-jaxb-provider:5.0.0.Final:jar:compile
+|  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  +- org.apache.isis.viewer:isis-viewer-restfulobjects-testing:2.0.0-SNAPSHOT:jar:test
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  \- org.datanucleus:javax.jdo:3.2.0-release:jar:test
+|     +- javax.transaction:javax.transaction-api:1.3:jar:test
+|     \- org.glassfish.corba:glassfish-corba-omgapi:4.2.2:jar:test
+\- org.apache.isis.security:isis-security-bypass:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.subdomains:isis-subdomains-excel-fixtures:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.subdomains:isis-subdomains-excel-testing:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.subdomains:isis-subdomains-excel-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.poi:poi-ooxml:5.2.1:jar:compile
+|  |  +- org.apache.poi:poi-ooxml-lite:5.2.1:jar:compile
+|  |  \- org.apache.isis.core:isis-core-internaltestsupport:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:provided
+|  |  +- org.apache.isis.core:isis-core-config:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.core:isis-core-security:2.0.0-SNAPSHOT:jar:provided
+|  |  \- io.swagger:swagger-core:1.6.5:jar:provided
+|  |     +- com.fasterxml.jackson.core:jackson-databind:2.13.2.2:jar:compile
+|  |     +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.2:jar:provided
+|  |     \- io.swagger:swagger-models:1.6.5:jar:provided
+|  |        \- io.swagger:swagger-annotations:1.6.5:jar:provided
+|  \- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.persistence:isis-persistence-jdo-datanucleus:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.subdomains:isis-subdomains-excel-integtests:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.subdomains:isis-subdomains-excel-fixtures:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.subdomains:isis-subdomains-excel-applib:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:test
+|  |  |  \- org.datanucleus:javax.jdo:3.2.0-release:jar:test
+|  |  +- org.apache.poi:poi-ooxml:5.2.1:jar:test
+|  |  |  +- org.apache.poi:poi:5.2.1:jar:test
+|  |  |  |  +- commons-codec:commons-codec:1.15:jar:test
+|  |  |  |  +- org.apache.commons:commons-math3:3.6.1:jar:test
+|  |  |  |  \- com.zaxxer:SparseBitSet:1.2:jar:test
+|  |  |  +- org.apache.xmlbeans:xmlbeans:5.0.3:jar:test
+|  |  |  +- org.apache.commons:commons-compress:1.21:jar:test
+|  |  |  +- commons-io:commons-io:2.11.0:jar:test
+|  |  |  +- com.github.virtuald:curvesapi:1.07:jar:test
+|  |  |  \- org.apache.commons:commons-collections4:4.4:jar:test
+|  |  \- org.apache.poi:poi-ooxml-lite:5.2.1:jar:test
+|  +- org.apache.isis.subdomains:isis-subdomains-excel-testing:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  \- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:test
++- org.apache.isis.persistence:isis-persistence-jdo-datanucleus:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.persistence:isis-persistence-jdo-integration:2.0.0-SNAPSHOT:jar:test
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-metamodel:2.0.0-SNAPSHOT:jar:test
+|  |  |  \- org.apache.isis.persistence:isis-persistence-jdo-provider:2.0.0-SNAPSHOT:jar:test
+|  |  |     \- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+|  |  +- org.apache.isis.persistence:isis-persistence-jdo-spring:2.0.0-SNAPSHOT:jar:test
+|  |  |  +- org.apache.isis.core:isis-core-config:2.0.0-SNAPSHOT:jar:compile
+|  |  |  \- org.springframework:spring-jdbc:5.3.18:jar:provided
+|  |  \- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.persistence:isis-persistence-jdo-provider:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:test
+|  +- org.datanucleus:datanucleus-core:6.0.0-m4:jar:test
+|  +- org.datanucleus:datanucleus-api-jdo:6.0.0-m4:jar:test
+|  +- org.datanucleus:datanucleus-jdo-query:6.0.0-m1:jar:test
+|  +- org.datanucleus:datanucleus-rdbms:6.0.0-m4:jar:test
+|  +- org.datanucleus:datanucleus-jodatime:6.0.0-m4:jar:test
+|  \- org.springframework.boot:spring-boot-starter-jdbc:2.6.6:jar:test
+|     +- com.zaxxer:HikariCP:4.0.3:jar:test
+|     +- org.springframework:spring-jdbc:5.3.18:jar:test
+|     |  \- org.springframework:spring-beans:5.3.18:jar:compile
+|     \- org.springframework.boot:spring-boot-starter:2.6.6:jar:compile
+\- org.hsqldb:hsqldb:2.5.2:jar:test
+org.apache.isis.testing:isis-testing-archtestsupport-applib:2.0.0-SNAPSHOT:jar:compile
++- org.springframework.boot:spring-boot-starter-test:2.6.6:jar:compile
++- org.springframework:spring-test:5.3.18:jar:compile
++- com.tngtech.archunit:archunit-junit5-api:0.23.1:jar:compile
+|  \- com.tngtech.archunit:archunit:0.23.1:jar:compile
++- com.tngtech.archunit:archunit-junit5-engine:0.23.1:jar:compile
+|  \- com.tngtech.archunit:archunit-junit5-engine-api:0.23.1:jar:compile
+|     \- org.junit.platform:junit-platform-engine:1.8.2:jar:compile
++- org.datanucleus:javax.jdo:3.2.0-release:jar:provided
++- org.apache.isis.persistence:isis-persistence-jpa-integration:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.persistence:isis-persistence-jpa-metamodel:2.0.0-SNAPSHOT:jar:provided
+|  |  \- org.apache.isis.persistence:isis-persistence-jpa-applib:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.core:isis-core-runtime:2.0.0-SNAPSHOT:jar:provided
+|  \- org.springframework.data:spring-data-jpa:2.6.3:jar:provided
+|     +- org.springframework.data:spring-data-commons:2.6.3:jar:provided
+|     +- org.springframework:spring-orm:5.3.18:jar:provided
+|     +- org.springframework:spring-aop:5.3.18:jar:compile
+|     +- org.springframework:spring-tx:5.3.18:jar:compile
+|     \- org.springframework:spring-beans:5.3.18:jar:compile
+\- org.apache.isis.persistence:isis-persistence-jdo-integration:2.0.0-SNAPSHOT:jar:test
+org.apache.isis.testing:isis-testing-fakedata-fixtures:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.testing:isis-testing-fakedata-integtests:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.persistence:isis-persistence-jdo-datanucleus:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.testing:isis-testing-fakedata-fixtures:2.0.0-SNAPSHOT:jar:test
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:test
+|  \- org.apache.isis.persistence:isis-persistence-jdo-applib:2.0.0-SNAPSHOT:jar:test
++- org.apache.isis.testing:isis-testing-fakedata-applib:2.0.0-SNAPSHOT:jar:test
+\- org.apache.isis.mavendeps:isis-mavendeps-integtests:2.0.0-SNAPSHOT:pom:test
+org.apache.isis.testing:isis-testing-h2console-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+\- com.h2database:h2:1.4.200:jar:compile
+org.apache.isis.testing:isis-testing-hsqldbmgr-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:compile
+\- org.hsqldb:hsqldb:2.5.2:jar:compile
+org.apache.isis.testing:isis-testing-specsupport-applib:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.testing:isis-testing-integtestsupport-applib:2.0.0-SNAPSHOT:jar:compile
++- io.cucumber:cucumber-java:7.2.3:jar:compile
+|  \- io.cucumber:cucumber-core:7.2.3:jar:compile
+|     +- io.cucumber:cucumber-gherkin:7.2.3:jar:compile
+|     +- io.cucumber:cucumber-gherkin-messages:7.2.3:jar:compile
+|     +- io.cucumber:tag-expressions:4.1.0:jar:compile
+|     +- io.cucumber:cucumber-expressions:15.0.1:jar:compile
+|     +- io.cucumber:datatable:7.2.3:jar:compile
+|     +- io.cucumber:cucumber-plugin:7.2.3:jar:compile
+|     +- io.cucumber:docstring:7.2.3:jar:compile
+|     +- io.cucumber:html-formatter:17.0.0:jar:compile
+|     \- io.cucumber:ci-environment:8.1.0:jar:compile
++- io.cucumber:cucumber-spring:7.2.3:jar:compile
++- io.cucumber:cucumber-junit-platform-engine:7.2.3:jar:compile
+|  \- org.junit.platform:junit-platform-engine:1.8.2:jar:compile
++- io.cucumber:messages:18.0.0:jar:compile
+\- org.apache.isis.testing:isis-testing-fixtures-applib:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-asciidoc-metamodel:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-asciidoc-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  \- org.asciidoctor:asciidoctorj-api:2.5.3:jar:compile
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-asciidoc-persistence-jdo:2.0.0-SNAPSHOT:jar:compile
++- org.datanucleus:datanucleus-core:6.0.0-m4:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-asciidoc-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-asciidoc-persistence-jpa:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-asciidoc-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-asciidoc-ui-wkt:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:provided
+|  +- org.apache.isis.viewer:isis-viewer-wicket-model:2.0.0-SNAPSHOT:jar:provided
+|  |  +- org.apache.wicket:wicket-core:9.8.0:jar:provided
+|  |  |  +- com.github.openjson:openjson:1.0.12:jar:provided
+|  |  |  +- org.apache.wicket:wicket-request:9.8.0:jar:provided
+|  |  |  +- org.apache.wicket:wicket-util:9.8.0:jar:provided
+|  |  |  |  +- commons-fileupload:commons-fileupload:1.4:jar:provided
+|  |  |  |  \- org.apache.commons:commons-collections4:4.4:jar:provided
+|  |  |  \- org.danekja:jdk-serializable-functional:1.9.0:jar:provided
+|  |  +- org.apache.isis.core:isis-core-webapp:2.0.0-SNAPSHOT:jar:provided
+|  |  \- org.apache.isis.viewer:isis-viewer-common:2.0.0-SNAPSHOT:jar:provided
+|  |     \- org.webjars:font-awesome:6.1.0:jar:provided
+|  +- org.apache.wicket:wicket-devutils:9.8.0:jar:provided
+|  +- org.apache.wicket:wicket-extensions:9.8.0:jar:provided
+|  +- org.apache.wicket:wicket-auth-roles:9.8.0:jar:provided
+|  +- org.apache.wicket:wicket-spring:9.8.0:jar:provided
+|  |  +- org.apache.wicket:wicket-ioc:9.8.0:jar:provided
+|  |  \- org.springframework:spring-context:5.3.18:jar:compile
+|  +- org.ow2.asm:asm-util:9.3:jar:provided
+|  |  +- org.ow2.asm:asm:9.3:jar:provided
+|  |  +- org.ow2.asm:asm-tree:9.3:jar:provided
+|  |  \- org.ow2.asm:asm-analysis:9.3:jar:provided
+|  +- org.wicketstuff:wicketstuff-select2:9.8.0:jar:provided
+|  +- org.webjars:select2:4.0.13:jar:provided
+|  +- org.webjars:jquery:3.5.1:jar:provided
+|  +- org.webjars:jquery-ui:1.13.1:jar:provided
+|  +- de.agilecoders.wicket.webjars:wicket-webjars:3.0.4:jar:provided
+|  +- de.agilecoders.wicket:wicket-bootstrap-core:6.0.0-M6:jar:provided
+|  |  +- de.agilecoders.wicket:jquery-selectors:3.0.4:jar:provided
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:2.13.2:jar:compile
+|  |  +- org.webjars:bootstrap:5.1.3:jar:provided
+|  |  +- org.webjars:modernizr:2.8.3-1:jar:provided
+|  |  +- org.webjars:popper.js:2.9.3:jar:provided
+|  |  +- joda-time:joda-time:2.10.14:jar:compile
+|  |  \- org.apache.commons:commons-lang3:3.12.0:jar:provided
+|  +- de.agilecoders.wicket:wicket-bootstrap-extensions:6.0.0-M6:jar:provided
+|  |  +- org.webjars:tempusdominus-bootstrap-4:5.39.0:jar:provided
+|  |  +- org.webjars.bower:momentjs:2.24.0:jar:provided
+|  |  +- org.webjars.npm:inputmask:4.0.0:jar:provided
+|  |  +- org.webjars:animate.css:3.7.2:jar:provided
+|  |  \- org.webjars.npm:summernote:0.8.20:jar:provided
+|  +- org.webjars.bower:summernote:0.8.11:jar:provided
+|  +- de.agilecoders.wicket:wicket-bootstrap-themes:6.0.0-M6:jar:provided
+|  \- com.google.guava:guava:31.1-jre:jar:provided
+|     +- com.google.guava:failureaccess:1.0.1:jar:provided
+|     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:provided
+|     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|     +- org.checkerframework:checker-qual:3.12.0:jar:provided
+|     +- com.google.errorprone:error_prone_annotations:2.12.1:jar:provided
+|     \- com.google.j2objc:j2objc-annotations:1.3:jar:provided
++- org.apache.isis.valuetypes:isis-valuetypes-prism-wicket:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.valuetypes:isis-valuetypes-prism-resources:2.0.0-SNAPSHOT:jar:compile
+|  |  \- org.projectlombok:lombok:1.18.22:jar:provided
+|  \- org.apache.wicket:wicket-core:9.8.0:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-asciidoc-applib:2.0.0-SNAPSHOT:jar:compile
++- org.asciidoctor:asciidoctorj:2.5.3:jar:compile
+|  +- org.jruby:jruby:9.2.20.1:jar:compile
+|  |  +- org.jruby:jruby-core:9.2.20.1:jar:compile
+|  |  |  +- com.github.jnr:jnr-netdb:1.2.0:jar:compile
+|  |  |  +- com.github.jnr:jnr-unixsocket:0.38.12:jar:compile
+|  |  |  +- org.jruby.joni:joni:2.1.31:jar:compile
+|  |  |  +- org.jruby.jcodings:jcodings:1.0.46:jar:compile
+|  |  |  +- org.jruby:dirgra:0.3:jar:compile
+|  |  |  +- com.headius:invokebinder:1.11:jar:compile
+|  |  |  +- com.headius:options:1.4:jar:compile
+|  |  |  +- com.jcraft:jzlib:1.1.3:jar:compile
+|  |  |  +- com.martiansoftware:nailgun-server:0.9.1:jar:compile
+|  |  |  +- com.headius:backport9:1.8:jar:compile
+|  |  |  \- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  |  \- org.jruby:jruby-stdlib:9.2.20.1:jar:compile
+|  \- com.beust:jcommander:1.81:jar:runtime
++- com.github.jnr:jnr-posix:3.1.15:jar:compile
++- com.github.jnr:jnr-enxio:0.32.13:jar:compile
+\- com.github.jnr:jnr-constants:0.10.3:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-markdown-metamodel:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-markdown-applib:2.0.0-SNAPSHOT:jar:compile
+|  +- org.apache.isis.core:isis-applib:2.0.0-SNAPSHOT:jar:compile
+|  \- com.vladsch.flexmark:flexmark-all:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-abbreviation:0.64.0:jar:provided
+|     |  \- com.vladsch.flexmark:flexmark-util:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-admonition:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-anchorlink:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-aside:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-attributes:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-autolink:0.64.0:jar:provided
+|     |  \- org.nibor.autolink:autolink:0.6.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-definition:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-emoji:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-enumerated-reference:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-escaped-character:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-footnotes:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-gfm-issues:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-gfm-users:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-gitlab:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-jekyll-tag:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-media-tags:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-resizable-image:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-macros:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-ins:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-xwiki-macros:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-superscript:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-tables:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-toc:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-typographic:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-wikilink:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-yaml-front-matter:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-ext-youtube-embedded:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-html2md-converter:0.64.0:jar:provided
+|     |  \- org.jsoup:jsoup:1.14.3:jar:provided
+|     +- com.vladsch.flexmark:flexmark-jira-converter:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-pdf-converter:0.64.0:jar:provided
+|     |  +- com.openhtmltopdf:openhtmltopdf-core:1.0.10:jar:provided
+|     |  +- com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.10:jar:provided
+|     |  |  +- org.apache.pdfbox:pdfbox:2.0.24:jar:provided
+|     |  |  |  +- org.apache.pdfbox:fontbox:2.0.24:jar:provided
+|     |  |  |  \- commons-logging:commons-logging:1.2:jar:provided
+|     |  |  +- org.apache.pdfbox:xmpbox:2.0.24:jar:provided
+|     |  |  \- de.rototor.pdfbox:graphics2d:0.32:jar:provided
+|     |  +- com.openhtmltopdf:openhtmltopdf-rtl-support:1.0.10:jar:provided
+|     |  |  \- com.ibm.icu:icu4j:59.1:jar:provided
+|     |  \- com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:1.0.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-profile-pegdown:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-ast:0.64.0:jar:provided
+|     |  \- org.jetbrains:annotations:15.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-builder:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-collection:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-data:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-dependency:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-format:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-html:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-misc:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-options:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-sequence:0.64.0:jar:provided
+|     +- com.vladsch.flexmark:flexmark-util-visitor:0.64.0:jar:provided
+|     \- com.vladsch.flexmark:flexmark-youtrack-converter:0.64.0:jar:provided
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-markdown-ui-wkt:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-prism-wicket:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-markdown-applib:2.0.0-SNAPSHOT:jar:compile
++- com.vladsch.flexmark:flexmark-all:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-abbreviation:0.64.0:jar:compile
+|  |  \- com.vladsch.flexmark:flexmark-util:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-admonition:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-anchorlink:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-aside:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-attributes:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-autolink:0.64.0:jar:compile
+|  |  \- org.nibor.autolink:autolink:0.6.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-definition:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-emoji:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-enumerated-reference:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-escaped-character:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-footnotes:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-issues:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-users:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gitlab:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-tag:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-media-tags:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-resizable-image:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-macros:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-ins:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-xwiki-macros:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-superscript:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-tables:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-toc:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-typographic:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-wikilink:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-yaml-front-matter:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-ext-youtube-embedded:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-html2md-converter:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-jira-converter:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-pdf-converter:0.64.0:jar:compile
+|  |  +- com.openhtmltopdf:openhtmltopdf-core:1.0.10:jar:compile
+|  |  +- com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.10:jar:compile
+|  |  |  +- org.apache.pdfbox:pdfbox:2.0.24:jar:compile
+|  |  |  |  +- org.apache.pdfbox:fontbox:2.0.24:jar:compile
+|  |  |  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  |  |  +- org.apache.pdfbox:xmpbox:2.0.24:jar:compile
+|  |  |  \- de.rototor.pdfbox:graphics2d:0.32:jar:compile
+|  |  +- com.openhtmltopdf:openhtmltopdf-rtl-support:1.0.10:jar:compile
+|  |  |  \- com.ibm.icu:icu4j:59.1:jar:compile
+|  |  \- com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:1.0.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-profile-pegdown:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-ast:0.64.0:jar:compile
+|  |  \- org.jetbrains:annotations:15.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-builder:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-collection:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-data:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-dependency:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-format:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-html:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-misc:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-options:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-sequence:0.64.0:jar:compile
+|  +- com.vladsch.flexmark:flexmark-util-visitor:0.64.0:jar:compile
+|  \- com.vladsch.flexmark:flexmark-youtrack-converter:0.64.0:jar:compile
+\- org.jsoup:jsoup:1.14.3:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-markdown-persistence-jdo:2.0.0-SNAPSHOT:jar:compile
++- org.datanucleus:datanucleus-core:6.0.0-m4:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-markdown-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-markdown-persistence-jpa:2.0.0-SNAPSHOT:jar:compile
++- org.apache.isis.valuetypes:isis-valuetypes-markdown-applib:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.core:isis-core-metamodel:2.0.0-SNAPSHOT:jar:compile
+org.apache.isis.valuetypes:isis-valuetypes-sse-ui-wkt:2.0.0-SNAPSHOT:jar:compile
+\- org.apache.isis.valuetypes:isis-valuetypes-sse-metamodel:2.0.0-SNAPSHOT:jar:compile
+   \- org.apache.isis.valuetypes:isis-valuetypes-sse-applib:2.0.0-SNAPSHOT:jar:compile
+      \- org.apache.isis.viewer:isis-viewer-wicket-ui:2.0.0-SNAPSHOT:jar:provided

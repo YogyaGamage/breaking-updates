@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.jvnet.jaxb2_commons:jaxb2-basics-runtime:1.11.1-PUBLISHED-BY-MISTAKE:jar:compile
+Removed Dependencies:
+ org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.13.1:jar:compile

@@ -1,0 +1,17 @@
+Added Dependencies:
+ org.codehaus.woodstox:stax2-api:4.2.1:jar:compile
+ com.fasterxml.jackson.core:jackson-core:2.13.1:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.1:jar:compile
+ net.sf.jasperreports:jasperreports:6.19.1:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.13.1:jar:compile
+ com.fasterxml.woodstox:woodstox-core:6.2.7:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.13.1:jar:compile
+Removed Dependencies:
+ org.codehaus.castor:castor-core:1.4.1:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.12.2:jar:compile
+ org.codehaus.castor:castor-xml:1.4.1:jar:compile
+ org.apache.commons:commons-lang3:3.4:jar:compile
+ com.fasterxml.jackson.core:jackson-core:2.12.2:jar:compile
+ javax.inject:javax.inject:1:jar:compile
+ net.sf.jasperreports:jasperreports:6.18.1:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.12.2:jar:compile

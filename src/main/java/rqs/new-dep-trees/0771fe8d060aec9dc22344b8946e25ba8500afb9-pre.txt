@@ -1,0 +1,58 @@
+org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:bundle:compile
++- org.osgi:org.osgi.core:4.2.0:jar:provided (optional)
++- org.osgi:org.osgi.compendium:4.2.0:jar:provided (optional)
++- junit:junit:4.13:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- commons-io:commons-io:2.6:jar:test
+\- org.mockito:mockito-core:3.9.0:jar:test
+   +- net.bytebuddy:byte-buddy:1.10.20:jar:test
+   +- net.bytebuddy:byte-buddy-agent:1.10.20:jar:test
+   \- org.objenesis:objenesis:3.2:jar:test
+org.apache.opennlp:opennlp-distr:1.9.5-SNAPSHOT:pom:compile
++- org.apache.opennlp:opennlp-uima:1.9.5-SNAPSHOT:jar:compile
+|  +- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:jar:compile
+|  +- org.apache.uima:uimaj-core:3.1.1:jar:provided
+|  |  +- org.slf4j:slf4j-api:1.7.25:jar:provided
+|  |  +- org.bitbucket.mstrobel:procyon-compilertools:0.5.32:jar:provided
+|  |  \- org.bitbucket.mstrobel:procyon-core:0.5.32:jar:provided
+|  +- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:test-jar:test
+|  \- junit:junit:4.13:jar:test
++- org.apache.opennlp:opennlp-morfologik-addon:1.9.5-SNAPSHOT:jar:compile
+|  +- org.carrot2:morfologik-stemming:2.1.7:jar:compile
+|  |  \- org.carrot2:morfologik-fsa:2.1.7:jar:compile
+|  +- org.carrot2:morfologik-tools:2.1.7:jar:compile
+|  |  +- org.carrot2:morfologik-fsa-builders:2.1.7:jar:compile
+|  |  |  \- com.carrotsearch:hppc:0.7.2:jar:compile
+|  |  \- com.beust:jcommander:1.78:jar:compile
+|  +- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:jar:compile
+|  +- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:test-jar:test
+|  \- junit:junit:4.13:jar:test
+\- org.apache.opennlp:opennlp-brat-annotator:1.9.5-SNAPSHOT:jar:compile
+   +- org.glassfish.jersey.containers:jersey-container-grizzly2-http:2.30.1:jar:compile
+   |  +- org.glassfish.hk2.external:jakarta.inject:2.6.1:jar:compile
+   |  +- org.glassfish.grizzly:grizzly-http-server:2.4.4:jar:compile
+   |  |  \- org.glassfish.grizzly:grizzly-http:2.4.4:jar:compile
+   |  |     \- org.glassfish.grizzly:grizzly-framework:2.4.4:jar:compile
+   |  +- org.glassfish.jersey.core:jersey-common:2.30.1:jar:compile
+   |  |  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+   |  |  +- org.glassfish.hk2:osgi-resource-locator:1.0.3:jar:compile
+   |  |  \- com.sun.activation:jakarta.activation:1.2.1:jar:compile
+   |  +- org.glassfish.jersey.core:jersey-server:2.30.1:jar:compile
+   |  |  +- org.glassfish.jersey.core:jersey-client:2.30.1:jar:compile
+   |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:2.30.1:jar:compile
+   |  |  +- jakarta.validation:jakarta.validation-api:2.0.2:jar:compile
+   |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.2:jar:compile
+   |  \- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
+   +- org.glassfish.jersey.media:jersey-media-json-jackson:2.30.1:jar:compile
+   |  +- org.glassfish.jersey.ext:jersey-entity-filtering:2.30.1:jar:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:2.10.1:jar:compile
+   |  +- com.fasterxml.jackson.core:jackson-databind:2.10.1:jar:compile
+   |  |  \- com.fasterxml.jackson.core:jackson-core:2.10.1:jar:compile
+   |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.10.1:jar:compile
+   |     \- jakarta.activation:jakarta.activation-api:1.2.1:jar:compile
+   +- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:jar:compile
+   \- junit:junit:4.13:jar:test
+org.apache.opennlp:opennlp-dl:1.9.5-SNAPSHOT:jar:compile
++- org.apache.opennlp:opennlp-tools:1.9.5-SNAPSHOT:jar:compile
++- com.microsoft.onnxruntime:onnxruntime:1.10.0:jar:compile
+\- junit:junit:4.13:jar:test

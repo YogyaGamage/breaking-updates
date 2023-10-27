@@ -1,0 +1,98 @@
+co.nordlander.a:a:1.5.3-SNAPSHOT:jar:compile
++- org.apache.activemq:activemq-client:5.16.3:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.31:jar:compile
+|  +- org.fusesource.hawtbuf:hawtbuf:1.11:jar:compile
+|  \- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1:jar:compile
++- org.apache.activemq:activemq-openwire-legacy:5.16.3:jar:compile
++- commons-cli:commons-cli:1.5.0:jar:compile
++- commons-io:commons-io:2.11.0:jar:compile
++- commons-codec:commons-codec:1.15:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1:jar:compile
++- ch.qos.logback:logback-classic:1.2.10:jar:compile
+|  \- ch.qos.logback:logback-core:1.2.10:jar:compile
++- org.apache.qpid:qpid-amqp-1-0-client-jms:0.32:jar:compile
+|  +- org.apache.qpid:qpid-amqp-1-0-client:0.32:jar:compile
+|  \- org.apache.qpid:qpid-amqp-1-0-common:0.32:jar:compile
++- org.apache.activemq:artemis-jms-client:2.19.0:jar:compile
+|  +- org.apache.activemq:artemis-core-client:2.19.0:jar:compile
+|  |  +- org.jgroups:jgroups:3.6.13.Final:jar:compile
+|  |  +- org.apache.johnzon:johnzon-core:0.9.5:jar:compile
+|  |  +- io.netty:netty-transport-native-epoll:4.1.68.Final:jar:compile
+|  |  |  \- io.netty:netty-transport-native-unix-common:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-transport-native-kqueue:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-codec-http:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-buffer:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-transport:4.1.68.Final:jar:compile
+|  |  |  \- io.netty:netty-resolver:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-handler:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-handler-proxy:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-codec:4.1.68.Final:jar:compile
+|  |  +- io.netty:netty-codec-socks:4.1.68.Final:jar:compile
+|  |  \- io.netty:netty-common:4.1.68.Final:jar:compile
+|  +- org.apache.activemq:artemis-commons:2.19.0:jar:compile
+|  |  \- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |     \- commons-collections:commons-collections:3.2.2:jar:compile
+|  +- org.apache.activemq:artemis-selector:2.19.0:jar:compile
+|  \- jakarta.jms:jakarta.jms-api:2.0.3:jar:compile
++- org.apache.activemq:artemis-jms-server:2.19.0:jar:test
+|  +- org.jboss.logging:jboss-logging:3.4.2.Final:jar:compile
+|  +- org.apache.activemq:artemis-server:2.19.0:jar:test
+|  |  +- com.google.guava:guava:30.1-jre:jar:test
+|  |  |  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  |  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  |  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:test
+|  |  |  +- org.checkerframework:checker-qual:3.5.0:jar:test
+|  |  |  +- com.google.errorprone:error_prone_annotations:2.3.4:jar:test
+|  |  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:test
+|  |  +- org.apache.activemq:artemis-jdbc-store:2.19.0:jar:test
+|  |  |  \- org.apache.commons:commons-dbcp2:2.7.0:jar:test
+|  |  +- org.apache.activemq:artemis-quorum-api:2.19.0:jar:test
+|  |  +- org.apache.activemq:activemq-artemis-native:1.0.2:jar:test
+|  |  +- org.jctools:jctools-core:2.1.2:jar:test
+|  |  +- org.apache.commons:commons-configuration2:2.7:jar:test
+|  |  |  \- org.apache.commons:commons-text:1.8:jar:test
+|  |  \- io.micrometer:micrometer-core:1.6.3:jar:test
+|  |     +- org.hdrhistogram:HdrHistogram:2.1.12:jar:test
+|  |     \- org.latencyutils:LatencyUtils:2.0.3:jar:test
+|  +- org.apache.activemq:artemis-journal:2.19.0:jar:test
+|  +- org.apache.activemq:artemis-service-extensions:2.19.0:jar:test
+|  +- jakarta.transaction:jakarta.transaction-api:1.3.3:jar:test
+|  \- jakarta.json:jakarta.json-api:1.1.6:jar:compile
++- org.jboss.logmanager:jboss-logmanager:2.1.18.Final:jar:test
+|  \- org.wildfly.common:wildfly-common:1.5.1.Final:jar:test
++- com.eclipsesource.minimal-json:minimal-json:0.9.5:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.1:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:2.13.1:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-core:2.13.1:jar:compile
++- org.graalvm.js:js:22.0.0:jar:compile
+|  +- org.graalvm.regex:regex:22.0.0:jar:compile
+|  +- org.graalvm.truffle:truffle-api:22.0.0:jar:compile
+|  \- org.graalvm.sdk:graal-sdk:22.0.0:jar:compile
++- org.graalvm.js:js-scriptengine:22.0.0:jar:compile
++- org.springframework:spring-core:5.3.15:jar:test
+|  \- org.springframework:spring-jcl:5.3.15:jar:test
++- org.springframework:spring-expression:5.3.15:jar:test
++- org.springframework:spring-beans:5.3.15:jar:test
++- org.springframework:spring-aop:5.3.15:jar:test
++- org.springframework:spring-context-support:5.3.15:jar:test
++- org.springframework:spring-context:5.3.15:jar:test
++- org.springframework:spring-jms:5.3.15:jar:test
+|  \- org.springframework:spring-messaging:5.3.15:jar:test
++- org.springframework:spring-tx:5.3.15:jar:test
++- org.springframework:spring-test:5.3.15:jar:test
++- org.apache.activemq:activemq-broker:5.16.3:jar:test
++- org.apache.activemq:activemq-kahadb-store:5.16.3:jar:test
+|  +- org.apache.activemq.protobuf:activemq-protobuf:1.1:jar:test
+|  \- commons-net:commons-net:3.8.0:jar:test
++- org.apache.activemq:activemq-spring:5.16.3:jar:test
+|  +- org.apache.activemq:activemq-pool:5.16.3:jar:test
+|  |  \- org.apache.activemq:activemq-jms-pool:5.16.3:jar:test
+|  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1:jar:test
+|  \- org.apache.commons:commons-pool2:2.10.0:jar:test
++- org.apache.activemq:activemq-amqp:5.16.3:jar:test
+|  \- org.apache.qpid:proton-j:0.33.8:jar:test
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
+\- org.apache.xbean:xbean-spring:4.20:jar:test
+   \- commons-logging:commons-logging:1.0.3:jar:compile

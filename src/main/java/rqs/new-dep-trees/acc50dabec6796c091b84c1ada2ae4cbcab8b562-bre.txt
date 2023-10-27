@@ -1,0 +1,158 @@
+com.google.inject:guice-bom:5.0.2-SNAPSHOT:pom:compile
+\- junit:junit:4.13:jar:test
+   \- org.hamcrest:hamcrest-core:1.3:jar:test
+com.google.inject.extensions:guice-dagger-adapter:5.0.2-SNAPSHOT:jar:compile
++- com.google.dagger:dagger:2.22.1:jar:compile (optional)
+|  \- javax.inject:javax.inject:1:jar:compile
++- com.google.dagger:dagger-producers:2.22.1:jar:test
+|  +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.1:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.5.0:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.3.1:jar:compile
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  \- org.checkerframework:checker-compat-qual:2.5.5:jar:test
++- com.google.truth:truth:0.45:jar:test
+|  +- org.checkerframework:checker-compat-qual:2.5.5:jar:test
+|  +- com.googlecode.java-diff-utils:diffutils:1.3.0:jar:test
+|  +- com.google.auto.value:auto-value-annotations:1.6.3:jar:test
+|  \- com.google.guava:guava:30.1-jre:jar:compile
++- com.google.auto.value:auto-value-annotations:1.6.3:jar:test
++- com.google.auto.value:auto-value:1.6.3:jar:test
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
+|  +- javax.inject:javax.inject:1:jar:compile
+|  +- aopalliance:aopalliance:1.0:jar:compile
+|  +- com.google.guava:guava:30.1-jre:jar:compile
+|  +- org.ow2.asm:asm:9.2:jar:compile (optional)
+|  +- javax.inject:javax.inject-tck:1:jar:test
+|  +- com.google.guava:guava-testlib:30.1-jre:jar:test
+|  |  +- com.google.code.findbugs:jsr305:3.0.1:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.5.0:jar:compile
+|  |  +- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.3.1:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.1:jar:test
+|  |  +- org.checkerframework:checker-qual:3.5.0:jar:test
+|  |  +- com.google.errorprone:error_prone_annotations:2.3.4:jar:test
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:test
+|  +- org.springframework:spring-beans:3.0.5.RELEASE:jar:test
+|  |  \- org.springframework:spring-core:3.0.5.RELEASE:jar:test
+|  |     +- org.springframework:spring-asm:3.0.5.RELEASE:jar:test
+|  |     \- commons-logging:commons-logging:1.1.1:jar:test
+|  +- biz.aQute:bnd:0.0.384:jar:test
+|  +- org.apache.felix:org.apache.felix.framework:3.0.5:jar:test
+|  +- com.google.truth:truth:0.45:jar:test
+|  \- junit:junit:4.13:jar:test
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-grapher:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject.extensions:guice-assistedinject:5.0.2-SNAPSHOT:jar:compile
+|  +- com.google.truth:truth:0.45:jar:test
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
+|  +- com.google.guava:guava-testlib:30.1-jre:jar:test
+|  +- org.ow2.asm:asm:9.2:jar:test
+|  \- junit:junit:4.13:jar:test
++- org.easymock:easymock:3.0:jar:test
+|  +- cglib:cglib-nodep:2.2:jar:test
+|  \- org.objenesis:objenesis:1.2:jar:test
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-jmx:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-jndi:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-persist:5.0.2-SNAPSHOT:jar:compile
++- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final:jar:provided
++- javax.servlet:servlet-api:2.5:jar:provided
++- org.slf4j:slf4j-simple:1.6.1:jar:test
+|  \- org.slf4j:slf4j-api:1.6.1:jar:test
++- org.hibernate:hibernate-entitymanager:4.1.7.Final:jar:test
+|  +- org.jboss.logging:jboss-logging:3.1.0.GA:jar:test
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final:jar:test
+|  +- dom4j:dom4j:1.6.1:jar:test
+|  +- org.javassist:javassist:3.15.0-GA:jar:test
+|  +- org.hibernate:hibernate-core:4.1.7.Final:jar:test
+|  |  \- antlr:antlr:2.7.7:jar:test
+|  \- org.hibernate.common:hibernate-commons-annotations:4.0.1.Final:jar:test
++- org.hsqldb:hsqldb-j5:2.0.0:jar:test
++- org.mockito:mockito-core:1.9.5:jar:test
+|  \- org.objenesis:objenesis:1.2:jar:test
++- org.hamcrest:hamcrest-library:1.3:jar:test
++- org.hamcrest:hamcrest-core:1.3:jar:test
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-spring:5.0.2-SNAPSHOT:jar:compile
++- org.springframework:spring-beans:3.0.5.RELEASE:jar:provided
+|  \- org.springframework:spring-core:3.0.5.RELEASE:jar:provided
+|     +- org.springframework:spring-asm:3.0.5.RELEASE:jar:provided
+|     \- commons-logging:commons-logging:1.1.1:jar:provided
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-struts2:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject.extensions:guice-servlet:5.0.2-SNAPSHOT:jar:compile
+|  +- javax.servlet:servlet-api:2.5:jar:provided
+|  +- org.easymock:easymock:3.0:jar:test
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
+|  +- com.google.guava:guava-testlib:30.1-jre:jar:test
+|  +- org.ow2.asm:asm:9.2:jar:test
+|  \- junit:junit:4.13:jar:test
++- org.apache.struts:struts2-core:2.5.22:jar:provided
+|  +- org.freemarker:freemarker:2.3.28:jar:provided
+|  +- ognl:ognl:3.1.26:jar:provided
+|  |  \- org.javassist:javassist:3.20.0-GA:jar:provided
+|  +- org.apache.logging.log4j:log4j-api:2.12.1:jar:provided
+|  +- commons-fileupload:commons-fileupload:1.4:jar:provided
+|  +- commons-io:commons-io:2.6:jar:provided
+|  \- org.apache.commons:commons-lang3:3.8.1:jar:provided
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject.extensions:guice-testlib:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject.extensions:guice-throwingproviders:5.0.2-SNAPSHOT:jar:compile
+|  +- com.google.truth:truth:0.45:jar:test
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:compile
+|  +- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
+|  +- com.google.guava:guava-testlib:30.1-jre:jar:test
+|  +- org.ow2.asm:asm:9.2:jar:test
+|  \- junit:junit:4.13:jar:test
++- com.google.truth:truth:0.45:jar:compile
+|  +- com.google.guava:guava:30.1-jre:jar:compile
+|  +- org.checkerframework:checker-compat-qual:2.5.5:jar:compile
+|  +- com.googlecode.java-diff-utils:diffutils:1.3.0:jar:compile
+|  \- com.google.auto.value:auto-value-annotations:1.6.3:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test
+com.google.inject:jdk8-tests:5.0.2-SNAPSHOT:jar:compile
++- com.google.inject:guice:5.0.2-SNAPSHOT:jar:test
+|  +- javax.inject:javax.inject:1:jar:test
+|  +- aopalliance:aopalliance:1.0:jar:test
+|  \- com.google.guava:guava:30.1-jre:jar:test
+|     +- com.google.guava:failureaccess:1.0.1:jar:test
+|     \- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
++- com.google.inject.extensions:guice-assistedinject:5.0.2-SNAPSHOT:jar:test
++- com.google.guava:guava-testlib:30.1-jre:jar:test
++- org.ow2.asm:asm:9.2:jar:test
+\- junit:junit:4.13:jar:test

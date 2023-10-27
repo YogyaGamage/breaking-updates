@@ -1,0 +1,8 @@
+Added Dependencies:
+ com.google.http-client:google-http-client-gson:1.42.3:jar:compile
+ com.google.errorprone:error_prone_annotations:2.16:jar:compile
+ com.google.http-client:google-http-client:1.42.3:jar:compile
+Removed Dependencies:
+ com.google.http-client:google-http-client-gson:1.42.2:jar:compile
+ com.google.errorprone:error_prone_annotations:2.5.1:jar:compile
+ com.google.http-client:google-http-client:1.42.2:jar:compile

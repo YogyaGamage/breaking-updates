@@ -1,0 +1,6 @@
+Added Dependencies:
+ org.springframework:spring-core:6.0.1:jar:compile
+ org.springframework:spring-jcl:6.0.1:jar:compile
+Removed Dependencies:
+ org.springframework:spring-core:5.3.24:jar:compile
+ org.springframework:spring-jcl:5.3.24:jar:compile

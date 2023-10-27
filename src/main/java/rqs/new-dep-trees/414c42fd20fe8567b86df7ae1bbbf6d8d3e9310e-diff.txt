@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.springframework:spring-tx:6.0.5:jar:compile
+Removed Dependencies:
+ org.springframework:spring-tx:5.3.24:jar:compile

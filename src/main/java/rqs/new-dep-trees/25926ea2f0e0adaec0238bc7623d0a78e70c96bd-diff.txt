@@ -1,0 +1,13 @@
+Added Dependencies:
+ jakarta.mail:jakarta.mail-api:2.1.1:jar:compile
+ jakarta.activation:jakarta.activation-api:2.1.1:jar:compile
+ org.eclipse.angus:angus-mail:2.0.1:jar:compile
+ org.eclipse.persistence:org.eclipse.persistence.moxy:4.0.1:jar:compile
+ org.eclipse.persistence:org.eclipse.persistence.core:4.0.1:jar:compile
+ org.eclipse.angus:angus-activation:2.0.0:jar:compile
+ jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:compile
+Removed Dependencies:
+ jakarta.xml.bind:jakarta.xml.bind-api:3.0.1:jar:compile
+ org.eclipse.persistence:org.eclipse.persistence.core:3.0.2:jar:compile
+ org.eclipse.persistence:org.eclipse.persistence.moxy:3.0.2:jar:compile
+ org.eclipse.persistence:org.eclipse.persistence.asm:9.1.0:jar:compile

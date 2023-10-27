@@ -1,0 +1,246 @@
+org.commonjava.maven.ext:pom-manipulation-coverage:4.16-SNAPSHOT:pom:compile
++- org.commonjava.maven.ext:pom-manipulation-cli:4.16-SNAPSHOT:jar:compile
+|  +- org.commonjava.maven.ext:pom-manipulation-core:4.16-SNAPSHOT:jar:compile
+|  |  +- org.commonjava.maven.ext:pom-manipulation-io:4.16-SNAPSHOT:jar:compile
+|  |  |  +- org.commonjava.maven.ext:pom-manipulation-common:4.16-SNAPSHOT:jar:compile
+|  |  |  |  +- org.commonjava.maven.ext:pom-manipulation-annotation:4.16-SNAPSHOT:jar:compile
+|  |  |  |  |  +- commons-io:commons-io:2.11.0:jar:compile
+|  |  |  |  |  +- com.squareup:javapoet:1.13.0:jar:compile
+|  |  |  |  |  +- org.slf4j:slf4j-api:1.7.30:jar:compile
+|  |  |  |  |  \- com.github.olivergondza:maven-jdk-tools-wrapper:0.1:jar:compile
+|  |  |  |  +- org.apache.maven:maven-artifact:3.6.3:jar:provided
+|  |  |  |  |  +- org.apache.commons:commons-lang3:3.8.1:jar:provided
+|  |  |  |  |  \- org.apache.commons:commons-lang3:3.7:jar:compile
+|  |  |  |  +- org.apache.maven:maven-model:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-model-builder:3.6.3:jar:provided
+|  |  |  |  |  +- javax.inject:javax.inject:1:jar:compile
+|  |  |  |  |  +- org.apache.maven:maven-builder-support:3.6.3:jar:provided
+|  |  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:provided
+|  |  |  |  |  \- org.codehaus.plexus:plexus-interpolation:1.26:jar:provided
+|  |  |  |  +- org.apache.maven:maven-settings:3.6.3:jar:provided
+|  |  |  |  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:provided
+|  |  |  |  +- org.commonjava.maven.atlas:atlas-identities:0.17.2:jar:compile
+|  |  |  |  |  \- ch.qos.logback:logback-classic:1.2.9:jar:compile
+|  |  |  |  |     \- ch.qos.logback:logback-core:1.2.9:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-core:2.14.0-rc1:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.14.0-rc1:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.14.0-rc1:jar:compile
+|  |  |  |  +- com.konghq:unirest-java:3.13.11:jar:compile
+|  |  |  |  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  |  |  |  \- org.apache.httpcomponents:httpcore:4.4:jar:compile
+|  |  |  |  |  +- org.apache.httpcomponents:httpmime:4.5.13:jar:compile
+|  |  |  |  |  +- org.apache.httpcomponents:httpcore-nio:4.4.13:jar:compile
+|  |  |  |  |  +- org.apache.httpcomponents:httpasyncclient:4.1.5:jar:compile
+|  |  |  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  |  \- com.google.code.gson:gson:2.9.0:jar:compile
+|  |  |  |  +- com.konghq:unirest-objectmapper-jackson:3.13.11:jar:compile
+|  |  |  |  +- org.commonjava.maven.galley:galley-maven:0.16.6:jar:compile
+|  |  |  |  |  +- org.commonjava.maven.galley:galley-api:0.16.6:jar:compile
+|  |  |  |  |  |  +- javax.enterprise:cdi-api:1.0:jar:compile
+|  |  |  |  |  |  |  +- javax.el:javax.el-api:3.0.0:jar:compile
+|  |  |  |  |  |  |  +- javax.interceptor:javax.interceptor-api:1.2:jar:compile
+|  |  |  |  |  |  |  \- javax.annotation:jsr250-api:1.0:jar:compile
+|  |  |  |  |  |  \- org.commonjava.cdi.util:weft:1.8:jar:compile
+|  |  |  |  |  |     \- io.dropwizard.metrics:metrics-core:4.0.2:jar:compile
+|  |  |  |  |  +- org.commonjava.maven.galley:galley-core:0.16.6:jar:compile
+|  |  |  |  |  +- org.commonjava.maven.atlas:atlas-relationships-api:0.17.2:jar:compile
+|  |  |  |  |  |  \- org.commonjava.maven.atlas:atlas-bindings-jackson-identities:0.17.2:jar:compile
+|  |  |  |  |  +- commons-jxpath:commons-jxpath:1.3:jar:compile
+|  |  |  |  |  +- javax.enterprise:cdi-api:1.0:jar:compile
+|  |  |  |  |  \- org.commonjava.cdi.util:weft:1.8:jar:compile
+|  |  |  |  +- org.jboss.da:reports-model:2.1.0:jar:compile
+|  |  |  |  |  \- commons-validator:commons-validator:1.5.1:jar:compile
+|  |  |  |  |     \- commons-digester:commons-digester:1.8.1:jar:compile
+|  |  |  |  +- commons-lang:commons-lang:2.6:jar:compile
+|  |  |  |  +- org.projectlombok:lombok:1.18.24:jar:provided
+|  |  |  |  +- org.goots.hiderdoclet:doclet:1.1:jar:compile
+|  |  |  |  +- org.jdom:jdom2:2.0.6.1:jar:compile
+|  |  |  |  +- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
+|  |  |  |  +- junit:junit:4.13.2:jar:test
+|  |  |  |  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  |  |  +- com.github.stefanbirkner:system-rules:1.19.0:jar:test
+|  |  |  |  +- org.hamcrest:hamcrest-all:1.3:jar:test
+|  |  |  |  \- org.jboss.byteman:byteman-bmunit:4.0.19:jar:test
+|  |  |  |     +- org.jboss.byteman:byteman:4.0.19:jar:test
+|  |  |  |     +- org.jboss.byteman:byteman-submit:4.0.19:jar:test
+|  |  |  |     \- org.jboss.byteman:byteman-install:4.0.19:jar:test
+|  |  |  +- org.apache.maven:maven-core:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-builder-support:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-repository-metadata:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-plugin-api:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-resolver-provider:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-impl:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-api:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-spi:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-util:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.shared:maven-shared-utils:3.2.1:jar:provided
+|  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.4:jar:provided
+|  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:provided
+|  |  |  |  +- com.google.inject:guice:4.0:jar:provided
+|  |  |  |  |  +- aopalliance:aopalliance:1.0:jar:provided
+|  |  |  |  |  \- com.google.guava:guava:16.0.1:jar:provided
+|  |  |  |  +- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
+|  |  |  |  +- org.codehaus.plexus:plexus-component-annotations:2.1.0:jar:provided
+|  |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:compile
+|  |  |  |  \- org.codehaus.plexus:plexus-classworlds:2.5.2:jar:compile
+|  |  |  +- org.apache.maven:maven-settings-builder:3.6.3:jar:provided
+|  |  |  |  \- org.sonatype.plexus:plexus-sec-dispatcher:1.4:jar:provided
+|  |  |  |     \- org.sonatype.plexus:plexus-cipher:1.4:jar:provided
+|  |  |  +- org.apache.maven:maven-compat:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven.wagon:wagon-provider-api:3.3.4:jar:provided
+|  |  |  |  +- org.apache.maven:maven-model-builder:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-settings-builder:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-resolver-provider:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven:maven-repository-metadata:3.6.3:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-api:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-util:1.4.1:jar:provided
+|  |  |  |  +- org.apache.maven.resolver:maven-resolver-impl:1.4.1:jar:provided
+|  |  |  |  \- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-utils:3.4.2:jar:provided
+|  |  |  +- org.commonjava.maven.galley:galley-transport-httpclient:0.16.6:jar:compile
+|  |  |  |  +- org.commonjava.util:jhttpc:1.9:jar:compile
+|  |  |  |  |  +- org.bouncycastle:bcprov-jdk15on:1.53:jar:compile
+|  |  |  |  |  \- org.bouncycastle:bcpkix-jdk15on:1.53:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  |  +- org.jsoup:jsoup:1.8.3:jar:compile
+|  |  |  |  +- org.slf4j:jcl-over-slf4j:1.7.21:jar:compile
+|  |  |  |  +- io.dropwizard.metrics:metrics-core:4.0.2:jar:compile
+|  |  |  |  \- org.apache.commons:commons-lang3:3.7:jar:compile
+|  |  |  +- org.commonjava.maven.galley:galley-transport-filearc:0.16.6:jar:compile
+|  |  |  +- org.apache.maven.release:maven-release-manager:3.0.0-M4:jar:compile
+|  |  |  +- org.apache.maven.release:maven-release-api:3.0.0-M4:jar:compile
+|  |  |  +- com.jayway.jsonpath:json-path:2.7.0:jar:compile
+|  |  |  |  \- net.minidev:json-smart:2.4.7:jar:compile
+|  |  |  |     \- net.minidev:accessors-smart:2.4.7:jar:compile
+|  |  |  |        \- org.ow2.asm:asm:9.1:jar:compile
+|  |  |  +- org.yaml:snakeyaml:2.0:jar:compile
+|  |  |  +- com.redhat.resilience.otel:opentelemetry-ext-cli-java:1.2.0:jar:compile
+|  |  |  |  +- io.opentelemetry:opentelemetry-api:1.20.1:jar:compile
+|  |  |  |  |  \- io.opentelemetry:opentelemetry-context:1.20.1:jar:compile
+|  |  |  |  +- io.opentelemetry:opentelemetry-sdk:1.20.1:jar:compile
+|  |  |  |  |  +- io.opentelemetry:opentelemetry-sdk-common:1.20.1:jar:compile
+|  |  |  |  |  +- io.opentelemetry:opentelemetry-sdk-trace:1.20.1:jar:compile
+|  |  |  |  |  +- io.opentelemetry:opentelemetry-sdk-metrics:1.20.1:jar:compile
+|  |  |  |  |  \- io.opentelemetry:opentelemetry-sdk-logs:1.20.1-alpha:jar:runtime
+|  |  |  |  |     \- io.opentelemetry:opentelemetry-api-logs:1.20.1-alpha:jar:runtime
+|  |  |  |  +- io.opentelemetry:opentelemetry-semconv:1.20.1-alpha:jar:compile
+|  |  |  |  \- io.opentelemetry:opentelemetry-exporter-otlp:1.20.1:jar:compile
+|  |  |  |     \- io.opentelemetry:opentelemetry-exporter-otlp-common:1.20.1:jar:runtime
+|  |  |  |        +- io.opentelemetry:opentelemetry-exporter-common:1.20.1:jar:runtime
+|  |  |  |        \- com.squareup.okhttp3:okhttp:4.10.0:jar:runtime
+|  |  |  |           +- com.squareup.okio:okio-jvm:3.0.0:jar:runtime
+|  |  |  |           |  +- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31:jar:runtime
+|  |  |  |           |  |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31:jar:runtime
+|  |  |  |           |  \- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31:jar:runtime
+|  |  |  |           \- org.jetbrains.kotlin:kotlin-stdlib:1.6.20:jar:runtime
+|  |  |  |              \- org.jetbrains:annotations:13.0:jar:runtime
+|  |  |  +- org.eclipse.jetty:jetty-server:10.0.14:jar:test
+|  |  |  |  +- org.eclipse.jetty.toolchain:jetty-servlet-api:4.0.6:jar:test
+|  |  |  |  +- org.eclipse.jetty:jetty-http:10.0.14:jar:test
+|  |  |  |  |  \- org.eclipse.jetty:jetty-util:10.0.14:jar:test
+|  |  |  |  \- org.eclipse.jetty:jetty-io:10.0.14:jar:test
+|  |  |  +- junit:junit:4.13.2:jar:test
+|  |  |  +- org.hamcrest:hamcrest-all:1.3:jar:test
+|  |  |  +- org.jboss.byteman:byteman-bmunit:4.0.19:jar:test
+|  |  |  +- org.xmlunit:xmlunit-core:2.9.0:jar:test
+|  |  |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:test
+|  |  |  |     \- jakarta.activation:jakarta.activation-api:1.2.2:jar:test
+|  |  |  +- org.xmlunit:xmlunit-matchers:2.9.0:jar:test
+|  |  |  \- com.github.stefanbirkner:system-rules:1.19.0:jar:test
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.4:jar:compile
+|  |  |  +- javax.enterprise:cdi-api:1.0:jar:compile
+|  |  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:compile
+|  |  |  +- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:compile
+|  |  |  \- org.codehaus.plexus:plexus-classworlds:2.5.2:jar:compile
+|  |  +- org.codehaus.groovy:groovy:3.0.13:jar:compile
+|  |  +- org.codehaus.groovy:groovy-json:3.0.13:jar:compile
+|  |  +- junit:junit:4.13.2:jar:test
+|  |  +- org.hamcrest:hamcrest-all:1.3:jar:test
+|  |  +- org.jboss.byteman:byteman-bmunit:4.0.19:jar:test
+|  |  +- org.xmlunit:xmlunit-core:2.9.0:jar:test
+|  |  +- org.commonjava.maven.ext:pom-manipulation-io:4.16-SNAPSHOT:test-jar:test
+|  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  +- org.commonjava.maven.galley:galley-api:0.16.6:jar:compile
+|  |  |  +- org.commonjava.maven.galley:galley-core:0.16.6:jar:compile
+|  |  |  +- org.commonjava.maven.galley:galley-transport-httpclient:0.16.6:jar:compile
+|  |  |  +- org.commonjava.maven.galley:galley-transport-filearc:0.16.6:jar:compile
+|  |  |  +- org.apache.maven.release:maven-release-manager:3.0.0-M4:jar:compile
+|  |  |  +- org.apache.maven.release:maven-release-api:3.0.0-M4:jar:compile
+|  |  |  +- org.yaml:snakeyaml:2.0:jar:compile
+|  |  |  \- com.redhat.resilience.otel:opentelemetry-ext-cli-java:1.2.0:jar:compile
+|  |  +- com.google.inject:guice:4.0:jar:test
+|  |  |  +- aopalliance:aopalliance:1.0:jar:test
+|  |  |  \- com.google.guava:guava:16.0.1:jar:test
+|  |  +- com.github.stefanbirkner:system-rules:1.19.0:jar:test
+|  |  +- org.apache.ivy:ivy:2.5.1:jar:test
+|  |  \- org.eclipse.jetty:jetty-server:10.0.14:jar:test
+|  +- org.commonjava.maven.ext:pom-manipulation-core:4.16-SNAPSHOT:test-jar:test
+|  +- info.picocli:picocli:4.6.3:jar:compile
+|  +- org.apache.maven:maven-artifact:3.6.3:jar:compile
+|  |  \- org.apache.commons:commons-lang3:3.7:jar:compile
+|  +- org.apache.maven:maven-core:3.6.3:jar:compile
+|  |  +- org.apache.maven:maven-builder-support:3.6.3:jar:compile
+|  |  +- org.apache.maven:maven-repository-metadata:3.6.3:jar:compile
+|  |  +- org.apache.maven:maven-plugin-api:3.6.3:jar:compile
+|  |  +- org.apache.maven:maven-resolver-provider:3.6.3:jar:compile
+|  |  +- org.apache.maven.resolver:maven-resolver-impl:1.4.1:jar:compile
+|  |  +- org.apache.maven.resolver:maven-resolver-api:1.4.1:jar:compile
+|  |  +- org.apache.maven.resolver:maven-resolver-spi:1.4.1:jar:compile
+|  |  +- org.apache.maven.resolver:maven-resolver-util:1.4.1:jar:compile
+|  |  +- org.apache.maven.shared:maven-shared-utils:3.2.1:jar:compile
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.4:jar:compile
+|  |  +- org.codehaus.plexus:plexus-classworlds:2.5.2:jar:compile
+|  |  \- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:compile
+|  +- org.apache.maven:maven-compat:3.6.3:jar:compile
+|  |  \- org.apache.maven.wagon:wagon-provider-api:3.3.4:jar:compile
+|  +- org.apache.maven:maven-model-builder:3.6.3:jar:compile
+|  +- org.apache.maven:maven-model:3.6.3:jar:compile
+|  +- org.apache.maven:maven-settings:3.6.3:jar:compile
+|  +- org.apache.maven:maven-settings-builder:3.6.3:jar:compile
+|  |  \- org.sonatype.plexus:plexus-sec-dispatcher:1.4:jar:compile
+|  |     \- org.sonatype.plexus:plexus-cipher:1.4:jar:compile
+|  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:compile
+|  +- org.eclipse.aether:aether-api:1.1.0:jar:compile
+|  +- com.google.inject:guice:4.0:jar:compile
+|  |  +- aopalliance:aopalliance:1.0:jar:compile
+|  |  \- com.google.guava:guava:16.0.1:jar:compile
+|  +- org.codehaus.groovy:groovy-xml:3.0.13:jar:compile
+|  +- org.apache.ivy:ivy:2.5.1:jar:compile
+|  +- com.github.stefanbirkner:system-rules:1.19.0:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  +- org.jboss.byteman:byteman-bmunit:4.0.19:jar:test
+|  \- org.eclipse.aether:aether-api:1.1.0:jar:provided
++- org.commonjava.maven.ext:pom-manipulation-ext:4.16-SNAPSHOT:jar:compile
+|  +- org.commonjava.maven.ext:pom-manipulation-core:4.16-SNAPSHOT:jar:compile
+|  +- org.eclipse.aether:aether-api:1.1.0:jar:provided
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  +- org.codehaus.groovy:groovy-xml:3.0.13:jar:compile
+|  \- org.apache.ivy:ivy:2.5.1:jar:compile
+\- org.commonjava.maven.ext:pom-manipulation-integration-test:4.16-SNAPSHOT:jar:compile
+   +- org.commonjava.maven.ext:pom-manipulation-core:4.16-SNAPSHOT:jar:compile
+   +- org.commonjava.maven.ext:pom-manipulation-io:4.16-SNAPSHOT:test-jar:test
+   +- org.commonjava.maven.ext:pom-manipulation-cli:4.16-SNAPSHOT:jar:compile
+   |  +- info.picocli:picocli:4.6.3:jar:compile
+   |  +- org.apache.maven:maven-artifact:3.6.3:jar:provided
+   |  +- org.apache.maven:maven-core:3.6.3:jar:provided
+   |  +- org.apache.maven:maven-compat:3.6.3:jar:provided
+   |  +- org.apache.maven:maven-model:3.6.3:jar:provided
+   |  +- org.apache.maven:maven-settings:3.6.3:jar:provided
+   |  +- org.eclipse.aether:aether-api:1.1.0:jar:provided
+   |  \- org.apache.ivy:ivy:2.5.1:jar:compile
+   +- junit:junit:4.13.2:jar:test
+   +- org.codehaus.groovy:groovy-xml:3.0.13:jar:test
+   +- org.apache.maven:apache-maven:3.6.3:zip:test
+   |  +- org.apache.maven:maven-embedder:3.6.3:jar:test
+   |  |  +- javax.annotation:jsr250-api:1.0:jar:compile
+   |  |  \- org.sonatype.plexus:plexus-cipher:1.4:jar:provided
+   |  +- commons-cli:commons-cli:1.4:jar:test
+   |  +- org.apache.maven.wagon:wagon-http:3.3.4:jar:test
+   |  +- org.jsoup:jsoup:1.8.3:jar:compile
+   |  +- org.slf4j:jcl-over-slf4j:1.7.21:jar:compile
+   |  +- org.apache.maven.wagon:wagon-file:3.3.4:jar:test
+   |  +- org.apache.maven.resolver:maven-resolver-connector-basic:1.4.1:jar:test
+   |  +- org.apache.maven.resolver:maven-resolver-transport-wagon:1.4.1:jar:test
+   |  \- org.fusesource.jansi:jansi:1.17.1:jar:test
+   +- org.eclipse.jetty:jetty-server:10.0.14:jar:test
+   \- com.google.inject:guice:4.0:jar:compile

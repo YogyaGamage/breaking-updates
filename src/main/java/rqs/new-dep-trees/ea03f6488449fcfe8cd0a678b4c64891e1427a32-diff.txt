@@ -1,0 +1,8 @@
+Added Dependencies:
+ redis.clients:jedis:4.3.2:jar:compile
+ org.slf4j:slf4j-api:1.7.36:jar:compile
+ org.json:json:20220320:jar:compile
+ com.google.code.gson:gson:2.8.9:jar:compile
+Removed Dependencies:
+ redis.clients:jedis:3.9.0:jar:compile
+ org.slf4j:slf4j-api:1.7.30:jar:compile

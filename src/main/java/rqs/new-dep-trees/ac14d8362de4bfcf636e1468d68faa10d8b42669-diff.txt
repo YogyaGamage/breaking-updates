@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.logging.log4j:log4j-core:2.15.0:jar:compile
+Removed Dependencies:
+ org.apache.logging.log4j:log4j-core:2.12.1:jar:compile

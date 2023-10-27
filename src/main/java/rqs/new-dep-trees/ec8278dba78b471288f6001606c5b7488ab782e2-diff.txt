@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.mockito:mockito-core:5.1.0:jar:test
+ net.bytebuddy:byte-buddy-agent:1.12.22:jar:test
+ net.bytebuddy:byte-buddy:1.12.22:jar:test
+Removed Dependencies:
+ net.bytebuddy:byte-buddy-agent:1.12.19:jar:test
+ net.bytebuddy:byte-buddy:1.12.19:jar:test
+ org.mockito:mockito-core:4.11.0:jar:test

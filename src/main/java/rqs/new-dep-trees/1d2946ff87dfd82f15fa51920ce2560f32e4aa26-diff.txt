@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.eclipse.jdt:ecj:3.34.0:jar:compile
+Removed Dependencies:
+ org.eclipse.jdt:ecj:3.33.0:jar:compile

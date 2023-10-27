@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.google.apis:google-api-services-dns:v2-rev20220505-1.32.1:jar:compile
+Removed Dependencies:
+ com.google.apis:google-api-services-dns:v1-rev20220804-2.0.0:jar:compile

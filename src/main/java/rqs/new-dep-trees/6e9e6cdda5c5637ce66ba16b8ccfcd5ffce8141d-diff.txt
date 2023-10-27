@@ -1,0 +1,13 @@
+Added Dependencies:
+ org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10:jar:compile (optional)
+ org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10:jar:compile (optional)
+ org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10:jar:compile (optional)
+ org.springframework.cloud:spring-cloud-stream:4.0.2:jar:compile (optional)
+ org.jetbrains.kotlin:kotlin-stdlib:1.5.10:jar:compile (optional)
+ org.springframework.cloud:spring-cloud-function-context:4.0.2:jar:compile (optional)
+ org.jetbrains:annotations:13.0:jar:compile (optional)
+ org.springframework.cloud:spring-cloud-function-core:4.0.2:jar:compile (optional)
+Removed Dependencies:
+ org.springframework.cloud:spring-cloud-function-core:3.0.9.RELEASE:jar:compile (optional)
+ org.springframework.cloud:spring-cloud-function-context:3.0.9.RELEASE:jar:compile (optional)
+ org.springframework.cloud:spring-cloud-stream:3.0.7.RELEASE:jar:compile (optional)

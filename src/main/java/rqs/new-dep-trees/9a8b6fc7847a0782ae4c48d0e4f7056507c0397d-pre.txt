@@ -1,0 +1,269 @@
+it.geosolutions.geostore:geostore-rest-client:1.9-SNAPSHOT:jar:compile
++- it.geosolutions.geostore:geostore-rest-api:1.9-SNAPSHOT:jar:compile
+|  +- it.geosolutions.geostore:geostore-services-api:1.9-SNAPSHOT:jar:compile
+|  |  +- it.geosolutions.geostore:geostore-model:1.9-SNAPSHOT:jar:compile
+|  |  |  +- javax.xml.bind:jaxb-api:2.1:jar:compile
+|  |  |  |  +- javax.xml.stream:stax-api:1.0-2:jar:compile
+|  |  |  |  \- javax.activation:activation:1.1:jar:compile
+|  |  |  +- com.sun.xml.bind:jaxb-impl:2.1.2:jar:compile
+|  |  |  +- org.hibernatespatial:hibernate-spatial-postgis:1.1.1:jar:provided
+|  |  |  |  +- org.hibernatespatial:hibernate-spatial:1.1.1:jar:provided
+|  |  |  |  +- org.hibernate:hibernate-core:5.4.33.Final:jar:provided
+|  |  |  |  |  +- org.jboss.logging:jboss-logging:3.4.1.Final:jar:provided
+|  |  |  |  |  +- javax.persistence:javax.persistence-api:2.2:jar:provided
+|  |  |  |  |  +- org.javassist:javassist:3.27.0-GA:jar:provided
+|  |  |  |  |  +- net.bytebuddy:byte-buddy:1.11.12:jar:provided
+|  |  |  |  |  +- antlr:antlr:2.7.7:jar:provided
+|  |  |  |  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final:jar:provided
+|  |  |  |  |  +- org.jboss:jandex:2.2.3.Final:jar:provided
+|  |  |  |  |  +- com.fasterxml:classmate:1.5.1:jar:provided
+|  |  |  |  |  +- javax.activation:javax.activation-api:1.2.0:jar:provided
+|  |  |  |  |  +- org.dom4j:dom4j:2.1.3:jar:provided
+|  |  |  |  |  +- org.hibernate.common:hibernate-commons-annotations:5.1.2.Final:jar:provided
+|  |  |  |  |  \- org.glassfish.jaxb:jaxb-runtime:2.3.1:jar:provided
+|  |  |  |  |     +- org.glassfish.jaxb:txw2:2.3.1:jar:provided
+|  |  |  |  |     +- com.sun.istack:istack-commons-runtime:3.0.7:jar:provided
+|  |  |  |  |     +- org.jvnet.staxex:stax-ex:1.8:jar:provided
+|  |  |  |  |     \- com.sun.xml.fastinfoset:FastInfoset:1.2.15:jar:provided
+|  |  |  |  +- com.vividsolutions:jts:1.10:jar:provided
+|  |  |  |  \- javassist:javassist:3.8.0.GA:jar:runtime
+|  |  |  +- asm:asm:2.2.3:jar:provided
+|  |  |  +- cglib:cglib-nodep:2.1_3:jar:provided
+|  |  |  +- commons-beanutils:commons-beanutils:1.7.0:jar:compile
+|  |  |  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  |  |  |     +- logkit:logkit:1.0.1:jar:compile
+|  |  |  |     +- avalon-framework:avalon-framework:4.1.3:jar:compile
+|  |  |  |     \- javax.servlet:servlet-api:2.3:jar:compile
+|  |  |  +- jdom:jdom:1.0:jar:compile
+|  |  |  \- junit:junit:4.12:jar:test
+|  |  |     \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  +- commons-lang:commons-lang:2.3:jar:compile
+|  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  +- dom4j:dom4j:1.6.1:jar:compile
+|  |  |  \- xml-apis:xml-apis:1.0.b2:jar:compile
+|  |  +- log4j:log4j:1.2.17.norce:jar:compile
+|  |  +- org.springframework:spring-jmx:2.0.8:jar:provided
+|  |  |  +- aopalliance:aopalliance:1.0:jar:provided
+|  |  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  |  +- org.springframework:spring-beans:5.3.18:jar:provided
+|  |  +- org.springframework:spring-context:5.3.18:jar:provided
+|  |  |  +- org.springframework:spring-aop:5.3.18:jar:compile
+|  |  |  \- org.springframework:spring-expression:5.3.18:jar:compile
+|  |  +- org.springframework:spring-core:5.3.18:jar:provided
+|  |  |  \- org.springframework:spring-jcl:5.3.18:jar:provided
+|  |  +- javax.servlet:javax.servlet-api:3.0.1:jar:provided
+|  |  +- org.springframework.security:spring-security-core:5.3.10.RELEASE:jar:compile
+|  |  |  +- org.springframework:spring-aop:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  |     \- org.springframework:spring-jcl:5.3.18:jar:compile
+|  |  |  +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-expression:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-aop:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  \- junit:junit:4.12:jar:test
+|  +- org.apache.cxf:cxf-rt-frontend-jaxrs:3.4.4:jar:compile
+|  |  +- org.apache.cxf:cxf-core:3.4.4:jar:compile
+|  |  |  +- com.fasterxml.woodstox:woodstox-core:6.2.6:jar:compile
+|  |  |  |  \- org.codehaus.woodstox:stax2-api:4.2.1:jar:compile
+|  |  |  +- org.apache.ws.xmlschema:xmlschema-core:2.2.5:jar:compile
+|  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  |  |  \- org.glassfish.jaxb:jaxb-runtime:2.3.1:jar:compile
+|  |  |     +- org.glassfish.jaxb:txw2:2.3.1:jar:compile
+|  |  |     +- com.sun.istack:istack-commons-runtime:3.0.7:jar:compile
+|  |  |     +- org.jvnet.staxex:stax-ex:1.8.3:jar:compile
+|  |  |     \- com.sun.xml.fastinfoset:FastInfoset:1.2.15:jar:compile
+|  |  +- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
+|  |  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  |  +- org.apache.cxf:cxf-rt-transports-http:3.4.4:jar:compile
+|  |  |  +- org.apache.cxf:cxf-core:3.4.4:jar:compile
+|  |  |  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  |  |  +- jakarta.xml.ws:jakarta.xml.ws-api:2.3.3:jar:compile
+|  |  |  +- jakarta.jws:jakarta.jws-api:2.1.0:jar:compile
+|  |  |  +- jakarta.xml.soap:jakarta.xml.soap-api:1.4.2:jar:compile
+|  |  |  |  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
+|  |  |  +- com.sun.activation:jakarta.activation:1.2.2:jar:compile
+|  |  |  +- com.sun.xml.messaging.saaj:saaj-impl:1.5.3:jar:runtime
+|  |  |  |  +- org.jvnet.staxex:stax-ex:1.8.3:jar:compile
+|  |  |  |  \- org.jvnet.staxex:stax-ex:1.8.3:jar:runtime
+|  |  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1:jar:compile
+|  |  |  \- org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:1.0.6.Final:jar:compile
+|  |  +- org.apache.cxf:cxf-rt-security:3.4.4:jar:compile
+|  |  +- jakarta.xml.ws:jakarta.xml.ws-api:2.3.3:jar:compile
+|  |  +- jakarta.jws:jakarta.jws-api:2.1.0:jar:compile
+|  |  +- jakarta.xml.soap:jakarta.xml.soap-api:1.4.2:jar:compile
+|  |  +- com.sun.activation:jakarta.activation:1.2.2:jar:compile
+|  |  +- com.sun.xml.messaging.saaj:saaj-impl:1.5.3:jar:runtime
+|  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1:jar:compile
+|  |  \- org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:1.0.6.Final:jar:compile
+|  +- org.apache.cxf:cxf-rt-rs-extension-providers:3.4.4:jar:compile
+|  +- org.apache.cxf:cxf-rt-rs-json-basic:3.4.4:jar:compile
+|  +- org.codehaus.jettison:jettison:1.4.0:jar:compile
+|  +- org.springframework.security:spring-security-web:5.3.10.RELEASE:jar:compile
+|  |  \- org.springframework:spring-web:5.3.18:jar:compile
+|  +- org.springframework.security:spring-security-config:5.3.10.RELEASE:jar:compile
+|  +- org.springframework.security:spring-security-ldap:5.3.10.RELEASE:jar:compile
+|  |  +- org.springframework.ldap:spring-ldap-core:2.3.4.RELEASE:jar:compile
+|  |  \- org.springframework:spring-tx:5.3.18:jar:compile
+|  +- org.slf4j:slf4j-log4j12:1.7.2:jar:compile
+|  |  \- org.slf4j:slf4j-api:1.7.2:jar:compile
+|  +- javax.annotation:jsr250-api:1.0:jar:compile
+|  +- javax.xml.ws:jaxws-api:2.3.1:jar:compile
+|  |  +- javax.xml.soap:javax.xml.soap-api:1.4.0:jar:compile
+|  |  \- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  \- junit:junit:4.12:jar:test
++- com.sun.jersey.contribs:jersey-apache-client:1.12:jar:compile
+|  \- commons-httpclient:commons-httpclient:3.1:jar:compile
+|     \- commons-codec:commons-codec:1.4:jar:compile
++- com.sun.jersey:jersey-client:1.12:jar:compile
+|  \- com.sun.jersey:jersey-core:1.12:jar:compile
+\- junit:junit:4.12:jar:test
+it.geosolutions.geostore:geostore-rest-extjs:1.9-SNAPSHOT:jar:compile
++- it.geosolutions.geostore:geostore-rest-impl:1.9-SNAPSHOT:jar:compile
+|  +- it.geosolutions.geostore:geostore-services-impl:1.9-SNAPSHOT:jar:compile
+|  |  +- it.geosolutions.geostore:geostore-persistence:1.9-SNAPSHOT:jar:compile
+|  |  |  +- it.geosolutions.geostore:geostore-security:1.9-SNAPSHOT:jar:compile
+|  |  |  |  +- commons-lang:commons-lang:2.3:jar:compile
+|  |  |  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  |  +- commons-codec:commons-codec:1.4:jar:compile
+|  |  |  |  +- commons-dbcp:commons-dbcp:1.2.2:jar:compile
+|  |  |  |  |  \- commons-pool:commons-pool:1.3:jar:compile
+|  |  |  |  +- commons-io:commons-io:2.1:jar:compile
+|  |  |  |  +- dom4j:dom4j:1.6.1:jar:compile
+|  |  |  |  +- log4j:log4j:1.2.17.norce:jar:compile
+|  |  |  |  +- org.slf4j:slf4j-log4j12:1.7.2:jar:compile
+|  |  |  |  +- org.springframework:spring-aop:5.3.18:jar:test
+|  |  |  |  |  +- org.springframework:spring-beans:5.3.18:jar:compile
+|  |  |  |  |  \- org.springframework:spring-core:5.3.18:jar:compile
+|  |  |  |  +- org.springframework:spring-context:5.3.18:jar:compile
+|  |  |  |  +- org.springframework.security:spring-security-core:5.3.10.RELEASE:jar:compile
+|  |  |  |  +- org.springframework.security:spring-security-crypto:5.3.10.RELEASE:jar:compile
+|  |  |  |  +- org.jasypt:jasypt:1.8:jar:compile
+|  |  |  |  +- org.acegisecurity:acegi-security-tiger:1.0.7:jar:compile
+|  |  |  |  |  \- org.acegisecurity:acegi-security:1.0.7:jar:compile
+|  |  |  |  |     +- org.springframework:spring-remoting:1.2.9:jar:compile
+|  |  |  |  |     +- org.springframework:spring-jdbc:5.3.18:jar:compile
+|  |  |  |  |     +- org.springframework:spring-support:1.2.9:jar:runtime
+|  |  |  |  |     \- oro:oro:2.0.8:jar:compile
+|  |  |  |  +- org.springframework.security:spring-security-ldap:5.3.10.RELEASE:jar:compile
+|  |  |  |  +- junit:junit:4.12:jar:test
+|  |  |  |  +- net.sf.json-lib:json-lib:2.4:jar:compile
+|  |  |  |  |  +- net.sf.ezmorph:ezmorph:1.0.6:jar:compile
+|  |  |  |  |  \- commons-beanutils:commons-beanutils:1.7.0:jar:compile
+|  |  |  |  \- it.geosolutions.geostore:geostore-model:1.9-SNAPSHOT:jar:compile
+|  |  |  +- org.springframework:spring-aop:5.3.18:jar:test
+|  |  |  +- org.springframework:spring-orm:5.3.18:jar:compile
+|  |  |  |  \- org.springframework:spring-tx:5.3.18:jar:compile
+|  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final:jar:compile
+|  |  |  +- com.googlecode.genericdao:dao-hibernate:geosolutions-1.3.0:jar:compile
+|  |  |  |  +- com.googlecode.genericdao:dao:geosolutions-1.3.0:jar:compile
+|  |  |  |  |  \- com.googlecode.genericdao:search:geosolutions-1.3.0:jar:compile
+|  |  |  |  \- com.googlecode.genericdao:search-hibernate:geosolutions-1.3.0:jar:compile
+|  |  |  +- com.googlecode.genericdao:search-jpa-hibernate:geosolutions-1.3.0:jar:compile
+|  |  |  |  \- org.hibernate:hibernate-entitymanager:5.4.33.Final:jar:compile
+|  |  |  +- com.h2database:h2:1.3.175:jar:compile
+|  |  |  +- org.hibernate:hibernate-core:5.4.33.Final:jar:compile
+|  |  |  |  +- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
+|  |  |  |  +- javax.persistence:javax.persistence-api:2.2:jar:compile
+|  |  |  |  +- org.javassist:javassist:3.27.0-GA:jar:compile
+|  |  |  |  +- net.bytebuddy:byte-buddy:1.11.12:jar:compile
+|  |  |  |  +- antlr:antlr:2.7.7:jar:compile
+|  |  |  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final:jar:compile
+|  |  |  |  +- org.jboss:jandex:2.2.3.Final:jar:compile
+|  |  |  |  +- com.fasterxml:classmate:1.5.1:jar:compile
+|  |  |  |  +- javax.activation:javax.activation-api:1.2.0:jar:compile
+|  |  |  |  +- org.dom4j:dom4j:2.1.3:jar:compile
+|  |  |  |  +- org.hibernate.common:hibernate-commons-annotations:5.1.2.Final:jar:compile
+|  |  |  |  \- org.glassfish.jaxb:jaxb-runtime:2.3.1:jar:compile
+|  |  |  +- org.hibernate:hibernate-ehcache:5.4.33.Final:jar:compile
+|  |  |  |  \- net.sf.ehcache:ehcache:2.10.6:jar:compile
+|  |  |  +- asm:asm:2.2.3:jar:compile
+|  |  |  +- cglib:cglib-nodep:2.1_3:jar:compile
+|  |  |  +- org.aspectj:aspectjrt:1.5.4:jar:compile
+|  |  |  +- org.aspectj:aspectjweaver:1.5.4:jar:compile
+|  |  |  \- junit:junit:4.12:jar:test
+|  |  +- it.geosolutions.geostore:geostore-services-api:1.9-SNAPSHOT:jar:compile
+|  |  +- org.apache.cxf:cxf-rt-frontend-jaxrs:3.4.4:jar:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-extension-providers:3.4.4:jar:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-json-basic:3.4.4:jar:compile
+|  |  +- org.codehaus.jettison:jettison:1.4.0:jar:compile
+|  |  \- junit:junit:4.12:jar:test
+|  +- it.geosolutions.geostore:geostore-rest-api:1.9-SNAPSHOT:jar:compile
+|  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  +- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  +- it.geosolutions.geostore:geostore-security:1.9-SNAPSHOT:test-jar:test
+|  |  +- commons-io:commons-io:2.1:jar:compile
+|  |  +- org.springframework.security:spring-security-crypto:5.3.10.RELEASE:jar:compile
+|  |  +- org.jasypt:jasypt:1.8:jar:compile
+|  |  \- org.acegisecurity:acegi-security-tiger:1.0.7:jar:compile
+|  +- org.springframework.security.oauth:spring-security-oauth2:2.0.16.RELEASE:jar:compile
+|  |  \- org.codehaus.jackson:jackson-mapper-asl:1.9.13:jar:compile
+|  |     \- org.codehaus.jackson:jackson-core-asl:1.9.13:jar:compile
+|  +- org.keycloak:keycloak-spring-security-adapter:18.0.0:jar:compile
+|  |  +- org.keycloak:keycloak-core:18.0.0:jar:compile
+|  |  |  \- org.keycloak:keycloak-common:18.0.0:jar:compile
+|  |  +- org.keycloak:keycloak-adapter-spi:18.0.0:jar:compile
+|  |  +- org.keycloak:keycloak-adapter-core:18.0.0:jar:compile
+|  |  +- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:1.68:jar:compile
+|  +- org.keycloak:keycloak-authz-client:18.0.0:jar:compile
+|  +- org.springframework.security:spring-security-jwt:1.0.11.RELEASE:jar:compile
+|  |  \- org.bouncycastle:bcpkix-jdk15on:1.64:jar:compile
+|  +- com.auth0:java-jwt:3.18.3:jar:compile
+|  +- org.mockito:mockito-core:3.8.0:jar:test
+|  |  +- net.bytebuddy:byte-buddy:1.11.12:jar:compile
+|  |  +- net.bytebuddy:byte-buddy-agent:1.10.20:jar:test
+|  |  +- org.objenesis:objenesis:3.1:jar:test
+|  |  \- net.bytebuddy:byte-buddy:1.10.20:jar:test
+|  +- com.google.guava:guava:18.0:jar:compile
+|  +- xom:xom:1.1:jar:compile
+|  |  +- xerces:xmlParserAPIs:2.6.2:jar:compile
+|  |  +- xerces:xercesImpl:2.6.2:jar:compile
+|  |  +- xalan:xalan:2.7.0:jar:compile
+|  |  \- jaxen:jaxen:1.1-beta-8:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-core:2.13.1:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:2.13.1:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:2.13.1:jar:compile
+|  +- junit:junit:4.12:jar:test
+|  +- it.geosolutions.geostore:geostore-services-impl:1.9-SNAPSHOT:test-jar:test
+|  +- com.github.tomakehurst:wiremock-standalone:2.1.12:jar:test
+|  +- org.springframework:spring-test:5.3.18:jar:test
+|  \- org.mockito:mockito-inline:3.8.0:jar:test
++- junit:junit:4.12:jar:test
++- org.hamcrest:hamcrest-core:1.3:jar:test
+\- javax.servlet:javax.servlet-api:3.0.1:jar:test
+it.geosolutions.geostore:geostore-rest-test:1.9-SNAPSHOT:war:compile
+\- it.geosolutions.geostore:geostore-rest-impl:1.9-SNAPSHOT:jar:compile
+it.geosolutions.geostore:geostore-rest-auditing:1.9-SNAPSHOT:jar:compile
++- log4j:log4j:1.2.17.norce:jar:compile
++- commons-io:commons-io:2.1:jar:compile
++- org.freemarker:freemarker:2.3.20:jar:compile
++- junit:junit:4.12:jar:test
++- javax.servlet:javax.servlet-api:3.0.1:jar:provided
++- org.apache.cxf:cxf-rt-frontend-jaxrs:3.4.4:jar:compile
++- org.springframework.security:spring-security-core:5.3.10.RELEASE:jar:compile
++- it.geosolutions.geostore:geostore-model:1.9-SNAPSHOT:jar:compile
+\- org.mockito:mockito-core:3.8.0:jar:test
+it.geosolutions.geostore:geostore-webapp:1.9-SNAPSHOT:war:compile
++- it.geosolutions.geostore:geostore-rest-impl:1.9-SNAPSHOT:jar:compile
++- org.apache.cxf:cxf-rt-transports-http-jetty:3.4.4:jar:test
+|  +- org.eclipse.jetty:jetty-server:9.4.41.v20210516:jar:test
+|  +- org.eclipse.jetty:jetty-util:9.4.41.v20210516:jar:test
+|  +- org.eclipse.jetty:jetty-io:9.4.41.v20210516:jar:test
+|  +- org.eclipse.jetty:jetty-security:9.4.41.v20210516:jar:test
+|  +- org.eclipse.jetty:jetty-continuation:9.4.41.v20210516:jar:test
+|  \- org.eclipse.jetty:jetty-http:9.4.41.v20210516:jar:test
++- org.apache.cxf:cxf-rt-rs-client:3.4.4:jar:test
++- junit:junit:4.12:jar:test
++- org.apache.directory.server:apacheds-all:1.5.5:jar:test
++- org.apache.directory.shared:shared-ldap:0.9.16:jar:test
+|  +- org.apache.directory.shared:shared-asn1:0.9.16:jar:test
+|  +- org.apache.directory.shared:shared-ldap-constants:0.9.16:jar:test
+|  \- antlr:antlr:2.7.7:jar:compile
++- org.mortbay.jetty:jetty:6.1.14:jar:test
+|  +- org.mortbay.jetty:jetty-util:6.1.14:jar:test
+|  \- org.mortbay.jetty:servlet-api-2.5:6.1.14:jar:test
++- javax.servlet:javax.servlet-api:3.0.1:jar:test
+\- jstl:jstl:1.2:jar:test

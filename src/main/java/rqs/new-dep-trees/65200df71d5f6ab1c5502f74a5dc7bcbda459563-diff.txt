@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.sonarsource.sonarlint.core:sonarlint-core:8.19.0.72745:jar:compile
+Removed Dependencies:
+ org.sonarsource.sonarlint.core:sonarlint-core:8.15.0.65216:jar:compile

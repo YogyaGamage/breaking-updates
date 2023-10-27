@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.hibernate.validator:hibernate-validator:8.0.0.Final:jar:provided
+Removed Dependencies:
+ org.hibernate.validator:hibernate-validator:6.2.4.Final:jar:provided

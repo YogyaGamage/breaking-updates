@@ -1,0 +1,32 @@
+com.feedzai:pdb:0.0.0-windows_reproducibility-SNAPSHOT:jar:compile
++- mysql:mysql-connector-java:8.0.28:jar:provided
+|  \- com.google.protobuf:protobuf-java:3.11.4:jar:provided
++- org.postgresql:postgresql:42.3.6:jar:provided
+|  \- org.checkerframework:checker-qual:3.5.0:jar:compile
++- com.oracle.database.jdbc:ojdbc8:21.5.0.0:jar:provided
++- com.h2database:h2:2.1.212:jar:provided
++- com.microsoft.sqlserver:mssql-jdbc:10.2.0.jre8:jar:provided
++- com.ibm.db2:jcc:11.5.7.0:jar:provided
++- org.jmockit:jmockit:1.49:jar:test
+|  \- com.google.code.findbugs:jsr305:3.0.2:jar:compile
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.assertj:assertj-core:3.22.0:jar:test
++- org.awaitility:awaitility:4.2.0:jar:test
+|  \- org.hamcrest:hamcrest:2.1:jar:test
++- com.google.guava:guava:25.1-jre:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.1.3:jar:compile
+|  +- com.google.j2objc:j2objc-annotations:1.1:jar:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:1.14:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:provided
+|  \- ch.qos.logback:logback-core:1.2.11:jar:provided
++- org.slf4j:slf4j-api:1.7.36:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- commons-codec:commons-codec:1.15:jar:compile
++- com.google.inject:guice:5.0.1:jar:compile
+|  +- javax.inject:javax.inject:1:jar:compile
+|  \- aopalliance:aopalliance:1.0:jar:compile
++- org.apache.commons:commons-pool2:2.9.0:jar:compile
+\- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+   +- commons-logging:commons-logging:1.2:jar:compile
+   \- commons-collections:commons-collections:3.2.2:jar:compile

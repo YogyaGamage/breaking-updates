@@ -1,0 +1,25 @@
+com.github.sabomichal:jooq-meta-postgres-flyway:0-SNAPSHOT:jar:compile
++- org.jooq:jooq-meta:3.16.6:jar:compile
+|  \- org.jooq:jooq:3.16.6:jar:compile
+|     +- io.r2dbc:r2dbc-spi:0.9.0.RELEASE:jar:compile
+|     |  \- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|     \- jakarta.xml.bind:jakarta.xml.bind-api:3.0.0:jar:compile
+|        \- com.sun.activation:jakarta.activation:2.0.0:jar:compile
++- org.flywaydb:flyway-core:9.0.1:jar:compile
++- org.testcontainers:postgresql:1.17.3:jar:compile
+|  \- org.testcontainers:jdbc:1.17.3:jar:compile
+|     \- org.testcontainers:database-commons:1.17.3:jar:compile
+|        \- org.testcontainers:testcontainers:1.17.3:jar:compile
+|           +- junit:junit:4.13.2:jar:compile
+|           |  \- org.hamcrest:hamcrest-core:1.3:jar:compile
+|           +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|           +- org.apache.commons:commons-compress:1.21:jar:compile
+|           +- org.rnorth.duct-tape:duct-tape:1.0.8:jar:compile
+|           |  \- org.jetbrains:annotations:17.0.0:jar:compile
+|           +- com.github.docker-java:docker-java-api:3.2.13:jar:compile
+|           |  \- com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar:compile
+|           \- com.github.docker-java:docker-java-transport-zerodep:3.2.13:jar:compile
+|              +- com.github.docker-java:docker-java-transport:3.2.13:jar:compile
+|              \- net.java.dev.jna:jna:5.8.0:jar:compile
+\- org.postgresql:postgresql:42.4.0:jar:compile
+   \- org.checkerframework:checker-qual:3.5.0:jar:runtime

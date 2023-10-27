@@ -1,0 +1,14 @@
+Added Dependencies:
+ org.ow2.asm:asm:9.3:jar:test
+ org.ow2.asm:asm:9.3:jar:compile
+ net.minidev:accessors-smart:2.4.9:jar:test
+ net.minidev:accessors-smart:2.4.9:jar:compile
+ net.minidev:json-smart:2.4.9:jar:test
+ net.minidev:json-smart:2.4.9:jar:compile
+Removed Dependencies:
+ org.ow2.asm:asm:9.1:jar:test
+ net.minidev:json-smart:2.4.8:jar:test
+ org.ow2.asm:asm:9.1:jar:compile
+ net.minidev:accessors-smart:2.4.8:jar:test
+ net.minidev:accessors-smart:2.4.8:jar:compile
+ net.minidev:json-smart:2.4.8:jar:compile

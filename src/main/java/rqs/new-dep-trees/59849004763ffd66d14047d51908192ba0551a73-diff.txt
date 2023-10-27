@@ -1,0 +1,6 @@
+Added Dependencies:
+ org.springframework:spring-core:6.0.0:jar:test
+ org.springframework:spring-context:6.0.0:jar:test
+Removed Dependencies:
+ org.springframework:spring-core:5.3.23:jar:test
+ org.springframework:spring-context:5.3.23:jar:test

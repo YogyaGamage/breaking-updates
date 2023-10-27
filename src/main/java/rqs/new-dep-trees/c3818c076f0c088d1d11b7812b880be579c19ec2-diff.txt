@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.hibernate.validator:hibernate-validator:8.0.1.Final:jar:compile
+ com.fasterxml:classmate:1.5.1:jar:compile
+ jakarta.validation:jakarta.validation-api:3.0.2:jar:compile
+Removed Dependencies:
+ javax.validation:validation-api:1.1.0.Final:jar:compile
+ org.hibernate:hibernate-validator:5.4.3.Final:jar:compile
+ com.fasterxml:classmate:1.3.1:jar:compile

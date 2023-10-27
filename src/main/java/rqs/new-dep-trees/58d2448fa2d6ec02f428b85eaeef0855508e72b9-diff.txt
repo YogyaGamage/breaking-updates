@@ -1,0 +1,10 @@
+Added Dependencies:
+ org.springframework:spring-webmvc:6.0.0:jar:compile
+ org.springframework:spring-expression:6.0.0:jar:compile
+ org.springframework:spring-context:6.0.0:jar:compile
+ org.springframework:spring-aop:6.0.0:jar:compile
+Removed Dependencies:
+ org.springframework:spring-webmvc:5.3.24:jar:compile
+ org.springframework:spring-expression:5.3.24:jar:compile
+ org.springframework:spring-context:5.3.24:jar:compile
+ org.springframework:spring-aop:5.3.24:jar:compile

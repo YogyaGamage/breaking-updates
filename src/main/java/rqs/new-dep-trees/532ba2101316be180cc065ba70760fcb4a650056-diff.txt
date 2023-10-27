@@ -1,0 +1,10 @@
+Added Dependencies:
+ com.google.api.grpc:proto-google-cloud-monitoring-v3:3.7.0:jar:compile
+ com.google.api.grpc:proto-google-cloud-monitoring-v3:3.7.0:jar:runtime
+ com.google.cloud:google-cloud-monitoring:3.7.0:jar:runtime
+ com.google.cloud:google-cloud-monitoring:3.7.0:jar:compile
+Removed Dependencies:
+ com.google.api.grpc:proto-google-cloud-monitoring-v3:3.6.0:jar:runtime
+ com.google.cloud:google-cloud-monitoring:3.6.0:jar:compile
+ com.google.cloud:google-cloud-monitoring:3.6.0:jar:runtime
+ com.google.api.grpc:proto-google-cloud-monitoring-v3:3.6.0:jar:compile

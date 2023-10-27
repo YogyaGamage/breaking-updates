@@ -1,0 +1,107 @@
+de.refactoringBot:RefactoringBot:0.0.1-SNAPSHOT:jar:compile
++- org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE:jar:compile
+|  +- org.springframework.boot:spring-boot-starter:2.1.6.RELEASE:jar:compile
+|  |  +- org.springframework.boot:spring-boot:2.1.6.RELEASE:jar:compile
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-logging:2.1.6.RELEASE:jar:compile
+|  |  |  +- ch.qos.logback:logback-classic:1.2.3:jar:compile
+|  |  |  |  \- ch.qos.logback:logback-core:1.2.3:jar:compile
+|  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:2.11.2:jar:compile
+|  |  |  |  \- org.apache.logging.log4j:log4j-api:2.11.2:jar:compile
+|  |  |  \- org.slf4j:jul-to-slf4j:1.7.26:jar:compile
+|  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  |  \- org.yaml:snakeyaml:1.23:jar:runtime
+|  +- org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.9.9:jar:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:2.9.9:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9:jar:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.9:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-tomcat:2.1.6.RELEASE:jar:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:9.0.21:jar:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:9.0.21:jar:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.21:jar:compile
+|  +- org.hibernate.validator:hibernate-validator:6.0.17.Final:jar:compile
+|  |  +- javax.validation:validation-api:2.0.1.Final:jar:compile
+|  |  \- org.jboss.logging:jboss-logging:3.3.2.Final:jar:compile
+|  +- org.springframework:spring-web:5.1.8.RELEASE:jar:compile
+|  |  \- org.springframework:spring-beans:5.1.8.RELEASE:jar:compile
+|  \- org.springframework:spring-webmvc:5.1.8.RELEASE:jar:compile
+|     +- org.springframework:spring-aop:5.1.8.RELEASE:jar:compile
+|     +- org.springframework:spring-context:5.1.8.RELEASE:jar:compile
+|     \- org.springframework:spring-expression:5.1.8.RELEASE:jar:compile
++- org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE:jar:test
+|  +- org.springframework.boot:spring-boot-test:2.1.6.RELEASE:jar:test
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:2.1.6.RELEASE:jar:test
+|  +- com.jayway.jsonpath:json-path:2.4.0:jar:test
+|  |  \- net.minidev:json-smart:2.3:jar:test
+|  |     \- net.minidev:accessors-smart:1.2:jar:test
+|  |        \- org.ow2.asm:asm:5.0.4:jar:test
+|  +- junit:junit:4.12:jar:test
+|  +- org.assertj:assertj-core:3.11.1:jar:test
+|  +- org.mockito:mockito-core:2.23.4:jar:test
+|  |  +- net.bytebuddy:byte-buddy:1.9.13:jar:compile
+|  |  +- net.bytebuddy:byte-buddy-agent:1.9.13:jar:test
+|  |  \- org.objenesis:objenesis:2.6:jar:test
+|  +- org.hamcrest:hamcrest-core:1.3:jar:test
+|  +- org.hamcrest:hamcrest-library:1.3:jar:test
+|  +- org.skyscreamer:jsonassert:1.5.0:jar:test
+|  |  \- com.vaadin.external.google:android-json:0.0.20131108.vaadin1:jar:test
+|  +- org.springframework:spring-core:5.1.8.RELEASE:jar:compile
+|  |  \- org.springframework:spring-jcl:5.1.8.RELEASE:jar:compile
+|  +- org.springframework:spring-test:5.1.8.RELEASE:jar:test
+|  \- org.xmlunit:xmlunit-core:2.6.2:jar:test
++- io.springfox:springfox-swagger2:2.8.0:jar:compile
+|  +- io.swagger:swagger-annotations:1.5.14:jar:compile
+|  +- io.swagger:swagger-models:1.5.14:jar:compile
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:2.9.0:jar:compile
+|  +- io.springfox:springfox-spi:2.8.0:jar:compile
+|  |  \- io.springfox:springfox-core:2.8.0:jar:compile
+|  +- io.springfox:springfox-schema:2.8.0:jar:compile
+|  +- io.springfox:springfox-swagger-common:2.8.0:jar:compile
+|  +- io.springfox:springfox-spring-web:2.8.0:jar:compile
+|  |  \- org.reflections:reflections:0.9.11:jar:compile
+|  +- com.google.guava:guava:20.0:jar:compile
+|  +- com.fasterxml:classmate:1.4.0:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.26:jar:compile
+|  +- org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE:jar:compile
+|  +- org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE:jar:compile
+|  \- org.mapstruct:mapstruct:1.2.0.Final:jar:compile
++- io.springfox:springfox-swagger-ui:3.0.0:jar:compile
+|  \- io.springfox:springfox-spring-webmvc:3.0.0:jar:runtime
++- org.springframework.boot:spring-boot-configuration-processor:2.1.6.RELEASE:jar:compile (optional)
++- org.eclipse.jgit:org.eclipse.jgit:5.1.2.201810061102-r:jar:compile
+|  +- com.jcraft:jsch:0.1.54:jar:compile
+|  +- com.jcraft:jzlib:1.1.1:jar:compile
+|  \- com.googlecode.javaewah:JavaEWAH:1.1.6:jar:compile
++- org.springframework.boot:spring-boot-starter-data-jpa:2.1.6.RELEASE:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-aop:2.1.6.RELEASE:jar:compile
+|  |  \- org.aspectj:aspectjweaver:1.9.4:jar:compile
+|  +- org.springframework.boot:spring-boot-starter-jdbc:2.1.6.RELEASE:jar:compile
+|  |  +- com.zaxxer:HikariCP:3.2.0:jar:compile
+|  |  \- org.springframework:spring-jdbc:5.1.8.RELEASE:jar:compile
+|  +- javax.transaction:javax.transaction-api:1.3:jar:compile
+|  +- org.hibernate:hibernate-core:5.3.10.Final:jar:compile
+|  |  +- javax.persistence:javax.persistence-api:2.2:jar:compile
+|  |  +- antlr:antlr:2.7.7:jar:compile
+|  |  +- org.jboss:jandex:2.0.5.Final:jar:compile
+|  |  +- org.dom4j:dom4j:2.1.1:jar:compile
+|  |  \- org.hibernate.common:hibernate-commons-annotations:5.0.4.Final:jar:compile
+|  +- org.springframework.data:spring-data-jpa:2.1.9.RELEASE:jar:compile
+|  |  +- org.springframework.data:spring-data-commons:2.1.9.RELEASE:jar:compile
+|  |  +- org.springframework:spring-orm:5.1.8.RELEASE:jar:compile
+|  |  \- org.springframework:spring-tx:5.1.8.RELEASE:jar:compile
+|  \- org.springframework:spring-aspects:5.1.8.RELEASE:jar:compile
++- mysql:mysql-connector-java:8.0.16:jar:runtime
++- org.apache.httpcomponents:httpclient:4.5.9:jar:compile
+|  +- org.apache.httpcomponents:httpcore:4.4.11:jar:compile
+|  \- commons-codec:commons-codec:1.11:jar:compile
++- com.github.javaparser:javaparser-symbol-solver-core:3.16.1:jar:compile
+|  +- com.github.javaparser:javaparser-core:3.16.1:jar:compile
+|  \- org.javassist:javassist:3.27.0-GA:jar:compile
++- commons-io:commons-io:2.7:jar:compile
++- org.apache.commons:commons-lang3:3.8.1:jar:compile
++- org.antlr:antlr4-runtime:4.7.2:jar:compile
++- javax.xml.bind:jaxb-api:2.3.1:jar:compile
+|  \- javax.activation:javax.activation-api:1.2.0:jar:compile
+\- org.modelmapper:modelmapper:2.3.2:jar:compile

@@ -1,0 +1,84 @@
+com.google.firebase:firebase-admin:8.1.0:jar:compile
++- com.google.api-client:google-api-client:1.32.1:jar:compile
+|  +- com.google.oauth-client:google-oauth-client:1.31.5:jar:compile
+|  +- com.google.http-client:google-http-client-gson:1.41.0:jar:compile
+|  +- com.google.http-client:google-http-client-apache-v2:1.41.0:jar:compile
+|  +- org.apache.httpcomponents:httpcore:4.4.14:jar:compile
+|  \- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
++- com.google.api-client:google-api-client-gson:1.32.1:jar:compile
++- com.google.http-client:google-http-client:1.41.0:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  +- io.opencensus:opencensus-api:0.28.0:jar:compile
+|  \- io.opencensus:opencensus-contrib-http-util:0.28.0:jar:compile
++- com.google.api:api-common:2.1.2:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  \- com.google.auto.value:auto-value-annotations:1.9:jar:compile
++- com.google.auth:google-auth-library-oauth2-http:1.3.0:jar:compile
+|  \- com.google.auth:google-auth-library-credentials:1.3.0:jar:compile
++- com.google.cloud:google-cloud-storage:2.2.3:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- org.checkerframework:checker-qual:3.20.0:jar:compile
+|  +- com.google.http-client:google-http-client-jackson2:1.41.0:jar:compile
+|  +- com.google.apis:google-api-services-storage:v1-rev20211201-1.32.1:jar:compile
+|  +- com.google.code.gson:gson:2.8.9:jar:compile
+|  +- com.google.cloud:google-cloud-core:2.3.5:jar:compile
+|  +- com.google.api.grpc:proto-google-common-protos:2.7.1:jar:compile
+|  +- com.google.cloud:google-cloud-core-http:2.3.5:jar:compile
+|  +- com.google.http-client:google-http-client-appengine:1.41.0:jar:compile
+|  +- com.google.api:gax-httpjson:0.93.1:jar:compile
+|  +- com.google.api:gax:2.8.1:jar:compile
+|  +- io.grpc:grpc-context:1.43.2:jar:compile
+|  +- com.google.api.grpc:proto-google-iam-v1:1.2.0:jar:compile
+|  +- com.google.protobuf:protobuf-java:3.19.2:jar:compile
+|  +- com.google.protobuf:protobuf-java-util:3.19.2:jar:compile
+|  +- org.threeten:threetenbp:1.5.2:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-core:2.13.0:jar:compile
++- com.google.cloud:google-cloud-firestore:3.0.10:jar:compile
+|  +- com.google.cloud:google-cloud-core-grpc:2.3.5:jar:compile
+|  +- io.grpc:grpc-core:1.43.2:jar:compile
+|  +- com.google.android:annotations:4.1.1.4:jar:runtime
+|  +- org.codehaus.mojo:animal-sniffer-annotations:1.20:jar:runtime
+|  +- io.perfmark:perfmark-api:0.23.0:jar:runtime
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  +- commons-codec:commons-codec:1.15:jar:compile
+|  +- com.google.api.grpc:proto-google-cloud-firestore-v1:3.0.10:jar:compile
+|  +- com.google.cloud:proto-google-cloud-firestore-bundle-v1:3.0.10:jar:compile
+|  +- io.opencensus:opencensus-contrib-grpc-util:0.28.0:jar:compile
+|  +- io.grpc:grpc-protobuf:1.43.2:jar:compile
+|  +- io.grpc:grpc-protobuf-lite:1.43.2:jar:compile
+|  +- io.grpc:grpc-api:1.43.2:jar:compile
+|  +- com.google.api:gax-grpc:2.8.1:jar:compile
+|  +- io.grpc:grpc-alts:1.43.2:jar:runtime
+|  +- io.grpc:grpc-grpclb:1.43.2:jar:runtime
+|  +- org.conscrypt:conscrypt-openjdk-uber:2.5.1:jar:runtime
+|  +- io.grpc:grpc-auth:1.43.2:jar:runtime
+|  +- io.grpc:grpc-netty-shaded:1.43.2:jar:runtime
+|  +- io.grpc:grpc-xds:1.43.2:jar:runtime
+|  +- io.grpc:grpc-services:1.43.2:jar:runtime
+|  +- com.google.re2j:re2j:1.5:jar:runtime
+|  +- org.bouncycastle:bcpkix-jdk15on:1.67:jar:runtime
+|  +- org.bouncycastle:bcprov-jdk15on:1.67:jar:runtime
+|  +- io.opencensus:opencensus-proto:0.2.0:jar:runtime
+|  +- com.google.errorprone:error_prone_annotations:2.10.0:jar:compile
+|  \- io.grpc:grpc-stub:1.43.2:jar:compile
++- com.google.guava:guava:31.0.1-jre:jar:compile
++- org.slf4j:slf4j-api:1.7.32:jar:compile
++- io.netty:netty-codec-http:4.1.72.Final:jar:compile
+|  +- io.netty:netty-common:4.1.72.Final:jar:compile
+|  +- io.netty:netty-buffer:4.1.72.Final:jar:compile
+|  \- io.netty:netty-codec:4.1.72.Final:jar:compile
++- io.netty:netty-handler:4.1.72.Final:jar:compile
+|  +- io.netty:netty-resolver:4.1.72.Final:jar:compile
+|  \- io.netty:netty-tcnative-classes:2.0.46.Final:jar:compile
++- io.netty:netty-transport:4.1.72.Final:jar:compile
++- org.mockito:mockito-core:2.28.2:jar:test
+|  +- net.bytebuddy:byte-buddy:1.9.10:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.9.10:jar:test
+|  \- org.objenesis:objenesis:2.6:jar:test
++- net.java.quickcheck:quickcheck:0.6:jar:test
+|  \- net.java.quickcheck:quickcheck-src-generator:0.6:jar:test
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
+\- javax.ws.rs:javax.ws.rs-api:2.1.1:jar:test

@@ -1,0 +1,6 @@
+Added Dependencies:
+ jakarta.activation:jakarta.activation-api:2.1.0:jar:compile
+ jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:compile
+Removed Dependencies:
+ jakarta.activation:jakarta.activation-api:1.2.1:jar:compile
+ jakarta.xml.bind:jakarta.xml.bind-api:2.3.2:jar:compile

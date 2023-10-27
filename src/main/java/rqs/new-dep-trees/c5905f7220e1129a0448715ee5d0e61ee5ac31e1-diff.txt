@@ -1,0 +1,12 @@
+Added Dependencies:
+ org.springframework:spring-context:6.0.10:jar:provided
+ org.springframework:spring-core:6.0.10:jar:provided
+ org.springframework:spring-aop:6.0.10:jar:provided
+ org.springframework:spring-jcl:6.0.10:jar:provided
+ org.springframework:spring-expression:6.0.10:jar:provided
+Removed Dependencies:
+ org.springframework:spring-context:5.3.23:jar:provided
+ org.springframework:spring-expression:5.3.23:jar:provided
+ org.springframework:spring-jcl:5.3.23:jar:provided
+ org.springframework:spring-core:5.3.23:jar:provided
+ org.springframework:spring-aop:5.3.23:jar:provided

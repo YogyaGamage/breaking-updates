@@ -1,0 +1,4 @@
+Added Dependencies:
+ eu.europa.ec.joinup.sd-dss:dss-pades-pdfbox:5.10.2:jar:compile
+Removed Dependencies:
+ eu.europa.ec.joinup.sd-dss:dss-pades-pdfbox:5.9:jar:compile

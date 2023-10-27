@@ -1,0 +1,5 @@
+Added Dependencies:
+ mysql:mysql-connector-java:8.0.28:jar:provided
+ com.google.protobuf:protobuf-java:3.11.4:jar:provided
+Removed Dependencies:
+ mysql:mysql-connector-java:5.1.49:jar:provided

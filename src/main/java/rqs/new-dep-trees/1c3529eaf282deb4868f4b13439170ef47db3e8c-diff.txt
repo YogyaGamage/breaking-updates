@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.3:jar:compile
+Removed Dependencies:
+ com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.4.0:jar:compile

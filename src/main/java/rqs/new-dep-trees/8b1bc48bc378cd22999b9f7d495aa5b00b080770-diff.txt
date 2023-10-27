@@ -1,0 +1,4 @@
+Added Dependencies:
+ io.jenkins.plugins:echarts-api:5.4.0-5:jar:compile
+Removed Dependencies:
+ io.jenkins.plugins:echarts-api:5.4.0-4:jar:compile

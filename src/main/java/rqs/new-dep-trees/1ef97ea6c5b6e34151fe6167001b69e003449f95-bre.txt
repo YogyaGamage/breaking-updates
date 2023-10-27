@@ -1,0 +1,97 @@
+com.github.knaufk:flink-faker:0.5.0:jar:compile
++- org.apache.flink:flink-table-api-java-bridge:1.15.0:jar:provided
+|  +- org.apache.flink:flink-table-api-java:1.15.0:jar:provided
+|  |  \- org.apache.flink:flink-table-common:1.15.0:jar:provided
+|  |     \- com.ibm.icu:icu4j:67.1:jar:provided
+|  +- org.apache.flink:flink-table-api-bridge-base:1.15.0:jar:provided
+|  +- org.apache.flink:flink-java:1.15.0:jar:provided
+|  |  +- org.apache.commons:commons-lang3:3.3.2:jar:provided
+|  |  \- com.twitter:chill-java:0.7.6:jar:provided
+|  +- com.google.code.findbugs:jsr305:1.3.9:jar:provided
+|  \- org.apache.flink:flink-shaded-force-shading:15.0:jar:provided
++- org.apache.flink:flink-streaming-java:1.15.0:jar:provided
+|  +- org.apache.flink:flink-core:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-annotations:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-metrics-core:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-shaded-asm-9:9.2-15.0:jar:provided
+|  |  +- com.esotericsoftware.kryo:kryo:2.24.0:jar:provided
+|  |  |  +- com.esotericsoftware.minlog:minlog:1.2:jar:provided
+|  |  |  \- org.objenesis:objenesis:2.1:jar:provided
+|  |  +- commons-collections:commons-collections:3.2.2:jar:provided
+|  |  \- org.apache.commons:commons-compress:1.21:jar:provided
+|  +- org.apache.flink:flink-file-sink-common:1.15.0:jar:provided
+|  +- org.apache.flink:flink-runtime:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-rpc-core:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-rpc-akka-loader:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-queryable-state-client-java:1.15.0:jar:provided
+|  |  +- org.apache.flink:flink-hadoop-fs:1.15.0:jar:provided
+|  |  +- commons-io:commons-io:2.11.0:jar:provided
+|  |  +- org.apache.flink:flink-shaded-netty:4.1.70.Final-15.0:jar:provided
+|  |  +- org.apache.flink:flink-shaded-jackson:2.12.4-15.0:jar:provided
+|  |  +- org.apache.flink:flink-shaded-zookeeper-3:3.5.9-15.0:jar:provided
+|  |  +- commons-cli:commons-cli:1.5.0:jar:provided
+|  |  +- org.javassist:javassist:3.24.0-GA:jar:provided
+|  |  +- org.xerial.snappy:snappy-java:1.1.8.3:jar:provided
+|  |  \- org.lz4:lz4-java:1.8.0:jar:provided
+|  +- org.apache.flink:flink-shaded-guava:30.1.1-jre-15.0:jar:provided
+|  \- org.apache.commons:commons-math3:3.6.1:jar:provided
++- net.datafaker:datafaker:1.4.0:jar:compile
+|  \- com.github.mifmif:generex:1.0.2:jar:compile
+|     \- dk.brics.automaton:automaton:1.11-8:jar:compile
++- org.apache.flink:flink-table-test-utils:1.15.0:jar:test
+|  +- org.apache.flink:flink-test-utils:1.15.0:jar:test
+|  |  +- org.apache.flink:flink-runtime:1.15.0:test-jar:test
+|  |  +- org.apache.flink:flink-core:1.15.0:test-jar:test
+|  |  +- org.apache.flink:flink-rpc-akka-loader:1.15.0:test-jar:test
+|  |  +- org.apache.flink:flink-clients:1.15.0:jar:test
+|  |  |  \- org.apache.flink:flink-optimizer:1.15.0:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter:5.8.1:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.1:jar:test
+|  |  |  \- org.junit.jupiter:junit-jupiter-engine:5.8.1:jar:test
+|  |  +- org.apache.curator:curator-test:5.2.0:jar:test
+|  |  |  +- org.apache.zookeeper:zookeeper:3.6.3:jar:test
+|  |  |  |  +- org.apache.zookeeper:zookeeper-jute:3.6.3:jar:test
+|  |  |  |  +- org.apache.yetus:audience-annotations:0.5.0:jar:test
+|  |  |  |  +- io.netty:netty-handler:4.1.63.Final:jar:test
+|  |  |  |  |  +- io.netty:netty-common:4.1.63.Final:jar:test
+|  |  |  |  |  +- io.netty:netty-resolver:4.1.63.Final:jar:test
+|  |  |  |  |  +- io.netty:netty-buffer:4.1.63.Final:jar:test
+|  |  |  |  |  +- io.netty:netty-transport:4.1.63.Final:jar:test
+|  |  |  |  |  \- io.netty:netty-codec:4.1.63.Final:jar:test
+|  |  |  |  +- io.netty:netty-transport-native-epoll:4.1.63.Final:jar:test
+|  |  |  |  |  \- io.netty:netty-transport-native-unix-common:4.1.63.Final:jar:test
+|  |  |  |  \- log4j:log4j:1.2.17:jar:test
+|  |  |  +- io.dropwizard.metrics:metrics-core:3.2.5:jar:test
+|  |  |  \- com.google.guava:guava:27.0.1-jre:jar:test
+|  |  |     +- com.google.guava:failureaccess:1.0.1:jar:test
+|  |  |     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  |  |     +- org.checkerframework:checker-qual:2.5.2:jar:test
+|  |  |     +- com.google.errorprone:error_prone_annotations:2.2.0:jar:test
+|  |  |     +- com.google.j2objc:j2objc-annotations:1.1:jar:test
+|  |  |     \- org.codehaus.mojo:animal-sniffer-annotations:1.17:jar:test
+|  |  \- org.apache.flink:flink-statebackend-changelog:1.15.0:jar:test
+|  +- org.apache.flink:flink-test-utils-junit:1.15.0:jar:test
+|  |  +- org.junit.vintage:junit-vintage-engine:5.8.1:jar:test
+|  |  |  +- org.junit.platform:junit-platform-engine:1.8.1:jar:test
+|  |  |  \- junit:junit:4.13.2:jar:test
+|  |  |     \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  \- org.testcontainers:testcontainers:1.16.2:jar:test
+|  |     +- org.rnorth.duct-tape:duct-tape:1.0.8:jar:test
+|  |     |  \- org.jetbrains:annotations:17.0.0:jar:test
+|  |     +- com.github.docker-java:docker-java-api:3.2.12:jar:test
+|  |     |  \- com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar:test
+|  |     \- com.github.docker-java:docker-java-transport-zerodep:3.2.12:jar:test
+|  |        +- com.github.docker-java:docker-java-transport:3.2.12:jar:test
+|  |        \- net.java.dev.jna:jna:5.8.0:jar:test
+|  +- org.apache.flink:flink-table-runtime:1.15.0:jar:test
+|  |  \- org.apache.flink:flink-cep:1.15.0:jar:test
+|  \- org.apache.flink:flink-table-planner-loader:1.15.0:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.assertj:assertj-core:3.22.0:jar:test
++- org.slf4j:slf4j-api:1.7.36:jar:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:2.17.2:jar:test
++- org.apache.logging.log4j:log4j-api:2.17.2:jar:test
+\- org.apache.logging.log4j:log4j-core:2.17.2:jar:test

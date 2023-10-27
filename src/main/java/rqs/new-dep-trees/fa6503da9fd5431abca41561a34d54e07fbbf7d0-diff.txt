@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.jsoup:jsoup:1.15.3:jar:compile
+Removed Dependencies:
+ org.jsoup:jsoup:1.14.2:jar:compile

@@ -1,0 +1,6 @@
+Added Dependencies:
+ ch.qos.logback:logback-core:1.4.4:jar:provided
+ ch.qos.logback:logback-classic:1.4.4:jar:provided
+Removed Dependencies:
+ ch.qos.logback:logback-classic:1.2.11:jar:provided
+ ch.qos.logback:logback-core:1.2.11:jar:provided

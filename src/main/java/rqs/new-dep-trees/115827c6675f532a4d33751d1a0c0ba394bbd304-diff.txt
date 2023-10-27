@@ -1,0 +1,4 @@
+Added Dependencies:
+ jakarta.servlet:jakarta.servlet-api:6.0.0:jar:provided
+Removed Dependencies:
+ jakarta.servlet:jakarta.servlet-api:4.0.4:jar:provided

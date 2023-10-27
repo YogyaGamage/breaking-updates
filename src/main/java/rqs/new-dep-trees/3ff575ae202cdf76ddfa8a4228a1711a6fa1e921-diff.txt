@@ -1,0 +1,7 @@
+Added Dependencies:
+ org.codehaus.plexus:plexus-container-default:2.1.1:jar:provided
+ org.apache.xbean:xbean-reflect:3.7:jar:provided
+ org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
+Removed Dependencies:
+ org.codehaus.plexus:plexus-container-default:1.0-alpha-30:jar:provided
+ org.codehaus.plexus:plexus-classworlds:1.2-alpha-9:jar:provided

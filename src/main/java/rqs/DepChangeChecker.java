@@ -25,10 +25,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class DepChangeChecker {
 
@@ -76,50 +73,48 @@ public class DepChangeChecker {
                 // Create directories to copy the project.
                 Path preProjectPath;
                 Path breakingProjectPath;
-                try {
-                    Path tempProject = Path.of("tempProject");
-                    preProjectPath = Files.createDirectories(tempProject
-                            .resolve(bu.get("breakingCommit") + "-pre"));
-                    breakingProjectPath = Files.createDirectories(tempProject
-                            .resolve(bu.get("breakingCommit") + "-breaking"));
-                } catch (IOException e) {
-                    log.error("Could not create directories to copy the project.");
-                    throw new RuntimeException(e);
-                }
-
-                String prevContainer = startContainer(prevImage);
-                String breakingContainer = startContainer(breakingImage);
-                copyProject(prevContainer, (String) bu.get("project"), preProjectPath);
-                copyProject(breakingContainer, (String) bu.get("project"), breakingProjectPath);
-                boolean isMultiModule = isMultiModuleMavenProject(String.valueOf(preProjectPath));
-                if (!isMultiModule || bu.get("failureCategory").equals("TEST_FAILURE")) {
+                if (!depCountResults.containsKey((String) bu.get("breakingCommit"))) {
                     try {
-                        if (!depCountResults.containsKey((String) bu.get("breakingCommit"))) {
-                            System.out.println("making tree");
-                            File preTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-pre.txt");
-                            downloadDepTree(preProjectPath.toAbsolutePath() + File.separator + bu.get("project"), preTreeFile.getAbsolutePath(), isMultiModule);
+                        Path tempProject = Path.of("tempProject");
+                        preProjectPath = Files.createDirectories(tempProject
+                                .resolve(bu.get("breakingCommit") + "-pre"));
+                        breakingProjectPath = Files.createDirectories(tempProject
+                                .resolve(bu.get("breakingCommit") + "-breaking"));
+                    } catch (IOException e) {
+                        log.error("Could not create directories to copy the project.");
+                        throw new RuntimeException(e);
+                    }
 
-                            File breTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-bre.txt");
-                            downloadDepTree(breakingProjectPath.toAbsolutePath() + File.separator + bu.get("project"), breTreeFile.getAbsolutePath(), isMultiModule);
+                    String prevContainer = startContainer(prevImage);
+                    String breakingContainer = startContainer(breakingImage);
+                    copyProject(prevContainer, (String) bu.get("project"), preProjectPath);
+                    copyProject(breakingContainer, (String) bu.get("project"), breakingProjectPath);
+                    try {
+                        System.out.println("making tree");
+                        File preTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-pre.txt");
+                        // downloadDepTree(preProjectPath.toAbsolutePath() + File.separator + bu.get("project"),
+                        //         preTreeFile.getParentFile().getAbsolutePath(), preTreeFile.getName());
 
-                            File diffFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-diff.txt");
+                        File breTreeFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-bre.txt");
+                        // downloadDepTree(breakingProjectPath.toAbsolutePath() + File.separator + bu.get("project"),
+                        //         breTreeFile.getParentFile().getAbsolutePath(), breTreeFile.getName());
 
-                            DependencyCounts allDepCounts = null;
+                        File diffFile = new File("src/main/java/rqs/new-dep-trees/" + bu.get("breakingCommit") + "-diff.txt");
 
-                            allDepCounts = countChangedDependencies(preTreeFile, breTreeFile, diffFile);
+                        DependencyCounts allDepCounts = null;
 
-                            depCount.put("artifactChanges", allDepCounts.artifactChanges);
-                            depCount.put("versionChanges", allDepCounts.versionChanges);
-                            depCount.put("scopeChanges", allDepCounts.scopeChanges);
-                            depCountResults.put((String) bu.get("breakingCommit"), depCount);
+                        allDepCounts = countChangedDependencies(preTreeFile, breTreeFile, diffFile);
 
-                            JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
-                        }
-                    } catch (IOException | InterruptedException e) {
+                        depCount.put("addedDeps", allDepCounts.addedDepCount);
+                        depCount.put("removedDeps", allDepCounts.removedDepCount);
+                        depCountResults.put((String) bu.get("breakingCommit"), depCount);
+
+                        JsonUtils.writeToFile(depCountResultsFilePath, depCountResults);
+                    } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    // removeProject(prevImage, breakingImage, preProjectPath, breakingProjectPath);
                 }
-                removeProject(prevImage, breakingImage, preProjectPath, breakingProjectPath);
             }
         }
     }
@@ -187,16 +182,23 @@ public class DepChangeChecker {
         }
     }
 
-    private void downloadDepTree(String projectPath, String treeFilePath, boolean isMultiModule) throws IOException, InterruptedException {
+    private void downloadDepTree(String projectPath, String treeFilePath, String treeFileName) throws IOException, InterruptedException {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        if (isMultiModule) {
-            processBuilder.command("mvn", "compile", "-f", projectPath,
-                    "dependency:tree", "-DoutputFile=" + treeFilePath, "-DappendOutput=true");
-        } else {
-            processBuilder.command("mvn", "-f", projectPath,
-                    "dependency:tree", "-DoutputFile=" + treeFilePath, "-DappendOutput=true");
-        }
+        System.out.println("sudo" + " mvn " + "-f " + projectPath + " depgraph:aggregate " + "-DgraphFormat=text " + "-Ddetail=true " +
+                "-DshowGroupIds=true " + "-DshowVersions=true " + "-DshowTypes=true " + "-DoutputDirectory=" + treeFilePath +
+                " -DoutputFileName=" + treeFileName);
+        processBuilder.command("sudo", "mvn", "-f", projectPath, "depgraph:aggregate", "-DgraphFormat=text", "-Ddetail=true",
+                "-DshowGroupIds=true", "-DshowVersions=true", "-DshowTypes=true", "-DoutputDirectory=" + treeFilePath,
+                "-DoutputFileName=" + treeFileName);
         Process process = processBuilder.start();
+
+        InputStream inStream = process.getInputStream();
+        InputStream errStream = process.getErrorStream();
+        try {
+            inStream.close();
+            errStream.close();
+        } catch (IOException e1) {
+        }
 
         int exitCode = process.waitFor();
         if (exitCode != 0) {
@@ -208,61 +210,47 @@ public class DepChangeChecker {
         System.out.println("deptree should be downloaded");
     }
 
-    private static DependencyCounts countChangedDependencies(File preTreeFile, File breTreeFile, File diffFile)
-            throws IOException {
-        List<String> differences = new ArrayList<>();
-
-        List<String> treeOutput1 = Files.readAllLines(preTreeFile.toPath());
-        List<String> treeOutput2 = Files.readAllLines(breTreeFile.toPath());
-
-        int artifactChanges = 0;
-        int versionChanges = 0;
-        int scopeChanges = 0;
-
-        int minSize = Math.min(treeOutput1.size(), treeOutput2.size());
-
-        for (int i = 1; i < minSize; i++) {
-            String line1 = treeOutput1.get(i);
-            String line2 = treeOutput2.get(i);
-
-            if (!line1.equals(line2)) {
-                differences.add("Difference:");
-                differences.add(line1);
-                differences.add(line2);
-                differences.add("");
-                String[] parts1 = line1.split(":");
-                String[] parts2 = line2.split(":");
-
-                if (parts1.length == 5 && parts2.length == 5) {
-                    String artifact1 = parts1[0].trim() + parts1[1].trim();
-                    String artifact2 = parts2[0].trim() + parts2[1].trim();
-
-                    String version1 = parts1[3].trim();
-                    String version2 = parts2[3].trim();
-
-                    String scope1 = parts1[4].trim();
-                    String scope2 = parts2[4].trim();
-
-                    if (!artifact1.equals(artifact2)) {
-                        artifactChanges++;
-                    } else if (!version1.equals(version2)) {
-                        versionChanges++;
-                    } else if (!scope1.equals(scope2)) {
-                        scopeChanges++;
-                    }
+    private static Set<String> readDependenciesFromFile(File treeFile) throws IOException {
+        Set<String> dependencies = new HashSet<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(treeFile))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split("-", 2);
+                if (parts.length >= 2) {
+                    dependencies.add(parts[1]);
                 }
             }
         }
+        return dependencies;
+    }
+
+    private static DependencyCounts countChangedDependencies(File preTreeFile, File breTreeFile, File diffFile)
+            throws IOException {
+
+        Set<String> dependencies1 = readDependenciesFromFile(preTreeFile);
+        Set<String> dependencies2 = readDependenciesFromFile(breTreeFile);
+
+        // Find the differences
+        Set<String> added = new HashSet<>(dependencies2);
+        added.removeAll(dependencies1);
+
+        Set<String> removed = new HashSet<>(dependencies1);
+        removed.removeAll(dependencies2);
 
         try (FileWriter writer = new FileWriter(diffFile)) {
-            for (String diff : differences) {
-                writer.write(diff + "\n");
+            writer.write("Added Dependencies:" + "\n");
+            for (String dep : added) {
+                writer.write(dep + "\n");
+            }
+            writer.write("Removed Dependencies:" + "\n");
+            for (String dep : removed) {
+                writer.write(dep + "\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return new DependencyCounts(artifactChanges, versionChanges, scopeChanges);
+        return new DependencyCounts(added.size(), removed.size());
     }
 
     private void removeProject(String prevImage, String breakingImage, Path preProjectPath, Path breProjectPath) {
@@ -306,14 +294,12 @@ public class DepChangeChecker {
     }
 
     public static class DependencyCounts {
-        int artifactChanges;
-        int versionChanges;
-        int scopeChanges;
+        int addedDepCount;
+        int removedDepCount;
 
-        DependencyCounts(int artifactChanges, int versionChanges, int scopeChanges) {
-            this.artifactChanges = artifactChanges;
-            this.versionChanges = versionChanges;
-            this.scopeChanges = scopeChanges;
+        DependencyCounts(int addedDepCount, int removedDepCount) {
+            this.addedDepCount = addedDepCount;
+            this.removedDepCount = removedDepCount;
         }
     }
 }

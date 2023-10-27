@@ -1,0 +1,9 @@
+Added Dependencies:
+ com.fasterxml.jackson.core:jackson-core:2.14.0:jar:compile
+ com.fasterxml.jackson.core:jackson-annotations:2.14.0:jar:compile
+ com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.14.0:jar:compile
+ org.flywaydb:flyway-core:9.16.3:jar:compile
+ com.fasterxml.jackson.core:jackson-databind:2.14.0:jar:compile
+ org.apache.commons:commons-text:1.10.0:jar:compile
+Removed Dependencies:
+ org.flywaydb:flyway-core:3.2.1:jar:compile

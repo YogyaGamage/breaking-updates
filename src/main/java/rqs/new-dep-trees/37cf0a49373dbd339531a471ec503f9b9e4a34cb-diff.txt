@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.maven:maven-artifact:3.8.4:jar:compile
+Removed Dependencies:
+ org.apache.maven:maven-artifact:3.8.3:jar:compile

@@ -1,0 +1,5 @@
+Added Dependencies:
+ org.glassfish.jersey.core:jersey-server:2.39.1:jar:provided
+Removed Dependencies:
+ org.glassfish.jersey.media:jersey-media-jaxb:2.32:jar:provided
+ org.glassfish.jersey.core:jersey-server:2.32:jar:provided

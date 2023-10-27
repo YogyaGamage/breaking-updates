@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.2:jar:compile
+Removed Dependencies:
+ org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.1:jar:compile

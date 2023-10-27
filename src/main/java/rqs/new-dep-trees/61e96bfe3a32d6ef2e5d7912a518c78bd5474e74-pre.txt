@@ -1,0 +1,97 @@
+com.pinterest.singer:singer:0.8.0.70:jar:compile
++- com.pinterest.singer:thrift-logger:0.8.0.70:jar:compile
+|  +- ch.qos.logback:logback-core:1.1.11:jar:compile
+|  +- org.junit.jupiter:junit-jupiter-api:5.3.1:jar:test
+|  |  +- org.apiguardian:apiguardian-api:1.0.0:jar:test
+|  |  +- org.opentest4j:opentest4j:1.1.1:jar:test
+|  |  \- org.junit.platform:junit-platform-commons:1.3.1:jar:test
+|  +- org.junit.jupiter:junit-jupiter-engine:5.3.1:jar:test
+|  |  \- org.junit.platform:junit-platform-engine:1.3.1:jar:test
+|  \- com.pinterest.singer:singer-commons:0.8.0.70:jar:compile
+|     +- com.twitter:ostrich_2.11:9.27.0:jar:compile
+|     |  +- org.scala-lang:scala-library:2.11.8:jar:compile
+|     |  +- com.twitter:util-core_2.11:6.43.0:jar:compile
+|     |  |  +- com.twitter:util-function_2.11:6.43.0:jar:compile
+|     |  |  +- org.scala-lang:scala-reflect:2.11.8:jar:compile
+|     |  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar:compile
+|     |  +- com.twitter:util-eval_2.11:6.43.0:jar:compile
+|     |  |  \- org.scala-lang:scala-compiler:2.11.8:jar:compile
+|     |  |     \- org.scala-lang.modules:scala-xml_2.11:1.0.4:jar:compile
+|     |  +- com.twitter:util-logging_2.11:6.43.0:jar:compile
+|     |  |  +- com.twitter:util-app_2.11:6.43.0:jar:compile
+|     |  |  |  \- com.twitter:util-registry_2.11:6.43.0:jar:compile
+|     |  |  \- com.twitter:util-stats_2.11:6.43.0:jar:compile
+|     |  |     +- com.twitter:util-lint_2.11:6.43.0:jar:compile
+|     |  |     \- com.github.ben-manes.caffeine:caffeine:2.3.4:jar:compile
+|     |  +- com.twitter:util-jvm_2.11:6.43.0:jar:compile
+|     |  +- com.fasterxml.jackson.core:jackson-annotations:2.8.4:jar:compile
+|     |  +- com.fasterxml.jackson.core:jackson-databind:2.8.4:jar:compile
+|     |  |  \- com.fasterxml.jackson.core:jackson-core:2.8.4:jar:compile
+|     |  \- com.fasterxml.jackson.module:jackson-module-scala_2.11:2.8.4:jar:compile
+|     |     \- com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4:jar:compile
+|     |        \- com.thoughtworks.paranamer:paranamer:2.8:jar:compile
+|     +- com.twitter.common:base:0.0.115:jar:compile
+|     |  +- com.twitter.common:quantity:0.0.99:jar:compile
+|     |  |  \- com.twitter.common:collections:0.0.110:jar:compile
+|     |  +- com.twitter.common:util-system-mocks:0.0.104:jar:compile
+|     |  +- com.google.guava:guava:25.0-jre:jar:compile
+|     |  |  +- org.checkerframework:checker-compat-qual:2.0.0:jar:compile
+|     |  |  +- com.google.errorprone:error_prone_annotations:2.1.3:jar:compile
+|     |  |  +- com.google.j2objc:j2objc-annotations:1.1:jar:compile
+|     |  |  \- org.codehaus.mojo:animal-sniffer-annotations:1.14:jar:compile
+|     |  \- com.google.code.findbugs:jsr305:2.0.1:jar:compile
+|     +- commons-configuration:commons-configuration:1.9:jar:compile
+|     |  \- commons-logging:commons-logging:1.1.3:jar:compile
+|     +- org.apache.kafka:kafka-clients:2.3.1:jar:compile
+|     |  +- com.github.luben:zstd-jni:1.4.0-1:jar:compile
+|     |  +- org.lz4:lz4-java:1.6.0:jar:compile
+|     |  \- org.xerial.snappy:snappy-java:1.1.7.3:jar:compile
+|     +- org.junit.jupiter:junit-jupiter-api:5.3.1:jar:test
+|     +- org.junit.jupiter:junit-jupiter-engine:5.3.1:jar:test
+|     +- org.apache.thrift:libthrift:0.12.0:jar:compile
+|     |  +- org.apache.httpcomponents:httpclient:4.5.6:jar:compile
+|     |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|     |  |  \- commons-logging:commons-logging:1.1.3:jar:compile
+|     |  \- org.apache.httpcomponents:httpcore:4.4.1:jar:compile
+|     +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|     \- commons-lang:commons-lang:2.6:jar:compile
++- com.google.code.gson:gson:2.8.2:jar:compile
++- commons-cli:commons-cli:1.4:jar:compile
++- com.amazonaws:aws-java-sdk-core:1.12.205:jar:compile
+|  +- commons-logging:commons-logging:1.1.3:jar:compile
+|  +- commons-codec:commons-codec:1.15:jar:compile
+|  +- software.amazon.ion:ion-java:1.0.2:jar:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.12.6:jar:compile
+|  \- joda-time:joda-time:2.8.1:jar:compile
++- commons-io:commons-io:2.4:jar:compile
++- org.apache.logging.log4j:log4j-core:2.16.0:jar:compile
+|  \- org.apache.logging.log4j:log4j-api:2.16.0:jar:compile
++- org.slf4j:jcl-over-slf4j:1.7.25:jar:compile
++- org.slf4j:slf4j-log4j12:1.7.25:jar:compile
+|  \- log4j:log4j:1.2.17:jar:compile
++- junit:junit:4.13.1:jar:test
++- org.hamcrest:hamcrest-all:1.1:jar:test
++- com.github.stefanbirkner:system-rules:1.19.0:jar:test
++- org.apache.pulsar:pulsar-client:2.3.2:jar:compile
+|  +- org.apache.pulsar:pulsar-client-api:2.3.2:jar:compile
+|  +- org.apache.pulsar:protobuf-shaded:2.1.0-incubating:jar:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:1.60:jar:compile
+|  +- org.bouncycastle:bcprov-jdk15on:1.60:jar:compile
+|  +- com.sun.activation:javax.activation:1.2.0:jar:compile
+|  \- javax.validation:validation-api:1.1.0.Final:jar:compile
++- org.mockito:mockito-all:1.10.19:jar:test
++- com.amazonaws:aws-java-sdk-s3:1.11.35:jar:compile
+|  +- com.amazonaws:aws-java-sdk-kms:1.11.35:jar:compile
+|  \- com.amazonaws:jmespath-java:1.0:jar:compile
++- com.salesforce.kafka.test:kafka-junit4:3.2.0:jar:test
+|  +- com.salesforce.kafka.test:kafka-junit-core:3.2.0:jar:test
+|  \- org.apache.curator:curator-test:2.12.0:jar:test
+|     +- org.apache.zookeeper:zookeeper:3.4.8:jar:test
+|     |  +- jline:jline:0.9.94:jar:test
+|     |  \- io.netty:netty:3.7.0.Final:jar:test
+|     \- org.javassist:javassist:3.18.1-GA:jar:test
++- io.dropwizard.metrics:metrics-core:4.0.2:jar:compile
++- com.kohlschutter.junixsocket:junixsocket-core:2.4.0:pom:compile
+|  +- com.kohlschutter.junixsocket:junixsocket-native-common:2.4.0:jar:compile
+|  \- com.kohlschutter.junixsocket:junixsocket-common:2.4.0:jar:compile
+\- com.kohlschutter.junixsocket:junixsocket-server:2.4.0:jar:compile

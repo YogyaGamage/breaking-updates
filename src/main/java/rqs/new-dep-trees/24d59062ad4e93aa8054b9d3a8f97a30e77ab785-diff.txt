@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.logging.log4j:log4j-api:2.19.0:jar:compile
+Removed Dependencies:
+ org.apache.logging.log4j:log4j-api:2.16.0:jar:compile

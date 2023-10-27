@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.glassfish.tyrus.bundles:tyrus-standalone-client-jdk:2.1.0:jar:compile
+Removed Dependencies:
+ org.glassfish.tyrus.bundles:tyrus-standalone-client-jdk:1.19:jar:compile

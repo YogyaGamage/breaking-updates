@@ -1,0 +1,50 @@
+se.vandmo:dependency-lock-maven-plugin:0-SNAPSHOT:maven-plugin:compile
++- org.apache.maven:maven-plugin-api:3.8.5:jar:provided
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:jar:compile
+|  |  \- javax.annotation:javax.annotation-api:1.2:jar:compile
+|  +- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
+|  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:compile
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4:jar:compile
++- org.apache.maven:maven-artifact:3.8.5:jar:provided
++- org.apache.maven:maven-core:3.8.5:jar:provided
+|  +- org.apache.maven:maven-settings:3.8.5:jar:provided
+|  +- org.apache.maven:maven-settings-builder:3.8.5:jar:provided
+|  |  \- org.codehaus.plexus:plexus-sec-dispatcher:2.0:jar:provided
+|  |     \- org.codehaus.plexus:plexus-cipher:2.0:jar:provided
+|  +- org.apache.maven:maven-builder-support:3.8.5:jar:provided
+|  +- org.apache.maven:maven-repository-metadata:3.8.5:jar:provided
+|  +- org.apache.maven:maven-model-builder:3.8.5:jar:provided
+|  +- org.apache.maven:maven-resolver-provider:3.8.5:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-impl:1.6.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-api:1.6.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-spi:1.6.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-util:1.6.3:jar:provided
+|  +- org.apache.maven.shared:maven-shared-utils:3.3.4:jar:compile
+|  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:compile
+|  +- com.google.inject:guice:4.2.2:jar:provided
+|  |  +- aopalliance:aopalliance:1.0:jar:provided
+|  |  \- com.google.guava:guava:31.1-jre:jar:provided
+|  |     +- com.google.guava:failureaccess:1.0.1:jar:provided
+|  |     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:provided
+|  |     +- com.google.code.findbugs:jsr305:3.0.2:jar:provided
+|  |     +- org.checkerframework:checker-qual:3.12.0:jar:provided
+|  |     +- com.google.errorprone:error_prone_annotations:2.11.0:jar:provided
+|  |     \- com.google.j2objc:j2objc-annotations:1.3:jar:provided
+|  +- javax.inject:javax.inject:1:jar:provided
+|  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:provided
+|  +- org.codehaus.plexus:plexus-component-annotations:2.1.0:jar:compile
+|  \- org.slf4j:slf4j-api:1.7.32:jar:provided
++- com.fasterxml.jackson.core:jackson-core:2.13.4:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.4.2:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:2.13.4:jar:compile
++- com.fasterxml.woodstox:woodstox-core:6.4.0:jar:compile
++- org.codehaus.woodstox:stax2-api:4.2.1:jar:compile
++- org.freemarker:freemarker:2.3.31:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.apache.maven.shared:maven-common-artifact-filters:3.2.0:jar:compile
+|  +- org.eclipse.aether:aether-api:0.9.0.M2:jar:compile
+|  \- org.eclipse.aether:aether-util:0.9.0.M2:jar:compile
++- org.apache.maven:maven-model:3.8.5:jar:provided
++- commons-io:commons-io:2.11.0:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.hamcrest:hamcrest:2.2:jar:test

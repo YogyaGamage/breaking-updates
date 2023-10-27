@@ -1,0 +1,46 @@
+com.jcabi:jcabi-ssh:2.0-SNAPSHOT:jar:compile
++- org.projectlombok:lombok:1.18.28:jar:provided
++- com.jcabi:jcabi-aspects:0.24.1:jar:compile
+|  +- org.aspectj:aspectjrt:1.9.9.1:jar:compile
+|  \- javax.validation:validation-api:2.0.1.Final:jar:compile
++- com.jcabi:jcabi-log:0.23.0:jar:compile
++- org.cactoos:cactoos:0.55.0:jar:compile
++- com.google.guava:guava:32.0.0-jre:jar:test
+|  +- com.google.guava:failureaccess:1.0.1:jar:test
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:test
+|  +- org.checkerframework:checker-qual:3.33.0:jar:test
+|  +- com.google.errorprone:error_prone_annotations:2.18.0:jar:test
+|  \- com.google.j2objc:j2objc-annotations:2.8:jar:test
++- com.github.mwiede:jsch:0.2.9:jar:compile
++- org.apache.sshd:sshd-core:2.10.0:jar:compile (optional)
+|  \- org.slf4j:jcl-over-slf4j:1.7.32:jar:compile (optional)
++- org.apache.sshd:sshd-common:2.9.2:jar:compile (optional)
++- org.slf4j:slf4j-api:2.0.7:jar:test
++- org.slf4j:slf4j-reload4j:2.0.7:jar:test
+|  \- ch.qos.reload4j:reload4j:1.2.22:jar:test
++- log4j:log4j:1.2.17:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.9.0:jar:test
+|  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  +- org.junit.platform:junit-platform-commons:1.9.0:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.testcontainers:testcontainers:1.18.1:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  +- org.apache.commons:commons-compress:1.23.0:jar:test
+|  +- org.rnorth.duct-tape:duct-tape:1.0.8:jar:test
+|  |  \- org.jetbrains:annotations:17.0.0:jar:test
+|  +- com.github.docker-java:docker-java-api:3.3.0:jar:test
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar:test
+|  \- com.github.docker-java:docker-java-transport-zerodep:3.3.0:jar:test
+|     +- com.github.docker-java:docker-java-transport:3.3.0:jar:test
+|     \- net.java.dev.jna:jna:5.12.1:jar:test
++- org.testcontainers:junit-jupiter:1.18.1:jar:test
++- org.hamcrest:hamcrest-core:2.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.9.0:jar:test
+|  \- org.junit.platform:junit-platform-engine:1.9.0:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.9.0:jar:test
++- org.hamcrest:hamcrest:2.2:jar:test
+\- org.mockito:mockito-core:4.7.0:jar:test
+   +- net.bytebuddy:byte-buddy:1.12.13:jar:test
+   +- net.bytebuddy:byte-buddy-agent:1.12.13:jar:test
+   \- org.objenesis:objenesis:3.2:jar:test

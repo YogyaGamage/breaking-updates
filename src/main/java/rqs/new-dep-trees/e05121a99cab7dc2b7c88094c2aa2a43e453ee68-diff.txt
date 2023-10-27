@@ -1,0 +1,9 @@
+Added Dependencies:
+ org.apache.arrow:arrow-format:8.0.0:jar:compile
+ com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2:jar:compile
+ io.netty:netty-common:4.1.72.Final:jar:compile
+ org.apache.arrow:arrow-vector:8.0.0:jar:compile
+Removed Dependencies:
+ io.netty:netty-common:4.1.68.Final:jar:compile
+ org.apache.arrow:arrow-vector:7.0.0:jar:compile
+ org.apache.arrow:arrow-format:7.0.0:jar:compile

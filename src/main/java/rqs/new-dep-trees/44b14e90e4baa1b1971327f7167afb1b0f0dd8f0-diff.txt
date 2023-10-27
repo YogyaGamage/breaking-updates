@@ -1,0 +1,4 @@
+Added Dependencies:
+ io.jenkins.plugins:jquery3-api:3.7.0-1:jar:compile
+Removed Dependencies:
+ io.jenkins.plugins:jquery3-api:3.6.0-4:jar:compile

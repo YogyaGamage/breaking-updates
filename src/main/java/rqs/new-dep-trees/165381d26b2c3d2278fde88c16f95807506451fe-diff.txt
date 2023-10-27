@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.github.javaparser:javaparser-core:3.24.0:jar:compile
+Removed Dependencies:
+ com.github.javaparser:javaparser-core:3.18.0:jar:compile

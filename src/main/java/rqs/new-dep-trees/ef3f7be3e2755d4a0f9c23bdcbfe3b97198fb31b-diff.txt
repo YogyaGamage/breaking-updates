@@ -1,0 +1,7 @@
+Added Dependencies:
+ org.tinspin:tinspin-indexes:2.0.0:jar:compile
+Removed Dependencies:
+ junit:junit:4.10:jar:compile
+ org.tinspin:tinspin-indexes:1.7.1:jar:compile
+ org.hamcrest:hamcrest-core:1.1:jar:compile
+ ch.ethz.globis.phtree:phtree:2.8.0:jar:compile

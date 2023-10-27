@@ -1,0 +1,84 @@
+me.geso:avans-jmh:2.5.1-SNAPSHOT:jar:compile
++- me.geso:avans:2.5.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |     \- org.hamcrest:hamcrest:2.2:jar:test
+|  +- org.hamcrest:hamcrest-core:1.3:jar:test
+|  +- com.fasterxml.jackson.core:jackson-core:2.4.2:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:2.3.3:jar:compile
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar:compile
+|  +- javax.servlet:javax.servlet-api:4.0.1:jar:provided
+|  +- org.projectlombok:lombok:1.18.24:jar:provided
+|  +- me.geso:routes:0.6.0:jar:compile
+|  +- me.geso:webscrew:0.11.1:jar:compile
+|  +- me.geso:mech:0.11.8:jar:test
+|  |  +- org.eclipse.jetty:jetty-server:9.2.3.v20140905:jar:test
+|  |  |  +- org.eclipse.jetty:jetty-http:9.2.3.v20140905:jar:test
+|  |  |  |  \- org.eclipse.jetty:jetty-util:9.2.3.v20140905:jar:test
+|  |  |  +- org.eclipse.jetty:jetty-io:9.2.3.v20140905:jar:test
+|  |  |  \- javax.servlet:javax.servlet-api:3.1.0:jar:test
+|  |  +- org.eclipse.jetty:jetty-servlet:9.2.3.v20140905:jar:test
+|  |  |  \- org.eclipse.jetty:jetty-security:9.2.3.v20140905:jar:test
+|  |  +- org.apache.httpcomponents:httpmime:4.3.5:jar:test
+|  |  \- me.geso:tinyvalidator:0.6.0:jar:test
+|  |     \- commons-validator:commons-validator:1.4.0:jar:test
+|  |        +- commons-beanutils:commons-beanutils:1.8.3:jar:test
+|  |        \- commons-digester:commons-digester:1.8:jar:test
+|  +- me.geso:mech2:0.3.0:jar:test
+|  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  |  |  +- commons-logging:commons-logging:1.2:jar:compile
+|  |  |  \- commons-codec:commons-codec:1.11:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.3.3:jar:compile
+|  |  \- org.apache.httpcomponents:httpmime:4.3.5:jar:test
+|  +- me.geso:servlettester-jetty:0.0.2:jar:test
+|  |  +- commons-io:commons-io:2.4:jar:test
+|  |  \- org.eclipse.jetty:jetty-servlet:9.2.3.v20140905:jar:test
+|  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  +- org.slf4j:slf4j-simple:1.7.36:jar:test
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  \- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
++- javax.servlet:javax.servlet-api:4.0.1:jar:compile
++- org.openjdk.jmh:jmh-core:1.17.4:jar:compile
+|  +- net.sf.jopt-simple:jopt-simple:4.6:jar:compile
+|  \- org.apache.commons:commons-math3:3.2:jar:compile
+\- org.openjdk.jmh:jmh-generator-annprocess:1.17.4:jar:compile
+me.geso:avans-freemarker:2.5.1-SNAPSHOT:jar:compile
++- junit:junit:4.13.2:jar:test
++- me.geso:avans:2.5.1-SNAPSHOT:jar:compile
++- org.freemarker:freemarker:2.3.31:jar:compile
++- me.geso:mech:0.11.8:jar:test
+\- org.slf4j:slf4j-simple:1.7.36:jar:test
+me.geso:avans-tinyvalidator:2.5.1-SNAPSHOT:jar:compile
++- junit:junit:4.13.2:jar:test
++- me.geso:tinyvalidator:0.8.0:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  \- commons-validator:commons-validator:1.4.0:jar:compile
+|     +- commons-beanutils:commons-beanutils:1.8.3:jar:compile
+|     +- commons-digester:commons-digester:1.8:jar:compile
+|     \- commons-logging:commons-logging:1.2:jar:compile
++- me.geso:servlettester-jetty:0.0.2:jar:test
++- me.geso:mech2:0.3.0:jar:test
++- me.geso:avans:2.5.1-SNAPSHOT:jar:compile
++- me.geso:mech:0.11.8:jar:test
+\- org.slf4j:slf4j-simple:1.7.36:jar:test
+me.geso:avans-session-spymemcached:2.5.1-SNAPSHOT:jar:compile
++- junit:junit:4.13.2:jar:test
++- me.geso:avans-session:2.5.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  +- me.geso:avans:2.5.1-SNAPSHOT:jar:compile
+|  +- me.geso:mech:0.11.8:jar:test
+|  +- me.geso:mech2:0.3.0:jar:test
+|  \- org.slf4j:slf4j-simple:1.7.36:jar:test
++- com.thimbleware.jmemcached:jmemcached-core:1.0.0:jar:test
+|  \- org.jboss.netty:netty:3.2.3.Final:jar:test
++- net.spy:spymemcached:2.12.3:jar:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.4.0:jar:compile
++- org.slf4j:slf4j-simple:1.7.36:jar:test
+\- me.geso:mech:0.11.8:jar:test

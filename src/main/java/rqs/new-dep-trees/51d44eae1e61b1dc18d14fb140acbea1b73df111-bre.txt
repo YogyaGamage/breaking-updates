@@ -1,0 +1,67 @@
+org.simplify4u.plugins:pgpverify-maven-plugin:1.16.1-SNAPSHOT:maven-plugin:compile
++- org.apache.maven:maven-artifact:3.5.0:jar:provided
++- org.apache.maven:maven-core:3.5.0:jar:provided
+|  +- org.apache.maven:maven-settings-builder:3.5.0:jar:provided
+|  |  \- org.apache.maven:maven-builder-support:3.5.0:jar:provided
+|  +- org.apache.maven:maven-repository-metadata:3.5.0:jar:provided
+|  +- org.apache.maven:maven-model-builder:3.5.0:jar:provided
+|  +- org.apache.maven:maven-resolver-provider:3.5.0:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-impl:1.0.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-api:1.0.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-spi:1.0.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-util:1.0.3:jar:provided
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
+|  |  +- javax.enterprise:cdi-api:1.0:jar:provided
+|  |  |  \- javax.annotation:jsr250-api:1.0:jar:provided
+|  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:provided
+|  +- com.google.inject:guice:4.0:jar:provided
+|  |  \- aopalliance:aopalliance:1.0:jar:provided
+|  +- org.codehaus.plexus:plexus-interpolation:1.24:jar:provided
+|  +- org.codehaus.plexus:plexus-classworlds:2.7.0:jar:provided
+|  +- org.codehaus.plexus:plexus-component-annotations:2.1.1:jar:provided
+|  \- org.sonatype.plexus:plexus-sec-dispatcher:1.4:jar:provided
+|     \- org.sonatype.plexus:plexus-cipher:1.4:jar:provided
++- org.apache.maven:maven-model:3.5.0:jar:provided
++- org.apache.maven:maven-plugin-api:3.5.0:jar:provided
++- org.apache.maven:maven-settings:3.5.0:jar:provided
++- commons-io:commons-io:2.11.0:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.apache.httpcomponents:httpcore:4.4.16:jar:compile
++- org.apache.httpcomponents:httpclient:4.5.14:jar:compile
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  \- commons-codec:commons-codec:1.11:jar:compile
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.7.0:jar:provided
++- org.apache.maven.shared:maven-shared-utils:3.3.4:jar:compile
++- org.bouncycastle:bcpg-jdk15on:1.70:jar:compile
++- org.bouncycastle:bcprov-jdk15on:1.70:jar:compile
++- org.codehaus.plexus:plexus-utils:3.5.0:jar:compile
++- org.codehaus.plexus:plexus-resources:1.2.0:jar:compile
++- com.fasterxml.jackson.core:jackson-annotations:2.13.3:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.3:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-core:2.13.3:jar:compile
++- com.google.guava:guava:31.1-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
++- io.github.resilience4j:resilience4j-core:1.7.1:jar:compile
++- io.github.resilience4j:resilience4j-retry:1.7.1:jar:compile
++- io.vavr:vavr:0.10.4:jar:compile
+|  \- io.vavr:vavr-match:0.10.4:jar:compile
++- javax.inject:javax.inject:1:jar:compile
++- org.projectlombok:lombok:1.18.24:jar:provided
++- org.slf4j:slf4j-api:1.7.36:jar:compile
++- org.assertj:assertj-core:3.24.0:jar:test
+|  \- net.bytebuddy:byte-buddy:1.12.20:jar:test
++- org.mockito:mockito-core:4.6.1:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.12.10:jar:test
+|  \- org.objenesis:objenesis:3.2:jar:test
++- org.mockito:mockito-inline:4.6.1:jar:test
++- org.mockito:mockito-testng:0.4.31:jar:test
++- org.simplify4u:slf4j-mock:2.3.0:jar:test
+|  \- org.simplify4u:slf4j-mock-common:2.3.0:jar:test
+\- org.testng:testng:7.4.0:jar:test
+   +- com.beust:jcommander:1.78:jar:test
+   \- org.webjars:jquery:3.5.1:jar:test

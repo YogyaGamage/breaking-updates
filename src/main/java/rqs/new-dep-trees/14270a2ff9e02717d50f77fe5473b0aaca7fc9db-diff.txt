@@ -1,0 +1,4 @@
+Added Dependencies:
+ io.jenkins.plugins:commons-text-api:1.10.0-36.vc008c8fcda_7b_:jar:compile
+Removed Dependencies:
+ io.jenkins.plugins:commons-text-api:1.10.0-27.vb_fa_3896786a_7:jar:compile

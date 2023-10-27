@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.apache.mina:mina-core:2.2.1:jar:compile
+Removed Dependencies:
+ org.apache.mina:mina-core:2.1.5:jar:compile

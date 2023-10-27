@@ -1,0 +1,90 @@
+com.artipie:docker-adapter:1.0-SNAPSHOT:jar:compile
++- javax.json:javax.json-api:1.1.4:jar:compile
++- com.artipie:asto-core:v1.15.4:jar:compile
+|  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  +- com.google.guava:guava:30.1.1-jre:jar:compile
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.8.0:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.5.1:jar:compile
+|  |  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  +- com.amihaiemil.web:eo-yaml:7.0.1:jar:compile
+|  +- org.reflections:reflections:0.10.2:jar:compile
+|  |  \- org.javassist:javassist:3.28.0-GA:jar:compile
+|  +- com.github.akarnokd:rxjava2-extensions:0.20.10:jar:compile
+|  |  \- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|  +- org.cqfn:rio:0.3:jar:compile
+|  |  \- org.jctools:jctools-core:3.1.0:jar:compile
+|  +- io.github.resilience4j:resilience4j-retry:1.7.1:jar:compile
+|  |  +- io.vavr:vavr:0.10.2:jar:compile
+|  |  |  \- io.vavr:vavr-match:0.10.2:jar:compile
+|  |  \- io.github.resilience4j:resilience4j-core:1.7.1:jar:compile
+|  +- org.testng:testng:7.3.0:jar:compile
+|  |  +- com.beust:jcommander:1.78:jar:compile
+|  |  +- org.apache.ant:ant:1.10.3:jar:compile
+|  |  |  \- org.apache.ant:ant-launcher:1.10.3:jar:compile
+|  |  +- junit:junit:4.12:jar:compile
+|  |  |  \- org.hamcrest:hamcrest-core:1.3:jar:compile
+|  |  +- com.google.inject:guice:4.2.2:jar:compile
+|  |  |  +- javax.inject:javax.inject:1:jar:compile
+|  |  |  \- aopalliance:aopalliance:1.0:jar:compile
+|  |  \- org.yaml:snakeyaml:1.21:jar:compile
+|  \- commons-codec:commons-codec:1.15:jar:compile
++- com.github.akarnokd:rxjava2-jdk8-interop:0.3.7:jar:compile
+|  \- io.reactivex.rxjava2:rxjava:2.2.10:jar:compile
++- com.artipie:http:v1.1.4:jar:compile
+|  +- org.apache.commons:commons-collections4:4.4:jar:compile
+|  +- wtf.g4s8:mime:v2.3.2+java8:jar:compile
+|  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  +- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  +- org.apache.httpcomponents.client5:httpclient5:5.1.2:jar:compile
+|  |  +- org.apache.httpcomponents.core5:httpcore5:5.1.2:jar:compile
+|  |  \- org.apache.httpcomponents.core5:httpcore5-h2:5.1.2:jar:compile
+|  \- org.apache.httpcomponents.client5:httpclient5-fluent:5.1.3:jar:compile
++- com.artipie:http-client:0.3.9:jar:compile
+|  \- org.eclipse.jetty:jetty-reactive-httpclient:1.1.10:jar:compile
+|     \- org.eclipse.jetty:jetty-client:9.4.43.v20210629:jar:compile
+|        +- org.eclipse.jetty:jetty-http:9.4.43.v20210629:jar:compile
+|        |  \- org.eclipse.jetty:jetty-util:9.4.43.v20210629:jar:compile
+|        \- org.eclipse.jetty:jetty-io:9.4.43.v20210629:jar:compile
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  \- org.junit.platform:junit-platform-engine:1.8.2:jar:test
++- org.hamcrest:hamcrest:2.2:jar:test
++- org.glassfish:javax.json:1.1.4:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- log4j:log4j:1.2.17:jar:test
++- com.artipie:vertx-server:0.5:jar:test
+|  +- io.vertx:vertx-rx-java2:4.2.3:jar:test
+|  |  +- io.vertx:vertx-core:4.2.3:jar:test
+|  |  |  +- io.netty:netty-common:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-buffer:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-transport:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-handler:4.1.72.Final:jar:test
+|  |  |  |  +- io.netty:netty-codec:4.1.72.Final:jar:test
+|  |  |  |  \- io.netty:netty-tcnative-classes:2.0.46.Final:jar:test
+|  |  |  +- io.netty:netty-handler-proxy:4.1.72.Final:jar:test
+|  |  |  |  \- io.netty:netty-codec-socks:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-codec-http:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-codec-http2:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-resolver:4.1.72.Final:jar:test
+|  |  |  +- io.netty:netty-resolver-dns:4.1.72.Final:jar:test
+|  |  |  |  \- io.netty:netty-codec-dns:4.1.72.Final:jar:test
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:2.13.1:jar:test
+|  |  +- io.vertx:vertx-rx-java2-gen:4.2.3:jar:test
+|  |  \- io.vertx:vertx-rx-gen:4.2.3:jar:test
+|  |     \- io.vertx:vertx-codegen:4.2.3:jar:test
+|  \- com.jcabi:jcabi-log:0.20.1:jar:compile
+|     \- org.mockito:mockito-core:3.4.6:jar:compile
+|        +- net.bytebuddy:byte-buddy:1.10.13:jar:compile
+|        +- net.bytebuddy:byte-buddy-agent:1.10.13:jar:compile
+|        \- org.objenesis:objenesis:2.6:jar:compile
++- wtf.g4s8:matchers-json:1.4.0:jar:test
++- org.cactoos:cactoos:0.50:jar:test
++- com.google.code.findbugs:annotations:3.0.1u2:jar:provided
+\- org.slf4j:slf4j-api:1.7.32:jar:provided

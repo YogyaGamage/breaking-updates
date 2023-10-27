@@ -1,0 +1,62 @@
+de.uniwue:ocr4all:0.6.1:war:compile
++- junit:junit:4.13.1:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.springframework:spring-core:4.3.18.RELEASE:jar:compile
+|  \- commons-logging:commons-logging:1.2:jar:compile
++- org.springframework:spring-web:4.3.18.RELEASE:jar:compile
+|  +- org.springframework:spring-aop:4.3.18.RELEASE:jar:compile
+|  +- org.springframework:spring-beans:4.3.18.RELEASE:jar:compile
+|  \- org.springframework:spring-context:4.3.18.RELEASE:jar:compile
++- org.springframework:spring-webmvc:4.3.18.RELEASE:jar:compile
+|  \- org.springframework:spring-expression:4.3.18.RELEASE:jar:compile
++- jstl:jstl:1.2:jar:compile
++- taglibs:standard:1.1.2:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.4.1:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:2.13.4:jar:compile
++- com.fasterxml.jackson.core:jackson-core:2.10.0:jar:compile
++- commons-io:commons-io:2.7:jar:compile
++- org.apache.commons:commons-exec:1.3:jar:compile
++- javax.servlet:javax.servlet-api:3.1.0:jar:provided
++- javax.servlet:jsp-api:2.0:jar:provided
+|  \- javax.servlet:servlet-api:2.4:jar:provided
++- org.openpnp:opencv:3.2.0-1:jar:compile
++- org.apache.pdfbox:pdfbox:2.0.24:jar:compile
+|  \- org.apache.pdfbox:fontbox:2.0.24:jar:compile
++- org.apache.pdfbox:pdfbox-tools:2.0.19:jar:compile
+|  \- org.apache.pdfbox:pdfbox-debugger:2.0.19:jar:compile
++- org.apache.pdfbox:jbig2-imageio:3.0.3:jar:compile
++- com.github.jai-imageio:jai-imageio-core:1.4.0:jar:compile
++- com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0:jar:compile
++- javax.xml.bind:jaxb-api:2.3.1:jar:compile
+|  \- javax.activation:javax.activation-api:1.2.0:jar:compile
++- org.docx4j:docx4j-JAXB-Internal:8.3.1:jar:compile
+|  +- org.docx4j:docx4j-core:8.3.1:jar:compile
+|  |  +- org.docx4j:docx4j-openxml-objects:8.3.1:jar:compile
+|  |  +- org.docx4j:docx4j-openxml-objects-pml:8.3.1:jar:compile
+|  |  +- org.docx4j:docx4j-openxml-objects-sml:8.3.1:jar:compile
+|  |  +- org.plutext:jaxb-svg11:1.0.2:jar:compile
+|  |  +- net.engio:mbassador:1.3.2:jar:compile
+|  |  +- org.slf4j:jcl-over-slf4j:1.7.26:jar:compile
+|  |  +- org.apache.commons:commons-lang3:3.9:jar:compile
+|  |  +- org.apache.commons:commons-compress:1.20:jar:compile
+|  |  +- commons-codec:commons-codec:1.12:jar:compile
+|  |  +- org.apache.xmlgraphics:xmlgraphics-commons:2.3:jar:compile
+|  |  +- org.docx4j.org.apache:xalan-metainf:8.0.0:jar:compile
+|  |  +- org.docx4j.org.apache:xalan-interpretive:8.0.0:jar:compile
+|  |  |  \- org.docx4j.org.apache:xalan-serializer:8.0.0:jar:compile
+|  |  +- net.arnx:wmf2svg:0.9.8:jar:compile
+|  |  +- org.antlr:antlr-runtime:3.5.2:jar:compile
+|  |  +- org.antlr:stringtemplate:3.2.1:jar:compile
+|  |  |  \- antlr:antlr:2.7.7:jar:compile
+|  |  +- org.checkerframework:checker-qual:2.8.1:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.3.3:jar:compile
+|  |  \- org.apache.xmlgraphics:fop-events:2.5:jar:compile
+|  |     +- org.apache.xmlgraphics:fop-util:2.5:jar:compile
+|  |     +- com.thoughtworks.qdox:qdox:1.12:jar:compile
+|  |     \- org.apache.ant:ant:1.8.2:jar:compile
+|  |        \- org.apache.ant:ant-launcher:1.8.2:jar:compile
+|  \- org.slf4j:slf4j-api:1.7.26:jar:compile
++- org.primaresearch:basic:1.5b:jar:compile
++- org.primaresearch:Dla:1.5b:jar:compile
++- org.primaresearch:Io:1.5b:jar:compile
+\- org.primaresearch:Maths:1.5b:jar:compile

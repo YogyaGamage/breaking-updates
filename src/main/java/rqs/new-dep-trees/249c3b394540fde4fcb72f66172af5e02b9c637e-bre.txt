@@ -1,0 +1,264 @@
+io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:takari-jar:compile
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
+|  +- javax.enterprise:cdi-api:1.0:jar:provided
+|  |  \- javax.annotation:jsr250-api:1.0:jar:provided
+|  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.3:jar:provided
+|  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
+|  +- org.apache.maven:maven-settings:3.6.1:jar:provided
+|  +- org.apache.maven:maven-settings-builder:3.6.1:jar:provided
+|  |  \- org.sonatype.plexus:plexus-sec-dispatcher:1.4:jar:provided
+|  |     \- org.sonatype.plexus:plexus-cipher:1.7:jar:provided
+|  +- org.apache.maven:maven-builder-support:3.6.1:jar:provided
+|  +- org.apache.maven:maven-repository-metadata:3.6.1:jar:provided
+|  +- org.apache.maven:maven-artifact:3.6.1:jar:provided
+|  +- org.apache.maven:maven-plugin-api:3.6.1:jar:provided
+|  |  +- org.apache.maven:maven-artifact:3.6.1:jar:provided
+|  |  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
+|  +- org.apache.maven:maven-resolver-provider:3.6.1:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-impl:1.3.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-api:1.3.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-spi:1.3.3:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-util:1.3.3:jar:provided
+|  +- org.apache.maven.shared:maven-shared-utils:3.2.1:jar:provided
+|  |  \- commons-io:commons-io:2.5:jar:provided
+|  +- com.google.inject:guice:4.2.1:jar:provided
+|  |  +- aopalliance:aopalliance:1.0:jar:provided
+|  |  \- com.google.guava:guava:25.1-android:jar:provided
+|  |     +- com.google.code.findbugs:jsr305:3.0.2:jar:provided
+|  |     +- org.checkerframework:checker-compat-qual:2.0.0:jar:provided
+|  |     +- com.google.errorprone:error_prone_annotations:2.1.3:jar:provided
+|  |     +- com.google.j2objc:j2objc-annotations:1.1:jar:provided
+|  |     \- org.codehaus.mojo:animal-sniffer-annotations:1.14:jar:provided
+|  +- javax.inject:javax.inject:1:jar:provided
+|  \- org.apache.commons:commons-lang3:3.8.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
+|  \- org.codehaus.plexus:plexus-interpolation:1.25:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+   \- org.hamcrest:hamcrest-core:1.3:jar:test
+io.takari.polyglot:polyglot-atom:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-maven-plugin:0.4.10-SNAPSHOT:takari-maven-plugin:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2:jar:provided
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-ruby:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.jruby:jruby:9.2.19.0:pom:compile
+|  +- org.jruby:jruby-core:9.2.19.0:jar:compile
+|  |  +- com.github.jnr:jnr-netdb:1.2.0:jar:compile
+|  |  +- com.github.jnr:jnr-enxio:0.32.6:jar:compile
+|  |  +- com.github.jnr:jnr-unixsocket:0.38.8:jar:compile
+|  |  +- com.github.jnr:jnr-posix:3.1.7:jar:compile
+|  |  +- com.github.jnr:jnr-constants:0.10.2:jar:compile
+|  |  +- com.github.jnr:jffi:1.3.3:jar:compile
+|  |  +- com.github.jnr:jffi:1.3.3:jar:compile
+|  |  +- org.jruby.joni:joni:2.1.31:jar:compile
+|  |  +- org.jruby.jcodings:jcodings:1.0.46:jar:compile
+|  |  +- org.jruby:dirgra:0.3:jar:compile
+|  |  +- com.headius:invokebinder:1.11:jar:compile
+|  |  +- com.headius:options:1.4:jar:compile
+|  |  +- com.jcraft:jzlib:1.1.3:jar:compile
+|  |  +- com.martiansoftware:nailgun-server:0.9.1:jar:compile
+|  |  +- joda-time:joda-time:2.10.5:jar:compile
+|  |  +- com.headius:backport9:1.8:jar:compile
+|  |  \- javax.annotation:javax.annotation-api:1.3.1:jar:compile
+|  \- org.jruby:jruby-stdlib:9.2.19.0:jar:compile
++- io.takari.polyglot:polyglot-maven-plugin:0.4.10-SNAPSHOT:jar:test
++- rubygems:maven-tools:1.1.7:gem:provided
+|  \- rubygems:virtus:1.0.5:gem:provided
+|     +- rubygems:descendants_tracker:0.0.4:gem:provided
+|     |  \- rubygems:thread_safe:0.3.6:gem:provided
+|     +- rubygems:equalizer:0.0.11:gem:provided
+|     +- rubygems:coercible:1.0.0:gem:provided
+|     \- rubygems:axiom-types:0.1.1:gem:provided
+|        \- rubygems:ice_nine:0.11.2:gem:provided
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-scala:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- com.twitter:util-eval_2.11:6.43.0:jar:compile
+|  \- com.twitter:util-core_2.11:6.43.0:jar:compile
+|     \- com.twitter:util-function_2.11:6.43.0:jar:compile
++- com.googlecode.kiama:kiama_2.11:1.8.0:jar:compile
+|  +- com.google.code.findbugs:jsr305:2.0.3:jar:compile
+|  +- com.google.guava:guava:17.0:jar:compile
+|  +- org.bitbucket.inkytonik.dsinfo:dsinfo_2.11:0.4.0:jar:compile
+|  +- org.bitbucket.inkytonik.dsprofile:dsprofile_2.11:0.4.0:jar:compile
+|  +- org.rogach:scallop_2.11:0.9.5:jar:compile
+|  +- jline:jline:2.12:jar:compile
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:1.0.2:jar:compile
++- org.scala-lang:scala-library:2.11.12:jar:compile
++- org.scala-lang:scala-reflect:2.11.12:jar:compile
++- org.scala-lang:scala-compiler:2.11.12:jar:compile
+|  \- org.scala-lang.modules:scala-xml_2.11:1.0.5:jar:compile
++- org.specs2:specs2-junit_2.11:3.9.5:jar:test
+|  \- org.specs2:specs2-core_2.11:3.9.5:jar:test
+|     \- org.specs2:specs2-matcher_2.11:3.9.5:jar:test
+|        \- org.specs2:specs2-common_2.11:3.9.5:jar:test
+|           +- org.scalaz:scalaz-core_2.11:7.2.12:jar:test
+|           \- org.scalaz:scalaz-effect_2.11:7.2.12:jar:test
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-groovy:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.codehaus.groovy:groovy:2.5.14:jar:compile
++- commons-logging:commons-logging:1.1.1:jar:compile
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-yaml:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.yaml:snakeyaml:1.31:jar:compile
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-clojure:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.clojure:clojure:1.10.1:jar:compile
+|  +- org.clojure:spec.alpha:0.2.176:jar:compile
+|  \- org.clojure:core.specs.alpha:0.2.44:jar:compile
++- org.easytesting:fest-assert:1.1:jar:test
+|  \- org.easytesting:fest-util:1.1:jar:test
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-xml:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- com.cedarsoftware:java-util:1.19.3:jar:test
+|  +- org.apache.logging.log4j:log4j-api:2.1:jar:test
+|  \- org.apache.logging.log4j:log4j-core:2.1:jar:test
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-java:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- commons-io:commons-io:2.7:jar:compile
++- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  +- commons-logging:commons-logging:1.1.1:jar:compile
+|  \- commons-collections:commons-collections:3.2.2:jar:compile
++- com.cedarsoftware:java-util:1.19.3:jar:test
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-kotlin:0.4.10-SNAPSHOT:takari-jar:compile
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:1.4.10:jar:compile
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10:jar:compile
+|  |  \- org.jetbrains:annotations:13.0:jar:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10:jar:compile
++- org.jetbrains.kotlin:kotlin-script-util:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-script-runtime:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-scripting-jvm:1.4.10:jar:compile
+|  +- org.jetbrains.intellij.deps:trove4j:1.0.20181211:jar:compile
+|  \- org.jetbrains.kotlin:kotlin-daemon-client:1.4.10:jar:compile
+|     +- org.jetbrains.kotlin:kotlin-reflect:1.4.10:jar:runtime
+|     \- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7:jar:compile
++- org.jetbrains.kotlin:kotlin-scripting-jvm-host:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-scripting-common:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.4.10:jar:runtime
+|  |  \- org.jetbrains.kotlin:kotlin-daemon-embeddable:1.4.10:jar:runtime
+|  \- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.4.10:jar:runtime
+|     \- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.4.10:jar:runtime
++- io.takari.polyglot:polyglot-maven-plugin:0.4.10-SNAPSHOT:jar:test
++- org.assertj:assertj-core:3.11.1:jar:test
++- ch.qos.logback:logback-classic:1.2.1:jar:test
+|  \- ch.qos.logback:logback-core:1.2.1:jar:test
++- org.codehaus.plexus:plexus-utils:3.2.0:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test
+io.takari.polyglot:polyglot-translate-plugin:0.4.10-SNAPSHOT:takari-maven-plugin:compile
++- org.codehaus.plexus:plexus-utils:3.0.24:jar:runtime
++- io.takari.polyglot:polyglot-common:0.4.10-SNAPSHOT:jar:compile
++- io.takari.polyglot:polyglot-ruby:0.4.10-SNAPSHOT:jar:compile
+|  \- org.jruby:jruby:9.2.19.0:pom:compile
++- io.takari.polyglot:polyglot-groovy:0.4.10-SNAPSHOT:jar:compile
+|  +- org.codehaus.groovy:groovy:2.5.14:jar:compile
+|  \- commons-logging:commons-logging:1.1.1:jar:compile
++- io.takari.polyglot:polyglot-atom:0.4.10-SNAPSHOT:jar:compile
++- io.takari.polyglot:polyglot-scala:0.4.10-SNAPSHOT:jar:compile
+|  +- com.twitter:util-eval_2.11:6.43.0:jar:compile
+|  +- com.googlecode.kiama:kiama_2.11:1.8.0:jar:compile
+|  +- org.scala-lang:scala-library:2.11.12:jar:compile
+|  +- org.scala-lang:scala-reflect:2.11.12:jar:compile
+|  \- org.scala-lang:scala-compiler:2.11.12:jar:compile
++- io.takari.polyglot:polyglot-yaml:0.4.10-SNAPSHOT:jar:compile
+|  \- org.yaml:snakeyaml:1.31:jar:compile
++- io.takari.polyglot:polyglot-xml:0.4.10-SNAPSHOT:jar:compile
++- io.takari.polyglot:polyglot-java:0.4.10-SNAPSHOT:jar:compile
+|  +- commons-io:commons-io:2.7:jar:compile
+|  \- commons-beanutils:commons-beanutils:1.9.4:jar:compile
++- io.takari.polyglot:polyglot-kotlin:0.4.10-SNAPSHOT:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-script-util:1.4.10:jar:compile
+|  \- org.jetbrains.kotlin:kotlin-scripting-jvm-host:1.4.10:jar:compile
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2:jar:provided
++- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3:jar:provided
++- org.apache.maven:maven-model:3.6.1:jar:provided
++- org.apache.maven:maven-core:3.6.1:jar:provided
++- org.apache.maven:maven-model-builder:3.6.1:jar:provided
++- org.slf4j:slf4j-api:1.7.25:jar:provided
++- org.codehaus.plexus:plexus-component-annotations:1.7.1:jar:provided
+\- junit:junit:4.11:jar:test

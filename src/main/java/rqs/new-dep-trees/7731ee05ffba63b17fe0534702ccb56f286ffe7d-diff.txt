@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.google.auth:google-auth-library-oauth2-http:1.12.0:jar:compile
+Removed Dependencies:
+ com.google.auth:google-auth-library-oauth2-http:1.11.0:jar:compile

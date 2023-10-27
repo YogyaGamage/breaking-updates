@@ -1,0 +1,16 @@
+log4j:apache-chainsaw:2.2.0-SNAPSHOT:jar:compile
++- org.apache.logging.log4j:log4j-api:2.17.1:jar:compile
++- org.apache.logging.log4j:log4j-core:2.17.1:jar:compile
++- javax.jmdns:jmdns:3.4.1:jar:compile
++- com.thoughtworks.xstream:xstream:1.4.19:jar:compile
+|  \- io.github.x-stream:mxparser:1.2.2:jar:compile
+|     \- xmlpull:xmlpull:1.1.3.1:jar:compile
++- commons-vfs:commons-vfs:1.0:jar:compile
++- commons-logging:commons-logging:1.1.1:jar:compile
++- junit:junit:3.8.1:jar:test
++- org.apache.openejb:javaee-api:5.0-2:jar:provided
++- com.jcraft:jsch:0.1.55:jar:compile
++- hsqldb:hsqldb:1.8.0.7:jar:test
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.0:jar:provided (optional)
++- org.projectlombok:lombok:1.18.22:jar:provided
+\- com.owlike:genson:1.6:jar:compile

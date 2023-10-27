@@ -1,0 +1,49 @@
+org.camunda.community.mockito:camunda-platform-7-mockito:6.18.1-SNAPSHOT:jar:compile
++- org.camunda.bpm:camunda-engine:7.18.0:jar:provided
+|  +- org.camunda.bpm.model:camunda-bpmn-model:7.18.0:jar:provided
+|  |  \- org.camunda.bpm.model:camunda-xml-model:7.18.0:jar:provided
+|  +- org.camunda.bpm.model:camunda-cmmn-model:7.18.0:jar:provided
+|  +- org.camunda.bpm.dmn:camunda-engine-dmn:7.18.0:jar:provided
+|  |  +- org.camunda.commons:camunda-commons-utils:1.12.0:jar:provided
+|  |  +- org.camunda.bpm.model:camunda-dmn-model:7.18.0:jar:provided
+|  |  +- org.camunda.bpm.dmn:camunda-engine-feel-api:7.18.0:jar:provided
+|  |  +- org.camunda.bpm.dmn:camunda-engine-feel-juel:7.18.0:jar:provided
+|  |  +- org.camunda.bpm.dmn:camunda-engine-feel-scala:7.18.0:jar:provided
+|  |  \- org.camunda.feel:feel-engine:1.14.2:jar:provided
+|  +- org.camunda.commons:camunda-commons-logging:1.12.0:jar:provided
+|  +- org.camunda.commons:camunda-commons-typed-values:7.18.0:jar:provided
+|  +- org.mybatis:mybatis:3.5.6:jar:provided
+|  +- org.springframework:spring-beans:5.3.22:jar:provided
+|  +- org.camunda.connect:camunda-connect-core:1.5.6:jar:provided
+|  \- org.camunda.connect:camunda-connect-connectors-all:1.5.6:jar:provided
++- io.holunda.data:camunda-bpm-data:1.2.8:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:1.7.21:jar:compile
+|  +- org.jetbrains.kotlin:kotlin-reflect:1.7.21:jar:compile
+|  |  \- org.jetbrains.kotlin:kotlin-stdlib:1.7.21:jar:compile
+|  +- javax.validation:validation-api:2.0.1.Final:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:2.13.4:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:2.13.4.2:jar:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:2.13.4:jar:compile
+|  \- org.jetbrains:annotations:23.0.0:jar:compile
++- joda-time:joda-time:2.12.2:jar:provided
++- org.mockito:mockito-core:4.9.0:jar:provided
+|  +- net.bytebuddy:byte-buddy:1.12.16:jar:provided
+|  +- net.bytebuddy:byte-buddy-agent:1.12.16:jar:provided
+|  \- org.objenesis:objenesis:3.3:jar:provided
++- junit:junit:4.13.2:jar:test
++- org.assertj:assertj-core:3.23.1:jar:test
++- org.hamcrest:hamcrest-core:2.2:jar:test
+|  \- org.hamcrest:hamcrest:2.2:jar:test
++- org.hamcrest:hamcrest-library:2.2:jar:test
++- com.google.code.findbugs:jsr305:3.0.2:jar:compile
++- javax.inject:javax.inject:1:jar:provided
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.slf4j:slf4j-api:2.0.6:jar:compile
++- org.slf4j:slf4j-simple:2.0.6:jar:test
++- org.slf4j:jcl-over-slf4j:2.0.6:jar:test
++- org.springframework:spring-context:5.3.23:jar:provided
+|  +- org.springframework:spring-aop:5.3.23:jar:provided
+|  +- org.springframework:spring-core:5.3.23:jar:provided
+|  |  \- org.springframework:spring-jcl:5.3.23:jar:provided
+|  \- org.springframework:spring-expression:5.3.23:jar:provided
+\- com.h2database:h2:2.1.214:jar:provided

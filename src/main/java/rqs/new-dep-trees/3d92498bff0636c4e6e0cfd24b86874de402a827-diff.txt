@@ -1,0 +1,10 @@
+Added Dependencies:
+ io.jenkins.plugins:lib-durable-task:36.vd73d2d3299d1:jar:test
+ com.cloudbees:groovy-cps:3565.v4b_d9b_8c29a_b_3:jar:test
+ org.jenkins-ci.plugins:durable-task:503.v57154d18d478:jar:test
+ org.jenkins-ci.plugins.workflow:workflow-cps:3565.v4b_d9b_8c29a_b_3:jar:test
+Removed Dependencies:
+ com.cloudbees:groovy-cps:3536.vb_8a_6628079d5:jar:test
+ io.jenkins.plugins:lib-durable-task:25.v6c906af81ee2:jar:test
+ org.jenkins-ci.plugins.workflow:workflow-cps:3536.vb_8a_6628079d5:jar:test
+ org.jenkins-ci.plugins:durable-task:500.v8927d9fd99d8:jar:test

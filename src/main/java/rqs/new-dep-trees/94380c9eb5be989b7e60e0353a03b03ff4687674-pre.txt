@@ -1,0 +1,108 @@
+io.github.pmckeown:dependency-track-maven-plugin:1.6.1-SNAPSHOT:maven-plugin:compile
++- com.konghq:unirest-java:3.14.5:jar:compile
+|  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  +- org.apache.httpcomponents:httpcore:4.4.13:jar:compile
+|  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  +- org.apache.httpcomponents:httpmime:4.5.13:jar:compile
+|  +- org.apache.httpcomponents:httpcore-nio:4.4.13:jar:compile
+|  +- org.apache.httpcomponents:httpasyncclient:4.1.5:jar:compile
+|  +- commons-codec:commons-codec:1.15:jar:compile
+|  \- com.google.code.gson:gson:2.10:jar:compile
++- com.konghq:unirest-objectmapper-jackson:3.14.2:jar:compile
++- com.fasterxml.jackson.core:jackson-core:2.14.2:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.14.2:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:2.14.2:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- javax.inject:javax.inject:1:jar:compile
++- com.google.inject:guice:5.1.0:jar:compile
+|  \- aopalliance:aopalliance:1.0:jar:compile
++- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:compile
++- com.google.guava:guava:32.1.1-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- org.checkerframework:checker-qual:3.33.0:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.18.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:2.8:jar:compile
++- org.apache.maven:maven-plugin-api:3.9.1:jar:provided
+|  +- org.apache.maven:maven-model:3.9.1:jar:provided
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:jar:provided
+|  |  \- javax.annotation:javax.annotation-api:1.2:jar:provided
+|  +- org.codehaus.plexus:plexus-utils:3.5.1:jar:provided
+|  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
++- org.apache.maven:maven-core:3.9.1:jar:provided
+|  +- org.apache.maven:maven-settings:3.9.1:jar:provided
+|  +- org.apache.maven:maven-settings-builder:3.9.1:jar:provided
+|  |  \- org.codehaus.plexus:plexus-sec-dispatcher:2.0:jar:provided
+|  |     \- org.codehaus.plexus:plexus-cipher:2.0:jar:provided
+|  +- org.apache.maven:maven-builder-support:3.9.1:jar:provided
+|  +- org.apache.maven:maven-repository-metadata:3.9.1:jar:provided
+|  +- org.apache.maven:maven-model-builder:3.9.1:jar:provided
+|  +- org.apache.maven:maven-resolver-provider:3.9.1:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-impl:1.9.7:jar:provided
+|  |  \- org.apache.maven.resolver:maven-resolver-named-locks:1.9.7:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-api:1.9.7:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-spi:1.9.7:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-util:1.9.7:jar:provided
+|  +- org.apache.maven.shared:maven-shared-utils:3.3.4:jar:provided
+|  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:provided
+|  +- org.codehaus.plexus:plexus-component-annotations:2.1.0:jar:provided
+|  \- org.slf4j:slf4j-api:1.7.36:jar:compile
++- org.apache.maven:maven-artifact:3.9.1:jar:provided
++- com.evanlennick:retry4j:0.15.0:jar:compile
++- javax.xml.bind:jaxb-api:2.4.0-b180830.0359:jar:compile
+|  \- javax.activation:javax.activation-api:1.2.0:jar:compile
++- com.sun.activation:javax.activation:1.2.0:jar:compile
++- com.sun.xml.bind:jaxb-core:2.3.0.1:jar:compile
++- com.sun.xml.bind:jaxb-impl:2.3.3:jar:compile
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
+|  \- com.sun.activation:jakarta.activation:1.2.2:jar:runtime
++- org.cyclonedx:cyclonedx-core-java:7.3.2:jar:compile
+|  +- commons-io:commons-io:2.11.0:jar:compile
+|  +- com.github.package-url:packageurl-java:1.4.1:jar:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.2:jar:compile
+|  |  +- org.codehaus.woodstox:stax2-api:4.2.1:jar:compile
+|  |  \- com.fasterxml.woodstox:woodstox-core:6.5.0:jar:compile
+|  \- com.networknt:json-schema-validator:1.0.77:jar:compile
+|     \- com.ethlo.time:itu:1.7.0:jar:compile
++- org.apache.maven:maven-compat:3.9.1:jar:test
+|  \- org.apache.maven.wagon:wagon-provider-api:3.5.3:jar:test
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.8.1:jar:provided
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.apache.maven.plugin-testing:maven-plugin-testing-harness:3.3.0:jar:test
+|  \- org.codehaus.plexus:plexus-archiver:2.2:jar:test
+|     +- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1:jar:test
+|     |  \- classworlds:classworlds:1.1-alpha-2:jar:test
+|     \- org.codehaus.plexus:plexus-io:2.0.4:jar:test
++- com.github.tomakehurst:wiremock:2.27.2:jar:test
+|  +- org.eclipse.jetty:jetty-server:9.2.28.v20190418:jar:test
+|  |  +- javax.servlet:javax.servlet-api:3.1.0:jar:test
+|  |  +- org.eclipse.jetty:jetty-http:9.2.28.v20190418:jar:test
+|  |  \- org.eclipse.jetty:jetty-io:9.2.28.v20190418:jar:test
+|  +- org.eclipse.jetty:jetty-servlet:9.2.28.v20190418:jar:test
+|  |  \- org.eclipse.jetty:jetty-security:9.2.28.v20190418:jar:test
+|  +- org.eclipse.jetty:jetty-servlets:9.2.28.v20190418:jar:test
+|  |  +- org.eclipse.jetty:jetty-continuation:9.2.28.v20190418:jar:test
+|  |  \- org.eclipse.jetty:jetty-util:9.2.28.v20190418:jar:test
+|  +- org.eclipse.jetty:jetty-webapp:9.2.28.v20190418:jar:test
+|  |  \- org.eclipse.jetty:jetty-xml:9.2.28.v20190418:jar:test
+|  +- org.eclipse.jetty:jetty-proxy:9.2.28.v20190418:jar:test
+|  |  \- org.eclipse.jetty:jetty-client:9.2.28.v20190418:jar:test
+|  +- org.xmlunit:xmlunit-core:2.7.0:jar:test
+|  +- org.xmlunit:xmlunit-legacy:2.7.0:jar:test
+|  +- org.xmlunit:xmlunit-placeholders:2.7.0:jar:test
+|  +- com.jayway.jsonpath:json-path:2.4.0:jar:test
+|  |  \- net.minidev:json-smart:2.3:jar:test
+|  |     \- net.minidev:accessors-smart:1.2:jar:test
+|  +- org.ow2.asm:asm:7.0:jar:test
+|  +- net.sf.jopt-simple:jopt-simple:5.0.3:jar:test
+|  +- com.github.jknack:handlebars:4.0.7:jar:test
+|  |  \- org.antlr:antlr4-runtime:4.7.1:jar:test
+|  +- com.github.jknack:handlebars-helpers:4.0.7:jar:test
+|  +- com.flipkart.zjsonpatch:zjsonpatch:0.4.4:jar:test
+|  \- commons-fileupload:commons-fileupload:1.4:jar:test
+\- org.mockito:mockito-core:4.9.0:jar:test
+   +- net.bytebuddy:byte-buddy:1.12.16:jar:test
+   +- net.bytebuddy:byte-buddy-agent:1.12.16:jar:test
+   \- org.objenesis:objenesis:3.3:jar:test

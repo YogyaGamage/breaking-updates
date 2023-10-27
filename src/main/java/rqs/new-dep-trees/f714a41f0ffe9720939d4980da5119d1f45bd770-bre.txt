@@ -1,0 +1,795 @@
+org.knowm.xchange:xchange-bitcoincore:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.mmazi:rescu:2.1.0:jar:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.14.1:jar:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:2.14.1:jar:compile
+|  |  +- jakarta.ws.rs:jakarta.ws.rs-api:2.1.5:jar:compile
+|  |  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  \- oauth.signpost:signpost-core:1.2.1.2:jar:compile
+|  +- org.apache.commons:commons-lang3:3.12.0:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  |  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|  |  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|  |  +- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  |  \- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- io.github.resilience4j:resilience4j-all:1.7.0:jar:compile
+|  |  +- io.vavr:vavr:0.10.2:jar:compile
+|  |  |  \- io.vavr:vavr-match:0.10.2:jar:compile
+|  |  +- io.github.resilience4j:resilience4j-ratelimiter:1.7.0:jar:compile
+|  |  |  \- io.github.resilience4j:resilience4j-core:1.7.0:jar:compile
+|  |  +- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0:jar:compile
+|  |  +- io.github.resilience4j:resilience4j-bulkhead:1.7.0:jar:compile
+|  |  +- io.github.resilience4j:resilience4j-retry:1.7.0:jar:compile
+|  |  +- io.github.resilience4j:resilience4j-cache:1.7.0:jar:compile
+|  |  |  \- javax.cache:cache-api:1.1.0:jar:compile
+|  |  \- io.github.resilience4j:resilience4j-timelimiter:1.7.0:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  |  +- net.bytebuddy:byte-buddy:1.11.13:jar:test
+|  |  +- net.bytebuddy:byte-buddy-agent:1.11.13:jar:test
+|  |  \- org.objenesis:objenesis:3.2:jar:test
+|  +- org.projectlombok:lombok:1.18.22:jar:provided
+|  +- org.slf4j:slf4j-api:2.0.6:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  |  \- ch.qos.logback:logback-core:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
+|     \- net.bytebuddy:byte-buddy:1.11.13:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-bitcointoyou:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-ascendex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-bity:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-bl3p:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-btcc:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-bybit:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- org.eclipse.jetty:jetty-server:9.4.49.v20220914:jar:test
+|  |  +- javax.servlet:javax.servlet-api:3.1.0:jar:test
+|  |  +- org.eclipse.jetty:jetty-http:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-io:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-servlet:9.4.49.v20220914:jar:test
+|  |  +- org.eclipse.jetty:jetty-security:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-util-ajax:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-servlets:9.4.49.v20220914:jar:test
+|  |  +- org.eclipse.jetty:jetty-continuation:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-util:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-webapp:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-xml:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-proxy:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-client:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty.http2:http2-server:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty.http2:http2-common:9.4.49.v20220914:jar:test
+|  |     \- org.eclipse.jetty.http2:http2-hpack:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-alpn-server:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-alpn-java-server:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-alpn-openjdk8-server:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-alpn-java-client:9.4.49.v20220914:jar:test
+|  |  \- org.eclipse.jetty:jetty-alpn-client:9.4.49.v20220914:jar:test
+|  +- org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.49.v20220914:jar:test
+|  +- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
+|  +- org.apache.httpcomponents.client5:httpclient5:5.1.3:jar:test
+|  |  +- org.apache.httpcomponents.core5:httpcore5:5.1.3:jar:test
+|  |  +- org.apache.httpcomponents.core5:httpcore5-h2:5.1.3:jar:test
+|  |  \- commons-codec:commons-codec:1.15:jar:test
+|  +- org.xmlunit:xmlunit-core:2.9.0:jar:test
+|  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:test
+|  |     \- jakarta.activation:jakarta.activation-api:1.2.2:jar:test
+|  +- org.xmlunit:xmlunit-legacy:2.9.0:jar:test
+|  +- org.xmlunit:xmlunit-placeholders:2.9.0:jar:test
+|  +- net.javacrumbs.json-unit:json-unit-core:2.36.0:jar:test
+|  +- com.jayway.jsonpath:json-path:2.7.0:jar:test
+|  |  \- net.minidev:json-smart:2.4.7:jar:test
+|  |     \- net.minidev:accessors-smart:2.4.7:jar:test
+|  |        \- org.ow2.asm:asm:9.1:jar:test
+|  +- org.ow2.asm:asm:9.1:jar:test
+|  +- net.sf.jopt-simple:jopt-simple:5.0.4:jar:test
+|  +- com.github.jknack:handlebars:4.3.1:jar:test
+|  +- com.github.jknack:handlebars-helpers:4.3.1:jar:test
+|  +- commons-fileupload:commons-fileupload:1.4:jar:test
+|  \- commons-io:commons-io:2.11.0:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-coindeal:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-coinex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-coinfloor:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-coinmarketcap:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-cryptowatch:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-exmo:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-examples:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:compile
+|  \- ch.qos.logback:logback-core:1.4.5:jar:compile
++- org.knowm.xchart:xchart:3.8.2:jar:compile
+|  +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13:jar:compile
+|  +- de.rototor.pdfbox:graphics2d:0.33:jar:compile
+|  |  \- org.apache.pdfbox:pdfbox:2.0.24:jar:compile
+|  |     +- org.apache.pdfbox:fontbox:2.0.24:jar:compile
+|  |     \- commons-logging:commons-logging:1.2:jar:compile
+|  \- com.madgag:animated-gif-lib:1.4:jar:compile
++- org.reflections:reflections:0.10.2:jar:test
+|  +- org.javassist:javassist:3.28.0-GA:jar:test
+|  \- com.google.code.findbugs:jsr305:3.0.2:jar:compile
++- org.knowm.xchange:xchange-openexchangerates:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bibox:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-binance:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bithumb:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitstamp:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bittrex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitcoincharts:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitcoinde:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-blockchain:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-kraken:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-kucoin:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitfinex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitmex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coinbase:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coincheck:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coinegg:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coinbasepro:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitcoinaverage:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-cexio:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coingi:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-huobi:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-itbit:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-independentreserve:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-hitbtc:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-paymium:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-poloniex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-okcoin:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-okex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bleutrade:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-mercadobitcoin:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitbay:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitso:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-quoine:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.auth0:java-jwt:3.19.2:jar:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-ripple:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-therock:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-btcmarkets:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-cryptofacilities:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coinmate:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coinone:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-upbit:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.auth0:java-jwt:3.19.2:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-ccex:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-livecoin:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-yobit:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-btcturk:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-paribu:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-koineks:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-gateio:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-koinim:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitflyer:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitz:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-zaif:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-coindirect:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-dvchain:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bankera:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-enigma:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.projectlombok:lombok:1.18.22:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-lgo:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.mockito:mockito-core:3.12.4:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-deribit:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-globitex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-idex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- org.web3j:crypto:5.0.0:jar:compile
+|  +- org.web3j:abi:5.0.0:jar:compile
+|  +- org.web3j:rlp:5.0.0:jar:compile
+|  +- org.web3j:utils:5.0.0:jar:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:1.65:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-kuna:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-latoken:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-luno:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-lykke:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-mexc:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-simulated:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-tradeogre:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- org.projectlombok:lombok:1.18.22:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-truefx:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.14.1:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-vaultoro:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-bankera:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-stream-service-netty:5.1.1-SNAPSHOT:jar:compile
+|  |  +- org.knowm.xchange:xchange-stream-service-core:5.1.1-SNAPSHOT:jar:compile
+|  |  |  +- io.reactivex.rxjava2:rxjava:2.2.21:jar:compile
+|  |  |  |  \- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|  |  |  +- org.slf4j:slf4j-api:2.0.6:jar:compile
+|  |  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  |  |  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  |  |  +- junit:junit:4.13.2:jar:test
+|  |  |  \- org.assertj:assertj-core:3.23.1:jar:test
+|  |  +- io.netty:netty-all:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-buffer:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-dns:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-haproxy:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-http:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-http2:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-memcache:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-mqtt:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-redis:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-smtp:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-socks:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-stomp:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-codec-xml:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-common:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-handler:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-native-unix-common:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-handler-proxy:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-handler-ssl-ocsp:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-resolver:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-resolver-dns:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-rxtx:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-sctp:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-udt:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-classes-epoll:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-classes-kqueue:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-resolver-dns-classes-macos:4.1.86.Final:jar:compile
+|  |  |  +- io.netty:netty-transport-native-epoll:4.1.86.Final:jar:runtime
+|  |  |  +- io.netty:netty-transport-native-epoll:4.1.86.Final:jar:runtime
+|  |  |  +- io.netty:netty-transport-native-kqueue:4.1.86.Final:jar:runtime
+|  |  |  +- io.netty:netty-transport-native-kqueue:4.1.86.Final:jar:runtime
+|  |  |  +- io.netty:netty-resolver-dns-native-macos:4.1.86.Final:jar:runtime
+|  |  |  \- io.netty:netty-resolver-dns-native-macos:4.1.86.Final:jar:runtime
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
+|  |  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  |  +- junit:junit:4.13.2:jar:test
+|  |  \- org.assertj:assertj-core:3.23.1:jar:test
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bankera:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-binance:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-binance:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-bitfinex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-bitfinex:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-bitflyer:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-service-pubnub:5.1.1-SNAPSHOT:jar:compile
+|  +- com.pubnub:pubnub-gson:6.3.2:jar:compile
+|  |  +- com.squareup.okhttp3:logging-interceptor:4.10.0:jar:compile
+|  |  |  \- com.squareup.okhttp3:okhttp:4.10.0:jar:compile
+|  |  |     \- com.squareup.okio:okio-jvm:3.0.0:jar:compile
+|  |  +- com.google.code.gson:gson:2.9.0:jar:compile
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20:jar:compile
+|  |  |  +- org.jetbrains.kotlin:kotlin-stdlib:1.7.20:jar:compile
+|  |  |  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20:jar:compile
+|  |  |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20:jar:compile
+|  |  +- com.squareup.retrofit2:retrofit:2.6.2:jar:runtime
+|  |  +- com.squareup.retrofit2:converter-gson:2.6.2:jar:runtime
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.3:jar:runtime
+|  |  +- org.jetbrains:annotations:23.0.0:jar:compile
+|  |  \- org.json:json:20200518:jar:runtime
+|  +- io.reactivex.rxjava2:rxjava:2.2.21:jar:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:2.14.1:jar:compile
+|  +- org.slf4j:slf4j-api:2.0.6:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-bitflyer:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-bitmex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-bitmex:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-bitstamp:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-bitstamp:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-btcmarkets:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-btcmarkets:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-cexio:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-cexio:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-coinbasepro:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-coinbasepro:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-coinjar:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-coinjar:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-coinmate:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-coinmate:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-dydx:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-dydx:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-ftx:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-ftx:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-gateio:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-gateio:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-gemini:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-gemini:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.github.tomakehurst:wiremock-jre8:2.35.0:jar:test
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-gemini-v2:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-gemini:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-hitbtc:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-hitbtc:5.1.1-SNAPSHOT:jar:compile
++- com.jayway.jsonpath:json-path-assert:2.7.0:jar:test
+|  +- com.jayway.jsonpath:json-path:2.7.0:jar:test
+|  \- org.hamcrest:hamcrest:2.2:jar:test
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-huobi:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-huobi:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-kraken:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-kraken:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  \- commons-collections:commons-collections:3.2.2:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-lgo:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-lgo:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-okcoin:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-okcoin:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- org.knowm.xchange:xchange-okex:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-okex:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- org.knowm.xchange:xchange-okex:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-poloniex2:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-poloniex:5.1.1-SNAPSHOT:jar:compile
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-serum:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-serum:5.1.1-SNAPSHOT:jar:compile
+|  +- org.knowm.xchange:xchange-core:5.1.1-SNAPSHOT:jar:compile
+|  +- com.igormaznitsa:jbbp:2.0.4:jar:compile
+|  +- ch.qos.logback:logback-classic:1.4.5:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.assertj:assertj-core:3.23.1:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test
+org.knowm.xchange:xchange-stream-coincheck:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-stream-core:5.1.1-SNAPSHOT:jar:compile
++- org.knowm.xchange:xchange-coincheck:5.1.1-SNAPSHOT:jar:compile
++- org.mockito:mockito-core:3.12.4:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.assertj:assertj-core:3.23.1:jar:test

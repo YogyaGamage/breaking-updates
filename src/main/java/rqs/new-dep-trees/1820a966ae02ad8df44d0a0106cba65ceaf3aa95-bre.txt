@@ -1,0 +1,316 @@
+uk.gov.pay:pay-adminusers:0.1-SNAPSHOT:jar:compile
++- uk.gov.service.payments:logging:1.0.20221005133049:jar:compile
+|  +- net.logstash.logback:logstash-logback-encoder:7.2:jar:compile
+|  \- org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1:jar:compile
++- uk.gov.service.payments:model:1.0.20221005133049:jar:compile
+|  \- javax.validation:validation-api:2.0.1.Final:jar:compile
++- uk.gov.service.payments:queue:1.0.20221005133049:jar:compile
++- io.dropwizard:dropwizard-core:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-util:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-jackson:2.1.2:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4:jar:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4:jar:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-blackbird:2.13.4:jar:compile
+|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-joda:2.13.4:jar:compile
+|  +- io.dropwizard:dropwizard-validation:2.1.2:jar:compile
+|  |  +- com.fasterxml:classmate:1.5.1:jar:compile
+|  |  \- org.glassfish:jakarta.el:3.0.4:jar:compile
+|  +- io.dropwizard:dropwizard-configuration:2.1.2:jar:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4:jar:compile
+|  |  \- org.apache.commons:commons-text:1.9:jar:compile
+|  +- io.dropwizard:dropwizard-logging:2.1.2:jar:compile
+|  |  +- io.dropwizard.metrics:metrics-logback:4.2.12:jar:compile
+|  |  +- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
+|  |  +- io.dropwizard.logback:logback-throttling-appender:1.1.9:jar:compile
+|  |  +- org.slf4j:log4j-over-slf4j:1.7.36:jar:runtime
+|  |  \- org.slf4j:jcl-over-slf4j:1.7.36:jar:runtime
+|  +- io.dropwizard:dropwizard-metrics:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-jersey:2.1.2:jar:compile
+|  |  +- org.glassfish.jersey.ext:jersey-metainf-services:2.37:jar:runtime
+|  |  +- org.glassfish.jersey.inject:jersey-hk2:2.37:jar:runtime
+|  |  |  \- org.glassfish.hk2:hk2-locator:2.6.1:jar:runtime
+|  |  +- org.javassist:javassist:3.29.1-GA:jar:compile
+|  |  +- io.dropwizard.metrics:metrics-jersey2:4.2.12:jar:compile
+|  |  +- org.glassfish.hk2:hk2-api:2.6.1:jar:compile
+|  |  |  +- org.glassfish.hk2:hk2-utils:2.6.1:jar:compile
+|  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:2.6.1:jar:compile
+|  |  \- org.glassfish.jersey.containers:jersey-container-servlet:2.37:jar:runtime
+|  +- io.dropwizard:dropwizard-servlets:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-jetty:2.1.2:jar:compile
+|  |  \- org.eclipse.jetty:jetty-servlets:9.4.48.v20220622:jar:compile
+|  |     \- org.eclipse.jetty:jetty-continuation:9.4.48.v20220622:jar:compile
+|  +- io.dropwizard:dropwizard-lifecycle:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-health:2.1.2:jar:compile
+|  +- io.dropwizard.metrics:metrics-core:4.2.12:jar:compile
+|  +- io.dropwizard.metrics:metrics-jetty9:4.2.12:jar:compile
+|  +- io.dropwizard.metrics:metrics-jvm:4.2.12:jar:compile
+|  +- io.dropwizard.metrics:metrics-jmx:4.2.12:jar:compile
+|  +- io.dropwizard.metrics:metrics-servlets:4.2.12:jar:compile
+|  |  +- io.dropwizard.metrics:metrics-json:4.2.12:jar:compile
+|  |  \- com.helger:profiler:1.1.1:jar:compile
+|  +- io.dropwizard.metrics:metrics-healthchecks:4.2.12:jar:compile
+|  +- io.dropwizard:dropwizard-request-logging:2.1.2:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- jakarta.servlet:jakarta.servlet-api:4.0.4:jar:compile
+|  +- jakarta.validation:jakarta.validation-api:2.0.2:jar:compile
+|  +- jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar:compile
+|  +- net.sourceforge.argparse4j:argparse4j:0.9.0:jar:compile
+|  +- org.eclipse.jetty:jetty-security:9.4.48.v20220622:jar:compile
+|  +- org.eclipse.jetty:jetty-server:9.4.48.v20220622:jar:compile
+|  +- org.eclipse.jetty:jetty-servlet:9.4.48.v20220622:jar:compile
+|  |  \- org.eclipse.jetty:jetty-util-ajax:9.4.48.v20220622:jar:compile
+|  +- org.eclipse.jetty:jetty-util:9.4.48.v20220622:jar:compile
+|  +- org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.4:jar:compile
+|  +- jakarta.inject:jakarta.inject-api:1.0.5:jar:compile
+|  +- org.glassfish.jersey.core:jersey-common:2.37:jar:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:1.0.3:jar:compile
+|  +- org.glassfish.jersey.ext:jersey-bean-validation:2.37:jar:compile
+|  \- org.hibernate.validator:hibernate-validator:6.2.4.Final:jar:compile
+|     \- org.jboss.logging:jboss-logging:3.4.1.Final:jar:compile
++- org.slf4j:slf4j-api:1.7.36:jar:compile
++- io.dropwizard:dropwizard-auth:2.1.2:jar:compile
+|  +- io.dropwizard.metrics:metrics-caffeine:4.2.12:jar:compile
+|  +- com.github.ben-manes.caffeine:caffeine:2.9.3:jar:compile
+|  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:compile
+|  +- org.glassfish.jersey.containers:jersey-container-servlet-core:2.37:jar:compile
+|  \- org.glassfish.jersey.core:jersey-server:2.37:jar:compile
++- io.dropwizard:dropwizard-client:2.1.2:jar:compile
+|  +- org.glassfish.jersey.core:jersey-client:2.37:jar:compile
+|  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  +- org.apache.httpcomponents:httpcore:4.4.15:jar:compile
+|  \- io.dropwizard.metrics:metrics-httpclient:4.2.12:jar:compile
++- io.dropwizard:dropwizard-json-logging:2.1.2:jar:compile
+|  +- ch.qos.logback:logback-access:1.2.11:jar:compile
+|  +- ch.qos.logback:logback-core:1.2.11:jar:compile
+|  \- org.eclipse.jetty:jetty-http:9.4.48.v20220622:jar:compile
++- io.dropwizard:dropwizard-migrations:2.1.2:jar:compile
+|  +- io.dropwizard:dropwizard-db:2.1.2:jar:compile
+|  |  \- org.apache.tomcat:tomcat-jdbc:9.0.65:jar:compile
+|  |     \- org.apache.tomcat:tomcat-juli:9.0.65:jar:compile
+|  +- com.mattbertolini:liquibase-slf4j:4.1.0:jar:runtime
+|  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:compile
++- io.dropwizard.metrics:metrics-graphite:4.2.12:jar:compile
+|  \- com.rabbitmq:amqp-client:5.15.0:jar:compile
++- org.liquibase:liquibase-core:4.16.1:jar:compile
+|  +- org.yaml:snakeyaml:1.31:jar:compile
+|  \- com.opencsv:opencsv:5.6:jar:compile
+|     \- org.apache.commons:commons-collections4:4.4:jar:compile
++- org.postgresql:postgresql:42.5.0:jar:compile
+|  \- org.checkerframework:checker-qual:3.5.0:jar:compile
++- com.fasterxml.jackson.core:jackson-core:2.13.4:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.4:jar:compile
++- com.fasterxml.jackson.core:jackson-annotations:2.13.4:jar:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4:jar:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-guava:2.13.4:jar:compile
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.4:jar:compile
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.4:jar:compile
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.4:jar:compile
++- com.google.guava:guava:31.1-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
++- org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.11:jar:compile
+|  +- org.eclipse.persistence:jakarta.persistence:2.2.3:jar:compile
+|  +- org.eclipse.persistence:org.eclipse.persistence.asm:9.3.0:jar:compile
+|  +- org.eclipse.persistence:org.eclipse.persistence.antlr:2.7.11:jar:compile
+|  +- org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:2.7.11:jar:compile
+|  \- org.eclipse.persistence:org.eclipse.persistence.core:2.7.11:jar:compile
++- com.google.inject:guice:5.1.0:jar:compile
+|  +- javax.inject:javax.inject:1:jar:compile
+|  \- aopalliance:aopalliance:1.0:jar:compile
++- com.google.inject.extensions:guice-persist:5.1.0:jar:compile
++- com.google.inject.extensions:guice-assistedinject:5.1.0:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.mindrot:jbcrypt:0.4:jar:compile
++- com.warrenstrange:googleauth:1.5.0:jar:compile
+|  \- commons-codec:commons-codec:1.14:jar:compile
++- ch.qos.logback:logback-classic:1.4.4:jar:compile
++- uk.gov.service.notify:notifications-java-client:3.17.3-RELEASE:jar:compile
+|  +- org.bitbucket.b_c:jose4j:0.7.7:jar:compile
+|  +- org.json:json:20210307:jar:compile
+|  +- joda-time:joda-time:2.10.10:jar:compile
+|  \- commons-io:commons-io:2.8.0:jar:compile
++- commons-validator:commons-validator:1.7:jar:compile
+|  +- commons-digester:commons-digester:2.1:jar:compile
+|  +- commons-logging:commons-logging:1.2:jar:compile
+|  \- commons-collections:commons-collections:3.2.2:jar:compile
++- com.googlecode.libphonenumber:libphonenumber:8.12.56:jar:compile
++- uk.gov.service.payments:utils:1.0.20221005133049:jar:compile
++- org.dhatim:dropwizard-sentry:2.1.2-1:jar:compile
+|  +- io.sentry:sentry:6.4.2:jar:compile
+|  \- io.sentry:sentry-logback:6.4.2:jar:compile
++- com.amazonaws:aws-java-sdk-sqs:1.12.312:jar:compile
+|  +- com.amazonaws:aws-java-sdk-core:1.12.312:jar:compile
+|  |  +- software.amazon.ion:ion-java:1.0.2:jar:compile
+|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.12.6:jar:compile
+|  \- com.amazonaws:jmespath-java:1.12.312:jar:compile
++- com.google.code.gson:gson:2.9.1:jar:compile
++- io.dropwizard:dropwizard-testing:2.1.2:jar:test
+|  +- io.dropwizard.metrics:metrics-annotation:4.2.12:jar:compile
+|  +- org.eclipse.jetty:jetty-io:9.4.48.v20220622:jar:compile
+|  +- org.glassfish.jersey.connectors:jersey-grizzly-connector:2.37:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-http-client:1.16:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-websockets:2.4.4:jar:test
+|  |  |  +- org.glassfish.grizzly:grizzly-framework:2.4.4:jar:test
+|  |  |  \- org.glassfish.grizzly:grizzly-http:2.4.4:jar:test
+|  |  \- org.glassfish.grizzly:connection-pool:2.4.4:jar:test
+|  +- org.glassfish.jersey.test-framework:jersey-test-framework-core:2.37:jar:test
+|  |  \- org.glassfish.jersey.media:jersey-media-jaxb:2.37:jar:test
+|  +- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:2.37:jar:test
+|  \- jakarta.activation:jakarta.activation-api:1.2.2:jar:compile
++- org.mockito:mockito-junit-jupiter:4.8.0:jar:test
+|  \- org.mockito:mockito-core:4.8.0:jar:test
+|     +- net.bytebuddy:byte-buddy:1.12.14:jar:test
+|     +- net.bytebuddy:byte-buddy-agent:1.12.14:jar:test
+|     \- org.objenesis:objenesis:3.2:jar:test
++- io.rest-assured:rest-assured:5.2.0:jar:test
+|  +- org.apache.groovy:groovy:4.0.1:jar:test
+|  +- org.apache.groovy:groovy-xml:4.0.1:jar:test
+|  +- org.apache.httpcomponents:httpmime:4.5.13:jar:test
+|  +- org.hamcrest:hamcrest:2.1:jar:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:1.2.1:jar:test
+|  +- io.rest-assured:json-path:5.2.0:jar:test
+|  |  +- org.apache.groovy:groovy-json:4.0.1:jar:test
+|  |  \- io.rest-assured:rest-assured-common:5.2.0:jar:test
+|  \- io.rest-assured:xml-path:5.2.0:jar:test
++- org.hamcrest:hamcrest-core:2.2:jar:test
++- org.hamcrest:hamcrest-library:2.2:jar:test
++- org.hamcrest:java-hamcrest:2.0.0.0:jar:test
++- io.dropwizard:dropwizard-jdbi3:2.1.2:jar:test
+|  +- org.jdbi:jdbi3-core:3.32.0:jar:test
+|  |  \- io.leangen.geantyref:geantyref:1.3.13:jar:test
+|  +- org.jdbi:jdbi3-sqlobject:3.32.0:jar:test
+|  +- org.jdbi:jdbi3-jodatime2:3.32.0:jar:test
+|  +- org.jdbi:jdbi3-guava:3.32.0:jar:test
+|  \- io.dropwizard.metrics:metrics-jdbi3:4.2.12:jar:test
++- org.exparity:hamcrest-date:2.0.8:jar:test
++- au.com.dius:pact-jvm-provider-junit_2.12:3.6.15:jar:test
+|  +- au.com.dius:pact-jvm-support:3.6.15:jar:test
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71:jar:test
+|  |  |  +- org.jetbrains.kotlin:kotlin-stdlib:1.3.71:jar:test
+|  |  |  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71:jar:test
+|  |  |  |  \- org.jetbrains:annotations:13.0:jar:test
+|  |  |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71:jar:test
+|  |  +- io.arrow-kt:arrow-core-extensions:0.9.0:jar:test
+|  |  |  +- io.arrow-kt:arrow-annotations:0.9.0:jar:test
+|  |  |  |  \- io.kindedj:kindedj:1.1.0:jar:test
+|  |  |  +- io.arrow-kt:arrow-typeclasses:0.9.0:jar:test
+|  |  |  \- io.arrow-kt:arrow-core-data:0.9.0:jar:test
+|  |  +- org.jetbrains.kotlin:kotlin-reflect:1.3.71:jar:test
+|  |  \- com.github.salomonbrys.kotson:kotson:2.5.0:jar:test
+|  +- au.com.dius:pact-jvm-provider_2.12:3.6.15:jar:test
+|  |  +- au.com.dius:pact-jvm-model:3.6.15:jar:test
+|  |  |  +- com.github.zafarkhaja:java-semver:0.9.0:jar:test
+|  |  |  +- com.github.mifmif:generex:1.0.2:jar:test
+|  |  |  +- com.michael-bull.kotlin-result:kotlin-result:1.1.6:jar:test
+|  |  |  \- com.amazonaws:aws-java-sdk-s3:1.11.587:jar:test
+|  |  |     \- com.amazonaws:aws-java-sdk-kms:1.11.587:jar:test
+|  |  +- au.com.dius:pact-jvm-pact-broker:3.6.15:jar:test
+|  |  |  +- org.codehaus.groovy:groovy:2.5.6:jar:test
+|  |  |  +- org.dmfs:rfc3986-uri:0.8:jar:test
+|  |  |  |  +- org.dmfs:iterators:1.5:jar:test
+|  |  |  |  \- org.dmfs:optional:0.3:jar:test
+|  |  |  \- io.github.microutils:kotlin-logging:1.4.4:jar:test
+|  |  +- au.com.dius:pact-jvm-matchers_2.12:3.6.15:jar:test
+|  |  |  +- io.gatling:jsonpath_2.12:0.6.10:jar:test
+|  |  |  |  \- org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6:jar:test
+|  |  |  +- org.scala-lang.modules:scala-xml_2.12:1.0.6:jar:test
+|  |  |  +- org.scala-lang:scala-library:2.12.7:jar:test
+|  |  |  +- com.typesafe.scala-logging:scala-logging_2.12:3.7.2:jar:test
+|  |  |  \- org.atteo:evo-inflector:1.2.2:jar:test
+|  |  +- org.fusesource.jansi:jansi:1.17.1:jar:test
+|  |  +- org.reflections:reflections:0.9.11:jar:test
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.12:0.9.0:jar:test
+|  +- org.apache.httpcomponents:fluent-hc:4.5.5:jar:test
+|  +- junit:junit:4.12:jar:test
+|  +- org.jooq:jool:0.9.14:jar:test
+|  +- com.github.rholder:guava-retrying:2.0.0:jar:test
+|  \- javax.mail:mail:1.5.0-b01:jar:test
++- au.com.dius:pact-jvm-consumer-junit_2.12:3.6.15:jar:test
+|  \- au.com.dius:pact-jvm-consumer_2.12:3.6.15:jar:test
+|     +- com.googlecode.java-diff-utils:diffutils:1.3.0:jar:test
+|     +- dk.brics.automaton:automaton:1.11-8:jar:test
+|     +- io.netty:netty-handler:4.1.30.Final:jar:test
+|     |  +- io.netty:netty-buffer:4.1.30.Final:jar:test
+|     |  |  \- io.netty:netty-common:4.1.30.Final:jar:test
+|     |  +- io.netty:netty-transport:4.1.30.Final:jar:test
+|     |  |  \- io.netty:netty-resolver:4.1.30.Final:jar:test
+|     |  \- io.netty:netty-codec:4.1.30.Final:jar:test
+|     +- ws.unfiltered:unfiltered-netty-server_2.12:0.9.1:jar:test
+|     |  +- ws.unfiltered:unfiltered-netty_2.12:0.9.1:jar:test
+|     |  |  +- ws.unfiltered:unfiltered_2.12:0.9.1:jar:test
+|     |  |  \- io.netty:netty-codec-http:4.1.9.Final:jar:test
+|     |  \- ws.unfiltered:unfiltered-util_2.12:0.9.1:jar:test
+|     \- org.codehaus.groovy:groovy-json:2.5.6:jar:test
++- commons-beanutils:commons-beanutils:1.9.4:jar:test
++- uk.gov.service.payments:testing:1.0.20221005133049:jar:test
+|  +- javax.json:javax.json-api:1.1.4:jar:test
+|  +- org.glassfish:javax.json:1.1.4:jar:test
+|  \- com.spotify:docker-client:8.16.0:jar:test
+|     +- org.glassfish.jersey.connectors:jersey-apache-connector:2.22.2:jar:test
+|     |  \- javax.ws.rs:javax.ws.rs-api:2.0.1:jar:test
+|     +- org.glassfish.jersey.media:jersey-media-json-jackson:2.22.2:jar:test
+|     |  \- org.glassfish.jersey.ext:jersey-entity-filtering:2.22.2:jar:test
+|     +- org.apache.commons:commons-compress:1.18:jar:test
+|     +- com.github.jnr:jnr-unixsocket:0.18:jar:test
+|     |  +- com.github.jnr:jnr-ffi:2.1.4:jar:test
+|     |  |  +- com.github.jnr:jffi:1.2.15:jar:test
+|     |  |  +- com.github.jnr:jffi:1.2.15:jar:test
+|     |  |  +- org.ow2.asm:asm-commons:5.0.3:jar:test
+|     |  |  +- org.ow2.asm:asm-analysis:5.0.3:jar:test
+|     |  |  +- org.ow2.asm:asm-tree:5.0.3:jar:test
+|     |  |  +- org.ow2.asm:asm-util:5.0.3:jar:test
+|     |  |  \- com.github.jnr:jnr-x86asm:1.0.2:jar:test
+|     |  +- com.github.jnr:jnr-constants:0.9.8:jar:test
+|     |  +- com.github.jnr:jnr-enxio:0.16:jar:test
+|     |  \- com.github.jnr:jnr-posix:3.0.35:jar:test
+|     +- commons-lang:commons-lang:2.6:jar:test
+|     \- org.bouncycastle:bcpkix-jdk15on:1.60:jar:test
+|        \- org.bouncycastle:bcprov-jdk15on:1.60:jar:test
++- com.jayway.jsonpath:json-path-assert:2.7.0:jar:test
+|  \- com.jayway.jsonpath:json-path:2.7.0:jar:test
+|     \- net.minidev:json-smart:2.4.7:jar:test
+|        \- net.minidev:accessors-smart:2.4.7:jar:test
++- javax.activation:activation:1.1.1:jar:compile
++- javax.xml.bind:jaxb-api:2.3.1:jar:compile
+|  \- javax.activation:javax.activation-api:1.2.0:jar:compile
++- org.junit.jupiter:junit-jupiter-params:5.9.1:jar:test
+|  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.9.1:jar:test
+|  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  \- org.junit.platform:junit-platform-commons:1.9.1:jar:test
++- io.swagger.core.v3:swagger-annotations:2.2.3:jar:compile
++- org.testcontainers:postgresql:1.17.5:jar:test
+|  \- org.testcontainers:jdbc:1.17.5:jar:test
+|     \- org.testcontainers:database-commons:1.17.5:jar:test
+|        \- org.testcontainers:testcontainers:1.17.5:jar:test
+|           +- org.rnorth.duct-tape:duct-tape:1.0.8:jar:test
+|           +- com.github.docker-java:docker-java-api:3.2.13:jar:test
+|           \- com.github.docker-java:docker-java-transport-zerodep:3.2.13:jar:test
+|              +- com.github.docker-java:docker-java-transport:3.2.13:jar:test
+|              \- net.java.dev.jna:jna:5.8.0:jar:test
+\- com.github.tomakehurst:wiremock-jre8:2.34.0:jar:test
+   +- org.eclipse.jetty:jetty-proxy:9.4.48.v20220622:jar:test
+   |  \- org.eclipse.jetty:jetty-client:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty.http2:http2-server:9.4.48.v20220622:jar:test
+   |  \- org.eclipse.jetty.http2:http2-common:9.4.48.v20220622:jar:test
+   |     \- org.eclipse.jetty.http2:http2-hpack:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty:jetty-alpn-server:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty:jetty-alpn-java-server:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty:jetty-alpn-openjdk8-server:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty:jetty-alpn-java-client:9.4.48.v20220622:jar:test
+   |  \- org.eclipse.jetty:jetty-alpn-client:9.4.48.v20220622:jar:test
+   +- org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.48.v20220622:jar:test
+   +- org.apache.httpcomponents.client5:httpclient5:5.1.3:jar:test
+   |  +- org.apache.httpcomponents.core5:httpcore5:5.1.3:jar:test
+   |  \- org.apache.httpcomponents.core5:httpcore5-h2:5.1.3:jar:test
+   +- org.xmlunit:xmlunit-core:2.9.0:jar:test
+   +- org.xmlunit:xmlunit-legacy:2.9.0:jar:test
+   +- org.xmlunit:xmlunit-placeholders:2.9.0:jar:test
+   +- net.javacrumbs.json-unit:json-unit-core:2.35.0:jar:test
+   +- org.ow2.asm:asm:9.3:jar:test
+   +- net.sf.jopt-simple:jopt-simple:5.0.4:jar:test
+   +- com.github.jknack:handlebars:4.3.0:jar:test
+   +- com.github.jknack:handlebars-helpers:4.3.0:jar:test
+   \- commons-fileupload:commons-fileupload:1.4:jar:test

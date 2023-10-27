@@ -1,0 +1,4 @@
+Added Dependencies:
+ org.jenkins-ci.plugins:github-branch-source:1577.v83564088883f:jar:compile
+Removed Dependencies:
+ org.jenkins-ci.plugins:github-branch-source:2.11.4:jar:compile

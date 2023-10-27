@@ -1,0 +1,572 @@
+io.arex:arex-jedis-v2:0.3.4:jar:compile
++- redis.clients:jedis:2.10.2:jar:compile
+|  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  \- org.apache.commons:commons-pool2:2.4.3:jar:compile
++- io.arex:arex-redis-common:0.3.4:jar:compile
+|  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- io.arex:arex-agent-bootstrap:0.3.4:jar:compile
+|  |  |  +- net.bytebuddy:byte-buddy:1.12.8:jar:compile
+|  |  |  +- io.arex:arex-third-party:0.3.4:jar:compile
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  |  |  |  +- org.junit.platform:junit-platform-commons:1.8.2:jar:test
+|  |  |  |  |  \- org.apiguardian:apiguardian-api:1.1.2:jar:test
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  |  \- org.junit.platform:junit-platform-engine:1.8.2:jar:test
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  |  |  \- org.mockito:mockito-core:2.23.4:jar:test
+|  |  |  |  |     +- net.bytebuddy:byte-buddy:1.12.8:jar:test
+|  |  |  |  |     +- net.bytebuddy:byte-buddy-agent:1.9.3:jar:test
+|  |  |  |  |     +- org.objenesis:objenesis:2.6:jar:test
+|  |  |  |  |     \- net.bytebuddy:byte-buddy:1.12.8:jar:compile
+|  |  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  |  +- com.google.auto.service:auto-service:1.0:jar:compile
+|  |  |  +- com.google.auto.service:auto-service-annotations:1.0:jar:compile
+|  |  |  +- com.google.auto:auto-common:1.0:jar:compile
+|  |  |  \- com.google.guava:guava:30.1-jre:jar:compile
+|  |  |     +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  |  |     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  |  |     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  |  |     +- org.checkerframework:checker-qual:3.5.0:jar:compile
+|  |  |     +- com.google.errorprone:error_prone_annotations:2.3.4:jar:compile
+|  |  |     \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  \- org.mockito:mockito-inline:4.7.0:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test
+io.arex:arex-attacher:0.3.4:jar:compile
++- com.github.olivergondza:maven-jdk-tools-wrapper:0.1:jar:provided (optional)
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test
+io.arex:arex-common-integration-test:0.3.4:jar:compile
++- io.arex:arex-agent:0.3.4:jar:compile
+|  +- io.arex:arex-agent-core:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-foundation:0.3.4:jar:compile
+|  |  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  |  +- org.slf4j:slf4j-simple:1.7.25:jar:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.9.9.3:jar:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar:compile
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:2.9.9:jar:compile
+|  |  |  +- com.google.code.gson:gson:2.8.9:jar:compile
+|  |  |  +- org.apache.httpcomponents:httpasyncclient:4.1.4:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpcore:4.4.10:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpcore-nio:4.4.10:jar:compile
+|  |  |  |  +- org.apache.httpcomponents:httpclient:4.5.6:jar:compile
+|  |  |  |  |  \- commons-codec:commons-codec:1.10:jar:compile
+|  |  |  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  |  |  +- com.github.luben:zstd-jni:1.5.2-5:jar:compile
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-executors:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-loader:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-httpservlet:0.3.4:jar:compile
+|  |  +- javax.servlet:javax.servlet-api:3.1.0:jar:provided
+|  |  +- jakarta.servlet:jakarta.servlet-api:5.0.0:jar:provided
+|  |  +- org.springframework:spring-webmvc:5.3.24:jar:provided
+|  |  |  +- org.springframework:spring-aop:5.3.8:jar:provided
+|  |  |  +- org.springframework:spring-beans:5.3.8:jar:provided
+|  |  |  +- org.springframework:spring-context:5.3.8:jar:provided
+|  |  |  |  +- org.springframework:spring-aop:5.3.8:jar:provided
+|  |  |  |  +- org.springframework:spring-beans:5.3.8:jar:provided
+|  |  |  |  \- org.springframework:spring-expression:5.3.8:jar:provided
+|  |  |  |     \- org.springframework:spring-core:5.3.8:jar:provided
+|  |  |  |        \- org.springframework:spring-jcl:5.3.8:jar:provided
+|  |  |  +- org.springframework:spring-core:5.3.8:jar:provided
+|  |  |  +- org.springframework:spring-expression:5.3.8:jar:provided
+|  |  |  \- org.springframework:spring-web:5.3.8:jar:provided
+|  |  |     \- org.springframework:spring-beans:5.3.8:jar:provided
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-httpclient-apache-v4:0.3.4:jar:compile
+|  |  +- io.arex:arex-httpclient-common:0.3.4:jar:compile
+|  |  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- org.apache.httpcomponents:httpasyncclient:4.1.4:jar:provided
+|  |  |  +- org.apache.httpcomponents:httpcore:4.4.10:jar:provided
+|  |  |  +- org.apache.httpcomponents:httpcore-nio:4.4.10:jar:provided
+|  |  |  +- org.apache.httpcomponents:httpclient:4.5.6:jar:provided
+|  |  |  |  \- commons-codec:commons-codec:1.10:jar:provided
+|  |  |  \- commons-logging:commons-logging:1.1.1:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-database-hibernate:0.3.4:jar:compile
+|  |  +- io.arex:arex-database-common:0.3.4:jar:compile
+|  |  |  +- org.hibernate:hibernate-core:5.6.3.Final:jar:provided
+|  |  |  |  +- org.jboss.logging:jboss-logging:3.4.2.Final:jar:provided
+|  |  |  |  +- javax.persistence:javax.persistence-api:2.2:jar:provided
+|  |  |  |  +- net.bytebuddy:byte-buddy:1.12.8:jar:compile
+|  |  |  |  +- antlr:antlr:2.7.7:jar:provided
+|  |  |  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final:jar:provided
+|  |  |  |  +- org.jboss:jandex:2.2.3.Final:jar:provided
+|  |  |  |  +- com.fasterxml:classmate:1.5.1:jar:provided
+|  |  |  |  +- javax.activation:javax.activation-api:1.2.0:jar:provided
+|  |  |  |  +- org.hibernate.common:hibernate-commons-annotations:5.1.2.Final:jar:provided
+|  |  |  |  +- javax.xml.bind:jaxb-api:2.3.1:jar:provided
+|  |  |  |  \- org.glassfish.jaxb:jaxb-runtime:2.3.1:jar:provided
+|  |  |  |     +- org.glassfish.jaxb:txw2:2.3.1:jar:provided
+|  |  |  |     +- com.sun.istack:istack-commons-runtime:3.0.7:jar:provided
+|  |  |  |     +- org.jvnet.staxex:stax-ex:1.8:jar:provided
+|  |  |  |     \- com.sun.xml.fastinfoset:FastInfoset:1.2.15:jar:provided
+|  |  |  +- org.mybatis:mybatis:3.5.3:jar:provided
+|  |  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-database-mybatis3:0.3.4:jar:compile
+|  |  +- io.arex:arex-database-common:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-jedis-v4:0.3.4:jar:compile
+|  |  +- redis.clients:jedis:2.9.0:jar:provided
+|  |  |  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  |  |  +- org.apache.commons:commons-pool2:2.4.2:jar:provided
+|  |  |  +- org.json:json:20211205:jar:provided
+|  |  |  \- com.google.code.gson:gson:2.8.9:jar:provided
+|  |  +- io.arex:arex-redis-common:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-lettuce-v6:0.3.4:jar:compile
+|  |  +- io.lettuce:lettuce-core:6.1.8.RELEASE:jar:provided
+|  |  |  +- io.netty:netty-common:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-handler:4.1.63.Final:jar:provided
+|  |  |  |  +- io.netty:netty-resolver:4.1.63.Final:jar:provided
+|  |  |  |  +- io.netty:netty-buffer:4.1.63.Final:jar:provided
+|  |  |  |  \- io.netty:netty-codec:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport:4.1.63.Final:jar:provided
+|  |  |  \- io.projectreactor:reactor-core:3.4.6:jar:provided
+|  |  |     \- org.reactivestreams:reactive-streams:1.0.3:jar:provided
+|  |  +- io.arex:arex-redis-common:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-redission-v3:0.3.4:jar:compile
+|  |  +- org.redisson:redisson:3.17.3:jar:provided
+|  |  |  +- io.netty:netty-common:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-resolver-dns:4.1.63.Final:jar:provided
+|  |  |  |  +- io.netty:netty-codec-dns:4.1.63.Final:jar:provided
+|  |  |  |  \- io.netty:netty-resolver:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-handler:4.1.63.Final:jar:provided
+|  |  |  +- javax.cache:cache-api:1.1.1:jar:provided
+|  |  |  +- io.projectreactor:reactor-core:3.4.6:jar:provided
+|  |  |  +- io.reactivex.rxjava3:rxjava:3.0.12:jar:provided
+|  |  |  +- org.jboss.marshalling:jboss-marshalling:2.0.11.Final:jar:provided
+|  |  |  +- org.jboss.marshalling:jboss-marshalling-river:2.0.11.Final:jar:provided
+|  |  |  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.12.3:jar:provided
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.2:jar:provided
+|  |  |  |  \- org.yaml:snakeyaml:1.28:jar:provided
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:2.12.3:jar:provided
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.12.3:jar:provided
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:2.12.3:jar:provided
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:2.12.3:jar:provided
+|  |  |  +- net.bytebuddy:byte-buddy:1.12.8:jar:compile
+|  |  |  \- org.jodd:jodd-bean:5.1.6:jar:provided
+|  |  |     \- org.jodd:jodd-core:5.1.6:jar:provided
+|  |  +- io.arex:arex-redis-common:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-dynamic:0.3.4:jar:compile
+|  |  +- io.arex:arex-dynamic-common:0.3.4:jar:compile
+|  |  |  +- org.springframework:spring-expression:5.3.8:jar:provided
+|  |  |  +- io.arex:arex-serializer:0.3.4:jar:compile
+|  |  |  |  +- com.google.protobuf:protobuf-java:3.17.2:jar:provided
+|  |  |  |  +- com.google.protobuf:protobuf-java-util:3.6.0:jar:provided
+|  |  |  |  |  +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  |  |  |  \- com.google.code.gson:gson:2.8.9:jar:provided
+|  |  |  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  |  +- com.google.protobuf:protobuf-java:3.17.2:jar:test
+|  |  |  +- com.google.protobuf:protobuf-java-util:3.6.0:jar:test
+|  |  |  |  +- com.google.guava:guava:30.1-jre:jar:compile
+|  |  |  |  \- com.google.code.gson:gson:2.7:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- com.arextest:arex-common:0.1.4:jar:provided
+|  |  |  +- org.projectlombok:lombok:1.18.2:jar:provided
+|  |  |  +- org.apache.commons:commons-collections4:4.4:jar:provided
+|  |  |  +- commons-io:commons-io:2.4:jar:provided
+|  |  |  +- org.apache.commons:commons-lang3:3.3.2:jar:provided
+|  |  |  +- com.github.luben:zstd-jni:1.3.7-3:jar:provided
+|  |  |  +- org.apache.logging.log4j:log4j-core:2.17.1:jar:provided
+|  |  |  |  \- org.apache.logging.log4j:log4j-api:2.14.1:jar:provided
+|  |  |  +- org.apache.logging.log4j:log4j-slf4j-impl:2.17.1:jar:provided
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.12.3:jar:provided
+|  |  |  \- redis.clients:jedis:2.9.0:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-cache:0.3.4:jar:compile
+|  |  +- io.arex:arex-dynamic-common:0.3.4:jar:compile
+|  |  +- org.springframework:spring-context:5.3.8:jar:provided
+|  |  +- com.arextest:arex-common:0.1.4:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-time-machine:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-httpclient-okhttp-v3:0.3.4:jar:compile
+|  |  +- io.arex:arex-httpclient-common:0.3.4:jar:compile
+|  |  +- com.squareup.okhttp3:okhttp:4.9.3:jar:provided
+|  |  |  +- com.squareup.okio:okio:2.8.0:jar:provided
+|  |  |  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0:jar:provided
+|  |  |  \- org.jetbrains.kotlin:kotlin-stdlib:1.4.10:jar:provided
+|  |  |     \- org.jetbrains:annotations:13.0:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-netty-v4:0.3.4:jar:compile
+|  |  +- io.netty:netty-all:4.1.56.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-haproxy:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-http:4.1.63.Final:jar:provided
+|  |  |  |  +- io.netty:netty-common:4.1.63.Final:jar:provided
+|  |  |  |  +- io.netty:netty-transport:4.1.63.Final:jar:provided
+|  |  |  |  \- io.netty:netty-handler:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-http2:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-memcache:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-mqtt:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-redis:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-smtp:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-socks:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-stomp:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-codec-xml:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-common:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-handler:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-native-unix-common:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-handler-proxy:4.1.63.Final:jar:provided
+|  |  |  |  \- io.netty:netty-codec-socks:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-resolver-dns:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-rxtx:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-sctp:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-udt:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-classes-epoll:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-classes-kqueue:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-resolver-dns-classes-macos:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-native-epoll:4.1.63.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-native-epoll:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-native-kqueue:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-transport-native-kqueue:4.1.78.Final:jar:provided
+|  |  |  +- io.netty:netty-resolver-dns-native-macos:4.1.63.Final:jar:provided
+|  |  |  |  \- io.netty:netty-transport-native-unix-common:4.1.63.Final:jar:provided
+|  |  |  \- io.netty:netty-resolver-dns-native-macos:4.1.78.Final:jar:provided
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-jwt:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-dubbo-apache-v2:0.3.4:jar:compile
+|  |  +- io.arex:arex-dubbo-common:0.3.4:jar:compile
+|  |  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  |  +- org.apache.dubbo:dubbo:3.1.1:jar:provided
+|  |  |  +- org.springframework:spring-context:5.3.8:jar:provided
+|  |  |  +- com.alibaba.spring:spring-context-support:1.0.8:jar:provided
+|  |  |  +- org.javassist:javassist:3.15.0-GA:jar:provided
+|  |  |  +- io.netty:netty-all:4.1.56.Final:jar:provided
+|  |  |  +- com.google.code.gson:gson:2.8.9:jar:provided
+|  |  |  +- org.yaml:snakeyaml:1.28:jar:provided
+|  |  |  +- com.alibaba:fastjson:1.2.83:jar:provided
+|  |  |  \- com.alibaba.fastjson2:fastjson2:2.0.14:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-dubbo-apache-v3:0.3.4:jar:compile
+|  |  +- io.arex:arex-dubbo-common:0.3.4:jar:compile
+|  |  +- org.apache.dubbo:dubbo:3.1.1:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-dubbo-alibaba:0.3.4:jar:compile
+|  |  +- io.arex:arex-dubbo-common:0.3.4:jar:compile
+|  |  +- com.alibaba:dubbo:2.5.3:jar:provided
+|  |  |  +- org.springframework:spring:2.5.6.SEC03:jar:provided
+|  |  |  |  \- commons-logging:commons-logging:1.1.1:jar:provided
+|  |  |  +- org.javassist:javassist:3.15.0-GA:jar:provided
+|  |  |  \- org.jboss.netty:netty:3.2.5.Final:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-spring-security:0.3.4:jar:compile
+|  |  +- org.springframework.security:spring-security-web:5.6.0:jar:provided
+|  |  |  +- org.springframework.security:spring-security-core:5.6.0:jar:provided
+|  |  |  |  \- org.springframework.security:spring-security-crypto:5.6.0:jar:provided
+|  |  |  +- org.springframework:spring-context:5.3.8:jar:provided
+|  |  |  \- org.springframework:spring-web:5.3.8:jar:provided
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-httpclient-webclient-v5:0.3.4:jar:compile
+|  |  +- io.arex:arex-httpclient-common:0.3.4:jar:compile
+|  |  +- org.springframework.boot:spring-boot-starter-webflux:2.5.1:jar:provided
+|  |  |  +- org.springframework.boot:spring-boot-starter:2.5.1:jar:provided
+|  |  |  |  +- org.springframework.boot:spring-boot:2.5.1:jar:provided
+|  |  |  |  |  \- org.springframework:spring-context:5.3.8:jar:provided
+|  |  |  |  +- org.springframework.boot:spring-boot-autoconfigure:2.5.1:jar:provided
+|  |  |  |  +- org.springframework.boot:spring-boot-starter-logging:2.5.1:jar:provided
+|  |  |  |  |  +- ch.qos.logback:logback-classic:1.2.3:jar:provided
+|  |  |  |  |  |  \- ch.qos.logback:logback-core:1.2.3:jar:provided
+|  |  |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:2.14.1:jar:provided
+|  |  |  |  |  |  \- org.apache.logging.log4j:log4j-api:2.14.1:jar:provided
+|  |  |  |  |  \- org.slf4j:jul-to-slf4j:1.7.30:jar:provided
+|  |  |  |  +- jakarta.annotation:jakarta.annotation-api:1.3.5:jar:provided
+|  |  |  |  \- org.yaml:snakeyaml:1.28:jar:provided
+|  |  |  +- org.springframework.boot:spring-boot-starter-json:2.5.1:jar:provided
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:2.12.3:jar:provided
+|  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.3:jar:provided
+|  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.3:jar:provided
+|  |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.3:jar:provided
+|  |  |  +- org.springframework.boot:spring-boot-starter-reactor-netty:2.5.1:jar:provided
+|  |  |  |  \- io.projectreactor.netty:reactor-netty-http:1.0.7:jar:provided
+|  |  |  |     +- io.netty:netty-codec-http:4.1.63.Final:jar:provided
+|  |  |  |     +- io.netty:netty-codec-http2:4.1.63.Final:jar:provided
+|  |  |  |     +- io.netty:netty-resolver-dns:4.1.63.Final:jar:provided
+|  |  |  |     +- io.netty:netty-resolver-dns-native-macos:4.1.63.Final:jar:provided
+|  |  |  |     +- io.netty:netty-transport-native-epoll:4.1.63.Final:jar:provided
+|  |  |  |     \- io.projectreactor.netty:reactor-netty-core:1.0.7:jar:provided
+|  |  |  |        \- io.netty:netty-handler-proxy:4.1.63.Final:jar:provided
+|  |  |  +- org.springframework:spring-web:5.3.8:jar:provided
+|  |  |  \- org.springframework:spring-webflux:5.3.8:jar:provided
+|  |  |     \- io.projectreactor:reactor-core:3.4.6:jar:provided
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-shiro:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- io.arex:arex-jcasbin:0.3.4:jar:compile
+|  |  +- io.arex:arex-instrumentation-api:0.3.4:jar:compile
+|  |  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  |  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  |  \- org.mockito:mockito-inline:4.7.0:jar:test
+|  +- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
+|  +- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
+|  +- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+|  \- org.mockito:mockito-inline:4.7.0:jar:test
++- org.testcontainers:testcontainers:1.16.3:jar:test
+|  +- junit:junit:4.12:jar:test
+|  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  +- org.apache.commons:commons-compress:1.21:jar:test
+|  +- org.rnorth.duct-tape:duct-tape:1.0.8:jar:test
+|  |  \- org.jetbrains:annotations:17.0.0:jar:test
+|  +- com.github.docker-java:docker-java-api:3.2.12:jar:test
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar:compile
+|  \- com.github.docker-java:docker-java-transport-zerodep:3.2.12:jar:test
+|     +- com.github.docker-java:docker-java-transport:3.2.12:jar:test
+|     \- net.java.dev.jna:jna:5.8.0:jar:test
++- org.testcontainers:junit-jupiter:1.16.3:jar:test
++- com.h2database:h2:2.1.210:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test
+io.arex:arex-main-integration-test:0.3.4:jar:compile
++- io.arex:arex-common-integration-test:0.3.4:test-jar:test
++- io.arex:arex-agent:0.3.4:jar:compile
++- org.testcontainers:testcontainers:1.16.3:jar:test
++- org.testcontainers:junit-jupiter:1.16.3:jar:test
++- com.h2database:h2:2.1.210:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test
+io.arex:arex-dynamic-integration-test:0.3.4:jar:compile
++- io.arex:arex-common-integration-test:0.3.4:test-jar:test
++- org.springframework.boot:spring-boot-starter-web:2.1.8.RELEASE:jar:test
+|  +- org.springframework.boot:spring-boot-starter:2.1.8.RELEASE:jar:test
+|  |  +- org.springframework.boot:spring-boot:2.1.8.RELEASE:jar:test
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE:jar:test
+|  |  +- org.springframework.boot:spring-boot-starter-logging:2.1.8.RELEASE:jar:test
+|  |  |  +- ch.qos.logback:logback-classic:1.2.3:jar:test
+|  |  |  |  \- ch.qos.logback:logback-core:1.2.3:jar:test
+|  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:2.11.2:jar:test
+|  |  |  |  \- org.apache.logging.log4j:log4j-api:2.11.2:jar:test
+|  |  |  \- org.slf4j:jul-to-slf4j:1.7.28:jar:test
+|  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:test
+|  |  \- org.yaml:snakeyaml:1.23:jar:test
+|  +- org.springframework.boot:spring-boot-starter-json:2.1.8.RELEASE:jar:test
+|  |  +- com.fasterxml.jackson.core:jackson-databind:2.9.9.3:jar:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9:jar:test
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9:jar:test
+|  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.9:jar:test
+|  +- org.springframework.boot:spring-boot-starter-tomcat:2.1.8.RELEASE:jar:test
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:9.0.24:jar:test
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:9.0.24:jar:test
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.24:jar:test
+|  +- org.hibernate.validator:hibernate-validator:6.0.17.Final:jar:test
+|  |  +- javax.validation:validation-api:2.0.1.Final:jar:test
+|  |  +- org.jboss.logging:jboss-logging:3.3.2.Final:jar:test
+|  |  \- com.fasterxml:classmate:1.3.4:jar:test
+|  +- org.springframework:spring-web:5.1.9.RELEASE:jar:test
+|  |  \- org.springframework:spring-beans:5.1.9.RELEASE:jar:test
+|  \- org.springframework:spring-webmvc:5.1.9.RELEASE:jar:test
+|     +- org.springframework:spring-aop:5.1.9.RELEASE:jar:test
+|     +- org.springframework:spring-context:5.1.9.RELEASE:jar:test
+|     \- org.springframework:spring-expression:5.1.9.RELEASE:jar:test
++- org.springframework.boot:spring-boot-starter-test:2.1.8.RELEASE:jar:test
+|  +- org.springframework.boot:spring-boot-test:2.1.8.RELEASE:jar:test
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:2.1.8.RELEASE:jar:test
+|  +- com.jayway.jsonpath:json-path:2.4.0:jar:test
+|  |  \- net.minidev:json-smart:2.3:jar:test
+|  |     \- net.minidev:accessors-smart:1.2:jar:test
+|  |        \- org.ow2.asm:asm:5.0.4:jar:test
+|  +- junit:junit:4.12:jar:test
+|  +- org.assertj:assertj-core:3.11.1:jar:test
+|  +- org.mockito:mockito-core:2.23.4:jar:test
+|  +- org.hamcrest:hamcrest-core:1.3:jar:test
+|  +- org.hamcrest:hamcrest-library:1.3:jar:test
+|  +- org.skyscreamer:jsonassert:1.5.0:jar:test
+|  |  \- com.vaadin.external.google:android-json:0.0.20131108.vaadin1:jar:test
+|  +- org.springframework:spring-core:5.1.9.RELEASE:jar:test
+|  |  \- org.springframework:spring-jcl:5.1.9.RELEASE:jar:test
+|  +- org.springframework:spring-test:5.1.9.RELEASE:jar:test
+|  \- org.xmlunit:xmlunit-core:2.6.3:jar:test
+|     \- javax.xml.bind:jaxb-api:2.3.0:jar:test
++- io.arex:arex-agent:0.3.4:jar:compile
++- org.testcontainers:testcontainers:1.16.3:jar:test
++- org.testcontainers:junit-jupiter:1.16.3:jar:test
++- com.h2database:h2:2.1.210:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test
+io.arex:arex-jedis-v4-integration-test:0.3.4:jar:compile
++- io.arex:arex-common-integration-test:0.3.4:test-jar:test
++- org.springframework.boot:spring-boot-starter-web:2.1.8.RELEASE:jar:test
++- org.springframework.boot:spring-boot-starter-test:2.1.8.RELEASE:jar:test
++- redis.clients:jedis:4.2.0:jar:test
+|  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  +- org.apache.commons:commons-pool2:2.11.1:jar:test
+|  +- org.json:json:20211205:jar:test
+|  \- com.google.code.gson:gson:2.8.9:jar:compile
++- io.arex:arex-agent:0.3.4:jar:compile
++- org.testcontainers:testcontainers:1.16.3:jar:test
++- org.testcontainers:junit-jupiter:1.16.3:jar:test
++- com.h2database:h2:2.1.210:jar:test
++- org.junit.jupiter:junit-jupiter-api:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-engine:5.8.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.8.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.7.0:jar:test
+\- org.mockito:mockito-inline:4.7.0:jar:test

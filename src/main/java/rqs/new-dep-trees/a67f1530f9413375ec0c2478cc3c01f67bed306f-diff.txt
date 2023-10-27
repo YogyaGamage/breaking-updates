@@ -1,0 +1,8 @@
+Added Dependencies:
+ org.testng:testng:7.7.0:jar:provided
+ com.beust:jcommander:1.82:jar:provided
+ org.webjars:jquery:3.6.1:jar:provided
+ org.slf4j:slf4j-api:1.7.36:jar:provided
+Removed Dependencies:
+ org.testng:testng:7.0.0:jar:provided
+ com.beust:jcommander:1.72:jar:provided

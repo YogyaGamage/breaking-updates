@@ -1,0 +1,393 @@
+org.apache.myfaces.tobago:tobago-tool-annotation:2.5.1-SNAPSHOT:jar:compile
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.slf4j:jcl-over-slf4j:1.7.36:jar:compile (optional)
+|  \- org.slf4j:slf4j-api:1.7.36:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:test
++- ch.qos.logback:logback-core:1.2.11:jar:test
++- javax.servlet.jsp:jsp-api:2.1.2:jar:provided
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0:jar:provided
+\- org.apache.portals:portlet-api_2.0_spec:1.0:jar:provided
+org.apache.myfaces.tobago:tobago-tool-apt:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-api:2.0.25:jar:compile
++- org.apache.myfaces.tobago:tobago-tool-annotation:2.5.1-SNAPSHOT:jar:provided
++- org.apache.ant:ant:1.10.12:jar:compile
+|  \- org.apache.ant:ant-launcher:1.10.12:jar:compile
++- commons-io:commons-io:2.11.0:jar:compile
++- commons-lang:commons-lang:2.6:jar:compile
++- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
++- org.antlr:stringtemplate:3.0:jar:compile
+|  \- antlr:antlr:2.7.7:jar:compile
++- org.jdom:jdom2:2.0.6.1:jar:compile
++- junit:junit:4.13.2:jar:test
++- org.slf4j:jcl-over-slf4j:1.7.36:jar:compile (optional)
++- ch.qos.logback:logback-classic:1.2.11:jar:test
++- ch.qos.logback:logback-core:1.2.11:jar:test
++- javax.servlet.jsp:jsp-api:2.1.2:jar:provided
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0:jar:provided
+\- org.apache.portals:portlet-api_2.0_spec:1.0:jar:provided
+org.apache.myfaces.tobago:tobago-theme-plugin:2.5.1-SNAPSHOT:maven-plugin:compile
++- org.apache.maven:maven-plugin-api:3.8.6:jar:provided
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:jar:provided
+|  |  +- javax.annotation:javax.annotation-api:1.2:jar:provided
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:provided
+|  |  \- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:provided
+|  \- org.codehaus.plexus:plexus-classworlds:2.6.0:jar:provided
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4:jar:provided
++- org.apache.maven:maven-model:3.8.6:jar:provided
++- org.apache.maven:maven-archiver:3.6.0:jar:compile
+|  +- org.codehaus.plexus:plexus-io:3.4.0:jar:compile
+|  |  +- javax.inject:javax.inject:1:jar:compile
+|  |  \- commons-io:commons-io:2.11.0:jar:compile
+|  +- org.codehaus.plexus:plexus-archiver:4.4.0:jar:compile
+|  |  +- org.iq80.snappy:snappy:0.4:jar:compile
+|  |  \- org.tukaani:xz:1.9:jar:runtime
+|  \- org.codehaus.plexus:plexus-interpolation:1.26:jar:compile
++- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
++- org.apache.maven:maven-artifact:3.8.6:jar:provided
+|  \- org.apache.commons:commons-lang3:3.8.1:jar:provided
++- org.codehaus.plexus:plexus-compiler-api:2.12.0:jar:compile
++- org.apache.commons:commons-compress:1.21:jar:compile
++- junit:junit:4.13.2:jar:test
++- org.slf4j:jcl-over-slf4j:1.7.36:jar:compile (optional)
++- ch.qos.logback:logback-classic:1.2.11:jar:test
++- ch.qos.logback:logback-core:1.2.11:jar:test
++- javax.servlet.jsp:jsp-api:2.1.2:jar:provided
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0:jar:provided
+\- org.apache.portals:portlet-api_2.0_spec:1.0:jar:provided
+org.apache.myfaces.tobago:tobago-theme-example:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-speyside:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-scarborough:2.5.1-SNAPSHOT:jar:compile
+|  |  +- org.apache.myfaces.tobago:tobago-theme-standard:2.5.1-SNAPSHOT:jar:compile
+|  |  |  +- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:compile
+|  |  |  |  +- org.apache.myfaces.core:myfaces-api:2.0.25:jar:compile
+|  |  |  |  +- org.apache.geronimo.specs:geronimo-el_2.2_spec:1.1:jar:provided
+|  |  |  |  +- net.sourceforge.maven-taglib:maven-taglib-plugin:2.4:jar:test
+|  |  |  |  |  +- commons-lang:commons-lang:2.6:jar:provided
+|  |  |  |  |  +- org.codehaus.plexus:plexus-archiver:1.0-alpha-7:jar:test
+|  |  |  |  |  |  \- org.codehaus.plexus:plexus-container-default:1.0-alpha-8:jar:test
+|  |  |  |  |  +- javax.servlet:servlet-api:2.4:jar:test
+|  |  |  |  |  +- javax.servlet:jsp-api:2.0:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-project:2.0.4:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-settings:2.0.4:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-profile:2.0.4:jar:test
+|  |  |  |  |  |  \- org.apache.maven:maven-artifact-manager:2.0.4:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-model:2.0.8:jar:test
+|  |  |  |  |  +- org.apache.maven.reporting:maven-reporting-impl:2.0.4:jar:test
+|  |  |  |  |  |  +- commons-validator:commons-validator:1.2.0:jar:test
+|  |  |  |  |  |  |  +- commons-digester:commons-digester:1.6:jar:test
+|  |  |  |  |  |  |  \- xml-apis:xml-apis:1.4.01:jar:test
+|  |  |  |  |  |  +- org.apache.maven.doxia:doxia-core:1.0-alpha-7:jar:test
+|  |  |  |  |  |  |  \- org.apache.maven.doxia:doxia-sink-api:1.0-alpha-7:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-plugin-api:2.0.4:jar:test
+|  |  |  |  |  |  +- oro:oro:2.0.7:jar:test
+|  |  |  |  |  |  +- org.apache.maven.reporting:maven-reporting-api:2.0.4:jar:test
+|  |  |  |  |  |  \- org.apache.maven.doxia:doxia-site-renderer:1.0-alpha-7:jar:test
+|  |  |  |  |  |     +- org.codehaus.plexus:plexus-i18n:1.0-beta-6:jar:test
+|  |  |  |  |  |     +- org.codehaus.plexus:plexus-velocity:1.1.2:jar:test
+|  |  |  |  |  |     |  +- plexus:plexus-utils:1.0.2:jar:test
+|  |  |  |  |  |     |  +- commons-logging:commons-logging-api:1.0.4:jar:test
+|  |  |  |  |  |     |  \- velocity:velocity:1.4:jar:test
+|  |  |  |  |  |     |     \- velocity:velocity-dep:1.4:jar:test
+|  |  |  |  |  |     \- org.apache.maven.doxia:doxia-decoration-model:1.0-alpha-7:jar:test
+|  |  |  |  |  +- taglibrarydoc:tlddoc:1.3:jar:test
+|  |  |  |  |  +- jdom:jdom:1.0:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-core:2.0.8:jar:test
+|  |  |  |  |  |  +- org.apache.maven.wagon:wagon-file:1.0-beta-2:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-plugin-parameter-documenter:2.0.8:jar:test
+|  |  |  |  |  |  +- org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-2:jar:test
+|  |  |  |  |  |  |  \- org.apache.maven.wagon:wagon-http-shared:1.0-beta-2:jar:test
+|  |  |  |  |  |  |     \- jtidy:jtidy:4aug2000r7-dev:jar:test
+|  |  |  |  |  |  +- org.apache.maven.wagon:wagon-provider-api:1.0-beta-2:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-repository-metadata:2.0.8:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-error-diagnostics:2.0.8:jar:test
+|  |  |  |  |  |  +- commons-cli:commons-cli:1.0:jar:test
+|  |  |  |  |  |  +- org.apache.maven.wagon:wagon-ssh-external:1.0-beta-2:jar:test
+|  |  |  |  |  |  |  \- org.apache.maven.wagon:wagon-ssh-common:1.0-beta-2:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-plugin-descriptor:2.0.8:jar:test
+|  |  |  |  |  |  +- org.codehaus.plexus:plexus-interactivity-api:1.0-alpha-4:jar:test
+|  |  |  |  |  |  +- org.apache.maven:maven-monitor:2.0.8:jar:test
+|  |  |  |  |  |  +- org.apache.maven.wagon:wagon-ssh:1.0-beta-2:jar:test
+|  |  |  |  |  |  |  \- com.jcraft:jsch:0.1.27:jar:test
+|  |  |  |  |  |  \- classworlds:classworlds:1.1:jar:test
+|  |  |  |  |  +- org.apache.maven:maven-artifact:2.0.8:jar:test
+|  |  |  |  |  \- org.apache.maven:maven-plugin-registry:2.0.8:jar:test
+|  |  |  |  +- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |  |  |  |  \- commons-logging:commons-logging:1.2:jar:provided
+|  |  |  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  |  +- org.apache.myfaces.tobago:tobago-tool-apt:2.5.1-SNAPSHOT:jar:provided
+|  |  |  |  |  +- org.apache.ant:ant:1.10.12:jar:provided
+|  |  |  |  |  |  \- org.apache.ant:ant-launcher:1.10.12:jar:provided
+|  |  |  |  |  +- commons-io:commons-io:2.11.0:jar:provided
+|  |  |  |  |  +- org.antlr:stringtemplate:3.0:jar:provided
+|  |  |  |  |  |  \- antlr:antlr:2.7.7:jar:provided
+|  |  |  |  |  +- org.jdom:jdom2:2.0.6.1:jar:provided
+|  |  |  |  |  +- commons-lang:commons-lang:2.6:jar:provided
+|  |  |  |  |  +- org.slf4j:slf4j-api:1.7.36:jar:compile
+|  |  |  |  |  \- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
+|  |  |  |  +- org.apache.myfaces.tobago:tobago-tool-annotation:2.5.1-SNAPSHOT:jar:provided
+|  |  |  |  +- org.apache.myfaces.test:myfaces-test20:1.0.8:jar:test
+|  |  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  +- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
+|  |  |  |  +- org.jsoup:jsoup:1.15.1:jar:compile
+|  |  |  |  +- junit:junit:4.13.2:jar:test
+|  |  |  |  +- org.slf4j:jcl-over-slf4j:1.7.36:jar:compile (optional)
+|  |  |  |  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  |  |  |  +- ch.qos.logback:logback-core:1.2.11:jar:test
+|  |  |  |  +- javax.servlet.jsp:jsp-api:2.1.2:jar:provided
+|  |  |  |  +- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0:jar:provided
+|  |  |  |  \- org.apache.portals:portlet-api_2.0_spec:1.0:jar:provided
+|  |  |  +- org.apache.myfaces.test:myfaces-test20:1.0.8:jar:test
+|  |  |  +- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:test
+|  |  |  |  +- commons-beanutils:commons-beanutils:1.9.4:jar:compile
+|  |  |  |  +- commons-collections:commons-collections:3.2.2:jar:compile
+|  |  |  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  |  |  +- org.jsoup:jsoup:1.15.1:jar:compile
+|  |  |  |  \- org.codehaus.plexus:plexus-utils:3.4.2:jar:compile
+|  |  |  +- junit:junit:4.13.2:jar:test
+|  |  |  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  |  |  \- ch.qos.logback:logback-core:1.2.11:jar:test
+|  |  +- rhino:js:1.7R2:jar:test
+|  |  +- junit:junit:4.13.2:jar:test
+|  |  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  |  \- ch.qos.logback:logback-core:1.2.11:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test
+org.apache.myfaces.tobago:tobago-example-addressbook-cdi:2.5.1-SNAPSHOT:war:compile
++- org.apache.geronimo.specs:geronimo-jcdi_1.0_spec:1.1:jar:provided
++- org.apache.geronimo.specs:geronimo-validation_1.1_spec:1.0:jar:provided
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:1.2:jar:provided
++- org.apache.geronimo.specs:geronimo-interceptor_1.1_spec:1.0:jar:provided
++- org.apache.geronimo.specs:geronimo-annotation_1.1_spec:1.0.1:jar:provided
++- org.apache.openwebbeans:openwebbeans-impl:1.2.8:jar:provided
+|  +- org.apache.xbean:xbean-finder-shaded:4.1:jar:provided
+|  \- org.apache.xbean:xbean-asm5-shaded:4.1:jar:provided
++- javassist:javassist:3.12.1.GA:jar:provided
++- org.apache.openwebbeans:openwebbeans-spi:1.2.8:jar:provided
++- org.apache.openwebbeans:openwebbeans-web:1.2.8:jar:provided
+|  \- org.apache.openwebbeans:openwebbeans-el22:1.2.8:jar:provided
++- org.apache.openwebbeans:openwebbeans-resource:1.2.8:jar:provided
++- org.tango-project:tango-icon-theme:0.8.0:jar:compile
++- org.apache.geronimo.specs:geronimo-jpa_3.0_spec:1.1.1:jar:provided
++- org.apache.openjpa:openjpa-persistence-jdbc:1.2.3:jar:compile
+|  +- org.apache.openjpa:openjpa-jdbc:1.2.3:jar:compile
+|  |  \- org.apache.openjpa:openjpa-kernel:1.2.3:jar:compile
+|  |     +- org.apache.openjpa:openjpa-lib:1.2.3:jar:compile
+|  |     |  +- commons-lang:commons-lang:2.6:jar:compile
+|  |     |  \- net.sourceforge.serp:serp:1.13.1:jar:compile
+|  |     +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1:jar:compile
+|  |     +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1:jar:compile
+|  |     \- commons-pool:commons-pool:1.3:jar:compile
+|  \- org.apache.openjpa:openjpa-persistence:1.2.3:jar:compile
+|     \- org.apache.geronimo.specs:geronimo-jpa_1.0_spec:1.1.2:jar:compile
++- org.apache.myfaces.tobago:tobago-fileupload:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.apache.myfaces.tobago:tobago-security:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1:jar:provided
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- commons-io:commons-io:2.11.0:jar:compile
++- org.slf4j:slf4j-simple:1.7.36:jar:compile
++- org.apache.derby:derby:10.15.2.0:jar:compile
+|  \- org.apache.derby:derbyshared:10.15.2.0:jar:compile
++- org.apache.deltaspike.modules:deltaspike-jsf-module-impl:1.9.6:jar:compile
+|  +- org.apache.deltaspike.core:deltaspike-core-api:1.9.6:jar:compile
+|  +- org.apache.deltaspike.core:deltaspike-core-impl:1.9.6:jar:compile
+|  +- org.apache.deltaspike.modules:deltaspike-security-module-api:1.9.6:jar:compile
+|  +- org.apache.deltaspike.modules:deltaspike-security-module-impl:1.9.6:jar:runtime
+|  +- org.apache.deltaspike.modules:deltaspike-jsf-module-api:1.9.6:jar:compile
+|  +- org.apache.deltaspike.modules:deltaspike-proxy-module-api:1.9.6:jar:compile
+|  +- org.apache.deltaspike.modules:deltaspike-proxy-module-impl-asm:1.9.6:jar:runtime
+|  \- org.owasp.encoder:encoder:1.2.2:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-speyside:2.5.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-speyside:2.5.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
+|  \- commons-digester:commons-digester:1.8:jar:runtime
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test
+org.apache.myfaces.tobago:tobago-example-blank:2.5.1-SNAPSHOT:war:compile
++- org.slf4j:log4j-over-slf4j:1.7.36:jar:compile
++- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:compile
++- ch.qos.logback:logback-core:1.2.11:jar:compile
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
+\- junit:junit:4.13.2:jar:test
+org.apache.myfaces.tobago:tobago-example-demo:2.5.1-SNAPSHOT:war:compile
++- org.apache.myfaces.tobago:tobago-example-data:2.5.1-SNAPSHOT:jar:compile
+|  +- commons-lang:commons-lang:2.6:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
+|  +- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:runtime
+|  +- commons-logging:commons-logging:1.2:jar:runtime
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.apache.myfaces.tobago:tobago-fileupload:2.5.1-SNAPSHOT:jar:compile
++- org.slf4j:log4j-over-slf4j:1.7.36:jar:compile
++- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:compile
++- ch.qos.logback:logback-core:1.2.11:jar:compile
++- oro:oro:2.0.8:jar:compile
++- org.apache.myfaces.test:myfaces-test20:1.0.8:jar:test
++- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:test
++- commons-io:commons-io:2.11.0:jar:compile
++- org.apache.deltaspike.modules:deltaspike-jsf-module-impl:1.9.6:jar:compile
++- org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1:jar:compile
++- javax.validation:validation-api:2.0.1.Final:jar:compile
++- org.apache.bval:bval-jsr:2.0.6:jar:compile
++- org.apache.geronimo.specs:geronimo-jcdi_1.0_spec:1.1:jar:compile
++- org.apache.geronimo.specs:geronimo-validation_1.1_spec:1.0:jar:compile
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:1.2:jar:compile
++- org.apache.geronimo.specs:geronimo-interceptor_1.1_spec:1.0:jar:compile
++- org.apache.openwebbeans:openwebbeans-jsf:1.2.8:jar:compile
+|  \- org.apache.openwebbeans:openwebbeans-impl:1.2.8:jar:compile
+|     +- org.apache.xbean:xbean-asm5-shaded:4.1:jar:compile
+|     \- org.apache.openwebbeans:openwebbeans-spi:1.2.8:jar:compile
++- org.apache.openwebbeans:openwebbeans-web:1.2.8:jar:compile
+|  +- org.apache.xbean:xbean-finder-shaded:4.1:jar:compile
+|  \- org.apache.openwebbeans:openwebbeans-el22:1.2.8:jar:compile
++- org.apache.openwebbeans:openwebbeans-resource:1.2.8:jar:compile
++- javax.el:javax.el-api:3.0.1-b06:jar:compile
+\- junit:junit:4.13.2:jar:test
+org.apache.myfaces.tobago:tobago-example-portlet:2.5.1-SNAPSHOT:war:compile
++- javax.el:javax.el-api:3.0.1-b06:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test
+org.apache.myfaces.tobago:tobago-example-sandbox:2.5.1-SNAPSHOT:war:compile
++- org.apache.myfaces.tobago:tobago-sandbox:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-scarborough:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:test
+|  +- net.sourceforge.maven-taglib:maven-taglib-plugin:2.4:jar:test
+|  +- org.apache.myfaces.test:myfaces-test20:1.0.8:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.slf4j:log4j-over-slf4j:1.7.36:jar:compile
++- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:compile
++- ch.qos.logback:logback-core:1.2.11:jar:compile
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
+\- junit:junit:4.13.2:jar:test
+org.apache.myfaces.tobago:tobago-example-security:2.5.1-SNAPSHOT:war:compile
++- org.apache.myfaces.tobago:tobago-security:2.5.1-SNAPSHOT:jar:compile
++- org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1:jar:compile
++- org.apache.logging.log4j:log4j-core:2.17.2:jar:provided
+|  \- org.apache.logging.log4j:log4j-api:2.17.2:jar:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:2.17.2:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test
+org.apache.myfaces.tobago:tobago-example-test:2.5.1-SNAPSHOT:war:compile
++- org.apache.myfaces.tobago:tobago-example-data:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-sandbox:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-fileupload:2.5.1-SNAPSHOT:jar:compile
++- org.slf4j:log4j-over-slf4j:1.7.36:jar:compile
++- org.slf4j:jul-to-slf4j:1.7.36:jar:compile
++- ch.qos.logback:logback-classic:1.2.11:jar:compile
++- ch.qos.logback:logback-core:1.2.11:jar:compile
++- oro:oro:2.0.8:jar:compile
++- org.seleniumhq.selenium:selenium-java:2.53.1:jar:test
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:2.53.1:jar:test
+|  |  \- org.seleniumhq.selenium:selenium-remote-driver:2.53.1:jar:test
+|  |     +- cglib:cglib-nodep:2.1_3:jar:test
+|  |     +- com.google.code.gson:gson:2.3.1:jar:test
+|  |     +- org.seleniumhq.selenium:selenium-api:2.53.1:jar:test
+|  |     +- org.apache.httpcomponents:httpclient:4.5.1:jar:test
+|  |     |  \- org.apache.httpcomponents:httpcore:4.4.3:jar:test
+|  |     \- com.google.guava:guava:19.0:jar:test
+|  +- org.seleniumhq.selenium:selenium-edge-driver:2.53.1:jar:test
+|  |  +- commons-io:commons-io:2.11.0:jar:test
+|  |  \- org.apache.commons:commons-exec:1.3:jar:test
+|  +- org.seleniumhq.selenium:htmlunit-driver:2.21:jar:test
+|  |  \- net.sourceforge.htmlunit:htmlunit:2.21:jar:test
+|  |     +- xalan:xalan:2.7.2:jar:test
+|  |     |  \- xalan:serializer:2.7.2:jar:test
+|  |     +- org.apache.commons:commons-lang3:3.4:jar:test
+|  |     +- org.apache.httpcomponents:httpmime:4.5.2:jar:test
+|  |     +- net.sourceforge.htmlunit:htmlunit-core-js:2.17:jar:test
+|  |     +- net.sourceforge.htmlunit:neko-htmlunit:2.21:jar:test
+|  |     |  \- xerces:xercesImpl:2.11.0:jar:test
+|  |     |     \- xml-apis:xml-apis:1.4.01:jar:test
+|  |     +- net.sourceforge.cssparser:cssparser:0.9.18:jar:test
+|  |     |  \- org.w3c.css:sac:1.3:jar:test
+|  |     \- org.eclipse.jetty.websocket:websocket-client:9.2.15.v20160210:jar:test
+|  |        +- org.eclipse.jetty:jetty-util:9.2.15.v20160210:jar:test
+|  |        +- org.eclipse.jetty:jetty-io:9.2.15.v20160210:jar:test
+|  |        \- org.eclipse.jetty.websocket:websocket-common:9.2.15.v20160210:jar:test
+|  |           \- org.eclipse.jetty.websocket:websocket-api:9.2.15.v20160210:jar:test
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:2.53.1:jar:test
+|  +- org.seleniumhq.selenium:selenium-ie-driver:2.53.1:jar:test
+|  |  +- net.java.dev.jna:jna:4.1.0:jar:test
+|  |  \- net.java.dev.jna:jna-platform:4.1.0:jar:test
+|  +- org.seleniumhq.selenium:selenium-safari-driver:2.53.1:jar:test
+|  |  \- io.netty:netty:3.5.7.Final:jar:test
+|  +- org.seleniumhq.selenium:selenium-support:2.53.1:jar:test
+|  \- org.seleniumhq.selenium:selenium-leg-rc:2.53.1:jar:test
++- org.apache.myfaces.tobago:tobago-core:2.5.1-SNAPSHOT:jar:test
+\- junit:junit:4.13.2:jar:test
+org.apache.myfaces.tobago:tobago-example-assembly:2.5.1-SNAPSHOT:pom:compile
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.core:myfaces-impl:2.0.25:jar:runtime
++- javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2:jar:runtime
++- commons-logging:commons-logging:1.2:jar:runtime
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test
+org.apache.myfaces.tobago:tobago-assembly:2.5.1-SNAPSHOT:pom:compile
++- org.apache.myfaces.core:myfaces-api:2.0.25:jar:provided (optional)
++- org.apache.myfaces.tobago:tobago-theme-charlotteville:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-theme-richmond:2.5.1-SNAPSHOT:jar:compile
++- org.apache.myfaces.tobago:tobago-deprecation:2.5.1-SNAPSHOT:jar:compile
+|  +- org.apache.myfaces.tobago:tobago-theme-standard:2.5.1-SNAPSHOT:jar:compile
+|  +- commons-lang:commons-lang:2.6:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  +- ch.qos.logback:logback-classic:1.2.11:jar:test
+|  \- ch.qos.logback:logback-core:1.2.11:jar:test
++- org.apache.myfaces.tobago:tobago-sandbox:2.5.1-SNAPSHOT:jar:provided
+|  \- org.apache.myfaces.tobago:tobago-theme-scarborough:2.5.1-SNAPSHOT:jar:compile
++- org.slf4j:jcl-over-slf4j:1.7.36:jar:provided
+|  \- org.slf4j:slf4j-api:1.7.36:jar:compile
++- junit:junit:4.13.2:jar:test
++- ch.qos.logback:logback-classic:1.2.11:jar:test
+\- ch.qos.logback:logback-core:1.2.11:jar:test

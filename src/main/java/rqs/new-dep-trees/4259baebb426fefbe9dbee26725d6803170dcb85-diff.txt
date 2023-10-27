@@ -1,0 +1,15 @@
+Added Dependencies:
+ org.springframework:spring-context:4.0.9.RELEASE:jar:compile
+ org.springframework:spring-core:6.0.0:jar:compile
+ org.springframework:spring-web:6.0.0:jar:compile
+ io.micrometer:micrometer-commons:1.10.0:jar:compile
+ org.springframework:spring-aop:4.0.9.RELEASE:jar:compile
+ org.springframework:spring-jcl:6.0.0:jar:compile
+ org.springframework:spring-beans:6.0.0:jar:compile
+ io.micrometer:micrometer-observation:1.10.0:jar:compile
+Removed Dependencies:
+ org.springframework:spring-context:4.1.6.RELEASE:jar:compile
+ org.springframework:spring-aop:4.1.6.RELEASE:jar:compile
+ org.springframework:spring-core:4.1.6.RELEASE:jar:compile
+ org.springframework:spring-web:4.1.6.RELEASE:jar:compile
+ org.springframework:spring-beans:4.1.6.RELEASE:jar:compile

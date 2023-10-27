@@ -1,0 +1,113 @@
+net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:compile
++- org.springframework:spring-core:6.0.5:jar:compile
+|  \- org.springframework:spring-jcl:6.0.5:jar:compile
++- com.google.guava:guava:31.1-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- org.checkerframework:checker-qual:3.12.0:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.11.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:1.3:jar:compile
++- com.google.api:api-common:2.1.5:jar:compile
+|  +- javax.annotation:javax.annotation-api:1.3.2:jar:runtime
+|  +- com.google.auto.value:auto-value-annotations:1.9:jar:runtime
+|  \- com.google.code.findbugs:jsr305:3.0.2:jar:compile
++- io.reactivex:rxjava:1.3.8:jar:compile
++- io.reactivex.rxjava2:rxjava:2.2.21:jar:compile
+|  \- org.reactivestreams:reactive-streams:1.0.3:jar:compile
++- junit:junit:4.13.2:jar:compile
+|  \- org.hamcrest:hamcrest-core:1.3:jar:compile
+\- org.mockito:mockito-core:4.5.1:jar:compile
+   +- net.bytebuddy:byte-buddy:1.12.9:jar:compile
+   +- net.bytebuddy:byte-buddy-agent:1.12.9:jar:compile
+   \- org.objenesis:objenesis:3.2:jar:runtime
+net.javacrumbs.future-converter:future-converter-java8-guava:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-java8-common:1.2.1-SNAPSHOT:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  |  +- org.springframework:spring-core:6.0.5:jar:compile
+|  |  +- junit:junit:4.13.2:jar:test
+|  |  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  \- org.mockito:mockito-core:4.5.1:jar:test
+|  |     +- net.bytebuddy:byte-buddy:1.12.9:jar:test
+|  |     +- net.bytebuddy:byte-buddy-agent:1.12.9:jar:test
+|  |     \- org.objenesis:objenesis:3.2:jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-guava-common:1.2.1-SNAPSHOT:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-java8-apifuture:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-java8-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-apifuture-common:1.2.1-SNAPSHOT:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  +- com.google.api:api-common:2.1.5:jar:compile
+|  +- com.google.guava:guava:31.1-jre:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-rxjava-java8:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-java8-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-rxjava-common:1.2.1-SNAPSHOT:jar:compile
+|  +- io.reactivex:rxjava:1.3.8:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-rxjava2-java8:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-java8-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-rxjava2-common:1.2.1-SNAPSHOT:jar:compile
+|  +- io.reactivex.rxjava2:rxjava:2.2.21:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-guava-rxjava:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-guava-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-rxjava-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-guava-rxjava2:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-guava-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-rxjava2-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-spring-rxjava:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-spring-common:1.2.1-SNAPSHOT:jar:compile
+|  +- net.javacrumbs.future-converter:future-converter-common:1.2.1-SNAPSHOT:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-core:4.5.1:jar:test
++- net.javacrumbs.future-converter:future-converter-rxjava-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-spring-rxjava2:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-spring-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-rxjava2-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-spring-guava:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-guava-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-spring-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test
+net.javacrumbs.future-converter:future-converter-spring-java8:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-spring-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-java8-common:1.2.1-SNAPSHOT:jar:compile
++- net.javacrumbs.future-converter:future-converter-common-test:1.2.1-SNAPSHOT:jar:test
++- junit:junit:4.13.2:jar:test
+\- org.mockito:mockito-core:4.5.1:jar:test

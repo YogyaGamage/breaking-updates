@@ -1,0 +1,6 @@
+Added Dependencies:
+ io.netty:netty-buffer:4.1.72.Final:jar:runtime
+ org.apache.arrow:arrow-memory-netty:8.0.0:jar:runtime
+Removed Dependencies:
+ org.apache.arrow:arrow-memory-netty:7.0.0:jar:runtime
+ io.netty:netty-buffer:4.1.68.Final:jar:runtime

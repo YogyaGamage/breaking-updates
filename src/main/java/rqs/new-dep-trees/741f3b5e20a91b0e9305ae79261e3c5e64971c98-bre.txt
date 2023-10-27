@@ -1,0 +1,171 @@
+io.simplelocalize:simplelocalize-cli:2.0.6:jar:compile
++- io.micronaut:micronaut-inject:2.0.0:jar:compile
+|  +- javax.inject:javax.inject:1:jar:compile
+|  \- io.micronaut:micronaut-core:2.0.0:jar:compile
+|     +- org.reactivestreams:reactive-streams:1.0.3:jar:compile
+|     \- com.github.spotbugs:spotbugs-annotations:4.0.3:jar:compile
++- io.micronaut:micronaut-validation:2.0.0:jar:compile
+|  +- io.micronaut:micronaut-http:2.0.0:jar:compile
+|  \- javax.validation:validation-api:2.0.1.Final:jar:compile
++- org.graalvm.nativeimage:svm:20.1.0:jar:provided
+|  +- org.graalvm.nativeimage:svm-hosted-native-linux-amd64:20.1.0:tar.gz:provided
+|  +- org.graalvm.nativeimage:svm-hosted-native-darwin-amd64:20.1.0:tar.gz:provided
+|  +- org.graalvm.nativeimage:svm-hosted-native-windows-amd64:20.1.0:tar.gz:provided
+|  +- org.graalvm.sdk:graal-sdk:20.1.0:jar:provided
+|  +- org.graalvm.nativeimage:objectfile:20.1.0:jar:provided
+|  +- org.graalvm.nativeimage:pointsto:20.1.0:jar:provided
+|  +- org.graalvm.truffle:truffle-nfi:20.1.0:jar:provided
+|  |  +- org.graalvm.truffle:truffle-api:20.1.0:jar:provided
+|  |  +- org.graalvm.truffle:truffle-nfi-native-linux-amd64:20.1.0:tar.gz:provided
+|  |  +- org.graalvm.truffle:truffle-nfi-native-linux-aarch64:20.1.0:tar.gz:provided
+|  |  \- org.graalvm.truffle:truffle-nfi-native-darwin-amd64:20.1.0:tar.gz:provided
+|  \- org.graalvm.compiler:compiler:20.1.0:jar:provided
++- io.micronaut:micronaut-runtime:2.0.0:jar:compile
+|  +- io.micronaut:micronaut-aop:2.0.0:jar:compile
+|  +- io.reactivex.rxjava2:rxjava:2.2.10:jar:compile
+|  \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.0:jar:runtime
++- info.picocli:picocli:4.3.2:jar:compile
++- io.micronaut.picocli:micronaut-picocli:2.1.0:jar:compile
++- javax.annotation:javax.annotation-api:1.3.2:jar:compile
++- ch.qos.logback:logback-classic:1.2.3:jar:runtime
+|  \- ch.qos.logback:logback-core:1.2.3:jar:runtime
++- org.slf4j:slf4j-api:1.7.25:jar:compile
++- org.yaml:snakeyaml:1.24:jar:compile
++- commons-io:commons-io:2.6:jar:compile
++- com.jayway.jsonpath:json-path:2.4.0:jar:compile
+|  \- net.minidev:json-smart:2.3:jar:compile
+|     \- net.minidev:accessors-smart:1.2:jar:compile
+|        \- org.ow2.asm:asm:5.0.4:jar:compile
++- com.fasterxml.jackson.core:jackson-core:2.9.8:jar:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8:jar:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:2.11.0:jar:compile
++- com.fasterxml.jackson.core:jackson-databind:2.13.4.1:jar:compile
++- org.apache.commons:commons-lang3:3.8.1:jar:compile
++- org.junit.jupiter:junit-jupiter-engine:5.6.2:jar:test
+|  +- org.apiguardian:apiguardian-api:1.1.0:jar:test
+|  +- org.junit.platform:junit-platform-engine:1.6.2:jar:test
+|  |  +- org.opentest4j:opentest4j:1.2.0:jar:test
+|  |  \- org.junit.platform:junit-platform-commons:1.6.2:jar:test
+|  \- org.junit.jupiter:junit-jupiter-api:5.6.2:jar:test
++- org.junit.jupiter:junit-jupiter-params:5.6.2:jar:test
++- org.junit.platform:junit-platform-surefire-provider:1.3.2:jar:test
+|  +- org.junit.platform:junit-platform-launcher:1.6.2:jar:test
+|  +- org.apache.maven.surefire:surefire-api:2.22.0:jar:test
+|  |  \- org.apache.maven.surefire:surefire-logger-api:2.22.0:jar:test
+|  \- org.apache.maven.surefire:common-java5:2.22.0:jar:test
++- io.micronaut.test:micronaut-test-junit5:1.2.0:jar:test
+|  \- io.micronaut.test:micronaut-test-core:1.2.0:jar:test
++- org.assertj:assertj-core:3.19.0:jar:test
++- org.apache.maven.plugins:maven-surefire-plugin:2.22.2:jar:test
+|  \- org.apache.maven.surefire:maven-surefire-common:2.22.2:jar:test
+|     +- org.apache.maven:maven-plugin-api:2.2.1:jar:test
+|     +- org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2:jar:test
+|     +- org.apache.maven.surefire:surefire-booter:2.22.2:jar:test
+|     +- org.apache.maven:maven-artifact:2.2.1:jar:test
+|     |  \- org.codehaus.plexus:plexus-utils:1.5.15:jar:test
+|     +- org.apache.maven:maven-plugin-descriptor:2.2.1:jar:test
+|     |  \- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1:jar:test
+|     |     \- junit:junit:4.12:jar:test
+|     +- org.apache.maven:maven-project:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-settings:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-profile:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-artifact-manager:2.2.1:jar:test
+|     |  |  \- backport-util-concurrent:backport-util-concurrent:3.1:jar:test
+|     |  +- org.apache.maven:maven-plugin-registry:2.2.1:jar:test
+|     |  \- org.codehaus.plexus:plexus-interpolation:1.11:jar:test
+|     +- org.apache.maven:maven-model:2.2.1:jar:test
+|     +- org.apache.maven:maven-core:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-plugin-parameter-documenter:2.2.1:jar:test
+|     |  +- org.apache.maven.wagon:wagon-http:1.0-beta-6:jar:test
+|     |  |  \- org.apache.maven.wagon:wagon-http-shared:1.0-beta-6:jar:test
+|     |  |     +- nekohtml:xercesMinimal:1.9.6.2:jar:test
+|     |  |     +- nekohtml:nekohtml:1.9.6.2:jar:test
+|     |  |     \- commons-httpclient:commons-httpclient:3.1:jar:test
+|     |  +- org.apache.maven.wagon:wagon-webdav-jackrabbit:1.0-beta-6:jar:test
+|     |  |  +- org.apache.jackrabbit:jackrabbit-webdav:1.5.0:jar:test
+|     |  |  |  \- org.apache.jackrabbit:jackrabbit-jcr-commons:1.5.0:jar:test
+|     |  |  \- org.slf4j:slf4j-nop:1.5.3:jar:test
+|     |  +- org.slf4j:slf4j-jdk14:1.5.6:jar:test
+|     |  +- org.slf4j:jcl-over-slf4j:1.5.6:jar:test
+|     |  +- org.apache.maven.reporting:maven-reporting-api:2.2.1:jar:test
+|     |  |  \- org.apache.maven.doxia:doxia-logging-api:1.1:jar:test
+|     |  +- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6:jar:test
+|     |  +- org.apache.maven:maven-repository-metadata:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-error-diagnostics:2.2.1:jar:test
+|     |  +- org.apache.maven:maven-monitor:2.2.1:jar:test
+|     |  +- classworlds:classworlds:1.1:jar:test
+|     |  \- org.sonatype.plexus:plexus-sec-dispatcher:1.3:jar:test
+|     |     \- org.sonatype.plexus:plexus-cipher:1.4:jar:test
+|     +- org.apache.maven:maven-toolchain:2.2.1:jar:test
+|     \- org.codehaus.plexus:plexus-java:0.9.10:jar:test
+|        \- com.thoughtworks.qdox:qdox:2.0-M8:jar:test
++- org.mockito:mockito-core:4.2.0:jar:test
+|  +- net.bytebuddy:byte-buddy:1.12.4:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.12.4:jar:test
+|  \- org.objenesis:objenesis:3.2:jar:test
++- org.mockito:mockito-junit-jupiter:4.2.0:jar:test
++- org.mock-server:mockserver-netty:5.11.2:jar:test
+|  +- org.mock-server:mockserver-core:5.11.2:jar:test
+|  |  +- com.lmax:disruptor:3.4.2:jar:test
+|  |  +- javax.servlet:javax.servlet-api:4.0.1:jar:test
+|  |  +- io.netty:netty-codec-socks:4.1.48.Final:jar:test
+|  |  +- io.netty:netty-handler-proxy:4.1.48.Final:jar:test
+|  |  +- com.jcraft:jzlib:1.1.3:jar:test
+|  |  +- com.fasterxml.uuid:java-uuid-generator:4.0.1:jar:test
+|  |  +- org.apache.velocity:velocity-engine-scripting:2.2:jar:test
+|  |  +- org.apache.velocity:velocity-engine-core:2.2:jar:test
+|  |  +- net.javacrumbs.json-unit:json-unit-core:2.19.0:jar:test
+|  |  |  \- org.hamcrest:hamcrest-core:2.2:jar:test
+|  |  |     \- org.hamcrest:hamcrest:2.2:jar:test
+|  |  +- com.github.java-json-tools:json-schema-validator:2.2.14:jar:test
+|  |  |  +- com.github.java-json-tools:jackson-coreutils-equivalence:1.0:jar:test
+|  |  |  |  \- com.github.java-json-tools:jackson-coreutils:2.0:jar:test
+|  |  |  |     \- com.github.java-json-tools:msg-simple:1.2:jar:test
+|  |  |  |        \- com.github.java-json-tools:btf:1.3:jar:test
+|  |  |  +- com.github.java-json-tools:json-schema-core:1.2.14:jar:test
+|  |  |  |  +- com.github.java-json-tools:uri-template:0.10:jar:test
+|  |  |  |  \- org.mozilla:rhino:1.7.7.2:jar:test
+|  |  |  +- com.sun.mail:mailapi:1.6.2:jar:test
+|  |  |  +- joda-time:joda-time:2.10.5:jar:test
+|  |  |  +- com.googlecode.libphonenumber:libphonenumber:8.11.1:jar:test
+|  |  |  \- net.sf.jopt-simple:jopt-simple:5.0.4:jar:test
+|  |  +- io.swagger.parser.v3:swagger-parser:2.0.23:jar:test
+|  |  |  +- io.swagger.parser.v3:swagger-parser-v2-converter:2.0.23:jar:test
+|  |  |  |  +- io.swagger:swagger-core:1.6.2:jar:test
+|  |  |  |  |  \- io.swagger:swagger-models:1.6.2:jar:test
+|  |  |  |  |     \- io.swagger:swagger-annotations:1.6.2:jar:test
+|  |  |  |  +- io.swagger:swagger-parser:1.0.52:jar:test
+|  |  |  |  |  \- org.slf4j:slf4j-ext:1.7.28:jar:test
+|  |  |  |  +- io.swagger:swagger-compat-spec-parser:1.0.52:jar:test
+|  |  |  |  |  \- org.apache.httpcomponents:httpclient:4.5.2:jar:test
+|  |  |  |  |     +- org.apache.httpcomponents:httpcore:4.4.4:jar:test
+|  |  |  |  |     \- commons-logging:commons-logging:1.2:jar:test
+|  |  |  |  +- io.swagger.core.v3:swagger-models:2.1.1:jar:test
+|  |  |  |  \- io.swagger.parser.v3:swagger-parser-core:2.0.23:jar:test
+|  |  |  \- io.swagger.parser.v3:swagger-parser-v3:2.0.23:jar:test
+|  |  |     +- io.swagger.core.v3:swagger-core:2.1.1:jar:test
+|  |  |     |  \- io.swagger.core.v3:swagger-annotations:2.1.1:jar:test
+|  |  |     \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.0:jar:test
+|  |  +- javax.xml.bind:jaxb-api:2.4.0-b180830.0359:jar:test
+|  |  |  \- javax.activation:javax.activation-api:1.2.0:jar:test
+|  |  +- org.xmlunit:xmlunit-core:2.8.0:jar:test
+|  |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:jar:test
+|  |  |     \- jakarta.activation:jakarta.activation-api:1.2.2:jar:test
+|  |  +- org.xmlunit:xmlunit-placeholders:2.8.0:jar:test
+|  |  +- org.apache.commons:commons-text:1.9:jar:test
+|  |  \- commons-codec:commons-codec:1.15:jar:test
+|  +- io.netty:netty-buffer:4.1.48.Final:jar:test
+|  +- io.netty:netty-codec:4.1.48.Final:jar:test
+|  +- io.netty:netty-codec-http:4.1.48.Final:jar:test
+|  +- io.netty:netty-common:4.1.48.Final:jar:test
+|  +- io.netty:netty-handler:4.1.48.Final:jar:test
+|  |  \- io.netty:netty-resolver:4.1.48.Final:jar:test
+|  +- io.netty:netty-transport:4.1.48.Final:jar:test
+|  \- com.google.guava:guava:30.0-android:jar:test
+|     +- com.google.guava:failureaccess:1.0.1:jar:test
+|     +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:test
+|     +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|     +- org.checkerframework:checker-compat-qual:2.5.5:jar:test
+|     +- com.google.errorprone:error_prone_annotations:2.3.4:jar:test
+|     \- com.google.j2objc:j2objc-annotations:1.3:jar:test
+\- org.mock-server:mockserver-client-java:5.11.2:jar:test

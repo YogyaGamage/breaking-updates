@@ -1,0 +1,39 @@
+org.scoverage:scoverage-maven-plugin:1.4.12-SNAPSHOT:maven-plugin:compile
++- org.scoverage:scalac-scoverage-reporter_2.13:2.0.7:jar:compile
+|  +- org.scala-lang:scala-library:2.13.10:jar:compile
+|  +- org.scoverage:scalac-scoverage-domain_2.13:2.0.7:jar:compile
+|  +- org.scoverage:scalac-scoverage-serializer_2.13:2.0.7:jar:compile
+|  \- org.scala-lang.modules:scala-xml_2.13:2.1.0:jar:compile
++- org.codehaus.plexus:plexus-utils:3.5.0:jar:compile
++- org.apache.maven:maven-artifact:2.2.1:jar:provided
++- org.apache.maven:maven-plugin-api:2.2.1:jar:provided
++- org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.0:jar:provided
++- org.apache.maven:maven-project:2.2.1:jar:provided
+|  +- org.apache.maven:maven-settings:2.2.1:jar:provided
+|  +- org.apache.maven:maven-profile:2.2.1:jar:provided
+|  +- org.apache.maven:maven-model:2.2.1:jar:provided
+|  +- org.apache.maven:maven-artifact-manager:2.2.1:jar:provided
+|  |  +- org.apache.maven:maven-repository-metadata:2.2.1:jar:provided
+|  |  +- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6:jar:provided
+|  |  \- backport-util-concurrent:backport-util-concurrent:3.1:jar:provided
+|  +- org.apache.maven:maven-plugin-registry:2.2.1:jar:provided
+|  +- org.codehaus.plexus:plexus-interpolation:1.11:jar:provided
+|  \- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1:jar:compile
+|     +- junit:junit:3.8.1:jar:compile
+|     \- classworlds:classworlds:1.1-alpha-2:jar:compile
++- org.apache.maven.reporting:maven-reporting-api:3.1.0:jar:compile
+|  \- org.apache.maven.doxia:doxia-sink-api:1.11.1:jar:compile
+|     \- org.apache.maven.doxia:doxia-logging-api:1.11.1:jar:compile
+\- org.apache.maven.doxia:doxia-site-renderer:1.0:jar:compile
+   +- org.apache.maven.doxia:doxia-core:1.0:jar:compile
+   +- org.codehaus.plexus:plexus-i18n:1.0-beta-7:jar:compile
+   +- org.codehaus.plexus:plexus-velocity:1.1.7:jar:compile
+   +- org.apache.velocity:velocity:1.5:jar:compile
+   |  +- commons-lang:commons-lang:2.1:jar:compile
+   |  \- oro:oro:2.0.8:jar:compile
+   +- org.apache.maven.doxia:doxia-decoration-model:1.0:jar:compile
+   +- commons-collections:commons-collections:3.2:jar:compile
+   +- org.apache.maven.doxia:doxia-module-apt:1.0:jar:compile
+   +- org.apache.maven.doxia:doxia-module-fml:1.0:jar:compile
+   +- org.apache.maven.doxia:doxia-module-xdoc:1.0:jar:compile
+   \- org.apache.maven.doxia:doxia-module-xhtml:1.0:jar:compile

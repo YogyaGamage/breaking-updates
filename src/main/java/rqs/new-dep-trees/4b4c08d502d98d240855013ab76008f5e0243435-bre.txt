@@ -1,0 +1,117 @@
+org.nem.nis:nem-infrastructure-server:0.6.101:jar:compile
++- org.nem.core:nem-core:0.6.101:test-jar:test
++- org.nem.deploy:nem-deploy:0.6.101:jar:compile
+|  +- org.nem.core:nem-core:0.6.101:jar:compile
+|  |  +- com.googlecode.javaewah:JavaEWAH:1.1.13:jar:compile
+|  |  +- net.minidev:json-smart:2.4.8:jar:compile
+|  |  |  \- net.minidev:accessors-smart:2.4.8:jar:compile
+|  |  |     \- org.ow2.asm:asm:9.1:jar:compile
+|  |  +- org.bouncycastle:bcprov-jdk15on:1.70:jar:compile
+|  |  +- commons-codec:commons-codec:1.15:jar:compile
+|  |  +- commons-io:commons-io:2.11.0:jar:compile
+|  |  +- org.apache.commons:commons-math3:3.6.1:jar:compile
+|  |  +- org.apache.httpcomponents:httpasyncclient:4.1.5:jar:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:4.4.15:jar:compile
+|  |  |  +- org.apache.httpcomponents:httpcore-nio:4.4.15:jar:compile
+|  |  |  +- org.apache.httpcomponents:httpclient:4.5.13:jar:compile
+|  |  |  \- commons-logging:commons-logging:1.2:jar:compile
+|  |  +- junit:junit:4.13.2:jar:test
+|  |  |  \- org.hamcrest:hamcrest-core:1.3:jar:test
+|  |  +- org.mockito:mockito-all:1.10.19:jar:test
+|  |  +- com.googlecode.matrix-toolkits-java:mtj:1.0.4:jar:test
+|  |  |  \- com.github.fommil.netlib:all:1.1.2:pom:test
+|  |  |     +- net.sourceforge.f2j:arpack_combined_all:0.1:jar:test
+|  |  |     +- com.github.fommil.netlib:core:1.1.2:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-osx-x86_64:1.1:jar:test
+|  |  |     |  \- com.github.fommil.netlib:native_ref-java:1.1:jar:test
+|  |  |     |     \- com.github.fommil:jniloader:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-linux-x86_64:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-linux-i686:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-win-x86_64:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-win-i686:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_ref-linux-armhf:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_system-osx-x86_64:1.1:jar:test
+|  |  |     |  \- com.github.fommil.netlib:native_system-java:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_system-linux-x86_64:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_system-linux-i686:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_system-linux-armhf:1.1:jar:test
+|  |  |     +- com.github.fommil.netlib:netlib-native_system-win-x86_64:1.1:jar:test
+|  |  |     \- com.github.fommil.netlib:netlib-native_system-win-i686:1.1:jar:test
+|  |  \- com.github.tomakehurst:wiremock:1.58:jar:test
+|  |     \- org.slf4j:slf4j-api:1.7.12:jar:test
+|  +- org.nem.core:nem-core:0.6.101:test-jar:test
+|  +- org.eclipse.jetty:jetty-annotations:9.4.43.v20210629:jar:compile
+|  |  +- org.eclipse.jetty:jetty-webapp:9.4.43.v20210629:jar:compile
+|  |  |  \- org.eclipse.jetty:jetty-xml:9.4.43.v20210629:jar:compile
+|  |  +- javax.annotation:javax.annotation-api:1.3.2:jar:compile
+|  |  +- org.ow2.asm:asm:9.1:jar:compile
+|  |  \- org.ow2.asm:asm-commons:9.1:jar:compile
+|  |     +- org.ow2.asm:asm-tree:9.1:jar:compile
+|  |     \- org.ow2.asm:asm-analysis:9.1:jar:compile
+|  +- org.eclipse.jetty:jetty-client:9.4.43.v20210629:jar:compile
+|  |  +- org.eclipse.jetty:jetty-http:9.4.43.v20210629:jar:compile
+|  |  \- org.eclipse.jetty:jetty-io:9.4.43.v20210629:jar:compile
+|  +- org.eclipse.jetty:jetty-plus:9.4.43.v20210629:jar:compile
+|  |  \- org.eclipse.jetty:jetty-jndi:9.4.43.v20210629:jar:compile
+|  +- org.eclipse.jetty:jetty-server:9.4.43.v20210629:jar:compile
+|  |  \- javax.servlet:javax.servlet-api:4.0.1:jar:compile
+|  +- org.eclipse.jetty:jetty-servlet:9.4.43.v20210629:jar:compile
+|  |  +- org.eclipse.jetty:jetty-security:9.4.43.v20210629:jar:compile
+|  |  \- org.eclipse.jetty:jetty-util-ajax:9.4.43.v20210629:jar:compile
+|  +- org.eclipse.jetty:jetty-servlets:9.4.43.v20210629:jar:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:9.4.43.v20210629:jar:compile
+|  |  \- org.eclipse.jetty:jetty-util:9.4.43.v20210629:jar:compile
+|  +- org.springframework:spring-context:4.3.30.RELEASE:jar:compile
+|  |  +- org.springframework:spring-aop:4.3.30.RELEASE:jar:compile
+|  |  +- org.springframework:spring-beans:4.3.30.RELEASE:jar:compile
+|  |  +- org.springframework:spring-core:4.3.30.RELEASE:jar:compile
+|  |  |  \- org.springframework:spring-jcl:5.3.23:jar:compile
+|  |  \- org.springframework:spring-expression:4.3.30.RELEASE:jar:compile
+|  +- org.springframework:spring-jdbc:4.3.30.RELEASE:jar:compile
+|  +- org.springframework:spring-orm:4.3.30.RELEASE:jar:compile
+|  +- org.springframework:spring-tx:4.3.30.RELEASE:jar:compile
+|  +- org.springframework:spring-webmvc:4.3.30.RELEASE:jar:compile
+|  |  \- org.springframework:spring-web:4.3.30.RELEASE:jar:compile
+|  +- junit:junit:4.13.2:jar:test
+|  \- org.mockito:mockito-all:1.10.19:jar:test
++- org.nem.deploy:nem-deploy:0.6.101:test-jar:test
++- org.nem.peer:nem-peer:0.6.101:jar:compile
+|  +- org.nem.core:nem-core:0.6.101:jar:compile
+|  +- org.nem.core:nem-core:0.6.101:test-jar:test
+|  +- junit:junit:4.13.2:jar:test
+|  +- org.mockito:mockito-all:1.10.19:jar:test
+|  \- org.apache.commons:commons-lang3:3.12.0:jar:test
++- org.nem.peer:nem-peer:0.6.101:test-jar:test
++- org.apache.commons:commons-collections4:4.4:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.eclipse.jetty.websocket:websocket-server:9.4.43.v20210629:jar:compile
+|  +- org.eclipse.jetty.websocket:websocket-common:9.4.43.v20210629:jar:compile
+|  |  \- org.eclipse.jetty.websocket:websocket-api:9.4.43.v20210629:jar:compile
+|  +- org.eclipse.jetty.websocket:websocket-client:9.4.43.v20210629:jar:compile
+|  \- org.eclipse.jetty.websocket:websocket-servlet:9.4.43.v20210629:jar:compile
++- org.springframework:spring-websocket:4.3.30.RELEASE:jar:compile
++- org.springframework:spring-messaging:4.3.30.RELEASE:jar:compile
++- org.hibernate:hibernate-entitymanager:4.3.11.Final:jar:compile
+|  +- org.jboss.logging:jboss-logging:3.1.3.GA:jar:compile
+|  +- org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1:jar:compile
+|  +- org.hibernate:hibernate-core:4.3.11.Final:jar:compile
+|  |  +- antlr:antlr:2.7.7:jar:compile
+|  |  \- org.jboss:jandex:1.1.0.Final:jar:compile
+|  +- dom4j:dom4j:1.6.1:jar:compile
+|  |  \- xml-apis:xml-apis:1.0.b2:jar:compile
+|  +- org.hibernate.common:hibernate-commons-annotations:4.0.5.Final:jar:compile
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final:jar:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final:jar:compile
+|  \- org.javassist:javassist:3.18.1-GA:jar:compile
++- org.hibernate:hibernate-validator:5.4.3.Final:jar:compile
+|  +- javax.validation:validation-api:1.1.0.Final:jar:compile
+|  \- com.fasterxml:classmate:1.3.1:jar:compile
++- com.h2database:h2:1.4.200:jar:compile
++- org.flywaydb:flyway-core:9.15.1:jar:compile
+|  \- com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.14.0:jar:compile
+|     +- com.fasterxml.jackson.core:jackson-databind:2.14.0:jar:compile
+|     |  \- com.fasterxml.jackson.core:jackson-annotations:2.14.0:jar:compile
+|     \- com.fasterxml.jackson.core:jackson-core:2.14.0:jar:compile
++- junit:junit:4.13.2:jar:test
++- org.mockito:mockito-all:1.10.19:jar:test
+\- org.springframework:spring-test:4.3.30.RELEASE:jar:test

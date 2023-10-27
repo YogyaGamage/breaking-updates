@@ -1,0 +1,14 @@
+Added Dependencies:
+ org.apache.poi:poi-ooxml-lite:5.1.0:jar:compile
+ org.apache.poi:poi-ooxml:5.1.0:jar:test
+ org.apache.xmlbeans:xmlbeans:5.0.2:jar:compile
+ org.apache.xmlbeans:xmlbeans:5.0.2:jar:test
+ org.apache.poi:poi-ooxml:5.1.0:jar:compile
+ org.apache.poi:poi-ooxml-lite:5.1.0:jar:test
+Removed Dependencies:
+ org.apache.poi:poi-ooxml:4.1.2:jar:compile
+ org.apache.poi:poi-ooxml-schemas:4.1.2:jar:test
+ org.apache.xmlbeans:xmlbeans:3.1.0:jar:compile
+ org.apache.poi:poi-ooxml-schemas:4.1.2:jar:compile
+ org.apache.poi:poi-ooxml:4.1.2:jar:test
+ org.apache.xmlbeans:xmlbeans:3.1.0:jar:test

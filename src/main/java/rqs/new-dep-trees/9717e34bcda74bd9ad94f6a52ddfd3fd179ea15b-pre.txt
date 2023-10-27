@@ -1,0 +1,79 @@
+com.jcabi:jcabi-github:2.0-SNAPSHOT:jar:compile
++- org.projectlombok:lombok:1.18.28:jar:provided
++- com.jcabi:jcabi-aspects:0.24.1:jar:compile
++- com.jcabi:jcabi-immutable:1.5:jar:compile
++- com.jcabi:jcabi-xml:0.27.2:jar:compile
+|  \- org.cactoos:cactoos:0.55.0:jar:compile
++- com.jcabi:jcabi-http:1.20.1:jar:compile
+|  \- com.jcabi:jcabi-manifests:1.2.1:jar:compile
++- com.jcabi.incubator:xembly:0.28.1:jar:compile
+|  \- org.antlr:antlr4-runtime:4.10.1:jar:compile
++- com.jcabi:jcabi-log:0.23.0:jar:compile
+|  \- org.slf4j:slf4j-api:2.0.7:jar:compile
++- commons-io:commons-io:2.12.0:jar:compile
++- org.apache.commons:commons-lang3:3.12.0:jar:compile
++- org.hamcrest:hamcrest:2.2:jar:compile
++- com.google.guava:guava:32.0.0-jre:jar:compile
+|  +- com.google.guava:failureaccess:1.0.1:jar:compile
+|  +- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.2:jar:compile
+|  +- org.checkerframework:checker-qual:3.33.0:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.18.0:jar:compile
+|  \- com.google.j2objc:j2objc-annotations:2.8:jar:compile
++- commons-collections:commons-collections:20040616:jar:test
++- junit:junit:4.13.2:jar:test
+|  \- org.hamcrest:hamcrest-core:1.3:jar:test
++- commons-codec:commons-codec:1.15:jar:test
++- org.reflections:reflections:0.9.10:jar:test
+|  +- org.javassist:javassist:3.19.0-GA:jar:test
+|  \- com.google.code.findbugs:annotations:2.0.1:jar:test
++- org.aspectj:aspectjrt:1.9.19:jar:runtime
++- javax.ws.rs:jsr311-api:1.1.1:jar:provided
++- javax.json:javax.json-api:1.1.4:jar:provided
++- org.glassfish:javax.json:1.1.4:jar:runtime
++- javax.xml.bind:jaxb-api:2.4.0-b180830.0359:jar:provided
+|  \- javax.activation:javax.activation-api:1.2.0:jar:provided
++- com.sun.xml.bind:jaxb-core:4.0.2:jar:runtime
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:jar:runtime
+|  |  \- jakarta.activation:jakarta.activation-api:2.1.0:jar:runtime
+|  \- org.eclipse.angus:angus-activation:2.0.0:jar:runtime
++- com.sun.xml.bind:jaxb-impl:4.0.2:jar:runtime
++- com.sun.jersey:jersey-client:1.12:jar:runtime
+|  \- com.sun.jersey:jersey-core:1.12:jar:runtime
++- org.apache.httpcomponents:httpcore:4.4.16:jar:runtime
++- org.apache.httpcomponents:httpclient:4.5.14:jar:runtime
+|  \- commons-logging:commons-logging:1.2:jar:runtime
++- javax.validation:validation-api:2.0.1.Final:jar:test
++- net.sf.saxon:Saxon-HE:12.2:jar:test
+|  +- org.xmlresolver:xmlresolver:5.1.2:jar:test
+|  |  +- org.apache.httpcomponents.client5:httpclient5:5.1.3:jar:test
+|  |  |  \- org.apache.httpcomponents.core5:httpcore5-h2:5.1.3:jar:test
+|  |  \- org.apache.httpcomponents.core5:httpcore5:5.1.3:jar:test
+|  \- org.xmlresolver:xmlresolver:5.1.2:jar:test
++- xml-apis:xml-apis:1.0.b2:jar:provided
++- org.glassfish.grizzly:grizzly-http-servlet-server:4.0.0:jar:test
+|  +- org.glassfish.grizzly:grizzly-http-server-core:4.0.0:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-core:4.0.0:jar:test
+|  |  |  +- org.glassfish.grizzly:grizzly-framework:4.0.0:jar:test
+|  |  |  \- org.glassfish.grizzly:grizzly-portunif:4.0.0:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-http-server:4.0.0:jar:test
+|  |  |  \- org.glassfish.grizzly:grizzly-http:4.0.0:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-http-ajp:4.0.0:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-http2:4.0.0:jar:test
+|  |  +- org.glassfish.grizzly:grizzly-npn-api:2.0.0:jar:test
+|  |  \- org.glassfish.grizzly:grizzly-http-server-multipart:4.0.0:jar:test
+|  +- org.glassfish.grizzly:grizzly-http-servlet:4.0.0:jar:test
+|  \- org.glassfish.grizzly:grizzly-http-servlet-extras:4.0.0:jar:test
+|     \- jakarta.servlet:jakarta.servlet-api:6.0.0:jar:test
++- com.jcraft:jsch:0.1.55:jar:test
++- com.fasterxml.jackson.core:jackson-databind:2.15.1:jar:test
+|  \- com.fasterxml.jackson.core:jackson-annotations:2.15.1:jar:test
++- com.fasterxml.jackson.core:jackson-core:2.15.1:jar:test
++- org.slf4j:slf4j-reload4j:2.0.7:jar:test
+|  \- ch.qos.reload4j:reload4j:1.2.22:jar:test
++- log4j:log4j:1.2.17:jar:test
++- org.mockito:mockito-core:4.6.1:jar:test
+|  +- net.bytebuddy:byte-buddy:1.12.10:jar:test
+|  +- net.bytebuddy:byte-buddy-agent:1.12.10:jar:test
+|  \- org.objenesis:objenesis:3.2:jar:test
+\- org.slf4j:slf4j-log4j12:2.0.0-alpha5:jar:test

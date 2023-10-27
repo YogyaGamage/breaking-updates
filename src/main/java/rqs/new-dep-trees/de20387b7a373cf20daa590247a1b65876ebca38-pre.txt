@@ -1,0 +1,136 @@
+org.btrplace:scheduler-examples:1.12.9-SNAPSHOT:jar:compile
++- org.btrplace:scheduler-choco:1.12.9-SNAPSHOT:jar:compile
+|  +- org.btrplace:scheduler-api:1.12.9-SNAPSHOT:jar:compile
+|  |  +- net.sf.trove4j:trove4j:3.0.3:jar:compile
+|  |  +- org.testng:testng:7.5:jar:test
+|  |  |  +- com.google.code.findbugs:jsr305:3.0.1:jar:test
+|  |  |  +- com.beust:jcommander:1.78:jar:test
+|  |  |  \- org.webjars:jquery:3.5.1:jar:test
+|  |  +- org.slf4j:slf4j-api:2.0.6:jar:compile
+|  |  +- org.mockito:mockito-core:4.9.0:jar:test
+|  |  |  +- net.bytebuddy:byte-buddy:1.12.16:jar:test
+|  |  |  +- net.bytebuddy:byte-buddy-agent:1.12.16:jar:test
+|  |  |  \- org.objenesis:objenesis:3.3:jar:test
+|  |  +- org.openjdk.jmh:jmh-core:1.36:jar:test
+|  |  |  +- net.sf.jopt-simple:jopt-simple:5.0.4:jar:test
+|  |  |  \- org.apache.commons:commons-math3:3.2:jar:test
+|  |  \- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
+|  +- org.choco-solver:choco-solver:4.10.8:jar:compile
+|  |  +- dk.brics.automaton:automaton:1.11-8:jar:compile
+|  |  +- org.jgrapht:jgrapht-core:1.4.0:jar:compile
+|  |  |  \- org.jheaps:jheaps:0.11:jar:compile
+|  |  +- com.github.cp-profiler:cpprof-java:1.3.0:jar:compile
+|  |  |  \- com.google.protobuf:protobuf-java:2.6.1:jar:compile
+|  |  \- org.knowm.xchart:xchart:3.8.1:jar:compile
+|  |     +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13:jar:compile
+|  |     +- de.rototor.pdfbox:graphics2d:0.32:jar:compile
+|  |     |  \- org.apache.pdfbox:pdfbox:2.0.24:jar:compile
+|  |     |     +- org.apache.pdfbox:fontbox:2.0.24:jar:compile
+|  |     |     \- commons-logging:commons-logging:1.2:jar:compile
+|  |     \- com.madgag:animated-gif-lib:1.4:jar:compile
+|  +- org.btrplace:scheduler-json:1.12.9-SNAPSHOT:jar:test
+|  |  \- net.minidev:json-smart:2.4.8:jar:test
+|  |     \- net.minidev:accessors-smart:2.4.8:jar:test
+|  |        \- org.ow2.asm:asm:9.1:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.mockito:mockito-core:4.9.0:jar:test
+|  +- org.openjdk.jmh:jmh-core:1.36:jar:test
+|  \- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
++- ch.qos.logback:logback-classic:1.4.5:jar:compile
+|  \- ch.qos.logback:logback-core:1.4.5:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.mockito:mockito-core:4.9.0:jar:test
++- org.openjdk.jmh:jmh-core:1.36:jar:test
+\- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
+org.btrplace:safeplace:1.12.9-SNAPSHOT:jar:compile
++- io.github.lukehutch:fast-classpath-scanner:2.9.3:jar:compile
++- org.antlr:antlr4-maven-plugin:4.9.3:jar:compile
+|  +- org.apache.maven:maven-plugin-api:3.0.5:jar:compile
+|  |  +- org.apache.maven:maven-model:3.0.5:jar:compile
+|  |  +- org.apache.maven:maven-artifact:3.0.5:jar:compile
+|  |  \- org.sonatype.sisu:sisu-inject-plexus:2.3.0:jar:compile
+|  |     +- org.codehaus.plexus:plexus-component-annotations:1.5.5:jar:compile
+|  |     +- org.codehaus.plexus:plexus-classworlds:2.4:jar:compile
+|  |     \- org.sonatype.sisu:sisu-inject-bean:2.3.0:jar:compile
+|  |        \- org.sonatype.sisu:sisu-guice:3.1.0:jar:compile
+|  |           \- org.sonatype.sisu:sisu-guava:0.9.9:jar:compile
+|  +- org.codehaus.plexus:plexus-compiler-api:2.2:jar:compile
+|  |  \- org.codehaus.plexus:plexus-utils:3.0.8:jar:compile
+|  +- org.sonatype.plexus:plexus-build-api:0.0.7:jar:compile
+|  +- org.antlr:antlr4:4.9.3:jar:compile
+|  |  +- org.antlr:antlr-runtime:3.5.3:jar:compile
+|  |  +- org.antlr:ST4:4.3.1:jar:compile
+|  |  +- org.abego.treelayout:org.abego.treelayout.core:1.0.3:jar:compile
+|  |  +- org.glassfish:javax.json:1.0.4:jar:compile
+|  |  \- com.ibm.icu:icu4j:69.1:jar:compile
+|  \- org.apache.maven:maven-project:2.2.1:jar:compile
+|     +- org.apache.maven:maven-settings:2.2.1:jar:compile
+|     +- org.apache.maven:maven-profile:2.2.1:jar:compile
+|     +- org.apache.maven:maven-artifact-manager:2.2.1:jar:compile
+|     |  +- org.apache.maven:maven-repository-metadata:2.2.1:jar:compile
+|     |  +- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6:jar:compile
+|     |  \- backport-util-concurrent:backport-util-concurrent:3.1:jar:compile
+|     +- org.apache.maven:maven-plugin-registry:2.2.1:jar:compile
+|     +- org.codehaus.plexus:plexus-interpolation:1.11:jar:compile
+|     \- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1:jar:compile
+|        +- junit:junit:3.8.1:jar:compile
+|        \- classworlds:classworlds:1.1-alpha-2:jar:compile
++- org.antlr:antlr4-runtime:4.9.3:jar:compile
++- org.btrplace:scheduler-json:1.12.9-SNAPSHOT:jar:compile
+|  +- org.btrplace:scheduler-api:1.12.9-SNAPSHOT:jar:compile
+|  +- net.minidev:json-smart:2.4.8:jar:compile
+|  |  \- net.minidev:accessors-smart:2.4.8:jar:compile
+|  |     \- org.ow2.asm:asm:9.1:jar:compile
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.mockito:mockito-core:4.9.0:jar:test
+|  +- org.openjdk.jmh:jmh-core:1.36:jar:test
+|  \- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
++- org.btrplace:scheduler-choco:1.12.9-SNAPSHOT:jar:compile
++- org.testng:testng:7.5:jar:compile
+|  +- com.google.code.findbugs:jsr305:3.0.1:jar:compile
+|  +- com.beust:jcommander:1.78:jar:compile
+|  \- org.webjars:jquery:3.5.1:jar:runtime
++- com.github.javaparser:javaparser-core:3.24.4:jar:compile
++- org.mockito:mockito-core:4.9.0:jar:test
++- org.openjdk.jmh:jmh-core:1.36:jar:test
+\- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
+org.btrplace:bench:1.12.9-SNAPSHOT:jar:compile
++- org.btrplace:scheduler-choco:1.12.9-SNAPSHOT:jar:compile
++- org.btrplace:btrpsl:1.12.9-SNAPSHOT:jar:compile
+|  +- org.btrplace:scheduler-json:1.12.9-SNAPSHOT:jar:compile
+|  +- org.antlr:antlr:3.5.3:jar:compile
+|  |  +- org.antlr:antlr-runtime:3.5.3:jar:compile
+|  |  \- org.antlr:ST4:4.3.1:jar:compile
+|  +- org.reflections:reflections:0.10.2:jar:test
+|  |  +- org.javassist:javassist:3.28.0-GA:jar:test
+|  |  \- com.google.code.findbugs:jsr305:3.0.1:jar:test
+|  +- org.btrplace:scheduler-choco:1.12.9-SNAPSHOT:jar:test
+|  |  \- org.choco-solver:choco-solver:4.10.8:jar:test
+|  |     +- dk.brics.automaton:automaton:1.11-8:jar:test
+|  |     +- org.jgrapht:jgrapht-core:1.4.0:jar:test
+|  |     |  \- org.jheaps:jheaps:0.11:jar:test
+|  |     +- com.github.cp-profiler:cpprof-java:1.3.0:jar:test
+|  |     |  \- com.google.protobuf:protobuf-java:2.6.1:jar:test
+|  |     \- org.knowm.xchart:xchart:3.8.1:jar:test
+|  |        +- de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13:jar:test
+|  |        +- de.rototor.pdfbox:graphics2d:0.32:jar:test
+|  |        |  \- org.apache.pdfbox:pdfbox:2.0.24:jar:test
+|  |        |     +- org.apache.pdfbox:fontbox:2.0.24:jar:test
+|  |        |     \- commons-logging:commons-logging:1.2:jar:test
+|  |        \- com.madgag:animated-gif-lib:1.4:jar:test
+|  +- org.testng:testng:7.5:jar:test
+|  +- org.mockito:mockito-core:4.9.0:jar:test
+|  +- org.openjdk.jmh:jmh-core:1.36:jar:test
+|  \- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
++- commons-io:commons-io:2.11.0:jar:compile
++- args4j:args4j:2.33:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.mockito:mockito-core:4.9.0:jar:test
++- org.openjdk.jmh:jmh-core:1.36:jar:test
+\- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test
+org.btrplace:split:1.12.9-SNAPSHOT:jar:compile
++- org.btrplace:scheduler-choco:1.12.9-SNAPSHOT:jar:compile
++- org.testng:testng:7.5:jar:test
++- org.mockito:mockito-core:4.9.0:jar:test
++- org.openjdk.jmh:jmh-core:1.36:jar:test
+\- org.openjdk.jmh:jmh-generator-annprocess:1.36:jar:test

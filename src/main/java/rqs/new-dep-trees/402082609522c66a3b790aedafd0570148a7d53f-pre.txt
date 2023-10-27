@@ -1,0 +1,97 @@
+com.github.games647:changeskin.bukkit:3.1-SNAPSHOT:jar:compile
++- com.github.games647:changeskin.core:3.1-SNAPSHOT:jar:compile
+|  +- com.google.code.gson:gson:2.8.0:jar:provided
+|  +- com.google.guava:guava:21.0:jar:compile
+|  +- com.zaxxer:HikariCP:4.0.3:jar:compile
+|  +- org.slf4j:slf4j-jdk14:2.0.0-alpha5:jar:compile
+|  |  \- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  +- net.md-5:bungeecord-config:1.18-R0.1-SNAPSHOT:jar:compile
+|  \- junit:junit:4.13.2:jar:test
+|     \- org.hamcrest:hamcrest-core:1.3:jar:test
++- org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT:jar:provided
+|  +- commons-lang:commons-lang:2.6:jar:provided
+|  +- com.google.code.gson:gson:2.8.0:jar:provided
+|  +- net.md-5:bungeecord-chat:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  \- com.google.code.gson:gson:2.8.0:jar:provided
+|  \- org.yaml:snakeyaml:1.26:jar:provided
++- com.comphenix.protocol:ProtocolLib:4.7.0:jar:provided (optional)
++- com.nametagedit:nametagedit:4.4.16:jar:provided (optional)
+\- junit:junit:4.13.2:jar:test
+com.github.games647:changeskin.bungee:3.1-SNAPSHOT:jar:compile
++- com.github.games647:changeskin.core:3.1-SNAPSHOT:jar:compile
++- net.md-5:bungeecord-proxy:1.18-R0.1-SNAPSHOT:jar:provided
+|  +- io.netty:netty-codec-haproxy:4.1.72.Final:jar:provided
+|  |  +- io.netty:netty-buffer:4.1.72.Final:jar:provided
+|  |  +- io.netty:netty-transport:4.1.72.Final:jar:provided
+|  |  \- io.netty:netty-codec:4.1.72.Final:jar:provided
+|  +- io.netty:netty-codec-http:4.1.72.Final:jar:provided
+|  |  \- io.netty:netty-common:4.1.72.Final:jar:provided
+|  +- io.netty:netty-handler:4.1.72.Final:jar:provided
+|  |  +- io.netty:netty-resolver:4.1.72.Final:jar:provided
+|  |  \- io.netty:netty-tcnative-classes:2.0.46.Final:jar:provided
+|  +- io.netty:netty-transport-native-epoll:4.1.72.Final:jar:provided
+|  |  +- io.netty:netty-transport-native-unix-common:4.1.72.Final:jar:provided
+|  |  \- io.netty:netty-transport-classes-epoll:4.1.72.Final:jar:provided
+|  +- net.md-5:bungeecord-api:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  +- net.md-5:bungeecord-chat:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  +- net.md-5:bungeecord-event:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  \- org.yaml:snakeyaml:1.26:jar:provided
+|  +- net.md-5:bungeecord-log:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  \- jline:jline:2.12.1:jar:provided
+|  +- net.md-5:bungeecord-native:1.18-R0.1-SNAPSHOT:jar:provided
+|  +- net.md-5:bungeecord-protocol:1.18-R0.1-SNAPSHOT:jar:provided
+|  |  +- net.md-5:brigadier:1.0.16-SNAPSHOT:jar:provided
+|  |  +- net.sf.trove4j:core:3.1.0:jar:provided
+|  |  \- se.llbit:jo-nbt:1.3.0:jar:provided
+|  +- net.md-5:bungeecord-query:1.18-R0.1-SNAPSHOT:jar:provided
+|  +- net.md-5:bungeecord-slf4j:1.18-R0.1-SNAPSHOT:jar:provided
+|  +- net.sf.jopt-simple:jopt-simple:5.0.4:jar:provided
+|  +- mysql:mysql-connector-java:8.0.27:jar:provided
+|  |  \- com.google.protobuf:protobuf-java:3.11.4:jar:provided
+|  +- org.apache.maven:maven-resolver-provider:3.8.4:jar:provided
+|  |  +- org.apache.maven:maven-model:3.8.4:jar:provided
+|  |  +- org.apache.maven:maven-model-builder:3.8.4:jar:provided
+|  |  |  +- org.codehaus.plexus:plexus-interpolation:1.26:jar:provided
+|  |  |  +- org.apache.maven:maven-artifact:3.8.4:jar:provided
+|  |  |  +- org.apache.maven:maven-builder-support:3.8.4:jar:provided
+|  |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:jar:provided
+|  |  +- org.apache.maven:maven-repository-metadata:3.8.4:jar:provided
+|  |  +- org.apache.maven.resolver:maven-resolver-api:1.6.3:jar:provided
+|  |  +- org.apache.maven.resolver:maven-resolver-spi:1.6.3:jar:provided
+|  |  +- org.apache.maven.resolver:maven-resolver-util:1.6.3:jar:provided
+|  |  +- org.apache.maven.resolver:maven-resolver-impl:1.6.3:jar:provided
+|  |  |  \- org.apache.commons:commons-lang3:3.5:jar:provided
+|  |  +- org.codehaus.plexus:plexus-utils:3.3.0:jar:provided
+|  |  \- javax.inject:javax.inject:1:jar:provided
+|  +- org.apache.maven.resolver:maven-resolver-connector-basic:1.7.2:jar:provided
+|  \- org.apache.maven.resolver:maven-resolver-transport-http:1.7.2:jar:provided
+|     +- org.apache.httpcomponents:httpclient:4.5.13:jar:provided
+|     |  \- commons-codec:commons-codec:1.11:jar:provided
+|     +- org.apache.httpcomponents:httpcore:4.4.14:jar:provided
+|     \- org.slf4j:jcl-over-slf4j:1.7.30:jar:provided
+\- junit:junit:4.13.2:jar:test
+com.github.games647:changeskin.sponge:3.1-SNAPSHOT:jar:compile
++- com.github.games647:changeskin.core:3.1-SNAPSHOT:jar:compile
++- org.spongepowered:spongeapi:7.4.0:jar:provided
+|  +- org.slf4j:slf4j-api:1.7.25:jar:compile
+|  +- com.google.errorprone:error_prone_annotations:2.0.15:jar:provided
+|  +- com.google.code.gson:gson:2.8.0:jar:provided
+|  +- org.apache.commons:commons-lang3:3.5:jar:provided
+|  +- com.google.code.findbugs:jsr305:3.0.1:jar:provided
+|  +- com.google.inject:guice:4.1.0:jar:provided
+|  |  +- javax.inject:javax.inject:1:jar:provided
+|  |  \- aopalliance:aopalliance:1.0:jar:provided
+|  +- com.github.ben-manes.caffeine:caffeine:2.5.4:jar:provided
+|  +- com.github.ben-manes.caffeine:guava:2.5.4:jar:provided
+|  +- org.spongepowered:plugin-meta:0.4.1:jar:provided
+|  +- org.spongepowered:configurate-hocon:3.7.2:jar:provided
+|  |  +- org.spongepowered:configurate-core:3.7.2:jar:provided
+|  |  |  \- org.checkerframework:checker-qual:2.4.0:jar:provided
+|  |  \- com.typesafe:config:1.4.0:jar:provided
+|  +- org.spongepowered:configurate-gson:3.7.2:jar:provided
+|  +- org.spongepowered:configurate-yaml:3.7.2:jar:provided
+|  |  \- org.yaml:snakeyaml:1.26:jar:provided
+|  +- com.flowpowered:flow-math:1.0.3:jar:provided
+|  +- com.flowpowered:flow-noise:1.0.1-SNAPSHOT:jar:provided
+|  \- org.ow2.asm:asm:5.2:jar:provided
+\- junit:junit:4.13.2:jar:test

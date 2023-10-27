@@ -1,0 +1,7 @@
+Added Dependencies:
+ org.apache.commons:commons-collections4:4.4:jar:compile
+ com.artipie:http:v1.1.0:jar:compile
+Removed Dependencies:
+ com.artipie:http:v0.25:jar:compile
+ org.apache.commons:commons-collections4:4.3:jar:compile
+ org.cactoos:cactoos:0.46:jar:compile

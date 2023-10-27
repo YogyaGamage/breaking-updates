@@ -1,0 +1,4 @@
+Added Dependencies:
+ com.google.flogger:google-extensions:0.7.1:jar:compile
+Removed Dependencies:
+ com.google.flogger:google-extensions:0.6:jar:compile

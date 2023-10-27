@@ -1,0 +1,5 @@
+Added Dependencies:
+ org.eclipse.jetty.toolchain:jetty-servlet-api:4.0.6:jar:provided
+ org.eclipse.jetty:jetty-server:10.0.14:jar:provided
+Removed Dependencies:
+ org.eclipse.jetty:jetty-server:9.4.35.v20201120:jar:provided

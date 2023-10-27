@@ -1,0 +1,10 @@
+Added Dependencies:
+ com.google.api.grpc:gapic-google-cloud-storage-v2:2.23.0-alpha:jar:compile
+ com.google.api.grpc:grpc-google-cloud-storage-v2:2.23.0-alpha:jar:compile
+ com.google.cloud:google-cloud-storage:2.23.0:jar:compile
+ com.google.api.grpc:proto-google-cloud-storage-v2:2.23.0-alpha:jar:compile
+Removed Dependencies:
+ com.google.api.grpc:proto-google-cloud-storage-v2:2.22.5-alpha:jar:compile
+ com.google.api.grpc:gapic-google-cloud-storage-v2:2.22.5-alpha:jar:compile
+ com.google.cloud:google-cloud-storage:2.22.5:jar:compile
+ com.google.api.grpc:grpc-google-cloud-storage-v2:2.22.5-alpha:jar:compile
